@@ -11,7 +11,7 @@
                         <div class="form-group">
                             <label class="col-lg-2 control-label" for="typeahead">Tiêu đề </label>
                             <div class="col-lg-10">
-                                <input type="text" class="form-control col-md-6" name="title"
+                                <input type="text" class="form-control col-md-6" name="title" placeholder="Nhập tiêu đề ..."
                                        value="<?php echo @$info->title; ?>">
                             </div>
                         </div>
@@ -19,7 +19,7 @@
                             <label class="col-lg-2 control-label" for="typeahead">Link </label>
                             <div class="col-lg-10">
                                 <input type="text" class="form-control col-md-6" name="link"
-                                       value="<?php echo @$info->link; ?>" placeholder="Nhập link">
+                                       value="<?php echo @$info->link; ?>" placeholder="Nhập link ...">
                             </div>
                         </div>
                         <div class="form-group">

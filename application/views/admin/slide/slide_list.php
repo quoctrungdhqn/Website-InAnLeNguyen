@@ -4,7 +4,7 @@
         <div class="panel-heading">
             <div class="text-muted bootstrap-admin-box-title">
                 <?php echo $page_title; ?>
-                <a href="<?php echo base_url() ?>admin/slide/edit" title="Click vào để thêm mới"
+                <a href="<?php echo base_url() ?>admin/slide/edit" title="Thêm mới slide"
                    class="btn btn-default"><i class="glyphicon glyphicon-plus"></i> Thêm mới</a>
             </div>
         </div>
@@ -89,10 +89,6 @@
         });
     });
 </script>
-<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.all.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.all.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.min.js"></script>
 
 <script>
     function remove_slide(id) {

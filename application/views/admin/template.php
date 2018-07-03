@@ -68,6 +68,7 @@ if ($this->session->userdata('loggedAdmin') == false) {
           href="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.css">
     <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.min.css">
+
 </head>
 <body class="bootstrap-admin-with-small-navbar">
 <?php echo $header; ?>
@@ -88,6 +89,10 @@ if ($this->session->userdata('loggedAdmin') == false) {
         </div>
     </div>
 </div>
-
+<!-- Script -->
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.all.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.min.js"></script>
 </body>
 </html>
