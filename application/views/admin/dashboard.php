@@ -2,13 +2,13 @@
 date_default_timezone_set("Asia/Bangkok");
 ?>
 <div class="col-md-12">
-    <div class="panel panel-default">
+    <div class="panel panel-success">
         <div class="panel-heading">
             <div class="text-muted bootstrap-admin-box-title">Sản phẩm mới đăng</div>
             <div class="pull-right"><span class="badge"><?php echo count($product_no_limit); ?></span></div>
         </div>
         <div class="bootstrap-admin-panel-content">
-            <table class="table table-striped">
+            <table class="table table-striped table-bordered">
                 <thead>
                 <tr>
                     <th>STT</th>
@@ -50,13 +50,13 @@ date_default_timezone_set("Asia/Bangkok");
     </div>
 </div>
 <div class="col-md-12">
-    <div class="panel panel-default">
+    <div class="panel panel-success">
         <div class="panel-heading">
             <div class="text-muted bootstrap-admin-box-title">Bài viết mới đăng</div>
             <div class="pull-right"><span class="badge"><?php echo count($news_no_limit); ?></span></div>
         </div>
         <div class="bootstrap-admin-panel-content">
-            <table class="table table-striped">
+            <table class="table table-striped table-bordered">
                 <thead>
                 <tr>
                     <th>STT</th>
