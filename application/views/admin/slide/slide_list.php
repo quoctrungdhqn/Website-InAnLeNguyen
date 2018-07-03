@@ -1,4 +1,5 @@
 <?php $count = 1; ?>
+<!--suppress ALL -->
 <div class="col-lg-12">
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -61,12 +62,19 @@
                             </a>
                         </td>
                     </tr>
-                <?php $count++; endforeach; ?>
+                    <?php $count++; endforeach; ?>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
+
+<div class="text-center">
+    <button type="button" onclick="remove_slide()" class="btn btn-danger remove-slide">
+        <i class="glyphicon glyphicon-trash"></i> Delete
+    </button>
+</div>
+
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap.min.js">
 </script>
@@ -86,4 +94,33 @@
             $(".alert-success").alert('close');
         });
     });
+</script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.all.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.min.js"></script>
+
+<script>
+    function remove_slide() {
+        swal({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.value) {
+                swal(
+                    'Deleted!',
+                    'Your file has been deleted.',
+                    'success'
+                )
+            }
+        })
+
+        /*https://sweetalert2.github.io/*/
+    }
+
 </script>

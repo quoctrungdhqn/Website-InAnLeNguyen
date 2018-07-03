@@ -18,26 +18,35 @@ if ($this->session->userdata('loggedAdmin') == false) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>templates/admin/css/bootstrap.min.css">
-    <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>templates/admin/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/css/bootstrap-theme.min.css">
 
     <!-- Bootstrap Admin Theme -->
-    <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>templates/admin/css/bootstrap-admin-theme.css">
-    <link rel="stylesheet" media="screen"
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/css/bootstrap-admin-theme.css">
+    <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/css/bootstrap-admin-theme-change-size.css">
     <!-- Datatables -->
-    <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>templates/admin/css/DT_bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/css/DT_bootstrap.css">
     <!-- Vendors -->
-    <link rel="stylesheet" media="screen"
+    <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/vendors/bootstrap-datepicker/css/datepicker.css">
-    <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>templates/admin/css/datepicker.fixes.css">
-    <link rel="stylesheet" media="screen"
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/css/datepicker.fixes.css">
+    <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/vendors/uniform/themes/default/css/uniform.default.min.css">
-    <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>templates/admin/css/uniform.default.fixes.css">
-    <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>templates/admin/vendors/chosen.min.css">
-    <link rel="stylesheet" media="screen"
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/css/uniform.default.fixes.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/vendors/chosen.min.css">
+    <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/vendors/selectize/dist/css/selectize.bootstrap3.css">
-    <link rel="stylesheet" media="screen"
+    <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/stylesheets/bootstrap-wysihtml5/core-b3.css">
 
     <!-- Custom styles -->
@@ -51,6 +60,10 @@ if ($this->session->userdata('loggedAdmin') == false) {
         !important;
         }
     </style>
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.min.css">
 </head>
 <body class="bootstrap-admin-with-small-navbar">
 <?php echo $header; ?>
