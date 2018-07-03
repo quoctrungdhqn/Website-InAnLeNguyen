@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfa68ac-eeae-409a-8ddc-c03e7924c7ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/slide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/include/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/slide/slide_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/slide/slide_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/admin/product_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/product_category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/product_category_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/product_category_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/include/left.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/include/left.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/products/product_category_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/products/product_category_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/products/product_category_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/products/product_category_list.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,29 +17,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="slide.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/slide.php">
+      <file leaf-file-name="product_category_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/products/product_category_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slide_edit.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_edit.php">
+      <file leaf-file-name="product_category.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/product_category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="82" column="43" lean-forward="true" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+            <state relative-caret-position="493">
+              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slide_list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_list.php">
+      <file leaf-file-name="product_category_edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/products/product_category_edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="476">
+              <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_category_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_list.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="left.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/include/left.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_category_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/product_category_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="105" column="44" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -50,6 +74,9 @@
       <find>gala</find>
       <find>exampleInputEmail1</find>
       <find>logo_da</find>
+      <find>$orderArr</find>
+      <find>orderArr</find>
+      <find>$select</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,6 +98,11 @@
         <option value="$PROJECT_DIR$/application/controllers/admin/slide.php" />
         <option value="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" />
         <option value="$PROJECT_DIR$/application/views/admin/slide/slide_edit.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/products/product_category_list.php" />
+        <option value="$PROJECT_DIR$/application/models/product_category_model.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/include/left.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/products/product_category_edit.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/product_category.php" />
       </list>
     </option>
   </component>
@@ -145,7 +177,7 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="configuration" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
@@ -153,7 +185,7 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
@@ -161,18 +193,7 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="slide" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InAnLeNguyen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InAnLeNguyen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="products" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -213,12 +234,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530585839039</updated>
-      <workItem from="1530585840822" duration="5589000" />
+      <workItem from="1530585840822" duration="8542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5589000" />
+    <option name="totallyTimeSpent" value="8542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -252,24 +273,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/default/images/logo_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/images/logo_2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/images/icon_top.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/images/New-Corner.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/images/slide.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/images/retina_wood.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -358,22 +361,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/admin_login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/custom_edit.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin/custom.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -399,13 +392,6 @@
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#form#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
@@ -450,17 +436,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="43" lean-forward="true" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="185">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_edit.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/products/product_list.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="82" column="43" lean-forward="true" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+        <state relative-caret-position="-2">
+          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/menu/menu_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#87#93#0" expanded="true" />
+            <element signature="e#93#99#0" expanded="true" />
+            <element signature="e#99#105#0" expanded="true" />
+            <element signature="e#105#111#0" expanded="true" />
+            <element signature="e#111#117#0" expanded="true" />
+            <element signature="e#117#123#0" expanded="true" />
+            <element signature="e#123#129#0" expanded="true" />
+            <element signature="e#129#135#0" expanded="true" />
+            <element signature="e#87#93#0" expanded="true" />
+            <element signature="e#93#99#0" expanded="true" />
+            <element signature="e#99#105#0" expanded="true" />
+            <element signature="e#105#111#0" expanded="true" />
+            <element signature="e#111#117#0" expanded="true" />
+            <element signature="e#117#123#0" expanded="true" />
+            <element signature="e#123#129#0" expanded="true" />
+            <element signature="e#129#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/custom_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="98" selection-start-line="39" selection-start-column="98" selection-end-line="39" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/include/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/product_category_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="44" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/products/product_category_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_list.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/products/product_category_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/product_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
         </state>
       </provider>
     </entry>

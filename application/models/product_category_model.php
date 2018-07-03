@@ -1,173 +1,154 @@
 <?php
-if( ! defined('BASEPATH')) exit('No direct script access allowed');
-
+if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 
 class Product_Category_Model extends CI_Model
 {
 
 
+    function __construct()
+    {
 
-	function __construct()
-	{
+        parent::__construct();
 
-		parent::__construct();
+        $this->table_name = 'products_categories';
 
-		$this->table_name = 'products_categories';
+    }
 
-	}
 
+    function getProductsCategoryInfo($catid)
+    {
 
-	
+        $result = $this->db->get_where($this->table_name, array('id' => $catid));
 
-	function getProductsCategoryInfo($catid)
-	{
 
-		$result = $this->db->get_where($this->table_name, array('id'=> $catid));
+        return $result->row();
 
+    }
 
 
-		return $result->row();
+    function getProductsSlug($slug)
+    {
 
-	}
+        $result = $this->db->get_where($this->table_name, array('alias' => $slug));
 
 
+        return $result->row();
 
-	function getProductsSlug($slug)
-	{
+    }
 
-		$result = $this->db->get_where($this->table_name, array('alias'=> $slug));
 
+    function getAllProductsCategoriesHome()
+    {
 
+        $this->db->order_by('lft', 'ASC');
 
-		return $result->row();
+        $this->db->where('Id <> 1000');
+        $this->table_name . '.state = 1 ';
+        $result = $this->db->get($this->table_name);
 
-	}
 
+        return $result->result();
 
-	function getAllProductsCategoriesHome()
-	{
+    }
 
-		$this->db->order_by('lft', 'ASC');
 
-		$this->db->where('Id <> 1000');
-		$this->table_name.'.state = 1 ';
-		$result = $this->db->get($this->table_name);
+    function getParents()
+    {
+        $this->db->order_by('lft', 'DESC');
+        $this->db->where('parents', '1000');
+        $result = $this->db->get($this->table_name);
 
+        return $result->result();
+    }
 
+    function getAllProductsCategories()
+    {
 
-		return $result->result();
+        $this->db->order_by('lft', 'ASC');
 
-	}
-	
+        $this->db->where('Id <> 1000 and Id <> 1035 and Id <> 1036 and Id <> 1037 and Id <> 1038 and Id <> 1042 and Id <> 1045 and Id <> 1047');
+        $this->table_name . '.state = 1 ';
+        $result = $this->db->get($this->table_name);
 
-	function getParents()
-	{		 
-		$this->db->order_by('lft', 'DESC');
-		$this->db->where('parents','1000');		
-		$result = $this->db->get($this->table_name);
-		
-		return $result->result();
-	}
-	
-	function getAllProductsCategories()
-	{
 
-		$this->db->order_by('lft', 'ASC');
+        return $result->result();
 
-		$this->db->where('Id <> 1000 and Id <> 1035 and Id <> 1036 and Id <> 1037 and Id <> 1038 and Id <> 1042 and Id <> 1045 and Id <> 1047');
-		$this->table_name.'.state = 1 ';
-		$result = $this->db->get($this->table_name);
+    }
 
+    function getCategoryChild($parent_id)
+    {
 
+        $select = $this->table_name . ' .* ';
 
-		return $result->result();
+        $this->db->select($select);
 
-	}
+        $this->db->from($this->table_name);
 
-	function getCategoryChild($parent_id)
-	{
+        $where = $this->table_name . '.state = 1 ';
 
-		$select = $this->table_name . ' .* ';
+        $where = $this->table_name . '.parents = ' . $parent_id;
 
-		$this->db->select($select);
+        //$where = $this->table_name.'.id <> 1000';
 
-		$this->db->from($this->table_name);
+        $this->db->where($where);
 
-		$where  = $this->table_name.'.state = 1 ';
+        $this->db->order_by($this->table_name . '.lft');
 
-		$where  = $this->table_name.'.parents = '.$parent_id;
+        $query = $this->db->get();
 
-		//$where = $this->table_name.'.id <> 1000';
+        return $query->result_array();
 
-		$this->db->where($where);
+    }
 
-		$this->db->order_by($this->table_name.'.lft');
+    function deleteItem($id)
+    {
+        $this->db->where("id <> 1000", $id);
 
-		$query  = $this->db->get();
+        try {
+            $this->db->delete($this->table_name);
 
-		return $query->result_array();
+            return true;
+        } catch (Exeption $e) {
+            return false;
+        }
+    }
 
-	}
+    public function menuDeQuy($parentId = 0)
+    {
 
-	function deleteItem($id)
-	{
-		$this->db->where("id", $id);
-		
-		try {
-			$this->db->delete($this->table_name);
-			
-			return true;
-		}
-		catch(Exeption $e)
-		{
-			return false;
-		}
-	}
+        $menu = '';
 
-	public function menuDeQuy ($parentId = 0)
-	{
+        $records = $this->db->select('*')
+            ->where('parents', $parentId)
+            ->get('products_categories')
+            ->result_array();  // Lấy record menu với tham số truyền vào là parentId
 
-		$menu    = '';
+        $menu .= '<ul id="sidebar">';
 
-		$records = $this->db->select('*')
 
-		->where('parents', $parentId)
+        foreach ($records as $k => $v) {
 
-		->get('products_categories')
+            $slug = $v['slug'];
 
-		->result_array();  // Lấy record menu với tham số truyền vào là parentId
+            $menu .= '<a href="' . base_url() . 'danh-muc/' . $slug . '">';
 
-		$menu .= '<ul id="sidebar">';
+            $menu .= '<li>' . $v['name'];
 
+            $menu .= $this->menuDeQuy($v['id']);
 
+            $menu .= '</li>';
 
-		foreach($records as $k=>$v){
+            $menu .= '</a>';
 
-			$slug = $v['slug'];
+        }
 
-			$menu .= '<a href="'.base_url().'danh-muc/'.$slug.'">';
 
-			$menu .= '<li>'.$v['name'];
+        $menu .= '</ul>';
 
-			$menu .= $this->menuDeQuy($v['id']);
+        return $menu;
 
-			$menu .= '</li>';
-
-			$menu .= '</a>';
-
-		}
-
-
-
-		$menu .= '</ul>';
-
-		return $menu;
-
-	}
-
-
-
+    }
 
 
 }
