@@ -56,7 +56,7 @@ if ($this->session->userdata('loggedAdmin') == false) {
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="<?php echo base_url() ?>admin/dashboard">
-                        <img height="40px" style="margin-top: 5px"
+                        <img height="40px" style="margin: 5px"
                              src="<?php echo base_url() ?>templates/admin/images/logo_dashboard.png">
                     </a>
                 </div>

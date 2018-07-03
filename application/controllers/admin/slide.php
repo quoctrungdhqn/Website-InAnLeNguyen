@@ -30,11 +30,12 @@ class Slide extends CI_Controller {
 	{
 		if($id === null)
 		{
+            $data['formType'] = 'add';
 			$data['page_title'] = 'Thêm mới';
-			
 		}
 		else
 		{
+            $data['formType'] = 'edit';
 			$data['page_title'] = 'Chỉnh sửa';		
 			$data['info'] = $this->Slide_model->getSlideInfo($id);
 			$list = $data['info'];			
