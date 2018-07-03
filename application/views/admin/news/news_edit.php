@@ -26,6 +26,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 <label class="col-lg-2 control-label" for="typeahead">Tiêu đề </label>
                                 <div class="col-lg-10">
                                     <input type="text" required="" class="form-control col-md-6" name="title"
+                                           placeholder="Nhập tiêu đề ..."
                                            value="<?php echo @$info->title; ?>">
                                 </div>
                             </div>
@@ -56,7 +57,8 @@ date_default_timezone_set("Asia/Bangkok");
                                 <div class="col-lg-10">
                                     <input class="form-control uniform_on" id="fileInput" name="images[]" multiple=""
                                            type="file">
-                                    <p class="help-block">* Lưu ý: Chọn hình với tên không dấu và không có khoảng trắng.</p>
+                                    <p class="help-block">* Lưu ý: Chọn hình với tên không dấu và không có khoảng
+                                        trắng.</p>
                                     <?php
                                     if (@$info->images != '') {
                                         $img = explode(',', $info->images);

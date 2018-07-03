@@ -33,7 +33,7 @@
                                 if (@$info->image != '') {
                                     $img = explode(',', $info->image);
                                     ?>
-                                    <p><img width="400" height="100"
+                                    <p><img width="400" height="150"
                                             src="<?php echo base_url(); ?>uploads/slide/thumb_<?php echo $img[0]; ?>"/>
                                     </p>
                                 <?php } ?>

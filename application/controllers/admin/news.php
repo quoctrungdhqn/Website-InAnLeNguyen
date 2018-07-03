@@ -160,14 +160,8 @@ class News extends CI_Controller
 
     public function delete($id)
     {
-
-        if ($this->News_Model->delete($id)) {
-            $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thành công!</div>');
-            redirect('admin/news/view');
-        } else {
-            $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thất bại!</div>');
-            redirect('admin/news/view');
-        }
+        $this->News_Model->delete($id);
+        redirect('admin/news/view');
     }
 
 }

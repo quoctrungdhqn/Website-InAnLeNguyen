@@ -39,7 +39,7 @@
                             <?php } else {
                                 ?>
                                 <img width="200" height="80"
-                                     src="<?php echo base_url(); ?>uploads/no_image.jpg"/>
+                                     src="<?php echo base_url(); ?>uploads/no_image.png"/>
                             <?php } ?>
                         </td>
 

@@ -17,10 +17,10 @@ date_default_timezone_set("Asia/Bangkok");
                 <thead>
                 <tr>
                     <th>Thứ tự</th>
-                    <th>Tên bài viết</th>
+                    <th>Tiêu đề</th>
                     <th>Hình ảnh</th>
                     <th>Ngày đăng</th>
-                    <th>Bật/Tắt</th>
+                    <th>Hiển thị</th>
                     <th>Tác vụ</th>
                 </tr>
                 </thead>
@@ -42,7 +42,7 @@ date_default_timezone_set("Asia/Bangkok");
                             <?php } else {
                                 ?>
                                 <img width="150" height="100"
-                                     src="<?php echo base_url(); ?>uploads/no_image.jpg"/>
+                                     src="<?php echo base_url(); ?>uploads/no_image.png"/>
                             <?php } ?>
                         </td>
                         <td><?php echo date("d/m/Y", strtotime($items->created)); ?></td>
@@ -62,8 +62,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 Sửa
                             </a>
 
-                            <a class="btn btn-sm btn-danger"
-                               href="<?php echo base_url() ?>admin/news/delete/<?php echo $items->id; ?>">
+                            <a class="btn btn-sm btn-danger" onclick="remove_news(<?php echo $items->id; ?>)">
                                 <i class="glyphicon glyphicon-trash"></i>
                                 Xóa
                             </a>
@@ -94,4 +93,24 @@ date_default_timezone_set("Asia/Bangkok");
             $(".alert-success").alert('close');
         });
     });
+</script>
+<script>
+    function remove_news(id) {
+        swal({
+            title: 'Xác nhận xóa',
+            text: "Bạn có muốn xóa item này khỏi danh sách?",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#1467D2',
+            cancelButtonColor: '#E5231E',
+            confirmButtonText: 'Có, xóa!',
+            cancelButtonText: 'Hủy'
+        }).then((result) => {
+            if (result.value) {
+                $(location).attr('href', '<?php echo base_url() ?>admin/news/delete/' + id);
+                swal("Đã xóa!", null, "success");
+            }
+        })
+    }
+
 </script>
