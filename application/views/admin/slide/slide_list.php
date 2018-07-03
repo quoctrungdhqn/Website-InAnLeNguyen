@@ -1,5 +1,4 @@
 <?php $count = 1; ?>
-<!--suppress ALL -->
 <div class="col-lg-12">
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -35,16 +34,12 @@
                                 $img = explode(',', $items->image);
 
                                 ?>
-                                <a title="Sửa"
-                                   href="<?php echo base_url(); ?>admin/slide/edit/<?php echo $items->id; ?>"><img
-                                            width="200" height="50"
-                                            src="<?php echo base_url(); ?>uploads/slide/thumb_<?php echo $img[0]; ?>"/></a>
+                                <img width="200" height="80"
+                                     src="<?php echo base_url(); ?>uploads/slide/thumb_<?php echo $img[0]; ?>"/>
                             <?php } else {
                                 ?>
-                                <a title="Sửa"
-                                   href="<?php echo base_url(); ?>admin/slide/edit/<?php echo $items->id; ?>"><img
-                                            width="200" height="50"
-                                            src="<?php echo base_url(); ?>uploads/no_image.jpg"/></a>
+                                <img width="200" height="80"
+                                     src="<?php echo base_url(); ?>uploads/no_image.jpg"/>
                             <?php } ?>
                         </td>
 
@@ -55,8 +50,7 @@
                                 Sửa
                             </a>
 
-                            <a class="btn btn-sm btn-danger"
-                               href="<?php echo base_url() ?>admin/slide/delete/<?php echo $items->id; ?>">
+                            <a class="btn btn-sm btn-danger" onclick="remove_slide(<?php echo $items->id; ?>)">
                                 <i class="glyphicon glyphicon-trash"></i>
                                 Xóa
                             </a>
@@ -69,11 +63,11 @@
     </div>
 </div>
 
-<div class="text-center">
+<!--<div class="text-center">
     <button type="button" onclick="remove_slide()" class="btn btn-danger remove-slide">
         <i class="glyphicon glyphicon-trash"></i> Delete
     </button>
-</div>
+</div>-->
 
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap.min.js">
@@ -101,26 +95,22 @@
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.min.js"></script>
 
 <script>
-    function remove_slide() {
+    function remove_slide(id) {
         swal({
-            title: 'Are you sure?',
-            text: "You won't be able to revert this!",
+            title: 'Xác nhận xóa',
+            text: "Bạn có muốn xóa item này khỏi danh sách?",
             type: 'warning',
             showCancelButton: true,
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes, delete it!'
+            confirmButtonColor: '#1467D2',
+            cancelButtonColor: '#E5231E',
+            confirmButtonText: 'Có, xóa!',
+            cancelButtonText: 'Hủy'
         }).then((result) => {
             if (result.value) {
-                swal(
-                    'Deleted!',
-                    'Your file has been deleted.',
-                    'success'
-                )
+                $(location).attr('href', '<?php echo base_url() ?>admin/slide/delete/' + id);
+                swal("Đã xóa!", null, "success");
             }
         })
-
-        /*https://sweetalert2.github.io/*/
     }
 
 </script>

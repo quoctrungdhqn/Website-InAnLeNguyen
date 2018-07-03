@@ -27,7 +27,7 @@
                             <div class="col-lg-10">
                                 <input class="form-control uniform_on" id="fileInput" name="image[]" multiple=""
                                        type="file" <?php echo ($formType == 'add') ? 'required' : '' ?>>
-                                <p class="help-block">Nên nhập tên hình không dấu và không có khoảng trắng.</p>
+                                <p class="help-block">Chọn hình với tên không dấu và không có khoảng trắng.</p>
                                 <p class="help-block">Kích thước chuẩn 1170*500.</p>
                                 <?php
                                 if (@$info->image != '') {

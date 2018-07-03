@@ -59,6 +59,10 @@ if ($this->session->userdata('loggedAdmin') == false) {
             font-family: Quicksand-Regular, sans-serif;
         !important;
         }
+
+        swal2-container {
+            zoom: 1.5;
+        }
     </style>
     <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.css">
