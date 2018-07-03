@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 03, 2018 at 11:32 AM
+-- Generation Time: Jul 03, 2018 at 04:06 PM
 -- Server version: 5.7.17-log
 -- PHP Version: 5.6.30
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `inanlenguyen_dbv2`
+-- Database: `inanlenguyen_db`
 --
 
 -- --------------------------------------------------------
@@ -30977,8 +30977,8 @@ CREATE TABLE `slide` (
 
 INSERT INTO `slide` (`id`, `image`, `title`, `link`, `description`) VALUES
 (1070, 'furniture-slide-3.jpg', 'Slide 3', 'http://inanlenguyen.com', ''),
-(1072, 'furniture-slide-11.jpg', 'Slide 2', 'http://inanlenguyen.com', ''),
-(1073, 'furniture-slide-2.jpg', 'Slide 1', 'http://inanlenguyen.com', '0');
+(1072, 'furniture-slide-2.jpg', 'Slide 2', 'http://inanlenguyen.com', ''),
+(1073, 'furniture-slide-1.jpg', 'Slide 1', 'http://inanlenguyen.com', '0');
 
 -- --------------------------------------------------------
 
@@ -31292,12 +31292,12 @@ ALTER TABLE `web_link`
 -- AUTO_INCREMENT for table `articles`
 --
 ALTER TABLE `articles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=391;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=393;
 --
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1037;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1038;
 --
 -- AUTO_INCREMENT for table `comment`
 --
@@ -31372,7 +31372,7 @@ ALTER TABLE `products_categories`
 -- AUTO_INCREMENT for table `slide`
 --
 ALTER TABLE `slide`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1075;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1094;
 --
 -- AUTO_INCREMENT for table `support`
 --
