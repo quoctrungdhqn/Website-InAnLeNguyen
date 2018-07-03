@@ -40,6 +40,17 @@ if ($this->session->userdata('loggedAdmin') == false) {
     <link rel="stylesheet" media="screen"
           href="<?php echo base_url(); ?>templates/admin/vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/stylesheets/bootstrap-wysihtml5/core-b3.css">
 
+    <!-- Custom styles -->
+    <style type="text/css">
+        @font-face {
+            font-family: Quicksand-Regular, sans-serif; !important;
+        }
+
+        body {
+            font-family: Quicksand-Regular, sans-serif;
+        !important;
+        }
+    </style>
 </head>
 <body class="bootstrap-admin-with-small-navbar">
 <?php echo $header; ?>
