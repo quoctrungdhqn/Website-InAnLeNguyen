@@ -27,14 +27,14 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
+                            <!--<div class="form-group">
                                 <label class="col-lg-2 control-label" for="typeahead">Alias </label>
                                 <div class="col-lg-10">
                                     <input type="text" class="form-control col-md-6" name="alias"
-                                           value="<?php echo @$catInfo->alias; ?>"
+                                           value="<?php /*echo @$catInfo->alias; */?>"
                                            placeholder="Alias tự sinh, không cần nhập">
                                 </div>
-                            </div>
+                            </div>-->
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="typeahead">Danh mục </label>
                                 <div class="col-lg-10">
@@ -48,24 +48,17 @@
                                            type="file">
                                     <p class="help-block">Chọn tên hình không dấu và không có khoảng trắng.</p>
                                     <?php
-/*                                    if (@$catInfo->images != '') {
-                                        $img = explode(',', $catInfo->images);
-                                        */?>
+                            /*                                    if (@$catInfo->images != '') {
+                                                                    $img = explode(',', $catInfo->images);
+                                                                    */ ?>
                                         <p><img width="100" height="80"
-                                                src="<?php /*echo base_url(); */?>uploads/country/thumb_<?php /*echo $img[0]; */?>"/>
+                                                src="<?php /*echo base_url(); */ ?>uploads/country/thumb_<?php /*echo $img[0]; */ ?>"/>
                                         </p>
-                                    <?php /*} */?>
+                                    <?php /*} */ ?>
 
                                 </div>
                             </div>-->
 
-                            <div class="form-group">
-                                <label class="col-lg-2 control-label" for="typeahead">Link </label>
-                                <div class="col-lg-10">
-                                    <input type="text" class="form-control col-md-6" name="link"
-                                           value="<?php echo @$catInfo->link; ?>" placeholder="Vui lòng nhập link...">
-                                </div>
-                            </div>
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="fileInput">Bật/Tắt</label>
                                 <div class="col-lg-10">

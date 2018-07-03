@@ -14,6 +14,7 @@ class Product_Category extends CI_Controller
         $this->template->write_view("left", "admin/include/left");
         $this->template->write_view("right", "admin/include/right");
         $this->template->write_view("bottom", "admin/include/bottom");
+        $this->load->model('Product_category_model');
 
     }
 
@@ -21,14 +22,22 @@ class Product_Category extends CI_Controller
 
     {
 
-        $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
-
-        $list = $this->mynestedsetmodel->getTree(0, 0);
+        /*$list = $this->Product_category_model->getAllProductsCategories();
 
         $data['content'] = 'admin/product_category_list';
 
         $data['page_title'] = 'Quản lý danh mục sản phẩm';
 
+        $data['list'] = $list;
+
+        $this->template->write_view("content", "admin/products/product_category_list", $data);
+
+        $this->template->render();*/
+
+        $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
+        $list = $this->mynestedsetmodel->getTree(0, 0);
+
+        $data['page_title'] = 'Quản lý danh mục sản phẩm';
         $data['list'] = $list;
 
         $this->template->write_view("content", "admin/products/product_category_list", $data);
@@ -59,7 +68,6 @@ class Product_Category extends CI_Controller
 
         }
 
-
         $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
 
         $parent = $this->mynestedsetmodel->getTree(0, 0, @$catid);
@@ -70,7 +78,7 @@ class Product_Category extends CI_Controller
 
         }
 
-        $data['select'] = $select;
+        $data['select'] = @$select;
 
         $this->template->write_view("content", "admin/products/product_category_edit", $data);
 
@@ -82,37 +90,35 @@ class Product_Category extends CI_Controller
     {
         $id = $this->input->post('id');
         $this->load->model('Product_category_model');
-        $user = $this->session->userdata('userLogged');
         $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
         $data = array(
             'name' => $this->input->post('name'),
             'alias' => mb_strtolower(url_title(removesign($this->input->post('name')))),
             'parents' => $this->input->post('parents'),
             'detail' => $this->input->post('detail'),
-            'link' => $this->input->post('link'),
             'seo_title' => $this->input->post('seo_title'),
-            'keyword' => $this->input->post('keyword'),
-            'description' => $this->input->post('description'),
+            'seo_keyword' => $this->input->post('seo_keyword'),
+            'seo_description' => $this->input->post('seo_description'),
             'state' => $this->input->post('state')
         );
 
         if (!$id) {
             if ($this->mynestedsetmodel->insertNode($data, $data['parents'])) {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thất bại!</div>');
-                redirect('admin/product_category/view/');
+                redirect('admin/product_category/view');
             } else {
 
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
-                redirect('admin/product_category/view/');
+                redirect('admin/product_category/view');
             }
         } else {
             if ($this->mynestedsetmodel->updateNode($data, $id, $data['parents'])) {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
-                redirect('admin/product_category/view/');
+                redirect('admin/product_category/view');
             } else {
 
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
-                redirect('admin/product_category/view/');
+                redirect('admin/product_category/view');
             }
         }
     }
@@ -133,7 +139,7 @@ class Product_Category extends CI_Controller
 
         $this->mynestedsetmodel->orderTree($data, $orderArr);
 
-        redirect('admin/product_category/view/');
+        redirect('admin/product_category/view');
 
     }
 
@@ -141,18 +147,14 @@ class Product_Category extends CI_Controller
     public function delete($id)
 
     {
-        if ($id != 1000) {
-            $this->load->model('Product_category_model');
+        $this->load->model('Product_category_model');
 
-            if ($this->Product_category_model->deleteItem($id)) {
-                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thành công!</div>');
-                redirect('admin/product_category/view');
-            } else {
-                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thất bại!</div>');
-                redirect('admin/product_category/view');
-            }
+        if ($this->Product_category_model->deleteItem($id)) {
+            $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thành công!</div>');
+            redirect('admin/product_category/view');
         } else {
-            $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Không cho phép xóa Root!</div>');
+            $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thất bại!</div>');
+            redirect('admin/product_category/view');
         }
     }
 

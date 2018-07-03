@@ -135,25 +135,24 @@ class News extends CI_Controller
             $image = implode(',', $hinh);
         } else {
             $image = $oldPic;
-            //print_r($image);exit;
         }
         if (!$id) //Thêm 1 item
         {
             if ($this->News_Model->insert($image)) {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
-                redirect('admin/news/view/');
+                redirect('admin/news/view');
             } else {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thất bại!</div>');
-                redirect('admin/news/view/');
+                redirect('admin/news/view');
             }
         } else //Cập nhật
         {
             if ($this->News_Model->update($image)) {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
-                redirect('admin/news/view/');
+                redirect('admin/news/view');
             } else {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thất bại!</div>');
-                redirect('admin/news/view/');
+                redirect('admin/news/view');
             }
         }
 
@@ -164,10 +163,10 @@ class News extends CI_Controller
 
         if ($this->News_Model->delete($id)) {
             $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thành công!</div>');
-            redirect('admin/news/view/');
+            redirect('admin/news/view');
         } else {
             $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thất bại!</div>');
-            redirect('admin/news/view/');
+            redirect('admin/news/view');
         }
     }
 

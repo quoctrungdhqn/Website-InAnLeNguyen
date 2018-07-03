@@ -22,7 +22,6 @@ class News_Category extends CI_Controller
     {
         $this->load->library('mynestedsetmodel', array('tableName' => 'categories'));
         $list = $this->mynestedsetmodel->getTree(0, 0);
-        $orderArr = $this->mynestedsetmodel->orderGroup($list);
 
         $data['page_title'] = 'Quản lý danh mục bài viết';
         $data['list'] = $list;

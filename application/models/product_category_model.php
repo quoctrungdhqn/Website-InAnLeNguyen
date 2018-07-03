@@ -1,10 +1,8 @@
 <?php
 if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-
 class Product_Category_Model extends CI_Model
 {
-
 
     function __construct()
     {
@@ -15,17 +13,14 @@ class Product_Category_Model extends CI_Model
 
     }
 
-
     function getProductsCategoryInfo($catid)
     {
 
         $result = $this->db->get_where($this->table_name, array('id' => $catid));
 
-
         return $result->row();
 
     }
-
 
     function getProductsSlug($slug)
     {
@@ -36,7 +31,6 @@ class Product_Category_Model extends CI_Model
         return $result->row();
 
     }
-
 
     function getAllProductsCategoriesHome()
     {
@@ -52,7 +46,6 @@ class Product_Category_Model extends CI_Model
 
     }
 
-
     function getParents()
     {
         $this->db->order_by('lft', 'DESC');
@@ -65,9 +58,9 @@ class Product_Category_Model extends CI_Model
     function getAllProductsCategories()
     {
 
-        $this->db->order_by('lft', 'ASC');
+        $this->db->order_by('id', 'ASC');
 
-        $this->db->where('Id <> 1000 and Id <> 1035 and Id <> 1036 and Id <> 1037 and Id <> 1038 and Id <> 1042 and Id <> 1045 and Id <> 1047');
+        $this->db->where('id <> 1000');
         $this->table_name . '.state = 1 ';
         $result = $this->db->get($this->table_name);
 
@@ -103,8 +96,8 @@ class Product_Category_Model extends CI_Model
 
     function deleteItem($id)
     {
-        $this->db->where("id <> 1000", $id);
-
+        $where = $this->table_name . '.id = ' . $id;
+        $this->db->where($where);
         try {
             $this->db->delete($this->table_name);
 

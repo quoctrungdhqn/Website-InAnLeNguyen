@@ -1,9 +1,10 @@
+<?php $count = 1; ?>
 <div class="col-lg-12">
     <div class="panel panel-default">
         <div class="panel-heading">
             <div class="text-muted bootstrap-admin-box-title">
                 <?php echo $page_title; ?>
-                <a href="<?php echo base_url() ?>admin/product_category/edit" title="Click vào để thêm mới"
+                <a href="<?php echo base_url() ?>admin/product_category/edit" title="Thêm mới danh mục"
                    class="btn btn-default"><i class="glyphicon glyphicon-plus"></i> Thêm mới</a>
             </div>
         </div>
@@ -12,6 +13,7 @@
             <table class="table table-striped table-bordered" id="example">
                 <thead>
                 <tr>
+                    <th>Thứ tự</th>
                     <th>Tiêu đề</th>
                     <th>Hiển thị</th>
                     <th>Tác vụ</th>
@@ -20,22 +22,18 @@
                 <tbody>
                 <?php foreach ($list as $product): ?>
                     <tr class="odd gradeX">
+                        <td><?php echo $count; ?></td>
                         <td>
-
                             <?php
-
                             if ($product->level != 0) {
-
-                                echo anchor('admin/product_category/edit/' . $product->id, str_repeat('|---', $product->level) . $product->name, array('title' => '', 'class' => 'edit-link'));
-
+                                echo anchor('admin/product_category/edit/' . $product->id,
+                                    str_repeat('|---', $product->level) . $product->name,
+                                    array('class' => 'edit-link'));
                             } else {
 
                                 echo $product->name;
-
                             }
-
                             ?>
-
                         </td>
                         <td>
                             <?php
@@ -47,20 +45,29 @@
                             ?>
                         </td>
                         <td class="actions">
-                            <a class="btn btn-sm btn-primary"
-                               href="<?php echo base_url() ?>admin/product_category/edit/<?php echo $product->id; ?>">
-                                <i class="glyphicon glyphicon-pencil"></i>
-                                Sửa
-                            </a>
+                            <?php
+                            if ($product->level != 0) {
+                                ?>
 
-                            <a class="btn btn-sm btn-danger"
-                               href="<?php echo base_url() ?>admin/product_category/delete/<?php echo $product->id; ?>">
-                                <i class="glyphicon glyphicon-trash"></i>
-                                Xóa
-                            </a>
+                                <a class="btn btn-sm btn-primary"
+                                   href="<?php echo base_url() ?>admin/product_category/edit/<?php echo $product->id; ?>">
+                                    <i class="glyphicon glyphicon-pencil"></i>
+                                    Sửa
+                                </a>
+
+                                <a class="btn btn-sm btn-danger"
+                                   href="<?php echo base_url() ?>admin/product_category/delete/<?php echo $product->id; ?>">
+                                    <i class="glyphicon glyphicon-trash"></i>
+                                    Xóa
+                                </a>
+                                <?php
+                            } else {
+
+                            }
+                            ?>
                         </td>
                     </tr>
-                <?php endforeach; ?>
+                    <?php $count++; endforeach; ?>
                 </tbody>
             </table>
         </div>
