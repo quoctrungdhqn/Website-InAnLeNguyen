@@ -160,8 +160,10 @@ class News extends CI_Controller
 
     public function delete($id)
     {
-        $this->News_Model->delete($id);
-        redirect('admin/news/view');
+        if ($id != null && $id > 0) {
+            $this->News_Model->delete($id);
+            redirect('admin/news/view');
+        }
     }
 
 }

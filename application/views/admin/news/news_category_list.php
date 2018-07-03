@@ -56,7 +56,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 </a>
 
                                 <a class="btn btn-sm btn-danger"
-                                   href="<?php echo base_url() ?>admin/news_category/delete/<?php echo $items->id; ?>">
+                                   onclick="remove_new_category(<?php echo $items->id; ?>)">
                                     <i class="glyphicon glyphicon-trash"></i>
                                     Xóa
                                 </a>
@@ -92,4 +92,24 @@ date_default_timezone_set("Asia/Bangkok");
             $(".alert-success").alert('close');
         });
     });
+</script>
+<script>
+    function remove_new_category(id) {
+        swal({
+            title: 'Xác nhận xóa',
+            text: "Bạn có muốn xóa item này khỏi danh sách?",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#1467D2',
+            cancelButtonColor: '#E5231E',
+            confirmButtonText: 'Có, xóa!',
+            cancelButtonText: 'Hủy'
+        }).then((result) => {
+            if (result.value) {
+                $(location).attr('href', '<?php echo base_url() ?>admin/news_category/delete/' + id);
+                swal("Đã xóa!", null, "success");
+            }
+        })
+    }
+
 </script>

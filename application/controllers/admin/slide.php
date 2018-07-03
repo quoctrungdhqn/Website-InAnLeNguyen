@@ -146,8 +146,10 @@ class Slide extends CI_Controller
 
     public function delete($id)
     {
-        $this->Slide_model->deleteItem($id);
-        redirect('admin/slide/view');
+        if ($id != null && $id > 0) {
+            $this->Slide_model->deleteItem($id);
+            redirect('admin/slide/view');
+        }
     }
 }
 

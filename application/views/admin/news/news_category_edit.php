@@ -27,6 +27,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 <label class="col-lg-2 control-label" for="typeahead">Tiêu đề </label>
                                 <div class="col-lg-10">
                                     <input type="text" required="" class="form-control col-md-6" name="title"
+                                           placeholder="Nhập tiêu đề ..."
                                            value="<?php echo @$info->title; ?>">
                                 </div>
                             </div>

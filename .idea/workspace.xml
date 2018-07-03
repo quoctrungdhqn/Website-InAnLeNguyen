@@ -4,10 +4,8 @@
     <list default="true" id="ddfa68ac-eeae-409a-8ddc-c03e7924c7ec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/news.php" afterPath="$PROJECT_DIR$/application/controllers/admin/news.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin/slide.php" afterPath="$PROJECT_DIR$/application/controllers/admin/slide.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/news/news_edit.php" afterPath="$PROJECT_DIR$/application/views/admin/news/news_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/news/news_list.php" afterPath="$PROJECT_DIR$/application/views/admin/news/news_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/slide/slide_edit.php" afterPath="$PROJECT_DIR$/application/views/admin/slide/slide_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" afterPath="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/news/news_category_edit.php" afterPath="$PROJECT_DIR$/application/views/admin/news/news_category_edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/news/news_category_list.php" afterPath="$PROJECT_DIR$/application/views/admin/news/news_category_list.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +16,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="news_list.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="news_list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="110" column="49" lean-forward="true" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+            <state relative-caret-position="215">
+              <caret line="67" column="32" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="67" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_category_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_category_edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="29" column="72" lean-forward="false" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/news_category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="104" column="37" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -31,9 +59,23 @@
       <file leaf-file-name="news.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/admin/news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="163" column="36" lean-forward="true" selection-start-line="163" selection-start-column="36" selection-end-line="163" selection-end-column="36" />
+            <state relative-caret-position="419">
+              <caret line="165" column="9" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slide.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/slide.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+              <folding>
+                <element signature="n#view#0;n#Slide#0;n#!!top" expanded="false" />
+                <element signature="n#edit#0;n#Slide#0;n#!!top" expanded="false" />
+                <element signature="n#save_update#0;n#Slide#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,8 +125,6 @@
         <option value="$PROJECT_DIR$/templates/admin/about.html" />
         <option value="$PROJECT_DIR$/application/views/admin/products/product_category_edit.php" />
         <option value="$PROJECT_DIR$/application/models/product_category_model.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/news/news_category_list.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/news/news_category_edit.php" />
         <option value="$PROJECT_DIR$/application/models/news_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/include/left.php" />
         <option value="$PROJECT_DIR$/application/views/admin/configuration/configuration_list.php" />
@@ -101,10 +141,12 @@
         <option value="$PROJECT_DIR$/application/views/admin/template.php" />
         <option value="$PROJECT_DIR$/application/views/admin/news/news_edit.php" />
         <option value="$PROJECT_DIR$/application/views/admin/news/news_list.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin/news.php" />
         <option value="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin/slide.php" />
         <option value="$PROJECT_DIR$/application/views/admin/slide/slide_edit.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/news/news_category_list.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/news/news_category_edit.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/news.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/slide.php" />
       </list>
     </option>
   </component>
@@ -263,12 +305,12 @@
       <updated>1530585839039</updated>
       <workItem from="1530585840822" duration="14944000" />
       <workItem from="1530603933597" duration="13585000" />
-      <workItem from="1530625545691" duration="6480000" />
+      <workItem from="1530625545691" duration="7369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35009000" />
+    <option name="totallyTimeSpent" value="35898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -460,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="160" column="55" lean-forward="false" selection-start-line="160" selection-start-column="55" selection-end-line="160" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -488,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/news_category_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
@@ -506,13 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="81" lean-forward="true" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/news_category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -609,18 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/slide.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding>
-            <element signature="n#view#0;n#Slide#0;n#!!top" expanded="false" />
-            <element signature="n#edit#0;n#Slide#0;n#!!top" expanded="false" />
-            <element signature="n#save_update#0;n#Slide#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -645,19 +654,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/news.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="163" column="36" lean-forward="true" selection-start-line="163" selection-start-column="36" selection-end-line="163" selection-end-column="36" />
+        <state relative-caret-position="215">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="67" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_list.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="110" column="49" lean-forward="true" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+        <state relative-caret-position="952">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="72" lean-forward="false" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/news_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="104" column="37" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="165" column="9" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/slide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="151" column="9" lean-forward="false" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+          <folding>
+            <element signature="n#view#0;n#Slide#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#Slide#0;n#!!top" expanded="false" />
+            <element signature="n#save_update#0;n#Slide#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
