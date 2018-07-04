@@ -53,29 +53,12 @@ if ($this->session->userdata('loggedAdmin') == false) {
     <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/stylesheets/bootstrap-wysihtml5/core-b3.css">
 
-    <!-- Custom styles -->
-    <style type="text/css">
-        @font-face {
-            font-family: Quicksand-Regular, sans-serif; !important;
-        }
-
-        body {
-            font-family: Quicksand-Regular, sans-serif;
-        !important;
-        }
-
-        swal2-container {
-            zoom: 1.5;
-        }
-
-        .container {
-            width: 100%;
-        }
-    </style>
     <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.css">
     <link rel="stylesheet" type="text/css" media="screen"
           href="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/css/style.css">
 
 </head>
 <body class="bootstrap-admin-with-small-navbar">
@@ -102,5 +85,22 @@ if ($this->session->userdata('loggedAdmin') == false) {
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.all.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/dist/sweetalert2.min.js"></script>
+<footer>
+    <a href="javascript:" id="return-to-top"><i class="fa fa-angle-double-up"></i></a>
+</footer>
+<script>
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        } else {
+            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+        }
+    });
+    $('#return-to-top').click(function () {      // When arrow is clicked
+        $('body,html').animate({
+            scrollTop: 0                       // Scroll to top of body
+        }, 500);
+    });
+</script>
 </body>
 </html>
