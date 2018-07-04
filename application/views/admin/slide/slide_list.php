@@ -63,12 +63,6 @@
     </div>
 </div>
 
-<!--<div class="text-center">
-    <button type="button" onclick="remove_slide()" class="btn btn-danger remove-slide">
-        <i class="glyphicon glyphicon-trash"></i> Delete
-    </button>
-</div>-->
-
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap.min.js">
 </script>
@@ -84,29 +78,54 @@
 </script>
 <script type="text/javascript">
     $(function () {
-        $(".alert-success").fadeTo(2000, 500).slideUp(500, function () {
+        $(".alert-success").fadeTo(1000, 500).slideUp(500, function () {
             $(".alert-success").alert('close');
+        });
+    });
+
+    $(function () {
+        $(".alert-danger").slideUp(0, function () {
+            $(".alert-danger").alert('close');
+            swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
         });
     });
 </script>
 
 <script>
     function remove_slide(id) {
+        if (id === null || id === 0) return;
+
         swal({
             title: 'Xác nhận xóa',
-            text: "Bạn có muốn xóa item này khỏi danh sách?",
-            type: 'warning',
+            text: "Bạn có muốn xóa slide này khỏi danh sách?",
+            type: 'question',
             showCancelButton: true,
             confirmButtonColor: '#1467D2',
             cancelButtonColor: '#E5231E',
             confirmButtonText: 'Có, xóa!',
-            cancelButtonText: 'Hủy'
-        }).then((result) => {
-            if (result.value) {
-                $(location).attr('href', '<?php echo base_url() ?>admin/slide/delete/' + id);
-                swal("Đã xóa!", "", "success");
+            cancelButtonText: 'Hủy',
+            showLoaderOnConfirm: true,
+            preConfirm: () => {
+                $.ajax({
+                    type: 'DELETE',
+                    url: '<?php echo base_url() ?>admin/slide/delete/' + id,
+                    error: function () {
+                        swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+                    },
+                    success: function () {
+                        swal({
+                            type: 'success',
+                            title: 'Đã xóa!',
+                            text: '',
+                            timer: 1000
+                        });
+                        window.setTimeout(function () {
+                            location.reload();
+                        }, 1000);
+                    }
+                });
             }
-        })
+        });
     }
 
 </script>

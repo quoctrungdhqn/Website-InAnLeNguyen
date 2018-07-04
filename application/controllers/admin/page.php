@@ -137,7 +137,6 @@ class Page extends CI_Controller
         if (!$id) //Thêm 1 item
         {
             if ($this->Pages_Model->insert($image)) {
-
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/page/view');
             } else {
@@ -147,11 +146,10 @@ class Page extends CI_Controller
         } else //Cập nhật
         {
             if ($this->Pages_Model->update($image)) {
-
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/page/view');
             } else {
-                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger">');
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/page/view');
             }
         }
@@ -161,13 +159,6 @@ class Page extends CI_Controller
     public function delete($id)
     {
         $this->Pages_Model->delete($id);
-        //redirect('admin/page/view');
-        /*if ($id != null && $id != 0) {
-            $this->Pages_Model->delete($id);
-        } else {
-            $this->session->set_flashdata('message', '<div class="alert-danger"></div>');
-            redirect('admin/page/view');
-        }*/
     }
 
 }

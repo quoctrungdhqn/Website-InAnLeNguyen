@@ -86,7 +86,7 @@ date_default_timezone_set("Asia/Bangkok");
 
     $(function () {
         $(".alert-danger").slideUp(0, function () {
-            $(".alert-success").alert('close');
+            $(".alert-danger").alert('close');
             swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
         });
     });

@@ -127,18 +127,18 @@ class Slide extends CI_Controller
 
         if (!$id) {
             if ($this->Slide_model->insertslide($image)) {
-                $this->session->set_userdata(array('message' => 'Thêm thành công!'));
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/slide/view');
             } else {
-                $this->session->set_userdata(array('message' => 'Thêm thất bại!'));
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/slide/view');
             }
         } else {
             if ($this->Slide_model->updateslide($image)) {
-                $this->session->set_userdata(array('message' => 'Cập nhật thành công!'));
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/slide/view');
             } else {
-                $this->session->set_userdata(array('message' => 'Cập nhật thất bại!'));
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/slide/view');
             }
         }
@@ -146,10 +146,7 @@ class Slide extends CI_Controller
 
     public function delete($id)
     {
-        if ($id != null && $id > 0) {
-            $this->Slide_model->deleteItem($id);
-            redirect('admin/slide/view');
-        }
+        $this->Slide_model->deleteItem($id);
     }
 }
 
