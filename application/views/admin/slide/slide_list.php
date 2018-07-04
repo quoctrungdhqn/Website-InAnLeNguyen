@@ -104,7 +104,7 @@
         }).then((result) => {
             if (result.value) {
                 $(location).attr('href', '<?php echo base_url() ?>admin/slide/delete/' + id);
-                swal("Đã xóa!", null, "success");
+                swal("Đã xóa!", "", "success");
             }
         })
     }

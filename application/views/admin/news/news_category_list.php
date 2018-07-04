@@ -107,7 +107,7 @@ date_default_timezone_set("Asia/Bangkok");
         }).then((result) => {
             if (result.value) {
                 $(location).attr('href', '<?php echo base_url() ?>admin/news_category/delete/' + id);
-                swal("Đã xóa!", null, "success");
+                swal("Đã xóa!", "", "success");
             }
         })
     }

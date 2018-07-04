@@ -11,6 +11,10 @@ if ($this->session->userdata('loggedAdmin') == false) {
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16"
+          href="<?php echo base_url(); ?>uploads/favicon.png">
+
     <title>
         Dashboard | Quản trị nội dung website
     </title>
@@ -62,6 +66,10 @@ if ($this->session->userdata('loggedAdmin') == false) {
 
         swal2-container {
             zoom: 1.5;
+        }
+
+        .container {
+            width: 100%;
         }
     </style>
     <link rel="stylesheet" type="text/css" media="screen"
