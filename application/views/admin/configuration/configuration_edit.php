@@ -13,10 +13,10 @@
                         <div class="form-group">
                             <label for="exampleInputEmail1">Tiêu đề</label>
                             <input type="text" value="<?php echo @$list->title ?>" class="form-control"
-                                   placeholder="Tiêu đề" name="title">
+                                   placeholder="Tiêu đề" name="title" disabled>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Mã cấu hình</label> <input type="text"
+                            <label for="exampleInputEmail1">Mã cấu hình</label> <input disabled type="text"
                                                                                        value="<?php echo @$list->code ?>"
                                                                                        class="form-control"
                                                                                        placeholder="Mã cấu hình"
