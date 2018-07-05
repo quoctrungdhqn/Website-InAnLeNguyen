@@ -28,7 +28,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 <label class="col-lg-2 control-label" for="typeahead">Họ đệm</label>
                                 <div class="col-lg-10">
                                     <input type="text" required="" class="form-control col-md-6" name="firstname"
-                                           placeholder="Nhập họ đệm ..."
+                                           placeholder="Nhập họ đệm"
                                            value="<?php echo @$userInfo->firstname ?>">
                                 </div>
                             </div>
@@ -36,7 +36,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 <label class="col-lg-2 control-label" for="typeahead">Tên </label>
                                 <div class="col-lg-10">
                                     <input type="text" required="" class="form-control col-md-6" name="lastname"
-                                           placeholder="Nhập tên ..."
+                                           placeholder="Nhập tên"
                                            value="<?php echo @$userInfo->lastname ?>">
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 <label class="col-lg-2 control-label" for="typeahead">Email</label>
                                 <div class="col-lg-10">
                                     <input type="text" class="form-control" name="email" id="email"
-                                           placeholder="Nhập email ..."
+                                           placeholder="Nhập email"
                                            value="<?php echo @$userInfo->email ?>">
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 <label class="col-lg-2 control-label" for="typeahead">Điện thoại</label>
                                 <div class="col-lg-10">
                                     <input type="text" class="form-control" name="phone" id="phone"
-                                           placeholder="Nhập điện thoại ..."
+                                           placeholder="Nhập điện thoại"
                                            value="<?php echo @$userInfo->phone ?>">
                                 </div>
                             </div>
@@ -92,18 +92,18 @@ date_default_timezone_set("Asia/Bangkok");
                                 <div class="col-lg-10">
                                     <input type="text" class="form-control" name="address"
                                            value="<?php echo @$userInfo->address ?>"
-                                           placeholder="Nhập địa chỉ ...">
+                                           placeholder="Nhập địa chỉ">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="fileInput">Bật/Tắt</label>
                                 <div class="col-lg-10">
-                                    <input type="radio" checked name="published" id="published" value="1"
+                                    <input type="radio" checked name="state" id="state" value="1"
                                            class="custom-control-input" <?php if (@$userInfo->state == '1')
                                         echo set_radio('state', '1', TRUE); ?> />
                                     <span class="custom-control-indicator"></span>
                                     Hiển thị
-                                    <input type="radio" name="published" id="published2" value="0"
+                                    <input type="radio" name="state" id="state2" value="0"
                                            class="custom-control-input" <?php if (@$userInfo->state == '0') echo
                                     set_radio('state', '0', TRUE); ?> />
                                     <span class="custom-control-indicator"></span>
@@ -120,6 +120,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 <label class="col-lg-2 control-label" for="typeahead">Tên đăng nhập </label>
                                 <div class="col-lg-10">
                                     <input type="text" required="" class="form-control col-md-6" name="username"
+                                           placeholder="Nhập tên đăng nhập"
                                            value="<?php echo @$userInfo->username ?>" <?php echo ($formType == 'add') ? 'required' : 'disabled' ?>>
                                 </div>
                             </div>

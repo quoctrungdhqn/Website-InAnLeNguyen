@@ -12,7 +12,7 @@ class User_model extends CI_Model
     {
         $this->db->select('u.*, g.id as gId, g.role, g.groupName');
         $this->db->join('users_groups g', 'g.id=u.userGroup');
-        $query = $this->db->get_where('users u', array('username' => $username, 'password' => $password));
+        $query = $this->db->get_where('users u', array('username' => $username, 'password' => $password, 'state' => 1));
 
         return $query->row();
     }
@@ -48,6 +48,7 @@ class User_model extends CI_Model
             'phone' => $this->input->post('phone'),
             'address' => $this->input->post('address'),
             'userGroup' => $this->input->post('userGroup'),
+            'state' => $this->input->post('state'),
             'avatar' => $image,
             'createdDate' => date('d-m-Y H:i:s')
         );
@@ -70,6 +71,7 @@ class User_model extends CI_Model
             'phone' => $this->input->post('phone'),
             'address' => $this->input->post('address'),
             'userGroup' => $this->input->post('userGroup'),
+            'state' => $this->input->post('state'),
             'avatar' => $image
         );
 
