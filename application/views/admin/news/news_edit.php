@@ -63,7 +63,7 @@ date_default_timezone_set("Asia/Bangkok");
                                     if (@$info->images != '') {
                                         $img = explode(',', $info->images);
                                         ?>
-                                        <p><img width="400" height="280"
+                                        <p><img width="300" height="200"
                                                 src="<?php echo base_url(); ?>uploads/news/<?php echo $img[0]; ?>"/>
                                         </p>
                                     <?php } ?>
@@ -86,7 +86,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 <label class="col-lg-2 control-label" for="typeahead">Mô tả chi tiết </label>
                                 <br><br>
                                 <div class="col-lg-12">
-                                    <textarea class="tinymcefull" rows="15"
+                                    <textarea class="tinymcefull" rows="20"
                                               name="detail"><?php echo @$info->detail; ?></textarea>
                                 </div>
                             </div>

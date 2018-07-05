@@ -1,604 +1,484 @@
 <?php
-if( ! defined('BASEPATH')) exit('No direct script access allowed');
-
+if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 
 class Product_model extends CI_Model
 {
 
 
-
-	function __construct()
-	{
-
-		parent::__construct();
-		$this->table_name = 'products';
-
-	}
-	
-	function search($keyword)
+    function __construct()
     {
-        $this->db->like('title',$keyword);
-        $query  =   $this->db->get($this->table_name);
+
+        parent::__construct();
+        $this->table_name = 'products';
+
+    }
+
+    function search($keyword)
+    {
+        $this->db->like('title', $keyword);
+        $query = $this->db->get($this->table_name);
         return $query->result();
     }
 
-	function getAllProducts($limit, $start)
-	{
+    function getAllProducts($limit, $start)
+    {
 
-		$this->db->order_by('p.id', 'DESC');
+        $this->db->order_by('p.id', 'DESC');
 
-		$this->db->limit($limit, $start);
+        $this->db->limit($limit, $start);
 
 
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->select('p.*, c.name as catTitle');
 
-		$this->db->select('p.*, c.name as catTitle');
+        $result = $this->db->get($this->table_name . ' p');
 
-		$result = $this->db->get($this->table_name.' p');
 
+        return $result->result();
 
+    }
 
-		return $result->result();
 
-	}
+    function getAllProductsByCat($id)
+    {
 
+        $this->db->order_by('p.id', 'DESC');
+        $this->db->where('p.published', 1);
 
+        //$this->db->limit($limit, $start);
 
-	function getAllProductsByCat($id)
-	{
+        $this->db->where('p.categoryId', $id);
 
-		$this->db->order_by('p.id', 'DESC');
-		$this->db->where('p.published',1);
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		//$this->db->limit($limit, $start);
+        $this->db->select('p.*, c.name as catTitle');
 
-		$this->db->where('p.categoryId',$id);
+        $result = $this->db->get($this->table_name . ' p');
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		$this->db->select('p.*, c.name as catTitle');
+        return $result->result();
 
-		$result = $this->db->get($this->table_name.' p');
+    }
 
+    function getAllProductLimitsId_1($catid)
+    {
 
+        $this->db->order_by('p.id', 'RANDOM');
+        $this->db->where('p.categoryId', $catid);
+        //$this->db->where('p.categoryId in (1035, 1036, 1037, 1038)');
+        $this->db->where('p.published', 1);
 
-		return $result->result();
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-	}
-	
-	function getAllProductLimitsId_1($catid)
-	{
+        $this->db->select('p.*, c.name as catTitle');
 
-		$this->db->order_by('p.id', 'RANDOM');
-		$this->db->where('p.categoryId', $catid);
-		//$this->db->where('p.categoryId in (1035, 1036, 1037, 1038)');
-		$this->db->where('p.published',1);
+        $result = $this->db->get($this->table_name . ' p');
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		$this->db->select('p.*, c.name as catTitle');
+        return $result->result();
 
-		$result = $this->db->get($this->table_name.' p');
+    }
 
+    function getAllProductLimitsId_home($catid)
+    {
 
+        $this->db->order_by('p.id', 'RANDOM');
+        $this->db->limit(1);
+        $this->db->where('p.categoryId', $catid);
+        //$this->db->where('p.categoryId in (1035, 1036, 1037, 1038)');
+        $this->db->where('p.published', 1);
 
-		return $result->result();
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-	}
-	
-	function getAllProductLimitsId_home($catid)
-	{
+        $this->db->select('p.*, c.name as catTitle');
 
-		$this->db->order_by('p.id', 'RANDOM');
-		$this->db->limit(1);
-		$this->db->where('p.categoryId', $catid);
-		//$this->db->where('p.categoryId in (1035, 1036, 1037, 1038)');
-		$this->db->where('p.published',1);
+        $result = $this->db->get($this->table_name . ' p');
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		$this->db->select('p.*, c.name as catTitle');
+        return $result->result();
 
-		$result = $this->db->get($this->table_name.' p');
+    }
 
 
+    function getAllProductLimitsId($limit)
+    {
 
-		return $result->result();
+        $this->db->order_by('p.id', 'RANDOM');
 
-	}
-	
-	
-	function getAllProductLimitsId($limit)
-	{
+        $this->db->limit($limit);
 
-		$this->db->order_by('p.id', 'RANDOM');
+        $this->db->where('p.categoryId in (1035, 1036, 1037, 1038)');
+        $this->db->where('p.published', 1);
 
-		$this->db->limit($limit);
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		$this->db->where('p.categoryId in (1035, 1036, 1037, 1038)');
-		$this->db->where('p.published',1);
+        $this->db->select('p.*, c.name as catTitle');
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $result = $this->db->get($this->table_name . ' p');
 
-		$this->db->select('p.*, c.name as catTitle');
 
-		$result = $this->db->get($this->table_name.' p');
+        return $result->result();
 
+    }
 
+    function getAllProductLimitsByCat($id, $limit)
+    {
 
-		return $result->result();
+        $this->db->order_by('p.id', 'RANDOM');
 
-	}
-	
-	function getAllProductLimitsByCat($id, $limit)
-	{
+        $this->db->limit($limit);
 
-		$this->db->order_by('p.id', 'RANDOM');
+        $this->db->where('p.categoryId', $id);
+        $this->db->where('p.published', 1);
 
-		$this->db->limit($limit);
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		$this->db->where('p.categoryId',$id);
-		$this->db->where('p.published',1);
+        $this->db->select('p.*, c.name as catTitle');
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $result = $this->db->get($this->table_name . ' p');
 
-		$this->db->select('p.*, c.name as catTitle');
 
-		$result = $this->db->get($this->table_name.' p');
+        return $result->result();
 
+    }
 
+    function getAllProductsByCatSlug($slug)
+    {
 
-		return $result->result();
+        $this->db->order_by('p.id', 'DESC');
 
-	}
+        //$this->db->limit($limit, $start);
 
-	function getAllProductsByCatSlug($slug)
-	{
+        $this->db->where('c.slug', $slug);
 
-		$this->db->order_by('p.id', 'DESC');
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		//$this->db->limit($limit, $start);
+        $this->db->select('p.*, c.name as catTitle');
 
-		$this->db->where('c.slug',$slug);
+        $result = $this->db->get($this->table_name . ' p');
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		$this->db->select('p.*, c.name as catTitle');
+        return $result->result();
 
-		$result = $this->db->get($this->table_name.' p');
+    }
 
+    function getProductHome()
+    {
 
+        $this->db->order_by('p.id', 'DESC');
 
-		return $result->result();
+        $this->db->limit('8');
 
-	}
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-	function getProductHome()
-	{
+        $this->db->select('p.*, c.name as catTitle');
 
-		$this->db->order_by('p.id', 'DESC');
+        $result = $this->db->get($this->table_name . ' p');
 
-		$this->db->limit('8');
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        return $result->result();
 
-		$this->db->select('p.*, c.name as catTitle');
+    }
 
-		$result = $this->db->get($this->table_name.' p');
+    function getRelativeProducts($catid, $limit)
+    {
 
+        $this->db->order_by('p.id', 'DESC');
 
+        $this->db->limit($limit);
 
-		return $result->result();
+        $this->db->where('p.categoryId', $catid);
 
-	}
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-	function getRelativeProducts($catid,$limit)
-	{
+        $this->db->select('p.*, c.name as catTitle');
 
-		$this->db->order_by('p.id', 'DESC');
+        $result = $this->db->get($this->table_name . ' p');
 
-		$this->db->limit($limit);
 
-		$this->db->where('p.categoryId', $catid);
+        return $result->result();
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+    }
 
-		$this->db->select('p.*, c.name as catTitle');
+    function getAllProductsNoLimit()
+    {
 
-		$result = $this->db->get($this->table_name.' p');
+        $this->db->order_by('p.id', 'DESC');
 
 
+        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
 
-		return $result->result();
+        $this->db->select('p.*, c.name as catTitle');
 
-	}
+        $result = $this->db->get($this->table_name . ' p');
 
-	function getAllProductsNoLimit()
-	{
 
-		$this->db->order_by('p.id', 'DESC');
+        return $result->result();
 
+    }
 
 
-		$this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+    function getProductInfo($id)
+    {
 
-		$this->db->select('p.*, c.name as catTitle');
+        $result = $this->db->get_where($this->table_name, array('id' => $id));
 
-		$result = $this->db->get($this->table_name.' p');
 
+        return $result->row();
 
+    }
 
-		return $result->result();
 
-	}
+    function getProductSlug($slug)
+    {
 
+        $result = $this->db->get_where($this->table_name, array('alias' => $slug));
 
 
-	function getProductInfo($id)
-	{
+        return $result->row();
 
-		$result = $this->db->get_where($this->table_name, array('id'=> $id));
+    }
 
 
+    function getProductAlias($alias)
+    {
+        $result = $this->db->get_where($this->table_name, array('alias' => $alias));
+        return $result->row();
+    }
 
-		return $result->row();
 
-	}
+    function getProductsNum()
+    {
 
+        $result = $this->db->get($this->table_name);
 
 
-	function getProductSlug($slug)
-	{
+        return $result->num_rows();
 
-		$result = $this->db->get_where($this->table_name, array('alias'=> $slug));
+    }
 
 
+    function insertProduct($image)
+    {
 
-		return $result->row();
+        $data = array(
+            'title' => $this->input->post('title'),
+            'alias' => mb_strtolower(url_title(removesign($this->input->post('title')))),
+            'categoryId' => $this->input->post('categoryId'),
+            'image' => $image,
+            'detail' => $this->input->post('detail'),
+            'seo_title' => $this->input->post('seo_title'),
+            'seo_description' => $this->input->post('seo_description'),
+            'seo_keyword' => $this->input->post('seo_keyword'),
+            'published' => $this->input->post('published')
+        );
 
-	}
 
+        if ($this->db->insert($this->table_name, $data)) {
+            return true;
+        }
 
+        return false;
+    }
 
-	function getProductAlias($alias)
-	{
-		$result = $this->db->get_where($this->table_name, array('alias'=> $alias));
-		return $result->row();
-	}
 
+    function updateProduct($image)
+    {
 
+        $id = $this->input->post('id');
 
-	function getProductsNum()
-	{
+        $data = array(
+            'title' => $this->input->post('title'),
+            'alias' => mb_strtolower(url_title(removesign($this->input->post('title')))),
+            'categoryId' => $this->input->post('categoryId'),
+            'image' => $image,
+            'detail' => $this->input->post('detail'),
+            'seo_title' => $this->input->post('seo_title'),
+            'seo_description' => $this->input->post('seo_description'),
+            'seo_keyword' => $this->input->post('seo_keyword'),
+            'published' => $this->input->post('published')
+        );
 
-		$result = $this->db->get($this->table_name);
+        $this->db->where('id', $id);
 
+        if ($this->db->update($this->table_name, $data)) {
+            return true;
+        }
 
+        return false;
 
-		return $result->num_rows();
+    }
 
-	}
 
+    function updateState($id, $state)
+    {
 
+        $this->db->where('id', $id);
 
-	function insertProduct($image)
-	{
+        $data = array('state' => $state);
 
-		$data = array(
-			'title'          => $this->input->post('title'),
-			'alias'          => mb_strtolower(url_title(removesign($this->input->post('title')))),
-			'categoryId'     => $this->input->post('categoryId'),
-			'image'          => $image,
-			'detail'         => $this->input->post('detail'),
-			'seo_title'      => $this->input->post('seo_title'),
-			'seo_description'=> $this->input->post('seo_description'),
-			'seo_keyword'    => $this->input->post('seo_keyword'),
-			'price'          => $this->input->post('price'),
-			'noibat'         => $this->input->post('noibat'),
-			'mota'           => $this->input->post('mota'),
-			'gia'            => $this->input->post('gia'),
-			'thoigian'       => $this->input->post('thoigian'),
-			'phuongtien'       => $this->input->post('phuongtien'),
-			'khoihanh'       => $this->input->post('khoihanh'),
-			'dienthoai'       => $this->input->post('dienthoai'),
-			'dieukhoan'      => $this->input->post('dieukhoan'),
-			'lienhe'         => $this->input->post('lienhe'),
-			'price_old'      => $this->input->post('price_old'),
-			'new'            => $this->input->post('new'),
-			'published'      => $this->input->post('published'),
-			'title_en'      => $this->input->post('title_en'),
-			'phuongtien_en'      => $this->input->post('phuongtien_en'),
-			'khoihanh_en'      => $this->input->post('khoihanh_en'),
-			'mota_en'      => $this->input->post('mota_en'),
-			'detail_en'      => $this->input->post('detail_en'),
-			'gia_en'      => $this->input->post('gia_en'),
-			'dieukhoan_en'      => $this->input->post('dieukhoan_en'),
-			'lienhe_en'      => $this->input->post('lienhe_en')
 
-		);
+        if ($this->db->update($this->table_name, $data)) {
 
+            return true;
 
+        }
 
-		if($this->db->insert($this->table_name, $data))
-		{
 
-			return true;
+        return false;
 
-		}
+    }
 
 
+    function updateFeatured($id, $featured)
+    {
 
-		return false;
+        $this->db->where('id', $id);
 
-	}
+        $data = array('featured' => $featured);
 
 
+        if ($this->db->update($this->table_name, $data)) {
 
-	function updateProduct($image)
-	{
+            return true;
 
-		$id   = $this->input->post('id');
+        }
 
-		$data = array(
-			'title'          => $this->input->post('title'),
-			'alias'          => mb_strtolower(url_title(removesign($this->input->post('title')))),
-			'categoryId'     => $this->input->post('categoryId'),
-			'image'          => $image,
-			'detail'         => $this->input->post('detail'),
-			'seo_title'      => $this->input->post('seo_title'),
-			'seo_description'=> $this->input->post('seo_description'),
-			'seo_keyword'    => $this->input->post('seo_keyword'),
-			'noibat'         => $this->input->post('noibat'),
-			'gia'            => $this->input->post('gia'),
-			'thoigian'       => $this->input->post('thoigian'),
-			'phuongtien'       => $this->input->post('phuongtien'),
-			'khoihanh'       => $this->input->post('khoihanh'),
-			'dienthoai'       => $this->input->post('dienthoai'),
-			'dieukhoan'      => $this->input->post('dieukhoan'),
-			'lienhe'         => $this->input->post('lienhe'),
-			'mota'           => $this->input->post('mota'),
-			'price'          => $this->input->post('price'),
-			'price_old'      => $this->input->post('price_old'),
-			'new'            => $this->input->post('new'),
-			'published'      => $this->input->post('published'),
-			'title_en'      => $this->input->post('title_en'),
-			'phuongtien_en'      => $this->input->post('phuongtien_en'),
-			'khoihanh_en'      => $this->input->post('khoihanh_en'),
-			'mota_en'      => $this->input->post('mota_en'),
-			'detail_en'      => $this->input->post('detail_en'),
-			'gia_en'      => $this->input->post('gia_en'),
-			'dieukhoan_en'      => $this->input->post('dieukhoan_en'),
-			'lienhe_en'      => $this->input->post('lienhe_en')
-		);
 
+        return false;
 
+    }
 
-		$this->db->where('id', $id);
 
+    function deleteIds()
+    {
 
+        $ids = $this->input->post('ids');
 
-		if($this->db->update($this->table_name, $data))
-		{
+        $this->db->where("id IN $ids");
 
-			return true;
 
-		}
+        try {
 
+            $this->db->delete($this->table_name);
 
 
-		return false;
+            return true;
 
-	}
+        } catch (Exeption $e) {
 
+            return false;
 
+        }
 
-	function updateState($id, $state)
-	{
+    }
 
-		$this->db->where('id' , $id);
 
-		$data = array('state'=> $state);
+    function deleteItem($id)
+    {
 
+        $this->db->where("id", $id);
 
 
-		if($this->db->update($this->table_name, $data))
-		{
+        try {
 
-			return true;
+            $this->db->delete($this->table_name);
 
-		}
 
+            return true;
 
+        } catch (Exeption $e) {
 
-		return false;
+            return false;
 
-	}
+        }
 
+    }
 
 
-	function updateFeatured($id, $featured)
-	{
+    function getSearchProducts()
+    {
 
-		$this->db->where('id' , $id);
+        $cond = $this->input->post('cond');
 
-		$data = array('featured'=> $featured);
 
+        $this->db->like('title', $cond);
 
 
-		if($this->db->update($this->table_name, $data))
-		{
+        $result = $this->db->get($this->table_name);
 
-			return true;
 
-		}
+        return $result->result();
 
+    }
 
 
-		return false;
+    function getProListForDashboard()
+    {
 
-	}
+        $this->db->select('p.id, p.title, c.name as catTitle');
 
+        $this->db->join('products_categories c', 'c.id = p.categoryId');
 
+        $this->db->order_by('p.id', 'desc');
 
-	function deleteIds()
-	{
+        $this->db->limit(5);
 
-		$ids = $this->input->post('ids');
+        $query = $this->db->get($this->table_name . ' p');
 
-		$this->db->where("id IN $ids");
 
+        return $query->result();
 
+    }
 
-		try
-		{
 
-			$this->db->delete($this->table_name);
+    function get_all()
+    {
 
 
+        $results = $this->db->get($this->table_name)->result();
 
-			return true;
 
-		}
+        foreach ($results as & $result) {
 
-		catch(Exeption $e)
-		{
 
-			return false;
+            if ($result->option_value) {
 
-		}
+                $result->option_value = explode(',', $result->option_value);
 
-	}
+            }
 
 
+        }
 
-	function deleteItem($id)
-	{
 
-		$this->db->where("id", $id);
+        return $results;
 
 
+    }
 
-		try
-		{
 
-			$this->db->delete($this->table_name);
+    function get($id)
+    {
 
 
+        $results = $this->db->get_where($this->table_name, array('id' => $id))->result();
 
-			return true;
+        $result = $results[0];
 
-		}
 
-		catch(Exeption $e)
-		{
+        if ($result->option_value) {
 
-			return false;
+            $result->option_value = explode(',', $result->option_value);
 
-		}
+        }
 
-	}
 
+        return $result;
 
-
-	function getSearchProducts()
-	{
-
-		$cond   = $this->input->post('cond');
-
-
-
-		$this->db->like('title', $cond);
-
-
-
-		$result = $this->db->get($this->table_name);
-
-
-
-		return $result->result();
-
-	}
-
-
-
-	function getProListForDashboard()
-	{
-
-		$this->db->select('p.id, p.title, c.name as catTitle');
-
-		$this->db->join('products_categories c', 'c.id = p.categoryId');
-
-		$this->db->order_by('p.id', 'desc');
-
-		$this->db->limit(5);
-
-		$query = $this->db->get($this->table_name.' p');
-
-
-
-		return $query->result();
-
-	}
-
-
-
-	function get_all()
-	{
-
-
-
-		$results = $this->db->get($this->table_name)->result();
-
-
-
-		foreach($results as & $result){
-
-
-
-			if($result->option_value){
-
-				$result->option_value = explode(',',$result->option_value);
-
-			}
-
-
-
-		}
-
-
-
-		return $results;
-
-
-
-	}
-
-
-
-	function get($id)
-	{
-
-
-
-		$results = $this->db->get_where($this->table_name, array('id'=> $id))->result();
-
-		$result = $results[0];
-
-
-
-		if($result->option_value){
-
-			$result->option_value = explode(',',$result->option_value);
-
-		}
-
-
-
-		return $result;
-
-	}
+    }
 
 }
 
