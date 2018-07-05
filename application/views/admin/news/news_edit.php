@@ -20,7 +20,7 @@ date_default_timezone_set("Asia/Bangkok");
                         <fieldset>
                             <legend>
                                 <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
-                                <a href="<?php echo base_url() ?>admin/news/view/" class="btn btn-default">Hủy</a>
+                                <a href="<?php echo base_url() ?>admin/news/view" class="btn btn-default">Hủy</a>
                             </legend>
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="typeahead">Tiêu đề </label>
@@ -31,21 +31,6 @@ date_default_timezone_set("Asia/Bangkok");
                                 </div>
                             </div>
 
-                            <!-- <div class="form-group">
-                            <label class="col-lg-2 control-label" for="typeahead">Tiêu đề_EN </label>
-                            <div class="col-lg-10">
-                                <input type="text" required="" class="form-control col-md-6" name="title_en" value="<?php echo @$info->title_en; ?>">
-                            </div>
-                        </div> -->
-
-                            <!--<div class="form-group">
-                                <label class="col-lg-2 control-label" for="typeahead">Alias </label>
-                                <div class="col-lg-10">
-                                    <input type="text" class="form-control col-md-6" name="alias"
-                                           value="<?php /*echo @$info->alias; */ ?>"
-                                           placeholder="Alias tự sinh,không cần nhập">
-                                </div>
-                            </div>-->
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="typeahead">Danh mục </label>
                                 <div class="col-lg-10">
@@ -90,13 +75,6 @@ date_default_timezone_set("Asia/Bangkok");
                                               name="detail"><?php echo @$info->detail; ?></textarea>
                                 </div>
                             </div>
-
-                            <!--<label class="col-lg-2 control-label" for="typeahead">Mô tả chi tiết_EN </label>
-                		  <div class="form-group">                		   	                
-			                <div class="col-lg-12">                                 
-			                    <textarea class="tinymcefull" rows="15" name="detail_en"><?php echo @$info->detail_en; ?></textarea>               
-			                </div>
-                		</div> -->
 
                         </fieldset>
 

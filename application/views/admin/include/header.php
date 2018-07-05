@@ -63,6 +63,21 @@ if ($this->session->userdata('loggedAdmin') == false) {
                 <div class="collapse navbar-collapse main-navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-hover="dropdown">Quản lý sản phẩm <b
+                                        class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li role="presentation" class="dropdown-header">Quản lý sản phẩm</li>
+                                <li><a href="<?php echo base_url() ?>admin/product/edit">Thêm sản phẩm</a></li>
+                                <li><a href="<?php echo base_url() ?>admin/product/view">Danh sách sản phẩm</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation" class="dropdown-header">Quản lý danh mục sản phẩm</li>
+                                <li><a href="<?php echo base_url() ?>admin/product_category/edit">Thêm mới danh mục</a>
+                                </li>
+                                <li><a href="<?php echo base_url() ?>admin/product_category/view">Danh sách danh mục</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-hover="dropdown">Quản lý bài viết <b
                                         class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -70,11 +85,21 @@ if ($this->session->userdata('loggedAdmin') == false) {
                                 <li><a href="<?php echo base_url() ?>admin/news/edit">Thêm bài viết</a></li>
                                 <li><a href="<?php echo base_url() ?>admin/news/view">Danh sách bài viết</a></li>
                                 <li role="presentation" class="divider"></li>
-                                <li role="presentation" class="dropdown-header">Quản lý danh mục</li>
+                                <li role="presentation" class="dropdown-header">Quản lý danh mục bài viết</li>
                                 <li><a href="<?php echo base_url() ?>admin/news_category/edit">Thêm mới danh mục</a>
                                 </li>
                                 <li><a href="<?php echo base_url() ?>admin/news_category/view">Danh sách danh mục</a>
                                 </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-hover="dropdown">Quản lý thành viên <b
+                                        class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li role="presentation" class="dropdown-header">Quản lý thành viên</li>
+                                <li><a href="<?php echo base_url() ?>admin/user/edit">Thêm thành viên</a></li>
+                                <li><a href="<?php echo base_url() ?>admin/user/view">Danh sách thành viên</a></li>
+
                             </ul>
                         </li>
                     </ul>

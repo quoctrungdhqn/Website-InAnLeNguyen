@@ -136,6 +136,7 @@ class News extends CI_Controller
         } else {
             $image = $oldPic;
         }
+
         if (!$id) //Thêm 1 item
         {
             if ($this->News_Model->insert($image)) {
