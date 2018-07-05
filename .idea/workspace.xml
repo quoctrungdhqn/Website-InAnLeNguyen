@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfa68ac-eeae-409a-8ddc-c03e7924c7ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/views/admin/page/page_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/page/page_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/admin/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/news_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/news_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/news/news_category_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/news/news_category_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/news/news_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/news/news_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/news/news_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/news/news_list.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +17,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page_view.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/page/page_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="542">
+              <caret line="97" column="44" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="853">
+              <caret line="137" column="11" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="137" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_category_list.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="103" column="39" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/news.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="138" column="31" lean-forward="true" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -52,6 +91,7 @@
       <find>container</find>
       <find>&lt;/footer&gt;</find>
       <find>confirm</find>
+      <find>get_all_items</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,7 +109,6 @@
         <option value="$PROJECT_DIR$/templates/admin/about.html" />
         <option value="$PROJECT_DIR$/application/views/admin/products/product_category_edit.php" />
         <option value="$PROJECT_DIR$/application/models/product_category_model.php" />
-        <option value="$PROJECT_DIR$/application/models/news_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/include/left.php" />
         <option value="$PROJECT_DIR$/application/views/admin/configuration/configuration_list.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/news_category.php" />
@@ -81,12 +120,8 @@
         <option value="$PROJECT_DIR$/templates/admin/dist/sweetalert2.min.css" />
         <option value="$PROJECT_DIR$/templates/admin/dist/sweetalert2.css" />
         <option value="$PROJECT_DIR$/application/views/admin/dashboard.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/news/news_edit.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/news/news_list.php" />
         <option value="$PROJECT_DIR$/application/views/admin/slide/slide_edit.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/news/news_category_list.php" />
         <option value="$PROJECT_DIR$/application/views/admin/news/news_category_edit.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin/news.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/views/admin/page/page_edit.php" />
         <option value="$PROJECT_DIR$/application/models/pages_model.php" />
@@ -103,6 +138,11 @@
         <option value="$PROJECT_DIR$/application/models/slide_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/page/page_view.php" />
         <option value="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/news.php" />
+        <option value="$PROJECT_DIR$/application/models/news_model.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/news/news_edit.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/news/news_list.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/news/news_category_list.php" />
       </list>
     </option>
   </component>
@@ -157,6 +197,12 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InAnLeNguyen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libraries" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
@@ -260,12 +306,12 @@
       <workItem from="1530603933597" duration="13585000" />
       <workItem from="1530625545691" duration="7369000" />
       <workItem from="1530669745822" duration="25785000" />
-      <workItem from="1530756294732" duration="4518000" />
+      <workItem from="1530756294732" duration="5779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66201000" />
+    <option name="totallyTimeSpent" value="67462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -420,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/mynestedsetmodel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/js/sweetalert.js" />
     <entry file="file://$PROJECT_DIR$/templates/admin/css/sweetalert.css" />
     <entry file="file://$PROJECT_DIR$/application/views/admin/include/header.php">
@@ -464,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -485,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="165" column="9" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -500,13 +525,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/page/pages_edit.php" />
-    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="82" column="34" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="82" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -549,33 +567,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/js/toastr.min.js" />
     <entry file="file://$PROJECT_DIR$/templates/admin/css/toastr.min.css" />
     <entry file="file://$PROJECT_DIR$/application/views/admin/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="200" column="35" lean-forward="true" selection-start-line="200" selection-start-column="35" selection-end-line="200" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="49" column="82" lean-forward="true" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -618,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="149" column="44" lean-forward="true" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -632,10 +622,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="149" column="44" lean-forward="true" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/page/page_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="542">
+          <caret line="97" column="44" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/mynestedsetmodel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="103" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="91" selection-start-line="66" selection-start-column="91" selection-end-line="66" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="138" column="31" lean-forward="true" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="137" column="11" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="137" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="103" column="39" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
         </state>
       </provider>
     </entry>

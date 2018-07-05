@@ -12,7 +12,7 @@ class News_Model extends CI_Model
     function get_all_items()
     {
         $this->db->order_by('a.id', 'DESC');
-        $this->db->where('a.published = 1');
+        //$this->db->where('a.published = 1');
         $this->db->join('categories c', 'a.id_category = c.id', 'left');
         $this->db->join('users u', 'a.created_by=u.id');
         $this->db->select('a.*, c.title as catTitle, u.username');

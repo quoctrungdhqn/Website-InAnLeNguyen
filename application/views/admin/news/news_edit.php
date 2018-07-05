@@ -56,7 +56,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 <label class="col-lg-2 control-label" for="fileInput">Hình ảnh</label>
                                 <div class="col-lg-10">
                                     <input class="form-control uniform_on" id="fileInput" name="images[]" multiple=""
-                                           type="file">
+                                           type="file" <?php echo ($formType == 'add') ? 'required' : '' ?>>
                                     <p class="help-block">* Lưu ý: Chọn hình với tên không dấu và không có khoảng
                                         trắng.</p>
                                     <?php
@@ -64,7 +64,7 @@ date_default_timezone_set("Asia/Bangkok");
                                         $img = explode(',', $info->images);
                                         ?>
                                         <p><img width="400" height="280"
-                                                src="<?php echo base_url(); ?>uploads/news/thumb_<?php echo $img[0]; ?>"/>
+                                                src="<?php echo base_url(); ?>uploads/news/<?php echo $img[0]; ?>"/>
                                         </p>
                                     <?php } ?>
 

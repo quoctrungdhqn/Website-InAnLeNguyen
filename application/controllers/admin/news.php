@@ -142,7 +142,7 @@ class News extends CI_Controller
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/news/view');
             } else {
-                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thất bại!</div>');
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/news/view');
             }
         } else //Cập nhật
@@ -151,7 +151,7 @@ class News extends CI_Controller
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/news/view');
             } else {
-                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thất bại!</div>');
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/news/view');
             }
         }
@@ -160,10 +160,7 @@ class News extends CI_Controller
 
     public function delete($id)
     {
-        if ($id != null && $id > 0) {
-            $this->News_Model->delete($id);
-            redirect('admin/news/view');
-        }
+        $this->News_Model->delete($id);
     }
 
 }
