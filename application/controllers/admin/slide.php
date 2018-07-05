@@ -126,7 +126,7 @@ class Slide extends CI_Controller
         }
 
         if (!$id) {
-            if ($this->Slide_model->insertslide($image)) {
+            if ($this->Slide_model->insertSlide($image)) {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/slide/view');
             } else {
@@ -134,7 +134,7 @@ class Slide extends CI_Controller
                 redirect('admin/slide/view');
             }
         } else {
-            if ($this->Slide_model->updateslide($image)) {
+            if ($this->Slide_model->updateSlide($image)) {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/slide/view');
             } else {
