@@ -89,12 +89,12 @@
             swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
         });
     });
+
 </script>
 
 <script>
     function remove_slide(id) {
         if (id === null || id === 0) return;
-
         swal({
             title: 'Xác nhận xóa',
             text: "Bạn có muốn xóa slide này khỏi danh sách?",
@@ -117,7 +117,7 @@
                             type: 'success',
                             title: 'Đã xóa!',
                             text: '',
-                            timer: 1000
+                            timer: 2000
                         });
                         window.setTimeout(function () {
                             location.reload();

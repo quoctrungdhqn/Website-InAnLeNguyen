@@ -13,7 +13,7 @@ date_default_timezone_set("Asia/Bangkok");
         </div>
         <?php echo $this->session->flashdata('message'); ?>
         <div class="bootstrap-admin-panel-content">
-            <table class="table table-striped table-bordered" id="table_pages">
+            <table class="table table-striped table-bordered" id="example">
                 <thead>
                 <tr>
                     <th>Thứ tự</th>
@@ -118,7 +118,7 @@ date_default_timezone_set("Asia/Bangkok");
                             type: 'success',
                             title: 'Đã xóa!',
                             text: '',
-                            timer: 1000
+                            timer: 2000
                         });
                         window.setTimeout(function () {
                             location.reload();
