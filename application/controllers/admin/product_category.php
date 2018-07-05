@@ -22,18 +22,6 @@ class Product_Category extends CI_Controller
 
     {
 
-        /*$list = $this->Product_category_model->getAllProductsCategories();
-
-        $data['content'] = 'admin/product_category_list';
-
-        $data['page_title'] = 'Quản lý danh mục sản phẩm';
-
-        $data['list'] = $list;
-
-        $this->template->write_view("content", "admin/products/product_category_list", $data);
-
-        $this->template->render();*/
-
         $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
         $list = $this->mynestedsetmodel->getTree(0, 0);
 
@@ -104,19 +92,17 @@ class Product_Category extends CI_Controller
 
         if (!$id) {
             if ($this->mynestedsetmodel->insertNode($data, $data['parents'])) {
-                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thất bại!</div>');
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/product_category/view');
             } else {
-
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/product_category/view');
             }
         } else {
             if ($this->mynestedsetmodel->updateNode($data, $id, $data['parents'])) {
-                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/product_category/view');
             } else {
-
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/product_category/view');
             }
@@ -148,16 +134,8 @@ class Product_Category extends CI_Controller
 
     {
         $this->load->model('Product_category_model');
-
-        if ($this->Product_category_model->deleteItem($id)) {
-            $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thành công!</div>');
-            redirect('admin/product_category/view');
-        } else {
-            $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"><button data-dismiss="alert" class="close" type="button">×</button>Xóa dữ liệu thất bại!</div>');
-            redirect('admin/product_category/view');
-        }
+        $this->Product_category_model->deleteItem($id);
     }
 
 }
 
-?>
