@@ -45,19 +45,19 @@ class Configuration extends CI_Controller
 
         if (!$id) {
             if ($this->Configuration_Model->insertConfiguration()) {
-                $this->session->set_userdata(array('message' => 'Thêm thành công!'));
-                redirect('admin/configuration/view/');
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
+                redirect('admin/configuration/view');
             } else {
-                $this->session->set_userdata(array('message' => 'Thêm thất bại!'));
-                redirect('admin/configuration/view/');
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
+                redirect('admin/configuration/view');
             }
         } else {
             if ($this->Configuration_Model->updateConfiguration()) {
-                $this->session->set_userdata(array('message' => 'Cập nhật thành công!'));
-                redirect('admin/configuration/view/');
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
+                redirect('admin/configuration/view');
             } else {
-                $this->session->set_userdata(array('message' => 'Cập nhật thất bại!'));
-                redirect('admin/configuration/view/');
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
+                redirect('admin/configuration/view');
             }
         }
     }
@@ -67,7 +67,7 @@ class Configuration extends CI_Controller
 
         $this->Configuration_Model->delete($id);
 
-        redirect('admin/configuration/view/');
+        redirect('admin/configuration/view');
     }
 
 

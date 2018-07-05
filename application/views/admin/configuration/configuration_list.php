@@ -14,60 +14,74 @@
             <div class="text-muted bootstrap-admin-box-title">Cấu hình website
             </div>
         </div>
+        <?php echo $this->session->flashdata('message'); ?>
         <div class="bootstrap-admin-panel-content">
-            <div class="box-body table-responsive">
-                <table id="example1" class="table table-bordered table-striped">
-                    <thead>
+            <table id="example" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th>Thứ tự</th>
+                    <th>Mã cấu hình</th>
+                    <th>Tiêu đề</th>
+                    <th>Giá trị</th>
+                    <th>Tác vụ</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($list as $config): ?>
                     <tr>
-                        <th>Thứ tự</th>
-                        <th>Mã cấu hình</th>
-                        <th>Tiêu đề</th>
-                        <th>Giá trị</th>
-                        <th>Tác vụ</th>
+                        <td><?php echo $count; ?></td>
+                        <td><?php echo $config->code; ?></td>
+                        <td><?php echo $config->title; ?></td>
+                        <td><?php echo $config->value; ?></td>
+                        <td>
+                            <a class="btn btn-sm btn-primary"
+                               href="<?php echo base_url(); ?>admin/configuration/edit/<?php echo $config->id; ?>">
+                                <i class="glyphicon glyphicon-pencil"></i>
+                                Sửa
+                            </a>
+                        </td>
                     </tr>
-                    </thead>
-                    <tbody>
-                    <?php foreach ($list as $config): ?>
-                        <tr>
-                            <td><?php echo $count; ?></td>
-                            <td><?php echo $config->code; ?></td>
-                            <td><?php echo $config->title; ?></td>
-                            <td><?php echo $config->value; ?></td>
-                            <td>
-                                <a class="btn btn-sm btn-primary"
-                                   href="<?php echo base_url(); ?>admin/configuration/edit/<?php echo $config->id; ?>">
-                                    <i class="glyphicon glyphicon-pencil"></i>
-                                    Sửa
-                                </a>
-                            </td>
-                        </tr>
-                        <?php $count++; endforeach; ?>
-                    </tbody>
+                    <?php $count++; endforeach; ?>
+                </tbody>
 
-                </table>
-            </div>
+            </table>
         </div>
     </div>
 
 </div>
 
-<!-- jQuery 2.0.2 -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="<?php echo base_url(); ?>assets/admin/js/bootstrap.min.js" type="text/javascript"></script>
-<!-- DATA TABES SCRIPT -->
-<script src="<?php echo base_url(); ?>assets/admin/js/plugins/datatables/jquery.dataTables.js"
-        type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>assets/admin/js/plugins/datatables/dataTables.bootstrap.js"
-        type="text/javascript"></script>
-<!-- AdminLTE App -->
-<script src="<?php echo base_url(); ?>assets/admin/js/AdminLTE/app.js" type="text/javascript"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="<?php echo base_url(); ?>assets/admin/js/AdminLTE/demo.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap.min.js">
+</script>
+<script type="text/javascript"
+        src="<?php echo base_url(); ?>templates/admin/js/twitter-bootstrap-hover-dropdown.min.js">
+</script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap-admin-theme-change-size.js">
+</script>
+<script type="text/javascript"
+        src="<?php echo base_url(); ?>templates/admin/vendors/datatables/js/jquery.dataTables.min.js">
+</script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/DT_bootstrap.js">
+</script>
 <!-- page script -->
 <script type="text/javascript">
     $(function () {
-        $("#example1").dataTable();
+        $("#example").dataTable();
+    });
+</script>
+<script type="text/javascript">
+
+    $(function () {
+        $(".alert-success").fadeTo(1000, 500).slideUp(500, function () {
+            $(".alert-success").alert('close');
+        });
+    });
+
+    $(function () {
+        $(".alert-danger").slideUp(0, function () {
+            $(".alert-danger").alert('close');
+            swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+        });
     });
 </script>
 
