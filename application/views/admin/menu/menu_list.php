@@ -1,80 +1,103 @@
-﻿        <!-- bootstrap 3.0.2 -->
-<link href="<?php echo base_url(); ?>assets/admin/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<!-- font Awesome -->
-<link href="<?php echo base_url(); ?>assets/admin/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-<!-- Ionicons -->
-<link href="<?php echo base_url(); ?>assets/admin/css/ionicons.min.css" rel="stylesheet" type="text/css" />
-<!-- DATA TABLES -->
-<link href="<?php echo base_url(); ?>assets/admin/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
-<?php $count = 1; ?>
-<div class="row">
-	<div class="col-xs-12">
+﻿<div class="col-lg-12">
 
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="text-muted bootstrap-admin-box-title">
+                Danh sách menu
+                <a href="<?php echo base_url() ?>admin/menu/edit" title="Thêm mới menu"
+                   class="btn btn-default btn-small"><i class="glyphicon glyphicon-plus"></i> Thêm mới</a>
+            </div>
+        </div>
+        <?php echo $this->session->flashdata('message'); ?>
+        <div class="bootstrap-admin-panel-content">
+            <div class="box-body table-responsive">
+                <ul>
+                    <?php
+                    function getSubcategory($parent_id)
+                    {
+                        $CI =& get_instance();
+                        $query = $CI->db->get_where('cp_menus', array('parent' => $parent_id));
+                        $result = $query->result_array();
+                        foreach ($result as $row) {
+                            echo '<ul>';
+                            echo '<a href="' . base_url() . 'admin/menu/edit/' . $row['id'] . '" >' . "|--|-- " . $row['name'] .
+                                '</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="cursor: pointer" onclick="remove_menu(' . $row['id'] . ')"><i class="glyphicon glyphicon-remove"></i><a><br><br>';
+                            getSubcategory($row['id']);
+                            echo '</ul>';
+                        }
+                    }
 
-		<div class="box">
-			<div class="box-header">
-				<h3 class="box-title">
-					Danh sách menu
-					<button onclick="location.href='<?php echo base_url()?>admin/menu/edit'" class="btn btn-primary btn-sm">
-						Thêm mới
-					</button>
-				</h3>
-			</div><!-- /.box-header -->
-			<div class="box-body table-responsive">
+                    foreach ($list_menu as $row) {
+                        // Tra lai tat ca cac Menu cha
+                        echo '<b><a href="' . base_url() . 'admin/menu/edit/' . $row['id'] . '" >' . "|-- " . $row['name'] .
+                            '</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="cursor: pointer" onclick="remove_menu(' . $row['id'] . ')"><i class="glyphicon glyphicon-remove"></i><a></b><br><br>';
+                        // Neu ton tai cac Menu con thi se duoc hien thi
+                        getSubcategory($row['id']);
+                    }
+                    ?>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-				<ul>
-					<?php
-
-					function getSubcategory($parent_id)
-					{
-						$CI    =& get_instance();
-						$query = $CI->db->get_where('menus', array('parent'=> $parent_id));
-						$result = $query->result_array();
-						foreach($result as $row){
-							echo '<ul>';
-							echo '<li><a href="'.base_url().'admin/menu/edit/'.$row['id'].'" >'.$row['name'].'</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="'.base_url().'admin/menu/delete/'.$row['id'].'"><i class="fa fa-remove"></i><a></li>';
-							getSubcategory($row['id']);
-							echo '</ul>';
-						}
-
-					}
-					foreach($list_menu as $row){
-						// Tra lai tat ca cac Menu cha
-						echo '<li><a href="'.base_url().'admin/menu/edit/'.$row['id'].'" >'.$row['name'].'</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="'.base_url().'admin/menu/delete/'.$row['id'].'"><i class="fa fa-remove"></i><a></li>';
-						// neu ton tai cac Menu con thi se duoc hien thi
-						getSubcategory($row['id']);
-
-					}
-					?>
-				</ul>
-			</div><!-- /.box-body -->
-		</div><!-- /.box -->
-	</div>
 </div>
-
-<!-- jQuery 2.0.2 -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js">
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap.min.js">
 </script>
-<!-- Bootstrap -->
-<script src="<?php echo base_url(); ?>assets/admin/js/bootstrap.min.js" type="text/javascript">
+<script type="text/javascript"
+        src="<?php echo base_url(); ?>templates/admin/js/twitter-bootstrap-hover-dropdown.min.js">
 </script>
-<!-- DATA TABES SCRIPT -->
-<script src="<?php echo base_url(); ?>assets/admin/js/plugins/datatables/jquery.dataTables.js" type="text/javascript">
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap-admin-theme-change-size.js">
 </script>
-<script src="<?php echo base_url(); ?>assets/admin/js/plugins/datatables/dataTables.bootstrap.js" type="text/javascript">
-</script>
-<!-- AdminLTE App -->
-<script src="<?php echo base_url(); ?>assets/admin/js/AdminLTE/app.js" type="text/javascript">
-</script>
-<!-- AdminLTE for demo purposes -->
-<script src="<?php echo base_url(); ?>assets/admin/js/AdminLTE/demo.js" type="text/javascript">
-</script>
-<!-- page script -->
 <script type="text/javascript">
-	$(function()
-		{
-			$("#example1").dataTable();
-		});
+    $(function () {
+        $(".alert-success").fadeTo(1000, 500).slideUp(500, function () {
+            $(".alert-success").alert('close');
+        });
+    });
+
+    $(function () {
+        $(".alert-danger").slideUp(0, function () {
+            $(".alert-danger").alert('close');
+            swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+        });
+    });
+
 </script>
+<script>
+    function remove_menu(id) {
+        if (id === null || id === 0) return;
+        swal({
+            title: 'Xác nhận xóa',
+            text: "Bạn có muốn xóa menu này khỏi danh sách?",
+            type: 'question',
+            showCancelButton: true,
+            confirmButtonColor: '#1467D2',
+            cancelButtonColor: '#E5231E',
+            confirmButtonText: 'Có, xóa!',
+            cancelButtonText: 'Hủy',
+            showLoaderOnConfirm: true,
+            preConfirm: () => {
+                $.ajax({
+                    type: 'DELETE',
+                    url: 'delete/' + id,
+                    error: function () {
+                        swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+                    },
+                    success: function () {
+                        swal({
+                            type: 'success',
+                            title: 'Đã xóa!',
+                            text: '',
+                            timer: 2000
+                        });
+                        window.setTimeout(function () {
+                            location.reload();
+                        }, 1000);
+                    }
+                });
+            }
+        });
+    }
 
-
+</script>

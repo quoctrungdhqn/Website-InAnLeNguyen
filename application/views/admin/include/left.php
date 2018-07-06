@@ -14,17 +14,25 @@ $total_news_cat = $CI->News_category_model->get_items_num();
         </li>
 
         <li>
+            <a href="<?php echo base_url() ?>admin/menu/view"><i
+                        class="glyphicon glyphicon-chevron-right"></i> Quản lý menu</a>
+        </li>
+
+        <li>
             <a href="<?php echo base_url() ?>admin/news/view"><span
                         class="badge pull-right"><?php echo $total_news; ?></span> Quản lý bài viết</a>
         </li>
+
         <li>
             <a href="<?php echo base_url() ?>admin/news_category/view"><span
                         class="badge pull-right"><?php echo $total_news_cat; ?></span> Danh mục bài viết</a>
         </li>
+
         <li>
             <a href="<?php echo base_url() ?>admin/product/view"><span class="badge pull-right"></span>Quản lý sản
                 phẩm</a>
         </li>
+
         <li>
             <a href="<?php echo base_url() ?>admin/product_category/view"><span class="badge pull-right"></span>
                 Danh

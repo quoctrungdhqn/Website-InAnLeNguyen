@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfa68ac-eeae-409a-8ddc-c03e7924c7ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/user_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/user_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/include/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/user/user_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/user/user_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/admin/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/menu_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/menu_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/comments/binhluan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/include/left.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/include/left.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/menu/menu_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/menu/menu_list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/admin/user/user_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/user/user_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/video/video_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/video/video_list.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,72 +22,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
+      <file leaf-file-name="menu.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="610">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/menu/menu_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170">
+              <caret line="32" column="147" selection-start-line="32" selection-start-column="129" selection-end-line="32" selection-end-column="147" />
               <folding>
-                <element signature="n#save_update#0;n#User#0;n#!!top" />
+                <element signature="e#87#93#0" expanded="true" />
+                <element signature="e#93#99#0" expanded="true" />
+                <element signature="e#99#105#0" expanded="true" />
+                <element signature="e#105#111#0" expanded="true" />
+                <element signature="e#111#117#0" expanded="true" />
+                <element signature="e#117#123#0" expanded="true" />
+                <element signature="e#123#129#0" expanded="true" />
+                <element signature="e#129#135#0" expanded="true" />
+                <element signature="e#87#93#0" expanded="true" />
+                <element signature="e#93#99#0" expanded="true" />
+                <element signature="e#99#105#0" expanded="true" />
+                <element signature="e#105#111#0" expanded="true" />
+                <element signature="e#111#117#0" expanded="true" />
+                <element signature="e#117#123#0" expanded="true" />
+                <element signature="e#123#129#0" expanded="true" />
+                <element signature="e#129#135#0" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#b#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/include/header.php">
+      <file leaf-file-name="menu_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/menu_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="125" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/user_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="140" column="121" selection-start-line="140" selection-start-column="121" selection-end-line="140" selection-end-column="121" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide_list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/slide.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="133" column="45" lean-forward="true" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="45" />
-              <folding>
-                <element signature="n#view#0;n#Slide#0;n#!!top" />
-                <element signature="n#edit#0;n#Slide#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="1972">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
             </state>
           </provider>
         </entry>
@@ -91,9 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>News_Category_Model</find>
-      <find>swal2-container</find>
-      <find>.swal2-container.swal2-center</find>
       <find>pages_edit</find>
       <find>swal(&quot;Đã xóa!&quot;</find>
       <find>container</find>
@@ -121,6 +99,9 @@
       <find>cp_categories</find>
       <find>'cp_slide'</find>
       <find>cp_users</find>
+      <find>exit</find>
+      <find>menus</find>
+      <find>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php echo base_url(); ?&gt;</replace>
@@ -132,8 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/libraries/mynestedsetmodel.php" />
-        <option value="$PROJECT_DIR$/templates/admin/js/sweetalert.js" />
         <option value="$PROJECT_DIR$/templates/admin/css/sweetalert.css" />
         <option value="$PROJECT_DIR$/templates/admin/dist/sweetalert2.min.css" />
         <option value="$PROJECT_DIR$/templates/admin/dist/sweetalert2.css" />
@@ -149,7 +128,6 @@
         <option value="$PROJECT_DIR$/application/views/admin/configuration/configuration_edit.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/slide.php" />
         <option value="$PROJECT_DIR$/application/views/admin/page/page_view.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" />
         <option value="$PROJECT_DIR$/application/views/admin/news/news_list.php" />
         <option value="$PROJECT_DIR$/application/views/admin/news/news_category_list.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/configuration.php" />
@@ -161,7 +139,6 @@
         <option value="$PROJECT_DIR$/application/views/admin/products/product_list.php" />
         <option value="$PROJECT_DIR$/application/views/admin/products/product_edit.php" />
         <option value="$PROJECT_DIR$/templates/admin/css/bootstrap-admin-theme.css" />
-        <option value="$PROJECT_DIR$/application/views/admin/include/left.php" />
         <option value="$PROJECT_DIR$/templates/admin/css/style.css" />
         <option value="$PROJECT_DIR$/application/views/admin/news/news_edit.php" />
         <option value="$PROJECT_DIR$/application/views/admin/dashboard.php" />
@@ -171,18 +148,22 @@
         <option value="$PROJECT_DIR$/application/models/pages_model.php" />
         <option value="$PROJECT_DIR$/application/models/news_category_model.php" />
         <option value="$PROJECT_DIR$/application/models/menu_type_model.php" />
-        <option value="$PROJECT_DIR$/application/models/menu_model.php" />
         <option value="$PROJECT_DIR$/application/models/custom_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/news.php" />
         <option value="$PROJECT_DIR$/application/models/news_model.php" />
         <option value="$PROJECT_DIR$/application/models/product_category_model.php" />
         <option value="$PROJECT_DIR$/application/models/slide_model.php" />
         <option value="$PROJECT_DIR$/application/models/user_group_model.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/user/user_edit.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/user/user_list.php" />
         <option value="$PROJECT_DIR$/application/models/user_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin/user.php" />
         <option value="$PROJECT_DIR$/application/views/admin/include/header.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/include/left.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/user/user_edit.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/user.php" />
+        <option value="$PROJECT_DIR$/application/models/menu_model.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/user/user_list.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/slide/slide_list.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/menu/menu_list.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/menu.php" />
       </list>
     </option>
   </component>
@@ -257,6 +238,22 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="menu" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InAnLeNguyen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InAnLeNguyen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="slide" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -274,7 +271,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="hea&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/header.php&#10;sty&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/templates/admin/css/style.css&#10;rout&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/config/routes.php&#10;le&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php&#10;page&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/controllers/admin/page.php&#10;News_Category_Model&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/models/news_category_model.php&#10;left&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php" />
+    <property name="SearchEverywhereHistoryKey" value="lef&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php&#10;hea&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/header.php&#10;sty&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/templates/admin/css/style.css&#10;rout&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/config/routes.php&#10;le&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php&#10;page&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/controllers/admin/page.php&#10;News_Category_Model&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/models/news_category_model.php&#10;left&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -319,12 +316,12 @@
       <workItem from="1530625545691" duration="7369000" />
       <workItem from="1530669745822" duration="25785000" />
       <workItem from="1530756294732" duration="26543000" />
-      <workItem from="1530848168178" duration="5176000" />
+      <workItem from="1530848168178" duration="16251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93402000" />
+    <option name="totallyTimeSpent" value="104477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -392,45 +389,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/admin/configuration/configuration_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/page/page_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="56" column="37" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="56" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="142" column="112" lean-forward="true" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/mynestedsetmodel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/product_category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeIgniter.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -463,13 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/include/left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -586,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/menu_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/menu_type_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -649,29 +597,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="140" column="121" selection-start-line="140" selection-start-column="121" selection-end-line="140" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_edit.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -680,10 +607,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/include/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="136" column="35" lean-forward="true" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/include/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/custom_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="115" column="112" lean-forward="true" selection-start-line="115" selection-start-column="112" selection-end-line="115" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/news_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="46" column="49" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_category_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/menu_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/menu/menu_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="32" column="147" selection-start-line="32" selection-start-column="129" selection-end-line="32" selection-end-column="147" />
+          <folding>
+            <element signature="e#87#93#0" expanded="true" />
+            <element signature="e#93#99#0" expanded="true" />
+            <element signature="e#99#105#0" expanded="true" />
+            <element signature="e#105#111#0" expanded="true" />
+            <element signature="e#111#117#0" expanded="true" />
+            <element signature="e#117#123#0" expanded="true" />
+            <element signature="e#123#129#0" expanded="true" />
+            <element signature="e#129#135#0" expanded="true" />
+            <element signature="e#87#93#0" expanded="true" />
+            <element signature="e#93#99#0" expanded="true" />
+            <element signature="e#99#105#0" expanded="true" />
+            <element signature="e#105#111#0" expanded="true" />
+            <element signature="e#111#117#0" expanded="true" />
+            <element signature="e#117#123#0" expanded="true" />
+            <element signature="e#123#129#0" expanded="true" />
+            <element signature="e#129#135#0" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#b#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin/slide.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="133" column="45" lean-forward="true" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="45" />
+        <state relative-caret-position="548">
+          <caret line="132" column="112" lean-forward="true" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="112" />
           <folding>
             <element signature="n#view#0;n#Slide#0;n#!!top" />
             <element signature="n#edit#0;n#Slide#0;n#!!top" />
@@ -691,20 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="n#save_update#0;n#User#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/include/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="125" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
+        <state relative-caret-position="610">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
         </state>
       </provider>
     </entry>
