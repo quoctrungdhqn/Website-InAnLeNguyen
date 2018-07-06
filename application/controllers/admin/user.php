@@ -5,7 +5,6 @@ class User extends CI_Controller
 
     public function __construct()
     {
-
         parent::__construct();
         $this->load->model('User_model');
         $this->load->model('User_group_model');
@@ -43,13 +42,11 @@ class User extends CI_Controller
             $data['page_title'] = 'Thêm thành viên';
             $data['label_password'] = 'Mật khẩu';
             $data['placeholder_password'] = 'Mật khẩu';
-            $data['placeholder_confirm_password'] = 'Xác nhận mật khẩu';
         } else {
             $data['formType'] = 'edit';
             $data['page_title'] = 'Sửa thành viên';
             $data['label_password'] = 'Mật khẩu mới';
             $data['placeholder_password'] = 'Để trống nếu không thay đổi';
-            $data['placeholder_confirm_password'] = 'Để trống nếu không thay đổi';
             $data['userInfo'] = $this->User_model->getUserInfo($userid);
         }
 
@@ -103,8 +100,7 @@ class User extends CI_Controller
             $image = $oldImage;
         }
 
-        if (!$id) //Thêm 1 người dùng mới
-        {
+        if (!$id) {
             if ($this->User_model->insertUser($image)) {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/user/view');
@@ -112,8 +108,7 @@ class User extends CI_Controller
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/user/view');
             }
-        } else //Cập nhật người dùng
-        {
+        } else {
             if ($this->User_model->updateUser($image)) {
                 $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/user/view');

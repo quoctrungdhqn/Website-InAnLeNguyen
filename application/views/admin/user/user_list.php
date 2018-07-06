@@ -101,6 +101,13 @@ $userlog = $CI->session->userdata('userLogged');
         });
     });
 
+    $(function () {
+        $(".alert-error").slideUp(0, function () {
+            $(".alert-error").alert('close');
+            swal("Whoops!", "Mật khẩu & xác nhận mật khẩu phải giống nhau.", "error");
+        });
+    });
+
 </script>
 
 <script>

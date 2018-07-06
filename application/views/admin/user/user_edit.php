@@ -134,14 +134,6 @@ date_default_timezone_set("Asia/Bangkok");
                                            name="password" <?php echo ($formType == 'add') ? 'required' : '' ?>>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label class="col-lg-2 control-label" for="typeahead">Xác nhận mật khẩu </label>
-                                <div class="col-lg-10">
-                                    <input type="password" class="form-control"
-                                           id="inputPasswordConfirm" <?php echo ($formType == 'add') ? 'required' : '' ?>
-                                           placeholder="<?php echo $placeholder_confirm_password ?>">
-                                </div>
-                            </div>
                         </fieldset>
                     </div>
 
