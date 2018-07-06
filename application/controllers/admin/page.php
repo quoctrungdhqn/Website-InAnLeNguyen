@@ -41,7 +41,7 @@ class Page extends CI_Controller
             $data['info'] = $this->Pages_Model->get_items_info($id);
         }
         //Lấy dữ liệu danh mục cha
-        $this->load->library('mynestedsetmodel', array('tableName' => 'categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_categories'));
         $parent = $this->mynestedsetmodel->getTree(0, 0, @$catid);
         foreach ($parent as $item) {
             $select[$item->id] = str_repeat('|---', $item->level) . $item->title;

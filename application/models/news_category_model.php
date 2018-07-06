@@ -5,7 +5,7 @@ class News_Category_Model extends CI_Model {
 	function __construct()
     {
         parent::__construct();
-        $this->table_name = 'categories';
+        $this->table_name = 'cp_categories';
     }
 	
 	

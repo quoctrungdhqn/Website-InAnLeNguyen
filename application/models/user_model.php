@@ -6,13 +6,14 @@ class User_model extends CI_Model
     function __construct()
     {
         parent::__construct();
+        $this->table_name = 'cp_users';
     }
 
     function checkLogin($username, $password)
     {
         $this->db->select('u.*, g.id as gId, g.role, g.groupName');
-        $this->db->join('users_groups g', 'g.id=u.userGroup');
-        $query = $this->db->get_where('users u', array('username' => $username, 'password' => $password, 'state' => 1));
+        $this->db->join('cp_users_groups g', 'g.id=u.userGroup');
+        $query = $this->db->get_where('cp_users u', array('username' => $username, 'password' => $password, 'state' => 1));
 
         return $query->row();
     }
@@ -21,9 +22,9 @@ class User_model extends CI_Model
     {
 
         $this->db->select('u.*, g.groupName, g.role');
-        $this->db->join('users_groups AS g', 'u.userGroup=g.id');
+        $this->db->join('cp_users_groups AS g', 'u.userGroup=g.id');
         $this->db->order_by('userGroup', 'ASC');
-        $query = $this->db->get('users u');
+        $query = $this->db->get('cp_users u');
 
         return $query->result();
     }
@@ -32,7 +33,7 @@ class User_model extends CI_Model
     {
         $this->db->select('u.*, g.groupName, g.role');
         $this->db->where('u.userGroup = g.id AND u.id = ', $id);
-        $query = $this->db->get('users u, users_groups AS g');
+        $query = $this->db->get('cp_users u, cp_users_groups AS g');
 
         return $query->row();
     }
@@ -80,7 +81,7 @@ class User_model extends CI_Model
         }
 
         $this->db->where('id', $id);
-        if ($this->db->update('users', $data)) {
+        if ($this->db->update($this->table_name, $data)) {
             return true;
         }
 
@@ -89,7 +90,7 @@ class User_model extends CI_Model
 
     function removeUser($userid)
     {
-        if ($this->db->delete('users', array('id' => $userid)))
+        if ($this->db->delete($this->table_name, array('id' => $userid)))
             return true;
 
         return false;
@@ -100,7 +101,7 @@ class User_model extends CI_Model
         $this->db->select('id, username, firstname, lastname, createdDate');
         $this->db->order_by('id', 'desc');
         $this->db->limit(5);
-        $query = $this->db->get('users');
+        $query = $this->db->get($this->table_name);
 
         return $query->result();
     }

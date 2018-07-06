@@ -10,7 +10,7 @@ class Product_model extends CI_Model
     {
 
         parent::__construct();
-        $this->table_name = 'products';
+        $this->table_name = 'cp_products';
 
     }
 
@@ -29,7 +29,7 @@ class Product_model extends CI_Model
         $this->db->limit($limit, $start);
 
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -51,7 +51,7 @@ class Product_model extends CI_Model
 
         $this->db->where('p.categoryId', $id);
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -70,7 +70,7 @@ class Product_model extends CI_Model
         //$this->db->where('p.categoryId in (1035, 1036, 1037, 1038)');
         $this->db->where('p.published', 1);
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -90,7 +90,7 @@ class Product_model extends CI_Model
         //$this->db->where('p.categoryId in (1035, 1036, 1037, 1038)');
         $this->db->where('p.published', 1);
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -112,7 +112,7 @@ class Product_model extends CI_Model
         $this->db->where('p.categoryId in (1035, 1036, 1037, 1038)');
         $this->db->where('p.published', 1);
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -133,7 +133,7 @@ class Product_model extends CI_Model
         $this->db->where('p.categoryId', $id);
         $this->db->where('p.published', 1);
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -153,7 +153,7 @@ class Product_model extends CI_Model
 
         $this->db->where('c.slug', $slug);
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -171,7 +171,7 @@ class Product_model extends CI_Model
 
         $this->db->limit('8');
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -191,7 +191,7 @@ class Product_model extends CI_Model
 
         $this->db->where('p.categoryId', $catid);
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -208,7 +208,7 @@ class Product_model extends CI_Model
         $this->db->order_by('p.id', 'DESC');
 
 
-        $this->db->join('products_categories c', 'p.categoryId = c.id', 'left');
+        $this->db->join('cp_products_categories c', 'p.categoryId = c.id', 'left');
 
         $this->db->select('p.*, c.name as catTitle');
 
@@ -420,7 +420,7 @@ class Product_model extends CI_Model
 
         $this->db->select('p.id, p.title, c.name as catTitle');
 
-        $this->db->join('products_categories c', 'c.id = p.categoryId');
+        $this->db->join('cp_products_categories c', 'c.id = p.categoryId');
 
         $this->db->order_by('p.id', 'desc');
 

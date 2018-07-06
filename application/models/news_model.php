@@ -6,15 +6,15 @@ class News_Model extends CI_Model
     function __construct()
     {
         parent::__construct();
-        $this->table_name = 'articles';
+        $this->table_name = 'cp_articles';
     }
 
     function get_all_items()
     {
         $this->db->order_by('a.id', 'DESC');
         //$this->db->where('a.published = 1');
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
-        $this->db->join('users u', 'a.created_by=u.id');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_users u', 'a.created_by=u.id');
         $this->db->select('a.*, c.title as catTitle, u.username');
         $result = $this->db->get($this->table_name . ' a');
 
@@ -25,8 +25,8 @@ class News_Model extends CI_Model
     {
         $this->db->order_by('a.id', 'DESC');
         $this->db->limit($limit);
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
-        $this->db->join('users u', 'a.created_by=u.id');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_users u', 'a.created_by=u.id');
         $this->db->select('a.*, c.title as catTitle, u.username');
         $result = $this->db->get($this->table_name . ' a');
 
@@ -50,7 +50,7 @@ class News_Model extends CI_Model
         $where = $this->table_name . '.published = 1 ';
         $this->db->select($select);
         $this->db->from($this->table_name);
-        $this->db->join('categories as category_table', 'category_table.id = ' . $this->table_name . '.id_category', 'left');
+        $this->db->join('cp_categories as category_table', 'category_table.id = ' . $this->table_name . '.id_category', 'left');
         $this->db->where($where);
 
         if (!empty($category)) {
@@ -71,7 +71,7 @@ class News_Model extends CI_Model
     {
         $this->db->order_by('a.id', 'DESC');
         $this->db->limit($limit);
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
         $this->db->select('a.*, c.title as cat_title, c.alias as cat_alias');
         $result = $this->db->get($this->table_name . ' a');
 
@@ -83,7 +83,7 @@ class News_Model extends CI_Model
         $this->db->order_by('a.id', 'DESC');
         $this->db->limit($limit, $start);
 
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
         $this->db->select('a.*, c.title as catTitle');
         $this->db->where("a.id_category IN ($catIds) and a.published = 1");
         $result = $this->db->get($this->table_name . ' a');
@@ -96,7 +96,7 @@ class News_Model extends CI_Model
         $this->db->order_by('a.id', 'DESC');
         $this->db->limit($limit, $start);
 
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
         $this->db->select('a.*, c.title as catTitle');
         $this->db->where("a.id_category IN ($catIds)");
         $result = $this->db->get($this->table_name . ' a');
@@ -107,7 +107,7 @@ class News_Model extends CI_Model
     function get_items_info($id)
     {
         $this->db->order_by('a.id', 'DESC');
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
         $this->db->select('a.*, c.title as cat_title');
         $this->db->where("a.id", $id);
         $result = $this->db->get($this->table_name . ' a');
@@ -118,7 +118,7 @@ class News_Model extends CI_Model
     function get_items_alias($alias)
     {
         $this->db->order_by('a.id', 'DESC');
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
         $this->db->select('a.*, c.title as cat_title, c.alias as cat_alias');
         $this->db->where("a.alias", $alias);
         $result = $this->db->get($this->table_name . ' a');
@@ -129,7 +129,7 @@ class News_Model extends CI_Model
     function get_items_relative($cat_id)
     {
         $this->db->order_by('a.id', 'DESC');
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
         $this->db->select('a.*, c.title as cat_title, c.alias as cat_alias');
         //$this->db->where("a.id_category", $cat_id);
         $result = $this->db->get($this->table_name . ' a');
@@ -210,10 +210,7 @@ class News_Model extends CI_Model
             'seo_title' => $this->input->post('seo_title'),
             'seo_keyword' => $this->input->post('seo_keyword'),
             'seo_description' => $this->input->post('seo_description'),
-            'featured' => $this->input->post('featured'),
-            'published' => $this->input->post('published'),
-            'title_en' => $this->input->post('title_en'),
-            'detail_en' => $this->input->post('detail_en')
+            'published' => $this->input->post('published')
         );
 
         $this->db->where('id', $id);
@@ -273,7 +270,7 @@ class News_Model extends CI_Model
 
         $this->db->where('p.id_category', $id);
 
-        $this->db->join('categories c', 'p.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'p.id_category = c.id', 'left');
 
         $this->db->select('p.*');
 
@@ -289,7 +286,7 @@ class News_Model extends CI_Model
         $this->db->order_by('id', 'RANDOM');
         $this->db->limit($limit);
         $this->db->where('p.id_category', $catid);
-        $this->db->join('categories c', 'p.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'p.id_category = c.id', 'left');
         $this->db->select('p.*, c.title as catTitle');
         $result = $this->db->get($this->table_name . ' p');
 

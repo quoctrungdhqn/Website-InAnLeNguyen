@@ -20,7 +20,7 @@ class News_Category extends CI_Controller
 
     public function view()
     {
-        $this->load->library('mynestedsetmodel', array('tableName' => 'categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_categories'));
         $list = $this->mynestedsetmodel->getTree(0, 0);
 
         $data['page_title'] = 'Quản lý danh mục bài viết';
@@ -40,7 +40,7 @@ class News_Category extends CI_Controller
             $data['info'] = $this->News_Category_Model->get_items_info($catid);
         }
 
-        $this->load->library('mynestedsetmodel', array('tableName' => 'categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_categories'));
         $parent = $this->mynestedsetmodel->getTree(0, 0, @$catid);
 
         foreach ($parent as $item) {
@@ -56,7 +56,7 @@ class News_Category extends CI_Controller
     {
         $id = $this->input->post('id');
         $user = $this->session->userdata('userLogged');
-        $this->load->library('mynestedsetmodel', array('tableName' => 'categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_categories'));
         $data = array(
             'title' => $this->input->post('title'),
             'alias' => mb_strtolower(url_title(removesign($this->input->post('title')))),
@@ -95,7 +95,7 @@ class News_Category extends CI_Controller
         $data = $this->news_category_model->getAllProductsCategories();
         $orderArr = $this->input->post('ordering');
 
-        $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_products_categories'));
         $this->mynestedsetmodel->orderTree($data, $orderArr);
         redirect('admin/news_category/view/');
     }
@@ -103,7 +103,7 @@ class News_Category extends CI_Controller
     public function delete($id = null)
     {
         if ($id != null && $id > 0) {
-            $this->load->library('mynestedsetmodel', array('tableName' => 'categories'));
+            $this->load->library('mynestedsetmodel', array('tableName' => 'cp_categories'));
             $this->mynestedsetmodel->removeNode($id, 'branch');
             redirect('admin/news_category/view/');
         }

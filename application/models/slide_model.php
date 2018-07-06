@@ -6,6 +6,7 @@ class Slide_Model extends CI_Model
     function __construct()
     {
         parent::__construct();
+        $this->table_name = 'cp_slide';
     }
 
     function getSliders()
@@ -13,7 +14,7 @@ class Slide_Model extends CI_Model
 
         //$this->db->order_by('id',);
         $this->db->order_by('id', 'DESC');
-        $query = $this->db->get('slide');
+        $query = $this->db->get($this->table_name);
 
         return $query->result();
     }
@@ -21,7 +22,7 @@ class Slide_Model extends CI_Model
     function getSlideInfo($id)
     {
 
-        $result = $this->db->get_where('slide', array('id' => $id));
+        $result = $this->db->get_where($this->table_name, array('id' => $id));
 
         return $result->row();
     }
@@ -34,7 +35,7 @@ class Slide_Model extends CI_Model
             'image' => $image
         );
 
-        if ($this->db->insert('slide', $data)) {
+        if ($this->db->insert($this->table_name, $data)) {
             return true;
         }
         return false;
@@ -51,7 +52,7 @@ class Slide_Model extends CI_Model
 
         $this->db->where('id', $id);
 
-        if ($this->db->update('slide', $data)) {
+        if ($this->db->update($this->table_name, $data)) {
             return true;
         }
         return false;
@@ -62,7 +63,7 @@ class Slide_Model extends CI_Model
         $this->db->where("id", $id);
 
         try {
-            $this->db->delete('slide');
+            $this->db->delete($this->table_name);
 
             return true;
         } catch (Exeption $e) {

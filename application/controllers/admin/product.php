@@ -55,7 +55,7 @@ class Product extends CI_Controller
 
         //Lấy dữ liệu danh mục cha
 
-        $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_products_categories'));
 
         $parent = $this->mynestedsetmodel->getTree(0, 0, @$catid);
 

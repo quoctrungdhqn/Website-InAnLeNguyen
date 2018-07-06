@@ -6,7 +6,7 @@ class Pages_Model extends CI_Model
     function __construct()
     {
         parent::__construct();
-        $this->table_name = 'pages';
+        $this->table_name = 'cp_pages';
     }
 
     function get_all_items()
@@ -28,7 +28,7 @@ class Pages_Model extends CI_Model
         $where = $this->table_name . '.published = 1 ';
         $this->db->select($select);
         $this->db->from($this->table_name);
-        $this->db->join('categories as category_table', 'category_table.id = ' . $this->table_name . '.id_category', 'left');
+        $this->db->join('cp_categories as category_table', 'category_table.id = ' . $this->table_name . '.id_category', 'left');
         $this->db->where($where);
 
         if (!empty($category)) {
@@ -63,7 +63,7 @@ class Pages_Model extends CI_Model
         $this->db->order_by('a.id', 'DESC');
         $this->db->limit($limit, $start);
 
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
         $this->db->select('a.*, c.title as cat_title');
         $this->db->where("a.id_category IN ($catIds)");
         $result = $this->db->get($this->table_name . ' a');
@@ -86,7 +86,7 @@ class Pages_Model extends CI_Model
         $this->db->order_by('a.id', 'DESC');
         $this->db->limit($limit, $start);
 
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
         $this->db->select('a.*, c.title as cat_title');
         $this->db->where("a.id_category IN ($catIds)");
         $result = $this->db->get($this->table_name . ' a');
@@ -109,7 +109,7 @@ class Pages_Model extends CI_Model
     {
         $this->db->order_by('a.id', 'DESC');
         $this->db->limit(20);
-        $this->db->join('categories c', 'a.id_category = c.id', 'left');
+        $this->db->join('cp_categories c', 'a.id_category = c.id', 'left');
         $this->db->select('a.*, c.title as cat_title, c.alias as cat_alias');
         $this->db->where("a.id_category", $cat_id);
         $result = $this->db->get($this->table_name . ' a');

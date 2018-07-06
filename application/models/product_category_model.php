@@ -9,7 +9,7 @@ class Product_Category_Model extends CI_Model
 
         parent::__construct();
 
-        $this->table_name = 'products_categories';
+        $this->table_name = 'cp_products_categories';
 
     }
 
@@ -114,7 +114,7 @@ class Product_Category_Model extends CI_Model
 
         $records = $this->db->select('*')
             ->where('parents', $parentId)
-            ->get('products_categories')
+            ->get($this->table_name)
             ->result_array();  // Lấy record menu với tham số truyền vào là parentId
 
         $menu .= '<ul id="sidebar">';

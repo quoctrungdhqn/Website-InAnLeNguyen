@@ -5,7 +5,7 @@ class Custom_model extends CI_Model {
 	function __construct()
     {
         parent::__construct();
-        $this->table_name = 'custom';
+        $this->table_name = 'cp_custom';
     }
 	
 	function getAllCustom()

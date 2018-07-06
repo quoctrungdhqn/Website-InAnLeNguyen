@@ -22,7 +22,7 @@ class Product_Category extends CI_Controller
 
     {
 
-        $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_products_categories'));
         $list = $this->mynestedsetmodel->getTree(0, 0);
 
         $data['page_title'] = 'Quản lý danh mục sản phẩm';
@@ -56,7 +56,7 @@ class Product_Category extends CI_Controller
 
         }
 
-        $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_products_categories'));
 
         $parent = $this->mynestedsetmodel->getTree(0, 0, @$catid);
 
@@ -78,7 +78,7 @@ class Product_Category extends CI_Controller
     {
         $id = $this->input->post('id');
         $this->load->model('Product_category_model');
-        $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_products_categories'));
         $data = array(
             'name' => $this->input->post('name'),
             'alias' => mb_strtolower(url_title(removesign($this->input->post('name')))),
@@ -121,7 +121,7 @@ class Product_Category extends CI_Controller
         $orderArr = $this->input->post('ordering');
 
 
-        $this->load->library('mynestedsetmodel', array('tableName' => 'products_categories'));
+        $this->load->library('mynestedsetmodel', array('tableName' => 'cp_products_categories'));
 
         $this->mynestedsetmodel->orderTree($data, $orderArr);
 

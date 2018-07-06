@@ -5,7 +5,7 @@ class Menu_Type_Model extends CI_Model {
     function __construct()
     {
         parent::__construct();
-        $this->table_name = 'menus_type';
+        $this->table_name = 'cp_menus_type';
     }
 
     function get_all_items()

@@ -4,7 +4,7 @@ class Menu_model extends CI_Model {
     function __construct()
     {
         parent::__construct();
-        $this->table_name = 'menus';
+        $this->table_name = 'cp_menus';
     }
     public function all()
     {
