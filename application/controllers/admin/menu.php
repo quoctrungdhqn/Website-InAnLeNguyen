@@ -30,7 +30,7 @@ class Menu extends CI_Controller
     {
         $data['list_menu'] = $this->Menu_model->getParents();
 
-        $data['content'] = 'admin/menu_list';
+        $data['content'] = 'admin/menu/menu_list';
         $data['pageTitle'] = 'Quản lý menu';
         $this->template->write_view("content", "admin/menu/menu_list", $data);
         $this->template->render();
@@ -50,19 +50,19 @@ class Menu extends CI_Controller
         $parent = $this->mynestedsetmodel->getTree(0, 0, @$catid);
 
         foreach ($parent as $item) {
-            $select['danh-muc/' . $item->slug] = str_repeat('|---', $item->level) . $item->name;
+            $select['danh-muc/' . $item->alias] = str_repeat('|--', $item->level) . $item->name;
         }
 
         $data['select'] = $select;
 
-        $data['news_category'] = $this->News_Category_Model->getAllCategories();
+        $data['news_category'] = $this->News_Category_Model->get_all_items();
         $data['pages'] = $this->Pages_model->get_all_items();
         $data['menu_type'] = $this->Menu_type_model->get_all_items();
         $this->template->write_view("content", "admin/menu/menu_edit", $data);
         $this->template->render();
     }
 
-    public function saveOrUpdate()
+    public function save_update()
     {
         $id = $this->input->post('id');
 
