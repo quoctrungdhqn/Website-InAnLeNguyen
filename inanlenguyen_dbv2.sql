@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 04, 2018 at 11:31 AM
+-- Generation Time: Jul 06, 2018 at 11:20 AM
 -- Server version: 5.7.17-log
 -- PHP Version: 5.6.30
 
@@ -23,10 +23,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `articles`
+-- Table structure for table `cp_articles`
 --
 
-CREATE TABLE `articles` (
+CREATE TABLE `cp_articles` (
   `id` int(11) NOT NULL,
   `created` date NOT NULL,
   `created_by` int(11) NOT NULL,
@@ -49,22 +49,22 @@ CREATE TABLE `articles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `articles`
+-- Dumping data for table `cp_articles`
 --
 
-INSERT INTO `articles` (`id`, `created`, `created_by`, `modified`, `modified_by`, `title`, `alias`, `id_category`, `featured`, `images`, `detail`, `hits`, `published`, `path`, `seo_description`, `seo_keyword`, `seo_title`, `title_en`, `detail_en`) VALUES
+INSERT INTO `cp_articles` (`id`, `created`, `created_by`, `modified`, `modified_by`, `title`, `alias`, `id_category`, `featured`, `images`, `detail`, `hits`, `published`, `path`, `seo_description`, `seo_keyword`, `seo_title`, `title_en`, `detail_en`) VALUES
 (386, '2018-07-03', 1000, '0000-00-00', NULL, 'In thùng carton đựng hàng tiện lợi và gọn nhẹ cho doanh nghiệp', 'in-thung-carton-dung-hang-tien-loi-va-gon-nhe-cho-doanh-nghiep', 1033, 0, 'in-thung-carton-dung-hang-2.jpg', '<p><strong>In th&ugrave;ng carton đựng h&agrave;ng</strong>&nbsp;h&oacute;a, sản phẩm trong qu&aacute; tr&igrave;nh vận chuyển h&agrave;ng h&oacute;a đi ti&ecirc;u thụ từ nơi n&agrave;y sang nơi kh&aacute;c kh&ocirc;ng c&ograve;n l&agrave; một điều qu&aacute; xa lạ. Sự tiện lợi, gọn nhẹ v&agrave; gi&aacute; th&agrave;nh rẻ l&agrave; l&yacute; do ch&iacute;nh khiến cho việc&nbsp;<a href=\"https://inbaongoc.com/san-pham/in-thung-carton-gia-re-tphcm\">in th&ugrave;ng carton</a>&nbsp;đựng h&agrave;ng trở n&ecirc;n phổ biến v&agrave; nhận được sự y&ecirc;u th&iacute;ch của đ&ocirc;ng đảo người ti&ecirc;u d&ugrave;ng, c&aacute;c cơ sở sản xuất, kinh doanh c&aacute;c mặt h&agrave;ng h&oacute;a. Những chiếc th&ugrave;ng giấy carton với trọng lượng nhẹ, khả năng chống chịu c&aacute;c lực t&aacute;c động b&ecirc;n ngo&agrave;i để bảo vệ, bảo quản sản phẩm cao n&ecirc;n c&agrave;ng ng&agrave;y, th&ugrave;ng carton c&agrave;ng được sử dụng phổ biến v&agrave; rộng r&atilde;i. Những tiện &iacute;ch của những chiếc th&ugrave;ng carton đối với c&aacute;c cơ sở kinh doanh, doanh nghiệp sẽ được đề cập trong b&agrave;i viết sau để thấy được tầm quan trọng của những chiếc th&ugrave;ng giấy carton ở thời điểm hiện nay.</p>\r\n<h2>Vật dụng đựng sản phẩm phổ biến v&agrave; tiện lợi</h2>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-3.jpg\"><img class=\"aligncenter size-full wp-image-5566 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-3.jpg\" alt=\"in thung carton dung hang (3)\" width=\"600\" height=\"520\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-3.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-3.jpg 600w, https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-3-300x260.jpg 300w, https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-3-500x433.jpg 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>&nbsp;</p>\r\n<p>Những chiếc th&ugrave;ng carton đựng h&agrave;ng được in với chất lượng giấy cao v&agrave; cho ra những chiếc th&ugrave;ng giấy c&oacute; chất lượng tốt nhất. C&oacute; độ bền cơ học cao v&agrave; khả năng chịu được những lực t&aacute;c động v&agrave; va chạm mạnh. Gi&uacute;p bảo vệ cho những sản phẩm được đựng trong những chiếc th&ugrave;ng giấy tr&aacute;nh được những lực t&aacute;c động l&agrave;m ảnh hưởng đến chất lượng cũng như ngoại h&igrave;nh của sản phẩm kh&ocirc;ng bị t&aacute;c động l&agrave;m ảnh hưởng đến khả năng ti&ecirc;u thụ của sản phẩm. Những chiếc th&ugrave;ng giấy carton với k&iacute;ch thước lớn nhỏ kh&aacute;c nhau được đặt l&agrave;m theo nhu cầu sử dụng. Mang lại sự tiện lợi cho c&aacute;c cơ sở sản xuất v&agrave; doanh nghiệp kinh doanh trong qu&aacute; tr&igrave;nh vận chuyển h&agrave;ng h&oacute;a đi ti&ecirc;u thụ tr&ecirc;n mọi miền đất nước.</p>\r\n<p>Xem th&ecirc;m:&nbsp;<a href=\"https://inbaongoc.com/nhung-dieu-can-biet-khi-thung-giay-dung-bia.html\"><strong>Những điều cần biết khi in th&ugrave;ng giấy đựng bia</strong></a></p>\r\n<h2>Thu h&uacute;t sự ch&uacute; &yacute; của kh&aacute;ch h&agrave;ng v&agrave; người ti&ecirc;u d&ugrave;ng</h2>\r\n<p>Những chiếc th&ugrave;ng giấy carton khi sử dụng để đựng&nbsp; h&agrave;ng h&oacute;a, sản phẩm. C&aacute;c đơn vị sản xuất kinh c&oacute; thể tự l&ecirc;n &yacute; tưởng v&agrave; thiết kế mẫu m&atilde; ph&ugrave; hợp với nhu cầu sử dụng. Thể hiện được những n&eacute;t ri&ecirc;ng biệt đối với c&aacute;c cơ sở kinh doanh kh&aacute;c. Mang lại một dấu ấn ri&ecirc;ng biệt cho cơ sở v&agrave; thương hiệu của m&igrave;nh. Điều n&agrave;y gi&uacute;p tạo được một ấn tượng s&acirc;u sắc trong l&ograve;ng người ti&ecirc;u d&ugrave;ng, kh&aacute;ch h&agrave;ng sử dụng. V&igrave; vậy m&agrave; c&aacute;c mặt h&agrave;ng, sản phẩm do doanh nghiệp kinh doanh sẽ nhận được sự ủng hộ của đ&ocirc;ng đảo người d&ugrave;ng. C&aacute;c h&igrave;nh ảnh v&agrave; biểu tượng được in ấn tr&ecirc;n c&aacute;c mẫu th&ugrave;ng giấy carton ch&iacute;nh l&agrave; điểm đặc biệt v&agrave; quan trọng gi&uacute;p cho người ti&ecirc;u d&ugrave;ng, kh&aacute;ch h&agrave;ng nhận biết được thương hiệu của h&agrave;ng h&oacute;a, sản phẩm để ti&ecirc;u thụ.</p>\r\n<h2>Marketing thương hiệu hiệu quả v&agrave; g&oacute;p phần bảo vệ m&ocirc;i trường sống</h2>\r\n<p>&nbsp;</p>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-1.jpg\"><img class=\"aligncenter size-full wp-image-5564 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-1.jpg\" alt=\"in thung carton dung hang (1)\" width=\"600\" height=\"450\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-1.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-1.jpg 600w, https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-1-300x225.jpg 300w, https://inbaongoc.com/wp-content/uploads/2018/06/in-thung-carton-dung-hang-1-500x375.jpg 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>Những mẫu th&ugrave;ng giấy carton với h&igrave;nh ảnh v&agrave; logo thương hiệu sản xuất b&ecirc;n ngo&agrave;i. Nhưng th&ocirc;ng tin chi tiết từ t&ecirc;n doanh nghiệp, loại h&agrave;nh h&oacute;a, xuất xứ, hạn sử dụng v&agrave; cả c&aacute;c th&ocirc;ng tin chi tiết để li&ecirc;n hệ trực tiếp. Tất cả những th&ocirc;ng tin cần thiết v&agrave; r&otilde; r&agrave;ng nhất về thương hiệu đều được in r&otilde; r&agrave;ng tr&ecirc;n bề mặt những chiếc th&ugrave;ng carton. Điều n&agrave;y g&oacute;p phần v&agrave;o việc quảng b&aacute; cho thương hiệu một c&aacute;ch hiệu quả v&agrave; người ti&ecirc;u d&ugrave;ng biết đến thương hiệu v&agrave; c&aacute;c sản phẩm m&agrave; doanh nghiệp cung cấp tr&ecirc;n thị trường th&ocirc;ng qua c&aacute;c h&igrave;nh ảnh, biểu tượng v&agrave; logo được in ấn tr&ecirc;n c&aacute;c mẫu từng giấy carton. Ngo&agrave;i ra, khi sử dụng th&ugrave;ng giấy carton, doanh nghiệp cũng đang g&oacute;p phần gi&uacute;p bảo vệ m&ocirc;i trường sống. Bởi chất liệu c&aacute;c sản phẩm&nbsp;<em>in th&ugrave;ng carton đựng h&agrave;ng</em>sử dụng chất liệu giấy th&acirc;n thiện với m&ocirc;i trường. Khả năng tự ph&acirc;n hủy khi thải ra ngo&agrave;i m&ocirc;i trường cao. Ngo&agrave;i ra, in thường giấy carton cũng c&oacute; thể t&aacute;i chế v&agrave; tận dụng để đựng được rất nhiều thứ trong cuộc sống h&agrave;ng ng&agrave;y.</p>', 1, 1, NULL, 'In thùng carton đựng hàng tiện lợi và gọn nhẹ cho doanh nghiệp', 'In thùng carton đựng hàng tiện lợi và gọn nhẹ cho doanh nghiệp', 'In thùng carton đựng hàng tiện lợi và gọn nhẹ cho doanh nghiệp', NULL, NULL),
-(387, '2018-07-03', 1000, '0000-00-00', NULL, 'In bao bì giấy và vai trò đối với các doanh nghiệp kinh doanh', 'in-bao-bi-giay-va-vai-tro-doi-voi-cac-doanh-nghiep-kinh-doanh', 1033, 0, 'in-bao-bi-giay-2.jpg', '<p>Hầu hết c&aacute;c cơ sở kinh doanh, c&aacute;c doanh nghiệp hiện nay đều&nbsp;<strong>in bao b&igrave; giấy</strong>&nbsp;để đựng c&aacute;c sản phẩm m&igrave;nh kinh doanh, cung cấp cho người ti&ecirc;u d&ugrave;ng. Những mẫu sản phẩm khi b&aacute;n ra được đựng trong những chiếc bao b&igrave; giấy, hộp giấy c&agrave;ng l&agrave;m cho gi&aacute; trị của c&aacute;c sản phẩm được đựng trong đ&oacute; c&agrave;ng th&ecirc;m gi&aacute; trị hơn, gi&uacute;p bảo vệ cho sản phẩm tr&aacute;nh được những t&aacute;c động của m&ocirc;i trường b&ecirc;n ngo&agrave;i. Những va đập trong qu&aacute; tr&igrave;nh vận chuyển h&agrave;ng h&oacute;a v&agrave; một số c&aacute;c yếu tố thẩm mỹ cho c&aacute;c sản phẩm khi b&aacute;n ra thị trường v&agrave; đến được với tay của kh&aacute;ch h&agrave;ng, người ti&ecirc;u d&ugrave;ng sản phẩm. Một số những vai tr&ograve; của việc&nbsp;<em>in bao b&igrave; giấy</em>&nbsp;sẽ được đề cập đến trong b&agrave;i viết dưới đ&acirc;y để thấy tầm quan trọng của c&aacute;c mẫu bao b&igrave; giấy đối với c&aacute;c doanh nghiệp kinh doanh.</p>\r\n<h2>Vai tr&ograve; của những chiếc bao b&igrave; giấy ở thời điểm hiện nay</h2>\r\n<p>&nbsp;</p>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3.png\"><img class=\"aligncenter size-full wp-image-5558 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3.png\" alt=\"in bao bi giay (3)\" width=\"600\" height=\"332\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3.png\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3.png 600w, https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3-300x166.png 300w, https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3-500x277.png 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>C&aacute;c sản phẩm bất kỳ hiện nay được b&agrave;y b&aacute;n tr&ecirc;n thị trường đều được ch&uacute; trọng đầu tư về mặt bao b&igrave; sản phẩm như in bao b&igrave; giấy, t&uacute;i giấy để đựng h&agrave;ng cho kh&aacute;ch khi b&aacute;n ra. Mẫu m&atilde;, t&ecirc;n thương hiệu, c&aacute;c th&ocirc;ng tin li&ecirc;n quan tất cả đều được thiết kế, tr&igrave;nh b&agrave;y v&agrave; in ấn một c&aacute;ch chu đ&aacute;o v&agrave; cẩn thận nhất l&ecirc;n bề mặt bao b&igrave; giấy để mang lại hiệu quả về mặt thẩm mỹ tốt nhất cho người xem, người mua v&agrave; c&aacute;c đối tượng kh&aacute;ch h&agrave;ng của doanh nghiệp.</p>\r\n<p>Xem th&ecirc;m:&nbsp;<a href=\"https://inbaongoc.com/bao-bi-giay-dep.html\"><strong>Bao b&igrave; giấy đẹp với c&ocirc;ng việc kinh doanh của c&aacute;c doanh nghiệp hiện nay</strong></a></p>\r\n<h2>Gi&aacute; cả v&agrave; chất lượng của c&aacute;c mẫu bao b&igrave; giấy</h2>\r\n<p>Gi&aacute; cả v&agrave; chất lượng của mỗi một sản phẩm&nbsp;<em>in bao b&igrave; giấy</em>, t&uacute;i giấy hiện nay l&agrave; vấn đề quan t&acirc;m h&agrave;ng đầu của c&aacute;c cơ sở, doanh nghiệp khi l&agrave;m c&aacute;c sản phẩm, mặt h&agrave;ng bao b&igrave; giấy để đựng sản phẩm cho người kinh doanh. Bới c&aacute;c mẫu bao b&igrave; sản phẩm đ&oacute;ng một vai tr&ograve; rất quan trọng trong việc thu h&uacute;t sự ch&uacute; &yacute; của kh&aacute;c h&agrave;ng, người ti&ecirc;u d&ugrave;ng. Khi người d&ugrave;ng c&oacute; sự ch&uacute; &yacute; đến sản phẩm, học sẽ d&agrave;nh thời gian để t&igrave;m hiểu về c&aacute;c sản phẩm m&agrave; c&aacute;c doanh nghiệp cung cấp tr&ecirc;n thị trường cho người d&ugrave;ng. Tất cả c&aacute;c sản phẩm mẫu bao b&igrave; giấy, in hộp giấy đều được thiết kế, in ấn tr&ecirc;n chất liệu giấy cao cấp, mang lại cho người d&ugrave;ng những sản phẩm thu h&uacute;t v&agrave; đẹp mắt nhất. Với c&ocirc;ng nghệ in ấn hiện đại, c&aacute;c sản phẩm được l&agrave;m ra đều được giảm thiểu tối đa chi ph&iacute; sản xuất, v&igrave; vậy m&agrave; gi&aacute; th&agrave;nh của mỗi sản phẩm đều được giảm đi đ&aacute;ng kể. Mang lại cho kh&aacute;ch h&agrave;ng những sản phẩm chất lượng nhất nhất</p>\r\n<h2>Thiết kế, mẫu m&atilde; v&agrave; kiểu d&aacute;ng của c&aacute;c mẫu bao b&igrave; giấy, t&uacute;i giấy</h2>\r\n<p>&nbsp;</p>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4.jpg\"><img class=\"aligncenter size-full wp-image-5559 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4.jpg\" alt=\"in bao bi giay (4)\" width=\"600\" height=\"394\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4.jpg 600w, https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4-300x197.jpg 300w, https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4-500x328.jpg 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>C&aacute;c doanh nghiệp kinh doanh hiện nay đều rất ch&uacute; trọng đến việc đầu tư cho những mẫu in bao b&igrave; giấy cho sản phẩm của doanh nghiệp m&igrave;nh. Điều n&agrave;y gi&uacute;p việc kinh doanh của c&aacute;c cơ sở, thương hiệu được ch&uacute; &yacute; v&agrave; nhận được sự quan t&acirc;m, ch&uacute; &yacute; của đ&ocirc;ng đảo người ti&ecirc;u d&ugrave;ng. C&aacute;c cơ sở kinh doanh, thương hiệu trong c&oacute; thể tự m&igrave;nh l&ecirc;n &yacute; tưởng v&agrave; thiết kế cho thương hiệu của m&igrave;nh những mẫu bao b&igrave; giấy, t&uacute;i giấy đẹp mắt, thu h&uacute;t đồng thời tạo được dấu ấn ri&ecirc;ng của thương hiệu trong mắt người ti&ecirc;u d&ugrave;ng, kh&aacute;ch h&agrave;ng. Một khi đ&atilde; tạo dựng được dấu ấn v&agrave; sự y&ecirc;u th&iacute;ch đối với kh&aacute;ch h&agrave;ng. Người kinh doanh, thương hiệu kinh doanh sẽ nhận được rất nhiều những lợi &iacute;ch kh&aacute;c nhau d&agrave;ng cho thương hiệu v&agrave; những sản phẩm m&agrave; doanh nghiệp bạn kinh doanh.</p>', 1, 1, NULL, 'In bao bì giấy và vai trò đối với các doanh nghiệp kinh doanh', 'In bao bì giấy và vai trò đối với các doanh nghiệp kinh doanh', 'In bao bì giấy và vai trò đối với các doanh nghiệp kinh doanh', NULL, NULL),
+(387, '2018-07-03', 1000, '2018-07-06', 1000, 'In bao bì giấy và vai trò đối với các doanh nghiệp kinh doanh', 'in-bao-bi-giay-va-vai-tro-doi-voi-cac-doanh-nghiep-kinh-doanh', 1033, 0, 'in-bao-bi-giay-2.jpg', '<p>Hầu hết c&aacute;c cơ sở kinh doanh, c&aacute;c doanh nghiệp hiện nay đều&nbsp;<strong>in bao b&igrave; giấy</strong>&nbsp;để đựng c&aacute;c sản phẩm m&igrave;nh kinh doanh, cung cấp cho người ti&ecirc;u d&ugrave;ng. Những mẫu sản phẩm khi b&aacute;n ra được đựng trong những chiếc bao b&igrave; giấy, hộp giấy c&agrave;ng l&agrave;m cho gi&aacute; trị của c&aacute;c sản phẩm được đựng trong đ&oacute; c&agrave;ng th&ecirc;m gi&aacute; trị hơn, gi&uacute;p bảo vệ cho sản phẩm tr&aacute;nh được những t&aacute;c động của m&ocirc;i trường b&ecirc;n ngo&agrave;i. Những va đập trong qu&aacute; tr&igrave;nh vận chuyển h&agrave;ng h&oacute;a v&agrave; một số c&aacute;c yếu tố thẩm mỹ cho c&aacute;c sản phẩm khi b&aacute;n ra thị trường v&agrave; đến được với tay của kh&aacute;ch h&agrave;ng, người ti&ecirc;u d&ugrave;ng sản phẩm. Một số những vai tr&ograve; của việc&nbsp;<em>in bao b&igrave; giấy</em>&nbsp;sẽ được đề cập đến trong b&agrave;i viết dưới đ&acirc;y để thấy tầm quan trọng của c&aacute;c mẫu bao b&igrave; giấy đối với c&aacute;c doanh nghiệp kinh doanh.</p>\r\n<h2>Vai tr&ograve; của những chiếc bao b&igrave; giấy ở thời điểm hiện nay</h2>\r\n<p>&nbsp;</p>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3.png\"><img class=\"aligncenter size-full wp-image-5558 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3.png\" alt=\"in bao bi giay (3)\" width=\"600\" height=\"332\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3.png\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3.png 600w, https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3-300x166.png 300w, https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-3-500x277.png 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>C&aacute;c sản phẩm bất kỳ hiện nay được b&agrave;y b&aacute;n tr&ecirc;n thị trường đều được ch&uacute; trọng đầu tư về mặt bao b&igrave; sản phẩm như in bao b&igrave; giấy, t&uacute;i giấy để đựng h&agrave;ng cho kh&aacute;ch khi b&aacute;n ra. Mẫu m&atilde;, t&ecirc;n thương hiệu, c&aacute;c th&ocirc;ng tin li&ecirc;n quan tất cả đều được thiết kế, tr&igrave;nh b&agrave;y v&agrave; in ấn một c&aacute;ch chu đ&aacute;o v&agrave; cẩn thận nhất l&ecirc;n bề mặt bao b&igrave; giấy để mang lại hiệu quả về mặt thẩm mỹ tốt nhất cho người xem, người mua v&agrave; c&aacute;c đối tượng kh&aacute;ch h&agrave;ng của doanh nghiệp.</p>\r\n<p>Xem th&ecirc;m:&nbsp;<a href=\"https://inbaongoc.com/bao-bi-giay-dep.html\"><strong>Bao b&igrave; giấy đẹp với c&ocirc;ng việc kinh doanh của c&aacute;c doanh nghiệp hiện nay</strong></a></p>\r\n<h2>Gi&aacute; cả v&agrave; chất lượng của c&aacute;c mẫu bao b&igrave; giấy</h2>\r\n<p>Gi&aacute; cả v&agrave; chất lượng của mỗi một sản phẩm&nbsp;<em>in bao b&igrave; giấy</em>, t&uacute;i giấy hiện nay l&agrave; vấn đề quan t&acirc;m h&agrave;ng đầu của c&aacute;c cơ sở, doanh nghiệp khi l&agrave;m c&aacute;c sản phẩm, mặt h&agrave;ng bao b&igrave; giấy để đựng sản phẩm cho người kinh doanh. Bới c&aacute;c mẫu bao b&igrave; sản phẩm đ&oacute;ng một vai tr&ograve; rất quan trọng trong việc thu h&uacute;t sự ch&uacute; &yacute; của kh&aacute;c h&agrave;ng, người ti&ecirc;u d&ugrave;ng. Khi người d&ugrave;ng c&oacute; sự ch&uacute; &yacute; đến sản phẩm, học sẽ d&agrave;nh thời gian để t&igrave;m hiểu về c&aacute;c sản phẩm m&agrave; c&aacute;c doanh nghiệp cung cấp tr&ecirc;n thị trường cho người d&ugrave;ng. Tất cả c&aacute;c sản phẩm mẫu bao b&igrave; giấy, in hộp giấy đều được thiết kế, in ấn tr&ecirc;n chất liệu giấy cao cấp, mang lại cho người d&ugrave;ng những sản phẩm thu h&uacute;t v&agrave; đẹp mắt nhất. Với c&ocirc;ng nghệ in ấn hiện đại, c&aacute;c sản phẩm được l&agrave;m ra đều được giảm thiểu tối đa chi ph&iacute; sản xuất, v&igrave; vậy m&agrave; gi&aacute; th&agrave;nh của mỗi sản phẩm đều được giảm đi đ&aacute;ng kể. Mang lại cho kh&aacute;ch h&agrave;ng những sản phẩm chất lượng nhất nhất</p>\r\n<h2>Thiết kế, mẫu m&atilde; v&agrave; kiểu d&aacute;ng của c&aacute;c mẫu bao b&igrave; giấy, t&uacute;i giấy</h2>\r\n<p>&nbsp;</p>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4.jpg\"><img class=\"aligncenter size-full wp-image-5559 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4.jpg\" alt=\"in bao bi giay (4)\" width=\"600\" height=\"394\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4.jpg 600w, https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4-300x197.jpg 300w, https://inbaongoc.com/wp-content/uploads/2018/06/in-bao-bi-giay-4-500x328.jpg 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>C&aacute;c doanh nghiệp kinh doanh hiện nay đều rất ch&uacute; trọng đến việc đầu tư cho những mẫu in bao b&igrave; giấy cho sản phẩm của doanh nghiệp m&igrave;nh. Điều n&agrave;y gi&uacute;p việc kinh doanh của c&aacute;c cơ sở, thương hiệu được ch&uacute; &yacute; v&agrave; nhận được sự quan t&acirc;m, ch&uacute; &yacute; của đ&ocirc;ng đảo người ti&ecirc;u d&ugrave;ng. C&aacute;c cơ sở kinh doanh, thương hiệu trong c&oacute; thể tự m&igrave;nh l&ecirc;n &yacute; tưởng v&agrave; thiết kế cho thương hiệu của m&igrave;nh những mẫu bao b&igrave; giấy, t&uacute;i giấy đẹp mắt, thu h&uacute;t đồng thời tạo được dấu ấn ri&ecirc;ng của thương hiệu trong mắt người ti&ecirc;u d&ugrave;ng, kh&aacute;ch h&agrave;ng. Một khi đ&atilde; tạo dựng được dấu ấn v&agrave; sự y&ecirc;u th&iacute;ch đối với kh&aacute;ch h&agrave;ng. Người kinh doanh, thương hiệu kinh doanh sẽ nhận được rất nhiều những lợi &iacute;ch kh&aacute;c nhau d&agrave;ng cho thương hiệu v&agrave; những sản phẩm m&agrave; doanh nghiệp bạn kinh doanh.</p>', 1, 1, NULL, 'In bao bì giấy và vai trò đối với các doanh nghiệp kinh doanh', 'In bao bì giấy và vai trò đối với các doanh nghiệp kinh doanh', 'In bao bì giấy và vai trò đối với các doanh nghiệp kinh doanh', '0', '0'),
 (388, '2018-07-03', 1000, '0000-00-00', NULL, 'In name card và một số điều cần lưu ý để có mẫu name card chất lượng', 'in-name-card-va-mot-so-dieu-can-luu-y-de-co-mau-name-card-chat-luong', 1033, 0, 'in-name-card-1.jpg', '<p>Đối với hầu hết c&aacute;c doanh nghiệp kinh doanh, những người c&oacute; vị tr&iacute;, địa vị trong x&atilde; hội th&igrave;&nbsp;<em>in name card</em>&nbsp;một th&agrave;nh phần quan trọng kh&ocirc;ng thể thiếu trong những buổi l&agrave;m việc, gặp gỡ kh&aacute;ch h&agrave;ng, đối t&aacute;c. Khi trao name card cho một người n&agrave;o đ&oacute;, điều đ&oacute; đ&ocirc;ng nghĩa với việc bạn đang cho họ biết m&igrave;nh l&agrave; ai, c&ocirc;ng việc của m&igrave;nh l&agrave; g&igrave; v&agrave; th&ocirc;ng tin li&ecirc;n lạc. Ri&ecirc;ng đối với c&aacute;c doanh nghiệp kinh doanh. Name card l&agrave; một th&agrave;nh phần của bộ nhận diện thương hiệu của doanh nghiệp. V&agrave; hầu hết tất cả c&aacute;c doanh nghiệp kinh doanh đều c&oacute; bộ nhận diện thương hiệu ri&ecirc;ng của m&igrave;nh.</p>\r\n<p>Ngo&agrave;i ra, việc trao đổi name card với nhau cũng thể hiện sự lịch sự d&agrave;nh cho người đối diện. Bởi đối với một v&agrave;i quốc gia, việc hỏi thẳng th&ocirc;ng tin của đối phương l&agrave; một việc kh&ocirc;ng n&ecirc;n. Ch&iacute;nh v&igrave; vậy&nbsp;<strong>in name card</strong>&nbsp;l&agrave; phương tiện cung cấp th&ocirc;ng tin chi tiết về bản một c&aacute; nh&acirc;n, một doanh nghiệp trong qu&aacute; tr&igrave;nh giao lưu, trao đổi c&ocirc;ng việc. L&agrave; một th&agrave;nh phần quan trọng, v&igrave; vậy m&agrave; người sử dụng name card cần lưu &yacute; một số điều cần thiết để c&oacute; một mẫu name card ấn tượng, chuy&ecirc;n nghiệp.</p>\r\n<h2>M&agrave;u sắc của name card cần h&agrave;i h&oacute;a, ph&ugrave; hợp với c&aacute;c chi tiết</h2>\r\n<p>&nbsp;</p>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-2.jpg\"><img class=\"aligncenter size-full wp-image-5551 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-2.jpg\" alt=\"in name card (2)\" width=\"600\" height=\"300\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-2.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-2.jpg 600w, https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-2-300x150.jpg 300w, https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-2-500x250.jpg 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>M&agrave;u sắc của name card thể hiện phần lớn t&iacute;nh c&aacute;ch, t&iacute;nh thẩm mỹ của đối tượng sở hữu. Một mẫu name card kh&ocirc;ng n&ecirc;n qu&aacute; lạm dụng c&aacute;c yếu tố m&agrave;u sắc tr&ecirc;n một tấm name card nhỏ. Trong qu&aacute; tr&igrave;nh giao dịch, l&agrave;m việc name card kh&ocirc;ng chỉ đại diện cho c&aacute; nh&acirc;n người giao dịch m&agrave; c&ograve;n l&agrave; đại diện cho cả doanh nghiệp, tổ chức m&agrave; người đ&oacute; l&agrave;m việc. V&igrave; vậy m&agrave; việc lựa chọn một t&ocirc;ng m&agrave;u ph&ugrave; hợp cho name card l&agrave; một yếu tố quan trọng. Xu hướng thiết kế hiện nay c&agrave;ng đơn gản c&agrave;ng to&aacute;t l&ecirc;n sự tinh tế v&agrave; sang trọng. V&igrave; vậy m&agrave; c&aacute;c mẫu name card c&agrave;ng đơn giản c&agrave;ng thu h&uacute;t sự ch&uacute; &yacute; của người nhận.</p>\r\n<p>Xem th&ecirc;m:&nbsp;<a href=\"https://inbaongoc.com/hien-phong-cach-thong-qua-name-card.html\"><strong>Thể hiện phong c&aacute;ch th&ocirc;ng qua in name card</strong></a></p>\r\n<h2>Ch&uacute; &yacute; đến font chữ sử dụng cho name card</h2>\r\n<p>Khi thiết kế,&nbsp;<em>in name card</em>, cần ch&uacute; &yacute; đến font chữ sử dụng. Kh&ocirc;ng n&ecirc;n sử dụng qu&aacute; nhiều font chữ tr&ecirc;n một mẫu name card, điều đ&oacute; sẽ khiến cho người nh&igrave;n bị rối mắt. N&ecirc;n sử dụng những font chữ quen thuộc, cổ điển dễ đọc v&agrave; dễ nh&igrave;n nhất cho người nhận. M&agrave;u sắc của chữ cần h&agrave;i h&ograve;a nhưng vẫn tạo được sự nổi bật, ấn tượng để thu h&uacute;t được sự ch&uacute; &yacute; khi nh&igrave;n v&agrave;o.</p>\r\n<h2>&nbsp;K&iacute;ch thước của name card n&ecirc;n vừa phải, ph&ugrave; hợp v&agrave; tiện lợi nhất</h2>\r\n<p>&nbsp;</p>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-3.jpg\"><img class=\"aligncenter size-full wp-image-5552 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-3.jpg\" alt=\"in name card (3)\" width=\"600\" height=\"458\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-3.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-3.jpg 600w, https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-3-300x229.jpg 300w, https://inbaongoc.com/wp-content/uploads/2018/06/in-name-card-3-500x382.jpg 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>Việc lựa chọn k&iacute;ch thước cho việc&nbsp;<a href=\"https://inbaongoc.com/san-pham/in-name-card-gia-re\">in name card gi&aacute; rẻ</a>&nbsp;kh&aacute; quan trọng. Bởi k&iacute;ch thước của c&aacute;c mẫu name card cần ph&ugrave; hợp với nhu cầu sử dụng. Thuận tiện cho việc cầm nắm. Kh&ocirc;ng n&ecirc;n lựa chọn k&iacute;ch thước qu&aacute; lớn hay qu&aacute; b&eacute; sẽ g&acirc;y kh&oacute; khăn cho việc cất giữ của người nhận. Hầu hết name card hiện nay đều được l&agrave;m theo một k&iacute;ch thước chuẩn, v&igrave; vậy khi<em>&nbsp;in name card</em>&nbsp;n&ecirc;n sử dụng k&iacute;ch thước chuẩn v&agrave; phổ biến với nhiều người để thuận tiện nhất cho việc cầm nắm v&agrave; cất giữ.</p>\r\n<h2>Chọn cơ sở in ấn chuy&ecirc;n nghiệp, uy t&iacute;n v&agrave; chất lượng</h2>\r\n<p>Việc lựa chọn được một cơ sở&nbsp;<em>in name card chuy&ecirc;n nghiệp</em>&nbsp;v&agrave; uy t&iacute;n sẽ mang lại cho bạn những mẫu name card chất lượng tốt nhất. Điều n&agrave;y tạo n&ecirc;n một c&aacute;i nh&igrave;n kh&aacute;c của người người đối diện khi nhận name card của bạn. V&igrave; vậy bạn n&ecirc;n chọn một cơ sở in ấn c&oacute; uy t&iacute;n để sở hữu cho m&igrave;nh những chiếc name card với chất lượng tốt nhất.</p>', 2, 1, NULL, 'In name card và một số điều cần lưu ý để có mẫu name card chất lượng', 'In name card và một số điều cần lưu ý để có mẫu name card chất lượng', 'In name card và một số điều cần lưu ý để có mẫu name card chất lượng', NULL, NULL),
-(389, '2018-07-03', 1000, '0000-00-00', NULL, 'Chức năng quảng cáo của túi giấy giá rẻ đối với doanh nghiệp', 'chuc-nang-quang-cao-cua-tui-giay-gia-re-doi-voi-doanh-nghiep', 1033, 0, 'tui-giay-gia-re-1.png', '<div class=\"entry_meta\">\r\n<div class=\"row\">\r\n<div class=\"col-sm-5 col-md-4\">\r\n<div class=\"rating-box\">\r\n<div class=\"ratings hreview-aggregate\" data-post=\"5538\"><a href=\"https://inbaongoc.com/danh-muc/in-tui-giay\">In t&uacute;i giấy</a>, hộp giấy gi&aacute; rẻ v&agrave; tất cả c&aacute;c loại bao b&igrave; giấy hiện nay nhận được sự y&ecirc;u th&iacute;ch của đ&ocirc;ng đảo người d&ugrave;ng v&agrave; c&aacute;c cơ sở kinh doanh, c&aacute;c doanh nghiệp sản xuất, kinh doanh c&aacute;c mặt h&agrave;ng sản phẩm để cung cấp cho người ti&ecirc;u d&ugrave;ng. Người kinh doanh v&agrave; c&aacute;c cơ sở kinh doanh hiện nay rất ưa d&ugrave;ng c&aacute;c mẫu&nbsp;<strong>t&uacute;i giấy gi&aacute; rẻ</strong>, bao b&igrave; giấy để đụng sản phẩm của m&igrave;nh bởi khả năng quảng b&aacute; cho thương hiệu v&agrave; giới thiệu, thu h&uacute;t người ti&ecirc;u d&ugrave;ng về những sản m&agrave; cơ sở, doanh nghiệp cung cấp tr&ecirc;n thị trường cho người d&ugrave;ng, kh&aacute;ch h&agrave;ng.</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<p>Rất nhiều những cơ sở kinh doanh hiện nay chọn c&aacute;c mẫu bao b&igrave; giấy, t&uacute;i giấy để đựng c&aacute;c sản phẩm, mặt h&agrave;ng kinh doanh để cung cấp cho người ti&ecirc;u d&ugrave;ng, kh&aacute;ch h&agrave;ng trong qu&aacute; tr&igrave;nh cung cấp sản phẩm cho người d&ugrave;ng. Khả năng quảng c&aacute;o v&agrave; giới thiệu h&agrave;ng h&oacute;a, thương hiệu của c&aacute;c mẫu in t&uacute;i giấy, bao b&igrave; giấy rất cao. V&igrave; vậy, c&aacute;c cơ sở kinh doanh ng&agrave;y c&agrave;ng ưa chuộng việc sử dụng c&aacute;c mẫu in t&uacute;i giấy, bao b&igrave; giấy để đựng sản phẩm đồng thời quảng b&aacute; cho thương hiệu của kinh doanh của m&igrave;nh. Một số c&aacute;c chức năng quảng c&aacute;o của c&aacute;c mẫu in t&uacute;i giấy gi&aacute; rẻ v&agrave; bao b&igrave; giấy đang được ưa chuộng hiện nay.</p>\r\n<h2>In t&uacute;i giấy gi&aacute; rẻ v&agrave; khả năng tiếp cận người ti&ecirc;u d&ugrave;ng</h2>\r\n<p>&nbsp;</p>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1.jpg\"><img class=\"aligncenter size-full wp-image-5539 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1.jpg\" alt=\"tui giay gia re (1)\" width=\"600\" height=\"322\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1.jpg 600w, https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1-300x161.jpg 300w, https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1-500x268.jpg 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>Khả năng tiếp cận người ti&ecirc;u d&ugrave;ng của c&aacute;c mẫu sản phẩm&nbsp;<em>t&uacute;i giấy g&aacute;i rẻ</em>, bao b&igrave; giấy kh&aacute; cao v&agrave; mang lại hiệu quả. Mỗi mẫu m&atilde; v&agrave; thiết kế được in l&ecirc;n t&uacute;i giấy thể hiện được c&aacute; t&iacute;nh v&agrave; những n&eacute;t ri&ecirc;ng biệt của c&aacute;c thương hiệu, cơ sở kinh doanh kh&aacute;c nhau. Doanh nghiệp khi thiết kế, in ấn t&uacute;i giấy đều c&oacute; thể tự l&ecirc;n &yacute; tưởng cho logo thương hiệu của doanh nghiệp để ph&ugrave; hợp nhất với c&aacute;c hoạt động v&agrave; mục đ&iacute;ch ph&aacute;t triển của thương hiệu đ&oacute;. C&aacute;c mẫu t&uacute;i giấy gi&aacute; rẻ, bao b&igrave; giấy g&oacute;p phần gi&uacute;p cho thương hiệu kinh doanh được nhiều người biết đến v&agrave; mang lại hiệu quả quảng b&aacute; cho thương hiệu đ&oacute; trong qu&aacute; tr&igrave;nh người d&ugrave;ng sử dụng.</p>\r\n<p>Xem th&ecirc;m:&nbsp;<a href=\"https://inbaongoc.com/bao-bi-giay-dep.html\"><strong>Bao b&igrave; giấy đẹp với c&ocirc;ng việc kinh doanh của c&aacute;c doanh nghiệp hiện nay</strong></a></p>\r\n<h2>X&acirc;y dựng uy t&iacute;n, tạo dựng mối quan hệ với kh&aacute;ch h&agrave;ng</h2>\r\n<p>Việc x&acirc;y dựng uy t&iacute;n v&agrave; tạo dựng c&aacute;c mối quan hệ với người ti&ecirc;u d&ugrave;ng l&agrave; một việc quan trọng cần thiết. Bởi chỉ khi tạo dựng được sự tin tưởng v&agrave; c&aacute;c mối quan hệ tốt đẹp với kh&aacute;ch h&agrave;ng, khả năng nhận được sự y&ecirc;u th&iacute;ch, quan t&acirc;m v&agrave; sử dụng sản phẩm của người d&ugrave;ng d&agrave;nh cho những mặt h&agrave;ng doanh nghiệp cung cấp cũng tăng l&ecirc;n đ&aacute;ng kể. Từ đ&oacute;, cơ hội quảng c&aacute;o v&agrave; sử dụng c&aacute;c sản phẩm do doanh nghiệp cung cấp tăng l&ecirc;n một c&aacute;ch đ&aacute;ng kể. Ngo&agrave;i ra, việc sử dụng c&aacute;c sản phẩm&nbsp;<em>in t&uacute;i giấy gi&aacute; rẻ chất lượng</em>&nbsp;cũng l&agrave; một c&aacute;ch truyền tải th&ocirc;ng tin được người d&ugrave;ng tin tưởng sử dụng.</p>\r\n<h2>N&acirc;ng cao doanh số b&aacute;n h&agrave;ng cho doanh nghiệp kinh doanh</h2>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2.png\"><img class=\"aligncenter size-full wp-image-5541 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2.png\" alt=\"tui giay gia re (2)\" width=\"600\" height=\"492\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2.png\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2.png 600w, https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2-300x246.png 300w, https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2-500x410.png 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>Người ti&ecirc;u d&ugrave;ng v&agrave; kh&aacute;ch h&agrave;ng hiện nay rất ch&uacute; trọng đến vấn đề mẫu m&atilde; v&agrave; những sản phẩm đựng h&agrave;ng h&oacute;a để cung cấp cho người ti&ecirc;u d&ugrave;ng. Rất nhiều c&aacute;c cơ sở kinh doanh, c&aacute;c doanh nghiệp kh&aacute;c nhau hiện nay đầu tư v&agrave;o việc in t&uacute;i giấy,&nbsp;<em>in bao b&igrave; giấy</em>để đựng sản phẩm do doanh nghiệp m&igrave;nh cung cấp đến cho kh&aacute;ch h&agrave;ng. Điều n&agrave;y gi&uacute;p cho c&aacute;c doanh nghiệp tiếp cận được nhiều hơn với c&aacute;c đối tượng kh&aacute;ch h&agrave;ng kh&aacute;c nhau v&agrave; k&iacute;ch th&iacute;ch nhu cầu mua sắm của họ. Từ đ&oacute;, doanh số b&aacute;n h&agrave;ng của c&aacute;c doanh nghiệp sẽ ng&agrave;y c&agrave;ng tăng cao hơn nhờ việc sử dụng c&aacute;c mẫu bao b&igrave; sản phẩm để tiếp cận với kh&aacute;ch h&agrave;ng, người ti&ecirc;u d&ugrave;ng. Tăng sự ch&uacute; &yacute; của họ d&agrave;nh cho c&aacute;c mặt h&agrave;ng, sản phẩm m&agrave; doanh nghiệp cung cấp.</p>', 1, 1, NULL, 'Chức năng quảng cáo của túi giấy giá rẻ đối với doanh nghiệp', 'Chức năng quảng cáo của túi giấy giá rẻ đối với doanh nghiệp', 'Chức năng quảng cáo của túi giấy giá rẻ đối với doanh nghiệp', NULL, NULL);
+(389, '2018-07-03', 1000, '2018-07-06', 1000, 'Chức năng quảng cáo của túi giấy giá rẻ đối với doanh nghiệp', 'chuc-nang-quang-cao-cua-tui-giay-gia-re-doi-voi-doanh-nghiep', 1033, 0, 'tui-giay-gia-re-1.png', '<div class=\"entry_meta\">\r\n<div class=\"row\">\r\n<div class=\"col-sm-5 col-md-4\">\r\n<div class=\"rating-box\">\r\n<div class=\"ratings hreview-aggregate\" data-post=\"5538\"><a href=\"https://inbaongoc.com/danh-muc/in-tui-giay\">In t&uacute;i giấy</a>, hộp giấy gi&aacute; rẻ v&agrave; tất cả c&aacute;c loại bao b&igrave; giấy hiện nay nhận được sự y&ecirc;u th&iacute;ch của đ&ocirc;ng đảo người d&ugrave;ng v&agrave; c&aacute;c cơ sở kinh doanh, c&aacute;c doanh nghiệp sản xuất, kinh doanh c&aacute;c mặt h&agrave;ng sản phẩm để cung cấp cho người ti&ecirc;u d&ugrave;ng. Người kinh doanh v&agrave; c&aacute;c cơ sở kinh doanh hiện nay rất ưa d&ugrave;ng c&aacute;c mẫu&nbsp;<strong>t&uacute;i giấy gi&aacute; rẻ</strong>, bao b&igrave; giấy để đụng sản phẩm của m&igrave;nh bởi khả năng quảng b&aacute; cho thương hiệu v&agrave; giới thiệu, thu h&uacute;t người ti&ecirc;u d&ugrave;ng về những sản m&agrave; cơ sở, doanh nghiệp cung cấp tr&ecirc;n thị trường cho người d&ugrave;ng, kh&aacute;ch h&agrave;ng.</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<p>Rất nhiều những cơ sở kinh doanh hiện nay chọn c&aacute;c mẫu bao b&igrave; giấy, t&uacute;i giấy để đựng c&aacute;c sản phẩm, mặt h&agrave;ng kinh doanh để cung cấp cho người ti&ecirc;u d&ugrave;ng, kh&aacute;ch h&agrave;ng trong qu&aacute; tr&igrave;nh cung cấp sản phẩm cho người d&ugrave;ng. Khả năng quảng c&aacute;o v&agrave; giới thiệu h&agrave;ng h&oacute;a, thương hiệu của c&aacute;c mẫu in t&uacute;i giấy, bao b&igrave; giấy rất cao. V&igrave; vậy, c&aacute;c cơ sở kinh doanh ng&agrave;y c&agrave;ng ưa chuộng việc sử dụng c&aacute;c mẫu in t&uacute;i giấy, bao b&igrave; giấy để đựng sản phẩm đồng thời quảng b&aacute; cho thương hiệu của kinh doanh của m&igrave;nh. Một số c&aacute;c chức năng quảng c&aacute;o của c&aacute;c mẫu in t&uacute;i giấy gi&aacute; rẻ v&agrave; bao b&igrave; giấy đang được ưa chuộng hiện nay.</p>\r\n<h2>In t&uacute;i giấy gi&aacute; rẻ v&agrave; khả năng tiếp cận người ti&ecirc;u d&ugrave;ng</h2>\r\n<p>&nbsp;</p>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1.jpg\"><img class=\"aligncenter size-full wp-image-5539 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1.jpg\" alt=\"tui giay gia re (1)\" width=\"600\" height=\"322\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1.jpg 600w, https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1-300x161.jpg 300w, https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-1-500x268.jpg 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>Khả năng tiếp cận người ti&ecirc;u d&ugrave;ng của c&aacute;c mẫu sản phẩm&nbsp;<em>t&uacute;i giấy g&aacute;i rẻ</em>, bao b&igrave; giấy kh&aacute; cao v&agrave; mang lại hiệu quả. Mỗi mẫu m&atilde; v&agrave; thiết kế được in l&ecirc;n t&uacute;i giấy thể hiện được c&aacute; t&iacute;nh v&agrave; những n&eacute;t ri&ecirc;ng biệt của c&aacute;c thương hiệu, cơ sở kinh doanh kh&aacute;c nhau. Doanh nghiệp khi thiết kế, in ấn t&uacute;i giấy đều c&oacute; thể tự l&ecirc;n &yacute; tưởng cho logo thương hiệu của doanh nghiệp để ph&ugrave; hợp nhất với c&aacute;c hoạt động v&agrave; mục đ&iacute;ch ph&aacute;t triển của thương hiệu đ&oacute;. C&aacute;c mẫu t&uacute;i giấy gi&aacute; rẻ, bao b&igrave; giấy g&oacute;p phần gi&uacute;p cho thương hiệu kinh doanh được nhiều người biết đến v&agrave; mang lại hiệu quả quảng b&aacute; cho thương hiệu đ&oacute; trong qu&aacute; tr&igrave;nh người d&ugrave;ng sử dụng.</p>\r\n<p>Xem th&ecirc;m:&nbsp;<a href=\"https://inbaongoc.com/bao-bi-giay-dep.html\"><strong>Bao b&igrave; giấy đẹp với c&ocirc;ng việc kinh doanh của c&aacute;c doanh nghiệp hiện nay</strong></a></p>\r\n<h2>X&acirc;y dựng uy t&iacute;n, tạo dựng mối quan hệ với kh&aacute;ch h&agrave;ng</h2>\r\n<p>Việc x&acirc;y dựng uy t&iacute;n v&agrave; tạo dựng c&aacute;c mối quan hệ với người ti&ecirc;u d&ugrave;ng l&agrave; một việc quan trọng cần thiết. Bởi chỉ khi tạo dựng được sự tin tưởng v&agrave; c&aacute;c mối quan hệ tốt đẹp với kh&aacute;ch h&agrave;ng, khả năng nhận được sự y&ecirc;u th&iacute;ch, quan t&acirc;m v&agrave; sử dụng sản phẩm của người d&ugrave;ng d&agrave;nh cho những mặt h&agrave;ng doanh nghiệp cung cấp cũng tăng l&ecirc;n đ&aacute;ng kể. Từ đ&oacute;, cơ hội quảng c&aacute;o v&agrave; sử dụng c&aacute;c sản phẩm do doanh nghiệp cung cấp tăng l&ecirc;n một c&aacute;ch đ&aacute;ng kể. Ngo&agrave;i ra, việc sử dụng c&aacute;c sản phẩm&nbsp;<em>in t&uacute;i giấy gi&aacute; rẻ chất lượng</em>&nbsp;cũng l&agrave; một c&aacute;ch truyền tải th&ocirc;ng tin được người d&ugrave;ng tin tưởng sử dụng.</p>\r\n<h2>N&acirc;ng cao doanh số b&aacute;n h&agrave;ng cho doanh nghiệp kinh doanh</h2>\r\n<p><span class=\"aligncenter\"><a class=\"lightbox-added aligncenter\" href=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2.png\"><img class=\"aligncenter size-full wp-image-5541 lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2.png\" alt=\"tui giay gia re (2)\" width=\"600\" height=\"492\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2.png\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2.png 600w, https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2-300x246.png 300w, https://inbaongoc.com/wp-content/uploads/2018/06/tui-giay-gia-re-2-500x410.png 500w\" data-was-processed=\"true\" /></a></span></p>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p>Người ti&ecirc;u d&ugrave;ng v&agrave; kh&aacute;ch h&agrave;ng hiện nay rất ch&uacute; trọng đến vấn đề mẫu m&atilde; v&agrave; những sản phẩm đựng h&agrave;ng h&oacute;a để cung cấp cho người ti&ecirc;u d&ugrave;ng. Rất nhiều c&aacute;c cơ sở kinh doanh, c&aacute;c doanh nghiệp kh&aacute;c nhau hiện nay đầu tư v&agrave;o việc in t&uacute;i giấy,&nbsp;<em>in bao b&igrave; giấy</em>để đựng sản phẩm do doanh nghiệp m&igrave;nh cung cấp đến cho kh&aacute;ch h&agrave;ng. Điều n&agrave;y gi&uacute;p cho c&aacute;c doanh nghiệp tiếp cận được nhiều hơn với c&aacute;c đối tượng kh&aacute;ch h&agrave;ng kh&aacute;c nhau v&agrave; k&iacute;ch th&iacute;ch nhu cầu mua sắm của họ. Từ đ&oacute;, doanh số b&aacute;n h&agrave;ng của c&aacute;c doanh nghiệp sẽ ng&agrave;y c&agrave;ng tăng cao hơn nhờ việc sử dụng c&aacute;c mẫu bao b&igrave; sản phẩm để tiếp cận với kh&aacute;ch h&agrave;ng, người ti&ecirc;u d&ugrave;ng. Tăng sự ch&uacute; &yacute; của họ d&agrave;nh cho c&aacute;c mặt h&agrave;ng, sản phẩm m&agrave; doanh nghiệp cung cấp.</p>', 2, 1, NULL, 'Chức năng quảng cáo của túi giấy giá rẻ đối với doanh nghiệp', 'Chức năng quảng cáo của túi giấy giá rẻ đối với doanh nghiệp', 'Chức năng quảng cáo của túi giấy giá rẻ đối với doanh nghiệp', '0', '0');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `categories`
+-- Table structure for table `cp_categories`
 --
 
-CREATE TABLE `categories` (
+CREATE TABLE `cp_categories` (
   `id` int(11) NOT NULL,
   `title` varchar(250) NOT NULL,
   `alias` varchar(250) DEFAULT NULL,
@@ -87,43 +87,15 @@ CREATE TABLE `categories` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `categories`
+-- Dumping data for table `cp_categories`
 --
 
-INSERT INTO `categories` (`id`, `title`, `alias`, `parents`, `images`, `level`, `lft`, `rgt`, `path`, `detail`, `published`, `seo_description`, `seo_keyword`, `seo_title`, `created`, `modified`, `created_by`, `modified_by`, `title_en`) VALUES
-(1000, 'Root', 'root', 0, NULL, 0, 0, 19, '', '', 0, '', '', '', '2016-02-18 15:15:47', NULL, 1000, NULL, NULL),
-(1033, 'Tin Tức Ngành In', 'tin-tuc-nganh-in', 1000, NULL, 1, 1, 6, '', '', 1, 'Tin Tức Ngành In', 'Tin Tức Ngành In', 'Tin Tức Ngành In', '2018-07-04 11:30:24', NULL, 1000, NULL, NULL),
-(1034, 'Danh mục khác', 'danh-muc-khac', 1000, NULL, 1, 7, 8, '', '', 1, '', '', '', '2018-07-03 09:09:50', NULL, 1000, NULL, NULL),
-(1035, 'In Danh Thiếp', 'in-danh-thiep', 1033, NULL, 2, 2, 3, '', '', 1, 'In Danh Thiếp', 'In Danh Thiếp', 'In Danh Thiếp', '2018-07-03 09:10:54', NULL, 1000, NULL, NULL),
-(1036, 'In Catalogue', 'in-catalogue', 1033, NULL, 2, 4, 5, '', '', 1, 'In Catalogue', 'In Catalogue', 'In Catalogue', '2018-07-03 09:10:46', NULL, 1000, NULL, NULL),
-(1037, 'Slide 1', 'slide-1', 1000, NULL, 1, 9, 10, '', '', 0, '', '', '', '2018-07-04 11:28:32', NULL, 1000, NULL, NULL),
-(1038, 'Slide 2', 'slide-2', 1000, NULL, 1, 11, 12, '', '', 0, '', '', '', '2018-07-04 11:28:39', NULL, 1000, NULL, NULL),
-(1039, 'Slide 3', 'slide-3', 1000, NULL, 1, 13, 14, '', '', 0, '', '', '', '2018-07-04 11:28:42', NULL, 1000, NULL, NULL),
-(1040, 'Slide 4', 'slide-4', 1000, NULL, 1, 15, 16, '', '', 0, '', '', '', '2018-07-04 11:28:49', NULL, 1000, NULL, NULL),
-(1041, 'Slide 5', 'slide-5', 1000, NULL, 1, 17, 18, '', '', 0, '', '', '', '2018-07-04 11:30:29', NULL, 1000, NULL, NULL);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `comment`
---
-
-CREATE TABLE `comment` (
-  `id` int(11) NOT NULL,
-  `namecm` text CHARACTER SET utf8 NOT NULL,
-  `noidungcm` text CHARACTER SET utf8 NOT NULL,
-  `published` tinyint(1) DEFAULT NULL,
-  `articlesId` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `comment`
---
-
-INSERT INTO `comment` (`id`, `namecm`, `noidungcm`, `published`, `articlesId`) VALUES
-(39, 'nguyễn đức vinh', 'test thử xem sao	\n				\n				', 1, 13),
-(40, 'nguyễn đức vinh 2', '	\n		xong		\n				', 1, 13),
-(63, 'dfdfdtrtr', 'fytuyiu989898trtrtr', 0, 12);
+INSERT INTO `cp_categories` (`id`, `title`, `alias`, `parents`, `images`, `level`, `lft`, `rgt`, `path`, `detail`, `published`, `seo_description`, `seo_keyword`, `seo_title`, `created`, `modified`, `created_by`, `modified_by`, `title_en`) VALUES
+(1000, 'Root', 'root', 0, NULL, 0, 0, 9, '', '', 0, '', '', '', '2016-02-18 15:15:47', NULL, 1000, NULL, NULL),
+(1033, 'Tin Tức Ngành In', 'tin-tuc-nganh-in', 1000, NULL, 1, 1, 6, '', '', 1, 'Tin Tức Ngành In', 'Tin Tức Ngành In', 'Tin Tức Ngành In', '2018-07-06 09:15:58', NULL, 1000, NULL, NULL),
+(1034, 'Danh mục khác', 'danh-muc-khac', 1000, NULL, 1, 7, 8, '', '', 1, '', '', '', '2018-07-06 09:16:04', NULL, 1000, NULL, NULL),
+(1035, 'In Danh Thiếp', 'in-danh-thiep', 1033, NULL, 2, 2, 3, '', '', 1, 'In Danh Thiếp', 'In Danh Thiếp', 'In Danh Thiếp', '2018-07-05 03:40:53', NULL, 1000, NULL, NULL),
+(1036, 'In Catalogue', 'in-catalogue', 1033, NULL, 2, 4, 5, '', '', 1, 'In Catalogue', 'In Catalogue', 'In Catalogue', '2018-07-06 09:16:01', NULL, 1000, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -151,6 +123,99 @@ INSERT INTO `cp_configuration` (`id`, `title`, `code`, `value`, `description`) V
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `cp_custom`
+--
+
+CREATE TABLE `cp_custom` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `slug` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL,
+  `state` tinyint(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `cp_custom`
+--
+
+INSERT INTO `cp_custom` (`id`, `title`, `slug`, `content`, `state`) VALUES
+(23, 'Logo', 'logo', '<header class=\"container\">\n<div class=\"col-md-3\">&nbsp;</div>\n<div class=\"col-md-9\">\n<div class=\"list_hotline\">&nbsp;</div>\n<div class=\"clearfix\">&nbsp;</div>\n<div class=\"list_hotline\">\n<div class=\"item_hotline focus\">\n<p>Địa chỉ: Nhơn L&yacute;</p>\n<p>SĐT: 01699873335 - 0918389417 (Mr. Khải)</p>\n<p>Email: <a href=\"mailto:buiphankhai1979@gmail.com\">buiphankhai1979@gmail.com</a></p>\n<p>Facebook:&nbsp;https://www.facebook.com/thienduongcuabien</p>\n</div>\n</div>\n</div>\n</header>', 0),
+(24, 'Footer', 'footer', '<div class=\"footer\">\n<div class=\"box_support_footer\" style=\"font-size: 40px; color: #fff;\">(+84)909 702470</div>\n<div class=\"container info_footer\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-sm-4\" style=\"padding-left: 5px !important; padding-right: 5px !important;\">\n<ul class=\"list-inline\">\n<li><a href=\"https://www.facebook.com/profile.php?id=100007356495339\" target=\"_blank\"> <img src=\"/templates/default/img/ic_facebook.jpg\" alt=\"Facebook\" /> </a></li>\n<li><a href=\"https://plus.google.com/u/0/108613084553091335459/posts\" target=\"_blank\"> <img src=\"/templates/default/img/ic_google.jpg\" alt=\"Google\" /> </a></li>\n<li><a href=\"https://www.youtube.com/channel/UCFX5CPfXnvHpeis__eSyrnQ\" target=\"_blank\"> <img src=\"/templates/default/img/ic_youtube.jpg\" alt=\"YouTube\" /> </a></li>\n</ul>\n</div>\n</div>\n</div>\n<!-- end .info_footer --></div>\n<div class=\"footer_2\">\n<div class=\"footer_21\">\n<div class=\"info_footer2 container\">\n<div class=\"container-fluid\">\n<p style=\"text-align: center;\"><strong>C&Ocirc;NG TY TNHH QUẢNG C&Aacute;O THƯƠNG MẠI &amp; DU LỊCH&nbsp;SALA&nbsp;</strong><br /> Trụ sở ch&iacute;nh: Lầu 7, T&ograve;a nh&agrave; HPL Số 60 Nguyễn Văn Thủ, P. Đakao, Q.1, TPHCM<br />&nbsp; VPĐD tại B&igrave;nh Định: 182 Hai B&agrave; Trưng, Phường Trần Ph&uacute;, TP.Quy Nhơn, B&igrave;nh Định</p>\n<p style=\"text-align: center;\">VPĐD Tại Huế:&nbsp;94/5 Dương Văn An, Phường Xu&acirc;n Ph&uacute;, Tp. Huế &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n<p style=\"text-align: center;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phone: (08) 9840 6204 - VP B&igrave;nh Định: (056) 3629 642 - Hotline: 0909.70.24.70 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n<p style=\"text-align: center;\">Email: info@salatour.com</p>\n<p style=\"text-align: center;\">Website: salatour.com</p>\n<img class=\"img-responsive\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"/templates/default/img/info_fot.png\" alt=\"\" />\n<p style=\"text-align: center;\">Copyright &copy; 2016 <strong> SaLa Tour </strong></p>\n</div>\n</div>\n</div>\n</div>\n</div>', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cp_footer`
+--
+
+CREATE TABLE `cp_footer` (
+  `id` int(11) NOT NULL,
+  `content` text COLLATE utf8_unicode_ci NOT NULL,
+  `state` tinyint(4) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `cp_footer`
+--
+
+INSERT INTO `cp_footer` (`id`, `content`, `state`) VALUES
+(1, '', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cp_menus`
+--
+
+CREATE TABLE `cp_menus` (
+  `id` int(11) NOT NULL,
+  `parent` int(11) DEFAULT NULL,
+  `name` varchar(50) NOT NULL,
+  `icon` varchar(30) NOT NULL,
+  `slug` varchar(50) NOT NULL,
+  `number` int(11) NOT NULL,
+  `state` tinyint(4) NOT NULL,
+  `id_menutype` int(11) NOT NULL,
+  `seo_description` text NOT NULL,
+  `seo_keyword` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `cp_menus`
+--
+
+INSERT INTO `cp_menus` (`id`, `parent`, `name`, `icon`, `slug`, `number`, `state`, `id_menutype`, `seo_description`, `seo_keyword`) VALUES
+(83, NULL, 'Trang chủ', '', '', 0, 1, 1, '', ''),
+(104, NULL, 'Trang chủ', '', '', 0, 1, 1, '', ''),
+(105, NULL, 'Giới thiệu', '', 'pages/gioi-thieu', 1, 1, 1, '', ''),
+(106, 83, 'Thời khoá biểu', '', 'thoikhoabieu', 3, 1, 1, '', ''),
+(107, NULL, 'Trang chủ', '', '', 0, 1, 1, '', ''),
+(112, 83, 'Thời khoá biểu', '', 'thoikhoabieu', 3, 1, 1, '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cp_menus_type`
+--
+
+CREATE TABLE `cp_menus_type` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `state` tinyint(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `cp_menus_type`
+--
+
+INSERT INTO `cp_menus_type` (`id`, `name`, `state`) VALUES
+(1, 'Top menu', 1),
+(2, 'Right menu', 1),
+(3, 'Bottom menu', 1);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `cp_online`
 --
 
@@ -165,6 +230,154 @@ CREATE TABLE `cp_online` (
 
 INSERT INTO `cp_online` (`ip`, `timestamp`) VALUES
 ('118.68.83.223', '2015-05-27 15:07:29');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cp_pages`
+--
+
+CREATE TABLE `cp_pages` (
+  `id` int(11) NOT NULL,
+  `title` varchar(250) NOT NULL,
+  `title_en` varchar(255) NOT NULL,
+  `detail` text NOT NULL,
+  `detail_en` text NOT NULL,
+  `alias` varchar(250) NOT NULL,
+  `alias_en` varchar(255) NOT NULL,
+  `created` date NOT NULL,
+  `created_by` int(11) NOT NULL,
+  `modified` date NOT NULL,
+  `modified_by` int(11) DEFAULT NULL,
+  `id_category` int(11) NOT NULL,
+  `featured` tinyint(4) NOT NULL DEFAULT '0',
+  `images` varchar(250) DEFAULT NULL,
+  `hits` int(11) NOT NULL DEFAULT '1',
+  `published` tinyint(4) NOT NULL DEFAULT '1',
+  `path` varchar(250) DEFAULT NULL,
+  `seo_title` varchar(250) DEFAULT NULL,
+  `seo_keyword` varchar(250) DEFAULT NULL,
+  `seo_description` varchar(250) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `cp_pages`
+--
+
+INSERT INTO `cp_pages` (`id`, `title`, `title_en`, `detail`, `detail_en`, `alias`, `alias_en`, `created`, `created_by`, `modified`, `modified_by`, `id_category`, `featured`, `images`, `hits`, `published`, `path`, `seo_title`, `seo_keyword`, `seo_description`) VALUES
+(210, 'Liên hệ', '0', '<p>Địa chỉ:&nbsp;23 H&agrave;ng M&atilde;, H&agrave; Nội</p>\r\n<p>SĐT: 0945 301890 (Mr. Lương)</p>\r\n<p>Email:&nbsp;<a href=\"mailto:kinhdoanh@lenguyen.com\" target=\"_blank\">kinhdoanh@lenguyen.com</a></p>\r\n<p>Facebook:&nbsp;https://www.facebook.com</p>', '0', 'lien-he', '', '2018-07-06', 1000, '0000-00-00', NULL, 0, 0, '', 1, 1, NULL, '', '', ''),
+(211, 'Giới thiệu', '0', '<p>Giới thiệu</p>', '0', 'gioi-thieu', '', '2018-07-04', 1000, '0000-00-00', NULL, 0, 0, '', 1, 1, NULL, 'Giới thiệu', 'Giới thiệu', 'Giới thiệu'),
+(212, 'Bảng giá', '', '<p>Bảng gi&aacute; in ...</p>', '', 'bang-gia', '', '2018-07-05', 1000, '0000-00-00', NULL, 0, 0, '', 1, 1, NULL, '', '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cp_products`
+--
+
+CREATE TABLE `cp_products` (
+  `id` int(11) NOT NULL,
+  `title` varchar(250) NOT NULL,
+  `title_en` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `alias` varchar(250) NOT NULL,
+  `image` varchar(250) DEFAULT NULL,
+  `categoryId` int(11) NOT NULL,
+  `detail` text,
+  `detail_en` text,
+  `featured` tinyint(4) NOT NULL DEFAULT '0',
+  `published` tinyint(4) NOT NULL DEFAULT '1',
+  `views` int(11) NOT NULL DEFAULT '1',
+  `price` varchar(250) DEFAULT NULL,
+  `price_old` int(11) DEFAULT NULL,
+  `seo_description` varchar(250) DEFAULT NULL,
+  `seo_keyword` varchar(250) DEFAULT NULL,
+  `seo_title` varchar(250) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `cp_products`
+--
+
+INSERT INTO `cp_products` (`id`, `title`, `title_en`, `alias`, `image`, `categoryId`, `detail`, `detail_en`, `featured`, `published`, `views`, `price`, `price_old`, `seo_description`, `seo_keyword`, `seo_title`) VALUES
+(1, 'IN DECAL TRONG', NULL, 'in-decal-trong', 'in-name-card-1.jpg', 1081, '<p>Điển h&igrave;nh l&agrave; một c&ocirc;ng cụ cung cấp th&ocirc;ng tin sản phẩm về cả th&ocirc;ng số kĩ thuật v&agrave; c&ocirc;ng dụng,&nbsp;<a href=\"http://inbaobigiay.vn/san-pham/in-decal\"><em><strong>in decal</strong></em></a>&nbsp;ng&agrave;y c&agrave;ng c&oacute; nhu cầu cao ứng dụng nhiều trong việc in tem nh&atilde;n sản phẩm đ&ograve;i hỏi t&iacute;nh trung thực để cung cấp th&ocirc;ng tin đầy đủ&nbsp;m&agrave; vẫn th&acirc;y được h&igrave;nh ảnh sản phẩm b&ecirc;n trong. Điển h&igrave;nh như&nbsp;in decal d&aacute;n xe, decal d&aacute;n b&igrave;nh đựng nước, logo d&aacute;n n&oacute;n bảo hiểm, logo d&aacute;n m&aacute;y ATM, nh&atilde;n d&aacute;n mỹ phẩm&hellip;</p>\r\n<div id=\"attachment_4617\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-06.jpg\"><img class=\"in decal trong đẹp gi&aacute; rẻ wp-image-4617 size-full lazyloaded\" title=\"in decal trong đẹp gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-06.jpg\" alt=\"in-decal-trong-gia-re-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal trong đẹp gi&aacute; rẻ</p>\r\n</div>\r\n<h2>Kỹ thuật in decal trong l&agrave; g&igrave;</h2>\r\n<p>C&ocirc;ng nghệ in decal ng&agrave;y c&agrave;ng ph&aacute;t triển, chất lượng in cũng cao hơn, những file vector đ&ograve;i hỏi sắc n&eacute;t. Trước đ&acirc;y, khi c&ocirc;ng nghệ in chưa ph&aacute;t triển, decan trong l&agrave; sử dụng m&aacute;y in hiflex để in, cho n&ecirc;n chất lượng kh&ocirc;ng cao ( 350 pdi ). C&aacute;c loại&nbsp;<a href=\"https://inbaongoc.com/san-pham/in-decal-nhua-pvc-sticker\"><strong>decal nhựa</strong></a>&nbsp;ng&agrave;y c&agrave;ng c&oacute; nhiều v&agrave; đa dạng giống như việc in decal trong vậy.</p>\r\n<p>Ng&agrave;y nay ch&uacute;ng t&ocirc;i sử dụng m&aacute;y&nbsp;<em>chuy&ecirc;n in decal chuy&ecirc;n nghiệp</em>&nbsp;chất lượng cao độ ph&acirc;n giai 1200 pdi. Mực in với độ b&ecirc;n m&agrave;u cao, kh&ocirc;ng thấm nước để mang lại cho kh&aacute;ch h&agrave;ng những mẫu decal chất lượng nhất.</p>\r\n<div id=\"attachment_4616\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-05.jpg\"><img class=\"in decal trong đẹp gi&aacute; rẻ wp-image-4616 size-full lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" title=\"in decal trong đẹp gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-05.jpg\" alt=\"in-decal-trong-gia-re\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal trong đẹp gi&aacute; rẻ</p>\r\n</div>\r\n<h2>Th&ocirc;ng số kĩ thuật v&agrave; in decal trong:</h2>\r\n<p>K&iacute;ch thước: Tem nhỏ nhất với đường k&iacute;nh 5mm đến tem lớn nhất.</p>\r\n<p>Chất liệu: decal sữa, decal trong, decal kim loại, decal giấy.</p>\r\n<p>Số lượng: Kh&ocirc;ng giới hạn.</p>\r\n<p>Độ ph&acirc;n giải: 720 x 720 dpi đến 1440 x 1440 dpi.</p>\r\n<p>Bảo vệ: M&agrave;ng PVC trong suốt (c&aacute;n b&oacute;ng hoặc c&aacute;n mờ).</p>\r\n<p>M&agrave;u sắc: Chuẩn m&agrave;u CMYK hoặc RGB.</p>\r\n<p>Thời gian giao h&agrave;ng: Nhanh nhất c&oacute; thể (t&ugrave;y đơn h&agrave;ng).</p>\r\n<p>Độ bền h&igrave;nh ảnh, m&agrave;u sắc: 6 th&aacute;ng đến 10 năm (t&ugrave;y y&ecirc;u cầu kh&aacute;ch h&agrave;ng).</p>\r\n<div id=\"attachment_4615\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-04.jpg\"><img class=\"in decal trong gi&aacute; rẻ wp-image-4615 size-full lazyloaded\" style=\"display: block; margin-left: auto; margin-right: auto;\" title=\"in decal trong gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-04.jpg\" alt=\"in-decal-trong-dep-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-trong-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal trong gi&aacute; rẻ</p>\r\n</div>\r\n<h2>Tại sao bạn n&ecirc;n lựa chọn ch&uacute;ng t&ocirc;i l&agrave; đơn vị hợp t&aacute;c in decal trong?</h2>\r\n<p>Đơn vị in ấn uy t&iacute;n tại hcm với nhiều năm kinh nghiệm</p>\r\n<p>In ấn nhanh ch&oacute;ng v&agrave; giao h&agrave;ng tận nơi cho kh&aacute;ch h&agrave;ng</p>\r\n<p>Thiết kế ho&agrave;n to&agrave;n miễn ph&iacute; (đối với những mẫu thiết kế kh&ocirc;ng qu&aacute; phức tạp)</p>\r\n<p>Li&ecirc;n hệ ngay với&nbsp;<a href=\"https://inbaongoc.com/\"><strong>in Bảo Ngọc</strong></a>&nbsp;để được tư vấn in decal trong cụ thể v&agrave; tận t&igrave;nh nhất.</p>', NULL, 0, 1, 1, NULL, NULL, 'IN DECAL TRONG', 'IN DECAL TRONG', 'IN DECAL TRONG'),
+(2, 'IN HỘP BÁNH KEM', NULL, 'in-hop-banh-kem', 'in-hop-dung-giay-01.jpg', 1076, '<p>Với sự đa dạng và nhu c&acirc;̀u sử dụng bánh kem ngày càng cao như hi&ecirc;̣n nay, việc&nbsp;<strong><a href=\"http://inbaobigiay.vn/san-pham/hop-banh-kem-9\">in h&ocirc;̣p bánh kem cao cấp&nbsp;</a></strong>&nbsp;là đi&ecirc;̀u c&acirc;̀n thi&ecirc;́t cho các cửa hàng kinh doanh mặt h&agrave;ng, sản ph&acirc;̉m này.</p>\r\n<div id=\"attachment_4491\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-02.jpg\"><img class=\"in hộp b&aacute;nh kem hcm wp-image-4491 size-full lazyloaded\" title=\"in hộp b&aacute;nh kem hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-02.jpg\" alt=\"in-hop-banh-kem-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-02.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-02.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-02-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-02-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-02-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-02-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp b&aacute;nh kem hcm</p>\r\n</div>\r\n<h2>Vai trò của h&ocirc;̣p bánh kem</h2>\r\n<p>Bạn sẽ kh&ocirc;ng thể n&agrave;o vận chuyển m&ocirc;̣t mặt h&agrave;ng, sản ph&acirc;̉m n&agrave;o đ&oacute; từ nơi n&agrave;y sang nơi kh&aacute;c m&agrave; vẫn đảm bảo chất lượng, h&igrave;nh dạng nếu ch&uacute;ng kh&ocirc;ng được chứa đựng hay bảo vệ bởi bất cứ thứ g&igrave;. Bánh kem l&agrave; một trong số đ&oacute;, v&igrave; vậy những chiếc h&ocirc;̣p gi&acirc;́y chính là m&ocirc;̣t phương ti&ecirc;̣n hoàn hảo nhất cho việc vận chuyển v&agrave; bảo quản ch&uacute;ng khỏi những t&aacute;c động từ b&ecirc;n ngo&agrave;i.</p>\r\n<p>Hay bạn đang mu&ocirc;́n ăn bánh kem nhưng lại ở khá xa cửa hàng, bạn đặt hàng và họ sẽ giao h&agrave;ng cho bạn. Trong trường hợp n&agrave;y, những chiếc hộp sẽ gi&uacute;p giữ cho chiếc b&aacute;nh của bạn kh&ocirc;ng bị ảnh hưởng bởi gi&oacute;, mưa, bụi bẩn hay những t&aacute;c động va chạm l&agrave;m b&aacute;nh bị biến dạng.</p>\r\n<div id=\"attachment_4492\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-03.jpg\"><img class=\"in hộp b&aacute;nh kem gi&aacute; rẻ wp-image-4492 size-full lazyloaded\" title=\"in hộp b&aacute;nh kem gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-03.jpg\" alt=\"in-hop-banh-kem-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp b&aacute;nh kem gi&aacute; rẻ</p>\r\n</div>\r\n<p>Bánh kem có bánh to, bánh nhỏ. Vậy n&ecirc;n m&ocirc;̣t sản ph&acirc;̉m h&ocirc;̣p gi&acirc;́y tùy chỉnh, có th&ecirc;̉ thay đ&ocirc;̉i kích thước sẽ giúp chứa đựng các loại bánh mà kh&ocirc;ng làm bi&ecirc;́n dạng trong quá trình di chuy&ecirc;̉n.</p>\r\n<p>Ngo&agrave;i ra, hộp b&aacute;nh kem cũng l&agrave; phương ti&ecirc;̣n quảng bá hình ảnh cho cửa hàng rất hiệu quả. V&agrave; đ&acirc;y là m&ocirc;̣t trong những mục đích của cửa hàng khi quy&ecirc;́t định đặt&nbsp;<a href=\"https://inbaongoc.com/danh-muc/in-hop-giay\"><strong>in h&ocirc;̣p giấy</strong></a>&nbsp;đựng bánh kem cho cơ sở của m&igrave;nh. Mỗi thương hiệu sẽ c&oacute; cho m&igrave;nh một mẫu hộp giấy đựng b&aacute;nh kem ri&ecirc;ng để tạo điểm nhấn v&agrave; thu h&uacute;t kh&aacute;ch h&agrave;ng. Những h&igrave;nh ảnh, logo v&agrave; t&ecirc;n thương hiệu được in ấn chi tiết, r&otilde; r&agrave;ng tr&ecirc;n mặt hộp là cách đ&ecirc;̉ quảng bá hình ảnh v&agrave; thương hi&ecirc;̣u của m&igrave;nh t&ocirc;́t nh&acirc;́t.</p>\r\n<h2>In h&ocirc;̣p bánh kem ch&acirc;́t li&ecirc;̣u gi&acirc;́y kraft</h2>\r\n<p>Tr&ecirc;n thị trường có r&acirc;́t nhi&ecirc;̀u loại gi&acirc;́y in khác nhau, và h&ocirc;̣p đựng b&aacute;nh kem cũng được làm từ nhi&ecirc;̀u loại gi&acirc;́y kh&aacute;c nhau. T&ugrave;y v&agrave;o khả năng v&agrave; nhu cầu sử dụng m&agrave; c&aacute;c cơ sở kinh doanh b&aacute;nh sẽ sử dụng c&aacute;c loại giấy ph&ugrave; hợp để in hộp giấy b&aacute;nh kem cho thương hiệu của m&igrave;nh. Các loại gi&acirc;́y như couche, Bristol, duplex&hellip;l&agrave; những loại giấy thường được dùng đ&ecirc;̉ in h&ocirc;̣p đựng bánh kem.</p>\r\n<p>M&ocirc;̣t loại gi&acirc;́y khá đặc bi&ecirc;̣t, chỉ mới được sử dụng nhi&ecirc;̀u đ&ecirc;̉ in &acirc;́n bao bì gi&acirc;́y trong những năm g&acirc;̀n đ&acirc;y đó chính là gi&acirc;́y kraft. H&ocirc;̣p gi&acirc;́y bánh kem ch&acirc;́t li&ecirc;̣u gi&acirc;́y kraft khá là mới mẻ, nhưng lại mang hi&ecirc;̣u quả cho sản ph&acirc;̉m.</p>\r\n<div id=\"attachment_4493\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-04.jpg\"><img class=\"in hộp b&aacute;nh kem đẹp hcm wp-image-4493 size-full lazyloaded\" title=\"in hộp b&aacute;nh kem đẹp hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-04.jpg\" alt=\"in-hop-banh-kem-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp b&aacute;nh kem đẹp hcm</p>\r\n</div>\r\n<p>Với tính ch&acirc;́t đanh dẻo dai, đ&ocirc;̣ b&ecirc;̀n chắc cao. Gi&acirc;́y kraft khi sử dụng đ&ecirc;̉ in h&ocirc;̣p gi&acirc;́y sẽ tạo sự chắc chắn cho sản ph&acirc;̉m, tăng đ&ocirc;̣ b&ecirc;̀n. Màu sắc n&acirc;u vàng đặc trưng, khi th&agrave;nh phẩm sẽ mang đến một ch&uacute;t cảm giác c&ocirc;̉ đi&ecirc;̉n, cũ xưa n&ecirc;n thích hợp với những cửa hi&ecirc;̣u bánh gia truy&ecirc;̀n. Hơn nữa, còn tạo ra sự n&ocirc;̉i b&acirc;̣t cho h&ocirc;̣p gi&acirc;́y trước những sản ph&acirc;̉m ch&acirc;́t li&ecirc;̣u gi&acirc;́y khác. Là loại gi&acirc;́y có khả năng ph&acirc;n hủy nhanh, sử dụng gi&acirc;́y kraft còn góp ph&acirc;̀n bảo v&ecirc;̣ m&ocirc;i trường sống.</p>\r\n<p>Với những tiện &iacute;ch mang lại,&nbsp;<em><strong>in h&ocirc;̣p bánh kem gi&acirc;́y kraft</strong></em>&nbsp;sẽ là lựa chọn tạo sự mới mẻ, đ&ocirc;̣c đáo, n&ocirc;̉i b&acirc;̣t cho cửa hàng, tăng hi&ecirc;̣u quả quảng cáo. Nếu bạn muốn in hộp giấy đựng b&aacute;nh kem cho doanh nghiệp của m&igrave;nh, h&atilde;y li&ecirc;n lạc ngay với ch&ugrave;ng t&ocirc;i. Bảo Ngọc chuy&ecirc;n sản xuất&nbsp;<a href=\"https://inbaongoc.com/san-pham/in-hop-giay-cao-cap\"><strong>hộp giấy cao cấp</strong></a>&nbsp;cho mọi người.</p>\r\n<p>C&aacute;c sản phẩm ch&iacute;nh của bạn sẽ được&nbsp;<a href=\"https://inbaongoc.com/\"><strong>c&ocirc;ng ty in Bảo Ngọc</strong></a>&nbsp;ch&uacute;ng t&ocirc;i n&acirc;ng cao tầm gi&aacute; trị nhiều hơn.</p>\r\n<div id=\"attachment_4494\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-05.jpg\"><img class=\"hộp đựng b&aacute;nh sinh nhật wp-image-4494 size-full lazyloaded\" title=\"hộp đựng b&aacute;nh sinh nhật\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-05.jpg\" alt=\"in-hop-banh-kem-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">hộp đựng b&aacute;nh sinh nhật</p>\r\n</div>\r\n<div id=\"attachment_4495\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-06.jpg\"><img class=\"in hộp b&aacute;nh sinh nhật hcm wp-image-4495 size-full lazyloaded\" title=\"in hộp b&aacute;nh sinh nhật hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-06.jpg\" alt=\"in-hop-banh-kem-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-kem-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp b&aacute;nh sinh nhật hcm</p>\r\n</div>\r\n<div id=\"attachment_2843\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-b%C3%A1nh-kem-cao-c%E1%BA%A5p.jpg\"><img class=\"wp-image-2843 lazyloaded\" title=\"in hộp b&aacute;nh kem cao cấp\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-b%C3%A1nh-kem-cao-c%E1%BA%A5p.jpg\" alt=\"in-hop-banh-kem-cao-cap\" width=\"680\" height=\"511\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-cao-cấp.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-cao-cấp.jpg 574w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-cao-cấp-500x375.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-cao-cấp-300x225.jpg 300w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp b&aacute;nh kem cao cấp</p>\r\n</div>\r\n<div id=\"attachment_2844\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-b%C3%A1nh-kem-%C4%91%E1%BA%B9p.jpg\"><img class=\"wp-image-2844 lazyloaded\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-b%C3%A1nh-kem-%C4%91%E1%BA%B9p.jpg\" alt=\"in-hop-banh-kem-dep\" width=\"680\" height=\"453\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-đẹp.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-đẹp.jpg 470w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-đẹp-300x200.jpg 300w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp b&aacute;nh kem đẹp</p>\r\n</div>\r\n<div id=\"attachment_2845\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-b%C3%A1nh-kem-sang-tr%E1%BB%8Dng.jpg\"><img class=\"wp-image-2845 lazyloaded\" title=\"in hộp b&aacute;nh kem sang trọng\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-b%C3%A1nh-kem-sang-tr%E1%BB%8Dng.jpg\" alt=\"in-hop-banh-kem-sang-trong\" width=\"680\" height=\"453\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-sang-trọng.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-sang-trọng.jpg 450w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-sang-trọng-300x200.jpg 300w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp b&aacute;nh kem sang trọng</p>\r\n</div>\r\n<div id=\"attachment_2846\" class=\"wp-caption aligncenter\"><a href=\"https://inbaongoc.com/san-pham/in-hop-giay-gia-re\"><img class=\"wp-image-2846 lazyloaded\" title=\"in hộp giấy gi&aacute; rẻ b&aacute;nh kem\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-b%C3%A1nh-kem.jpg\" alt=\"in-hop-banh-kem\" width=\"680\" height=\"591\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem.jpg 591w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-500x435.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-b&aacute;nh-kem-300x261.jpg 300w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-link\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp giấy gi&aacute; rẻ b&aacute;nh kem</p>\r\n</div>', NULL, 0, 1, 1, NULL, NULL, 'IN HỘP BÁNH KEM', 'IN HỘP BÁNH KEM', 'IN HỘP BÁNH KEM'),
+(3, 'IN HỘP BÁNH PIZZA', NULL, 'in-hop-banh-pizza', 'in-hop-dung-giay-011.jpg', 1076, '<p>Những loại thức ăn nhanh được nhi&ecirc;̀u người Vi&ecirc;̣t Nam lựa chọn đó là gà rán, khoai t&acirc;y chi&ecirc;n, và những năm g&acirc;̀n đ&acirc;y pizza cũng được lựa chọn nhi&ecirc;̀u. Đ&ecirc;̉ đáp ứng nhu c&acirc;̀u của khách hàng thì các cửa hàng thường&nbsp;<em><a href=\"https://inbaongoc.com/danh-muc/in-hop-giay\"><strong>in h&ocirc;̣p gi&acirc;́y đựng pizza</strong></a></em>&nbsp;đ&ecirc;̉ đảm bảo bảo v&ecirc;̣, bảo quản sản ph&acirc;̉m trong quá trình v&acirc;̣n chuy&ecirc;̉n tới cho người ti&ecirc;u dùng.</p>\r\n<p><img class=\"wp-image-2946 aligncenter lazyloaded\" title=\"in hộp pizza hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-pizza-%C4%91%E1%BA%B9p-hcm-1024x686.jpg\" alt=\"in-hop-pizza-dep-hcm\" width=\"680\" height=\"456\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-đẹp-hcm-1024x686.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-đẹp-hcm-1024x686.jpg 1024w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-đẹp-hcm-500x335.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-đẹp-hcm-300x201.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-đẹp-hcm-768x515.jpg 768w\" data-was-processed=\"true\" /></p>\r\n<h2>Ưu đi&ecirc;̉m khi in h&ocirc;̣p pizza</h2>\r\n<p>H&ocirc;̣p pizza được thi&ecirc;́t k&ecirc;́ theo dạng kh&ocirc;́i chữ nh&acirc;̣t là ph&ocirc;̉ bi&ecirc;́n vì khi thi&ecirc;́t k&ecirc;́ theo dạng này khả năng chứa đựng sản ph&acirc;̉m t&ocirc;́t hơn, quá trình sắp x&ecirc;́p v&acirc;̣n chuy&ecirc;̉n d&ecirc;̃ dàng. Vi&ecirc;̣c v&acirc;̣n chuy&ecirc;̉n kh&ocirc;ng chỉ từ&nbsp;<a href=\"https://inbaongoc.com/\"><strong>cơ sở in</strong></a>&nbsp;đ&ecirc;́n cửa hàng mà còn là từ của hàng tới khách hàng của mình. Với dạng kh&ocirc;́i chữ nh&acirc;̣t thì quá trình đó sẽ d&ecirc;̃ dàng hơn.</p>\r\n<p><em><strong>Hộp đựng b&aacute;nh pizza</strong></em>&nbsp;gi&uacute;p bảo vệ được h&igrave;nh d&aacute;ng b&aacute;nh, đồng thời đảm bảo được t&iacute;nh vệ sinh kh&ocirc;ng để bụi bẩn v&agrave; c&aacute;c t&aacute;c nh&acirc;n b&ecirc;n ngo&agrave;i x&acirc;m nhập v&agrave;o. Với một m&oacute;n ăn nhanh như pizza th&igrave; hộp đựng l&agrave; v&ocirc; c&ugrave;ng quan trọng để c&oacute; thể đảm bảo nhất vệ sinh an to&agrave;n thực phẩm, tăng t&iacute;nh ngon miệng v&agrave; th&ecirc;̉ hi&ecirc;̣n ch&acirc;́t lượng của sản ph&acirc;̉m.</p>\r\n<div id=\"attachment_2945\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-pizza-hcm.jpeg\"><img class=\"wp-image-2945 lazyloaded\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-pizza-hcm-1024x773.jpeg\" alt=\"in-hop-pizza-hcm\" width=\"680\" height=\"513\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-hcm-1024x773.jpeg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-hcm-1024x773.jpeg 1024w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-hcm-500x377.jpeg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-hcm-300x226.jpeg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-hcm-768x580.jpeg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-hcm.jpeg 1186w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp pizza gi&aacute; rẻ</p>\r\n</div>\r\n<p>In &acirc;́n tr&ecirc;n ch&acirc;́t li&ecirc;̣u gi&acirc;́y thì hình ảnh, màu sắc được th&ecirc;̉ hi&ecirc;̣n m&ocirc;̣t cách d&ecirc;̃ dàng, khả năng quảng bá t&ocirc;́t cho cửa hàng kinh doanh. Và khi khách hàng dùng đ&ecirc;̉ dành tặng người th&acirc;n bạn bè h&ocirc;̣p gi&acirc;́y được in &acirc;́n đẹp, bắt mắt sẽ th&ecirc;̉ hi&ecirc;̣n được sự sang trọng của nó.</p>\r\n<h2>In h&ocirc;̣p pizza tại in Bảo Ngọc</h2>\r\n<p>Là đơn vị in &acirc;́n chuy&ecirc;n&nbsp;<em><a href=\"http://inbaobigiay.vn/san-pham/in-bao-bi-giay\"><strong>in bao bì gi&acirc;́y hcm</strong></a></em>&nbsp;chứa đựng sản ph&acirc;̉m, chúng t&ocirc;i nh&acirc;̣n in h&ocirc;̣p pizza với ti&ecirc;u chí ch&acirc;́t lượng và giá thành cạnh tranh.</p>\r\n<p>V&ecirc;̀ ch&acirc;́t lượng: h&ocirc;̣p sẽ được in tr&ecirc;n ch&acirc;́t li&ecirc;̣u&nbsp;<a href=\"http://inbaobigiay.vn/san-pham/in-thung-carton\"><strong>th&ugrave;ng gi&acirc;́y carton 3 lớp</strong></a>&nbsp;đ&ecirc;̉ đảm bảo tính chịu lực, và các tránh sự tác đ&ocirc;̣ng v&acirc;̣t lỹ cũng như ảnh hưởng của thời ti&ecirc;́t tới sản ph&acirc;̉m b&ecirc;n trong. Đ&acirc;y là loại gi&acirc;́y có đ&ocirc;̣ b&ecirc;̀n cao, khi thực hi&ecirc;̣n b&ocirc;̀i gi&acirc;́y trắng ở b&ecirc;̀ mặt ngoài, sẽ có khả năng in &acirc;́n nhi&ecirc;̀u hình ảnh, màu sắc và quảng bá hình ảnh thương hi&ecirc;̣u m&ocirc;̣t cách t&ocirc;́t nh&acirc;́t.</p>\r\n<div id=\"attachment_2944\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-pizza-gi%C3%A1-r%E1%BA%BB.jpg\"><img class=\"wp-image-2944 lazyloaded\" title=\"in hộp pizza gi&aacute; rẻ tphcm\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-h%E1%BB%99p-pizza-gi%C3%A1-r%E1%BA%BB-1024x728.jpg\" alt=\"in-hop-pizza-gia-re\" width=\"680\" height=\"483\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-gi&aacute;-rẻ-1024x728.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-gi&aacute;-rẻ-1024x728.jpg 1024w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-gi&aacute;-rẻ-500x355.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-gi&aacute;-rẻ-300x213.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-gi&aacute;-rẻ-768x546.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hộp-pizza-gi&aacute;-rẻ.jpg 1055w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp pizza gi&aacute; rẻ tphcm</p>\r\n</div>\r\n<p>Kích thước của h&ocirc;̣p cũng r&acirc;́t đa dạng đ&ecirc;̉ phù hợp cho từng cỡ bánh khác nhau, các kích thước th&ocirc;ng thường là: 15 x 15 x 4cm, 20 x 20 x 4cm, 25 x 25 x 4cm, 28 x 28 x 4cm, 30 x 30 x 4cm</p>\r\n<p>Đ&ocirc;́i với giá thành: đ&ecirc;̉ có được giá thành t&ocirc;́t thì sẽ in bằng&nbsp;<em>c&ocirc;ng ngh&ecirc;̣ in hi&ecirc;̣n đại in offset</em>, s&ocirc;́ lượng lớn. C&ocirc;ng ngh&ecirc;̣ in này kh&ocirc;ng chỉ đảm bảo v&ecirc;̀ ch&acirc;́t lượng mà in càng nhi&ecirc;̀u thì giá thành càng rẻ.</p>\r\n<p>Và quá trính sản xu&acirc;́t các sản ph&acirc;̉m in &acirc;́n tại&nbsp;<em><strong>in Bảo Ngọc</strong></em>&nbsp;đ&ecirc;̀u hoàn toàn khép kín, n&ecirc;n có th&ecirc;̉ đảm bảo v&ecirc;̀ ch&acirc;́t lượng, giá thành lu&ocirc;n t&ocirc;́t nh&acirc;́t.</p>', NULL, 0, 1, 1, NULL, NULL, 'IN HỘP BÁNH PIZZA', 'IN HỘP BÁNH PIZZA', 'IN HỘP BÁNH PIZZA'),
+(4, 'IN HỘP BÁNH TRUNG THU', NULL, 'in-hop-banh-trung-thu', 'hop-socola.jpg', 1076, '<p>Được bi&ecirc;́t đ&ecirc;́n như m&ocirc;̣t món ăn truy&ecirc;̀n th&ocirc;́ng vào m&ocirc;̃i dịp 15/8 &Acirc;m lịch, bánh trung thu kh&ocirc;ng chỉ được n&acirc;ng cao v&ecirc;̀ ch&acirc;́t lượng mà còn được đ&acirc;̀u tư&nbsp;<a href=\"https://inbaongoc.com/danh-muc/in-hop-giay\"><strong>in &acirc;́n h&ocirc;̣p gi&acirc;́y</strong></a>&nbsp;chứa đựng.</p>\r\n<div id=\"attachment_4507\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-02.jpg\"><img class=\"in hộp b&aacute;nh trung thu gi&aacute; rẻ wp-image-4507 size-full lazyloaded\" title=\"in hộp b&aacute;nh trung thu gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-02.jpg\" alt=\"in-hop-banh-trung-thu-gia-re\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-02.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-02.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-02-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-02-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-02-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-02-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp b&aacute;nh trung thu gi&aacute; rẻ</p>\r\n</div>\r\n<h2>Vai trò của h&ocirc;̣p bánh trung thu</h2>\r\n<p>H&ocirc;̣p bánh trung thu được &ugrave;ng đ&ecirc;̉ chứa đựng sản ph&acirc;̉m, bảo quản trước các y&ecirc;́u t&ocirc;́ thời ti&ecirc;́t, tác đ&ocirc;̣ng của tự nhi&ecirc;n, đ&acirc;y là vai trò cơ bản của&nbsp;<strong>bao bì hộp giấy</strong>&nbsp;nói chung, h&ocirc;̣p gi&acirc;́y nói ri&ecirc;ng. Trong quá trình v&acirc;̣n chuy&ecirc;̉n, h&ocirc;̣p gi&acirc;́y giúp sắp x&ecirc;́p, b&ocirc;́c dỡ hàng hóa d&ecirc;̃ dàng, tạo nhi&ecirc;̀u khoảng tr&ocirc;́ng, sắp x&ecirc;́p được nhi&ecirc;̀u hơn.</p>\r\n<div id=\"attachment_4511\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-06.jpg\"><img class=\"in mẫu b&aacute;nh trung gi&aacute; rẻ wp-image-4511 size-full lazyloaded\" title=\"in mẫu b&aacute;nh trung gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-06.jpg\" alt=\"in-mau-banh-trung-thu-gia-re\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in mẫu b&aacute;nh trung gi&aacute; rẻ</p>\r\n</div>\r\n<p>Bánh trung thu thường được sản xu&acirc;́t vào đúng m&ocirc;̣t dịp trong năm chứ kh&ocirc;ng được trưng bày thường xuy&ecirc;n như các sản ph&acirc;̉m khác. N&ecirc;n h&ocirc;̣p gi&acirc;́y có vai trò quan trọng trong vi&ecirc;̣c giới thi&ecirc;̣u và quảng bá hình ảnh sản ph&acirc;̉m cũng như doanh nghi&ecirc;̣p.</p>\r\n<p>Bánh trung thu được sản xu&acirc;́t ở các nhà máy, tuy nhi&ecirc;n với nhu c&acirc;̀u sử dụng các sản ph&acirc;̉m handmade như hi&ecirc;̣n nay thì in h&ocirc;̣p gi&acirc;́y là m&ocirc;̣t cách đ&ecirc;̉ giúp nh&acirc;̣n di&ecirc;̣n các sản ph&acirc;̉m với nhau. Với sản ph&acirc;̉m&nbsp;<em><strong>handmade thì h&ocirc;̣p giấy đựng</strong></em>&nbsp;lại th&ecirc;m quan trọng, mu&ocirc;́n khách hàng lựa chọn sản ph&acirc;̉m của mình thay vì các thương hi&ecirc;̣u lớn thì vi&ecirc;̣c thi&ecirc;́t k&ecirc;́, đ&acirc;̀u tư in &acirc;́n h&ocirc;̣p bánh trung thu là c&acirc;̀n thi&ecirc;́t.</p>\r\n<div id=\"attachment_4508\" class=\"wp-caption alignnone\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-03.jpg\"><img class=\"in hộp b&aacute;nh trung thu gi&aacute; rẻ tại hcm wp-image-4508 size-full lazyloaded\" title=\"in hộp b&aacute;nh trung thu gi&aacute; rẻ tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-03.jpg\" alt=\"in-hop-banh-trung-thu-gia-re-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp b&aacute;nh trung thu gi&aacute; rẻ tại hcm</p>\r\n</div>\r\n<h2>Ki&ecirc;̉u dáng h&ocirc;̣p bánh trung thu</h2>\r\n<p>H&ocirc;̣p bánh trung thu r&acirc;́t đa dạng, kh&ocirc;ng chỉ có h&ocirc;̣p gi&acirc;́y b&ecirc;n ngoài mà m&ocirc;̃i chi&ecirc;́c bánh cũng có những h&ocirc;̣p đựng ri&ecirc;ng. Có nhi&ecirc;̀u doanh nghi&ecirc;̣p lựa chọn in túi nilong để đựng b&aacute;nh. Tuy nhi&ecirc;n những chiếc hộp giấy sẽ mang lại hiệu quả cao cơn nhiều so với t&uacute;i nilong, v&agrave; điều kiện đi k&egrave;m với hiệu quả mang lại ch&iacute;nh l&agrave; gi&aacute; cả của những chiếc hộp giấy đựng b&aacute;nh cao hơn so với t&uacute;i nilong.</p>\r\n<p>H&ocirc;̣p gi&acirc;́y b&ecirc;n ngoài được thi&ecirc;́t k&ecirc;́ với nhi&ecirc;̀u ki&ecirc;̉u dáng khác nhau và chia thành hai loại cơ bản là h&ocirc;̣p th&ocirc;ng thường và&nbsp;<em><strong>h&ocirc;̣p cao c&acirc;́p</strong></em>. M&ocirc;̃i h&ocirc;̣p gi&acirc;́y có th&ecirc;̉ chứa được từ hai đ&ecirc;́n b&ocirc;́n chi&ecirc;́c bánh, với s&ocirc;́ lượng này thì h&ocirc;̣p sẽ tr&ocirc;ng đẹp, bắt mắt hơn, ngoài ra có th&ecirc;̉ nhi&ecirc;̀u hơn.</p>\r\n<div id=\"attachment_4509\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-04.jpg\"><img class=\"mẫu hộp b&aacute;nh trung thu cao cấp wp-image-4509 size-full lazyloaded\" title=\"mẫu hộp b&aacute;nh trung thu cao cấp\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-04.jpg\" alt=\"in-mau-banh-trung-thu-cao-cap\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">mẫu hộp b&aacute;nh trung thu cao cấp</p>\r\n</div>\r\n<p>H&ocirc;̣p giấy đựng b&aacute;nh trung thu được thi&ecirc;́t k&ecirc;́ ki&ecirc;̉u nắp gài truy&ecirc;̀n th&ocirc;́ng, dán cửa s&ocirc;̉ suppo đ&ecirc;̉ có th&ecirc;̉ nhìn th&acirc;́y sản ph&acirc;̉m b&ecirc;n trong, ch&acirc;́t li&ecirc;̣u gi&acirc;́y sử dụng là couche, duplex,&hellip;vì đ&acirc;y là ki&ecirc;̉u h&ocirc;̣p th&ocirc;ng thường, dành cho những khách hàng mu&ocirc;́n làm quà tặng v&agrave; c&oacute; thu nhập tương đối.</p>\r\n<p>M&ocirc;̣t ki&ecirc;̉u h&ocirc;̣p khác sẽ được thi&ecirc;́t k&ecirc;́ theo dạng&nbsp;<a href=\"http://inbaobigiay.vn/product-category/in-hop-giay/\"><strong><em>h&ocirc;̣p giấy cao c&acirc;́p</em></strong></a>, dùng ch&acirc;́t li&ecirc;̣u gi&acirc;́y t&ocirc;́t, cứng và ki&ecirc;̉u nắp gi&ocirc;́ng với những h&ocirc;̣p quà tặng cao c&acirc;́p, có th&ecirc;̉ được thi&ecirc;́t k&ecirc;́ cửa s&ocirc;̉ hoặc kh&ocirc;ng. T&acirc;́t nhi&ecirc;n đ&acirc;y sẽ là loại h&ocirc;̣p dành cho những người có thu nh&acirc;̣p cao hơn, th&ecirc;̉ hi&ecirc;̣n sự tinh tế v&agrave; trang trọng.</p>\r\n<div id=\"attachment_4510\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-05.jpg\"><img class=\"in mẫu b&aacute;nh trung thu cao cấp wp-image-4510 size-full lazyloaded\" title=\"in mẫu b&aacute;nh trung thu cao cấp\" src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-05.jpg\" alt=\"in-mau-banh-trung-thu-cao-cap\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/11/in-hop-banh-trung-thu-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in mẫu b&aacute;nh trung thu cao cấp</p>\r\n</div>\r\n<p>Với sự đa dạng của&nbsp;<em><strong>h&ocirc;̣p bánh trung thu</strong></em>&nbsp;như hi&ecirc;̣n nay, thì vi&ecirc;̣c lựa chọn các đơn vị in &acirc;́n đ&ecirc;̉ đảm bảo ch&acirc;́t lượng và hi&ecirc;̣u quả mà h&ocirc;̣p gi&acirc;́y mang lại là đi&ecirc;̀u c&acirc;̀n thi&ecirc;́t của cá nh&acirc;n, doanh nghi&ecirc;̣p.</p>\r\n<p>Nếu bạn c&oacute; nhu cầu in hộp giấy đựng b&aacute;nh trung thu, h&atilde;y li&ecirc;n hệ với ch&uacute;ng t&ocirc;i c&ocirc;ng ty In Bảo Ngọc để được tư vẫn v&agrave; hỗ trợ một c&aacute;ch chi tiết nhất. Với hệ thống m&aacute;y m&oacute;c in ấn hiện đai, đội ngũ nh&acirc;n vi&ecirc;n chuy&ecirc;n nghiệp, nhiều kinh nghiệm sẽ mang lại cho bạn những mẫu hộp giấy đựng b&aacute;nh trung thu đẹp mắt, chất lượng cao với gi&aacute; cả ph&ugrave; hợp nhất.</p>\r\n<p>Bạn c&oacute; thể tham khảo th&ecirc;m c&aacute;c sản phẩm kh&aacute;c ở trang chủ của ch&uacute;ng t&ocirc;i trang&nbsp;<a href=\"https://inbaongoc.com/\"><strong>in Bảo Ngọc</strong></a>&nbsp;để xem th&ecirc;m.</p>', NULL, 0, 1, 1, NULL, NULL, '', '', '');
+INSERT INTO `cp_products` (`id`, `title`, `title_en`, `alias`, `image`, `categoryId`, `detail`, `detail_en`, `featured`, `published`, `views`, `price`, `price_old`, `seo_description`, `seo_keyword`, `seo_title`) VALUES
+(5, 'IN TUI GIẤY GIÁ RẺ', NULL, 'in-tui-giay-gia-re', 'in-an-hop-my-pham-giay-kraft.jpg', 1079, '<p>Bạn đang t&igrave;m đơn vị&nbsp;<a href=\"http://inbaobigiay.vn/san-pham/in-tui-giay-re\"><strong>in t&uacute;i giấy</strong>&nbsp;<strong>gi&aacute; rẻ&nbsp;</strong></a>&nbsp;v&agrave; chất lượng tốt nhất? &ndash; Ch&uacute;ng t&ocirc;i c&oacute; thể l&agrave; đơn vị sẽ cung cấp sản phẩm bạn y&ecirc;u cầu với gi&aacute; kh&ocirc;ng phải l&agrave; tốt nhất &ndash; nhưng chất lượng sẽ l&agrave; tốt nhất.&nbsp;Nếu đ&acirc;y l&agrave; lần đầu ti&ecirc;n bạn t&igrave;m kiếm đơn vị cung cấp&nbsp;<strong>sản phẩm t&uacute;i giấy</strong>&nbsp;cho sự kiện của bạn, t&ocirc;i xin tư vấn bạn một số điểm cần lưu &yacute; sau để c&oacute; được sản phẩm như mong đợi.</p>\r\n<div id=\"attachment_4545\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-02.jpg\"><img class=\"in t&uacute;i giấy gi&aacute; rẻ wp-image-4545 size-full lazyloaded\" title=\"in t&uacute;i giấy gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-02.jpg\" alt=\"in-tui-giay-gia-re-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-02.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-02.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-02-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-02-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-02-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-02-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in t&uacute;i giấy gi&aacute; rẻ</p>\r\n</div>\r\n<p>N&oacute;i về chất liệu&nbsp;<strong>t&uacute;i giấy</strong>&nbsp;sẽ c&oacute; phổ biến 3 loại giấy, t&ocirc;i sẽ ph&acirc;n t&iacute;ch theo mức độ từ cao cấp đến phổ th&ocirc;ng.</p>\r\n<h2>Giấy couche in t&uacute;i như thế n&agrave;o ?</h2>\r\n<p>Loại giấy couche<strong>:</strong>&nbsp;đ&acirc;y l&agrave; loại giấy cao cấp, ph&ugrave; hợp để sản xuất t&uacute;i bởi n&oacute; c&oacute; bề mặt l&aacute;ng, trắng, gi&aacute; th&agrave;nh cũng cạnh tranh hơn so với loại giấy mỹ thuật hay c&ograve;n gọi l&agrave; giấy art. Giấy couche ph&ugrave; hợp để&nbsp;<em>in t&uacute;i x&aacute;ch giấy</em>&nbsp;trong c&aacute;c dịp đặc biệt của c&ocirc;ng ty hoặc d&ugrave;ng l&agrave;m t&uacute;i b&aacute;n h&agrave;ng.</p>\r\n<div id=\"attachment_4548\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-05.jpg\"><img class=\"in t&uacute;i giấy gi&aacute; rẻ tại hcm wp-image-4548 size-full lazyloaded\" title=\"in t&uacute;i giấy gi&aacute; rẻ tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-05.jpg\" alt=\"in-tui-giay\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in t&uacute;i giấy gi&aacute; rẻ tại hcm</p>\r\n</div>\r\n<p>C&aacute;c c&ocirc;ng ty lớn đang sử dụng loại giấy n&agrave;y l&agrave;: Thế giới di động, viễn th&ocirc;ng A, Thi&ecirc;n h&ograve;a, Nguyễn Kim&hellip; L&agrave; những c&ocirc;ng ty m&agrave;&nbsp;<a href=\"https://inbaongoc.com/\"><strong>in Bảo Ngọc</strong></a>&nbsp;ch&uacute;ng t&ocirc;i thường xuy&ecirc;n hợp t&aacute;c v&agrave; nhận được sự tin tưởng, h&agrave;i l&ograve;ng từ đối t&aacute;c.</p>\r\n<h2>D&ugrave;ng giấy font để in t&uacute;i giấy</h2>\r\n<p>Loại giấy Fort<strong>:</strong>&nbsp;Với đặc trưng l&agrave; c&oacute; bề mặt nh&aacute;m hơn so với giấy couche, nhưng gi&aacute; th&agrave;nh để c&oacute; được 1 sản phẩm&nbsp;<strong><em>in t&uacute;i giấy rẻ</em></strong>&nbsp;hơn nhiều so với giấy couche. Ưu điểm của giấy Fort l&agrave; gi&aacute; th&agrave;nh tốt, tạo được phong c&aacute;ch lạ, th&acirc;n thiện với m&ocirc;i trường v&igrave; kh&ocirc;ng c&aacute;n m&agrave;ng v&agrave; c&oacute; thể dễ d&agrave;ng bị ph&acirc;n hủy khi kh&ocirc;ng c&ograve;n sử dụng v&agrave; thải ra ngo&agrave;i m&ocirc;i trường.</p>\r\n<div id=\"attachment_4546\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-03.jpg\"><img class=\"in t&uacute;i giấy đẹp wp-image-4546 size-full lazyloaded\" title=\"in t&uacute;i giấy đẹp\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-03.jpg\" alt=\"in-tui-giay-gia-re-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in t&uacute;i giấy đẹp</p>\r\n</div>\r\n<h2>Giấy kraft in ấn t&uacute;i giấy</h2>\r\n<p>Loại giấy Kraft<strong>:</strong>&nbsp;Đ&acirc;y l&agrave; loại giấy t&aacute;i sinh hay c&ograve;n được gọi l&agrave; giấy da b&ograve; bởi n&oacute; c&oacute; m&agrave;u giống da b&ograve;. Giấy kraft cũng c&oacute; 2 loại l&agrave; kraft Việt Nam v&agrave; Kraft Nhật. Phổ biến c&aacute;c c&ocirc;ng ty in sẽ tư vấn cho kh&aacute;ch h&agrave;ng d&ugrave;ng loại Kraft Nhật bởi bề mặt giấy l&aacute;ng mịn, độ đồng đều m&agrave;u sắc của giấy tốt, sớ giấy dai. V&agrave; quan trọng nhất l&agrave; giấy kraft c&oacute; gi&aacute; rẻ chỉ bẳng ph&acirc;n nửa so với giấy couche.&nbsp;<a href=\"https://inbaongoc.com/san-pham/in-tui-giay-kraft\"><strong>T&uacute;i giấy kraft</strong></a>&nbsp;ph&ugrave; hợp nhất cho c&aacute;c shop quần &aacute;o, gi&agrave;y d&eacute;p, c&aacute;c cơ sở kinh doanh mang m&agrave;u sắc cổ điển v&agrave; c&aacute;c của h&agrave;ng kinh doanh h&agrave;ng h&oacute;a c&oacute; quy m&ocirc; nhỏ lẻ.</p>\r\n<p>Với một số những đặc điểm đề cập đến tr&ecirc;n, hy vọng rằng đ&atilde; gi&uacute;p bạn c&oacute; được c&aacute;i nh&igrave;n tổng qu&aacute;t về chất liệu giấy để lựa chọn cho&nbsp; m&igrave;nh những sản phẩm ph&ugrave; hợp nhất với nhu cầu sử dụng.</p>\r\n<div id=\"attachment_4547\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-04.jpg\"><img class=\"in t&uacute;i giấy gi&aacute; rẻ cho shop wp-image-4547 size-full lazyloaded\" title=\"in t&uacute;i giấy gi&aacute; rẻ cho shop\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-04.jpg\" alt=\"in-tui-giay-gia-re-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in t&uacute;i giấy gi&aacute; rẻ cho shop</p>\r\n</div>\r\n<p>Giờ đ&acirc;y bạn chỉ cần điền th&ocirc;ng tin&nbsp;<strong>bảng b&aacute;o gi&aacute; in&nbsp;t&uacute;i giấy&nbsp;</strong>m&agrave;&nbsp;bạn muốn l&agrave;m v&agrave;o biểu mẫu b&ecirc;n dưới,&nbsp;ch&uacute;ng t&ocirc;i sẽ gởi email hoặc gọi lại cho bạn trong v&ograve;ng 30 ph&uacute;t.&nbsp;</p>\r\n<div id=\"attachment_4549\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-06.jpg\"><img class=\"mẫu in t&uacute;i giấy đẹp wp-image-4549 size-full lazyloaded\" title=\"mẫu in t&uacute;i giấy đẹp\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-06.jpg\" alt=\"in-tui-giay-gia-re\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-tui-giay-gia-re-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">mẫu in t&uacute;i giấy đẹp</p>\r\n</div>\r\n<p>Trường hợp bạn muốn tư vấn th&ecirc;m về sản phẩm h&atilde;y để lại số điện thoại, chuy&ecirc;n gia tư vấn của ch&uacute;ng t&ocirc;i sẽ gọi lại v&agrave; gi&uacute;p bạn c&oacute; được sản phẩm&nbsp;<strong>in&nbsp;t&uacute;i giấy</strong>&nbsp;ưng &yacute; nhất với chi ph&iacute; thấp nhất.</p>', NULL, 0, 1, 1, NULL, NULL, '', '', ''),
+(6, 'IN BAO BÌ GIẤY GIÁ RẺ', NULL, 'in-bao-bi-giay-gia-re', 'in-an-hop-my-pham-giay-kraft1.jpg', 1079, '<p>Ng&agrave;y nay, khi nhiều c&ocirc;ng ty c&oacute; c&aacute;c mặt h&agrave;ng sản phẩm giống nhau c&ugrave;ng th&agrave;nh lập th&igrave; khả năng cạnh tranh ng&agrave;y c&agrave;ng g&acirc;y gắt hơn. L&agrave;m sao để sản phẩm của m&igrave;nh chiếm ưu thế trong l&ograve;ng người ti&ecirc;u d&ugrave;ng? Để sản phẩm c&oacute; gi&aacute; cả hợp l&yacute; th&igrave; cần&nbsp;<strong>in bao b&igrave; giấy gi&aacute; rẻ</strong>&nbsp;với nhiều th&ocirc;ng tin thu h&uacute;t hơn.&nbsp;<a href=\"http://inbaobigiay.vn/san-pham/in-tui-giay-re\">In t&uacute;i giấy</a>&nbsp;gi&uacute;p bạn&nbsp;c&oacute; được thị trường&nbsp; ti&ecirc;u thụ rộng lớn. Sản phẩm nhanh ch&oacute;ng được ph&acirc;n phối đến khắp c&aacute;c hệ thống si&ecirc;u thị, chợ hay c&aacute;c cửa h&agrave;ng tạp h&oacute;a v&agrave; nhanh ch&oacute;ng đến tay người ti&ecirc;u d&ugrave;ng. Những th&ocirc;ng tin, h&igrave;nh ảnh được in ấn tr&ecirc;n bao những mẫu bao b&igrave; cũng g&oacute;p phần kh&ocirc;ng nhỏ gi&uacute;p thu h&uacute;t kh&aacute;ch h&agrave;ng, mang lại doanh thu v&agrave; lượng ti&ecirc;u thụ sản phẩm lớn cho doanh nghiệp.</p>\r\n<div id=\"attachment_4586\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-02.jpg\"><img class=\"in bao b&igrave; giấy gi&aacute; rẻ wp-image-4586 size-full lazyloaded\" title=\"in bao b&igrave; giấy gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-02.jpg\" alt=\"in-bao-bi-giay-gia-re\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-02.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-02.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-02-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-02-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-02-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-02-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in bao b&igrave; giấy gi&aacute; rẻ</p>\r\n</div>\r\n<h2>In hộp giấy quảng c&aacute;o</h2>\r\n<p>Những sản phẩm&nbsp;<a href=\"http://inbaobigiay.vn/product-category/in-hop-giay/\">in&nbsp;hộp giấy</a>&nbsp;c&oacute; thiết kế bắt mắt, nội dung hay lu&ocirc;n l&agrave; một cầu nối, một bước đệm quan trọng gi&uacute;p c&aacute;c sản phẩm, thương hiệu của doanh nghiệp ng&agrave;y c&agrave;ng uy t&iacute;n v&agrave; c&oacute; tiếng n&oacute;i hơn tr&ecirc;n thị trường.</p>\r\n<div id=\"attachment_4587\" class=\"wp-caption alignnone\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-03.jpg\"><img class=\"in bao b&igrave; giấy gi&aacute; rẻ tại hcm wp-image-4587 size-full lazyloaded\" title=\"in bao b&igrave; giấy gi&aacute; rẻ tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-03.jpg\" alt=\"in-bao-bi-giay-dep\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in bao b&igrave; giấy gi&aacute; rẻ tại hcm</p>\r\n</div>\r\n<h2>In bao b&igrave; giấy gi&aacute; rẻ</h2>\r\n<p>Lấy v&iacute; dụ doanh nghiệp sản xuất b&aacute;nh Kinh Đ&ocirc;&nbsp;l&agrave; một doanh nghiệp v&ocirc; c&ugrave;ng ph&aacute;t triển. C&aacute;c sản phẩm của họ cung cấp tr&ecirc;n thị trường được nhiều người biết đến v&agrave; tin d&ugrave;ng. V&agrave; l&yacute; do để họ c&oacute; được sự tin tưởng, biết đến của rất nhiều kh&aacute;ch h&agrave;ng l&agrave; bởi họ đ&atilde; kh&ocirc;ng ngần ngại bỏ ra một khoản chi ph&iacute; để đầu tư cho việc thiết kế,&nbsp;<strong>in bao b&igrave; giấy gi&aacute; rẻ</strong>. Những chiếc hộp giấy đựng b&aacute;nh được thiết kế v&agrave; in ấn một c&aacute;ch kh&aacute;c biệt, độc đ&aacute;o, kh&ocirc;ng tr&ugrave;ng lặp, kh&ocirc;ng mang t&iacute;nh chung chung. V&igrave; vậy kh&aacute;ch h&agrave;ng khi nh&igrave;n v&agrave;o sẽ ph&acirc;n biệt được đ&acirc;u l&agrave; những sản phẩn do Kinh Đ&ocirc; sản xuất, cộng th&ecirc;m những th&ocirc;ng tin chi tiết được in ấn tỉ mỉ tr&ecirc;n từng mẫu bao b&igrave;. B&ecirc;n cạnh đ&oacute;, việc thường xuy&ecirc;n thay đổi kiểu d&aacute;ng v&agrave; h&igrave;nh ảnh tr&ecirc;n bao b&igrave; cũng sẽ tạo được cảm gi&aacute;c th&iacute;ch th&uacute; cho người ti&ecirc;u d&ugrave;ng.</p>\r\n<p>Một v&iacute; dụ kh&aacute;c như doanh nghiệp sản xuất m&igrave; t&ocirc;m 3 miền. Họ lu&ocirc;n thay đổi h&igrave;nh ảnh tr&ecirc;n bao b&igrave; để h&igrave;nh ảnh lu&ocirc;n đổi mới, tạo cảm gi&aacute;c mới lạ v&agrave; thu h&uacute;t người d&ugrave;ng sử dụng sản phẩm. Ngo&agrave;i ra c&aacute;c doanh nghiệp n&agrave;y cũng thường xuy&ecirc;n&nbsp;<a href=\"http://inbaobigiay.vn/san-pham/in-decal\">in decal</a>&nbsp;, banner sản phẩm để mang lại hiệu quả quảng c&aacute;o tốt nhất cho sản phẩm doanh nghiệp đang kinh doanh.</p>\r\n<div id=\"attachment_4588\" class=\"wp-caption alignnone\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-04.jpg\"><img class=\"in bao b&igrave; giấy wp-image-4588 size-full lazyloaded\" title=\"in bao b&igrave; giấy\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-04.jpg\" alt=\"in-bao-bi-giay-dep-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in bao b&igrave; giấy</p>\r\n</div>\r\n<p>Đối với c&aacute;c doanh nghi&ecirc;p c&oacute; quy m&ocirc; lớn, khoản chi ph&iacute; đầu tư cho thiết kế<em><strong>&nbsp;in ấn bao b&igrave;</strong></em>, in hộp giấy, in t&uacute;i giấy,in biểu mẫu&hellip;.để quảng b&aacute; l&agrave; tương đối lớn. Để mang hiệu quả cao hơn v&agrave; th&uacute;c đẩy sự ph&aacute;t triển của doanh nghiệp nhanh hơn. Để c&oacute; thể in bao b&igrave; giấy gi&aacute; rẻ v&agrave; chất lượng, h&atilde;y li&ecirc;n lạc ngay với In Bảo Ngọc&nbsp;để được phục vụ v&agrave; tư vấn cụ thể nhất. L&agrave; doanh nghiệp in ấn với nhiều năm kinh nghiệm, c&oacute; đội ngũ thiết kế gi&agrave;u kinh nghiệm, s&aacute;ng tạo, c&ugrave;ng hệ thống m&aacute;y m&oacute;c hiện đại, chuy&ecirc;n nghiệp. In Bảo Ngọc sẽ mang đến cho qu&yacute; kh&aacute;ch h&agrave;ng những sản phẩn chất lượng với gi&aacute; cả hợp l&yacute; nhất.</p>\r\n<div id=\"attachment_4589\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-05.jpg\"><img class=\"in bao b&igrave; giấy đẹp wp-image-4589 size-full lazyloaded\" title=\"in bao b&igrave; giấy đẹp\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-05.jpg\" alt=\"in-bao-bi-giay-dep-gia-re\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in bao b&igrave; giấy đẹp</p>\r\n</div>\r\n<p>Li&ecirc;n hệ với&nbsp;<a href=\"https://inbaongoc.com/\"><strong>in Bảo Ngọc</strong></a>&nbsp;để in đặt in bao b&igrave; giấy gi&aacute; rẻ cho m&igrave;nh nh&eacute;.</p>\r\n<div id=\"attachment_4590\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-06.jpg\"><img class=\"in bao b&igrave; giấy cao cấp wp-image-4590 size-full lazyloaded\" title=\"in bao b&igrave; giấy cao cấp\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-06.jpg\" alt=\"in-bao-bi-giay-dep-gia-re-tphcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-bao-bi-giay-gia-re-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in bao b&igrave; giấy cao cấp</p>\r\n</div>', NULL, 0, 1, 1, NULL, NULL, '', '', ''),
+(7, 'IN NAME CARD IN DANH THIẾP', NULL, 'in-name-card-in-danh-thiep', 'in-an-hop-my-pham-giay-kraft2.jpg', 1079, '<p>Để tạo ra được những&nbsp;<em><strong>mẫu name card đẹp</strong></em>&nbsp;nhằm l&agrave;m h&agrave;i l&ograve;ng c&aacute;c kh&aacute;ch h&agrave;ng kh&oacute; t&iacute;nh, ch&uacute;ng t&ocirc;i đ&atilde; s&aacute;ng tạo&nbsp; v&agrave; thiết kế ra những mẫu sản phẩm card visit c&oacute; mẫu phong ph&uacute;, dựa tr&ecirc;n c&aacute;c chất liệu giấy in c&oacute; kiểu d&aacute;ng đẹp nhất hiện nay.</p>\r\n<div id=\"attachment_4394\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-06.jpg\"><img class=\"in name card gi&aacute; rẻ wp-image-4394 size-full lazyloaded\" title=\"in name card gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-06.jpg\" alt=\"in name card gi&aacute; rẻ\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in name card gi&aacute; rẻ</p>\r\n</div>\r\n<p>&nbsp;</p>\r\n<h2>V&igrave; sao bạn n&ecirc;n chọn mẫu name card giấy g&acirc;n?</h2>\r\n<p>L&agrave; một trong những sản phẩm name card độc đ&aacute;o nhất hiện nay, kh&ocirc;ng ngạc nhi&ecirc;n khi giờ đ&acirc;y ch&uacute;ng t&ocirc;i tự h&agrave;o giới thiệu với c&aacute;c kh&aacute;ch h&agrave;ng của m&igrave;nh chọn lựa mẫu card visit giấy g&acirc;n, đặc biệt l&agrave; c&aacute;c doanh nghiệp c&oacute; nhu cầu in name card cao cấp.</p>\r\n<p>Ưu điểm của name card giấy g&acirc;n kh&ocirc;ng chỉ cho bề mặt nổi c&aacute;c đường g&acirc;n, cảm gi&aacute;c sờ v&agrave;o cực sang trọng, tinh tế. Để&nbsp;<em><strong>in name card giấy</strong></em>&nbsp;g&acirc;n, người ta sử dụng c&aacute;c chất liệu giấy mỹ thuật l&agrave; chủ yếu, c&oacute; thể kể đến như Modigliani, Koehler Econo, Elica, Dali để đảm bảo m&agrave;u sắc in tr&ocirc;ng đẹp hơn, tươi tắn hơn. Loại giấy mỹ thuật chia ra 2 loại cơ bản: giấy c&oacute; g&acirc;n v&agrave; giấy kh&ocirc;ng g&acirc;n. Như vậy, c&oacute; thể hiểu l&agrave; name card c&oacute; g&acirc;n ch&iacute;nh l&agrave; việc sử dụng giấy g&acirc;n.</p>\r\n<div id=\"attachment_4393\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-05.jpg\"><img class=\"mẫu in name card đẹp wp-image-4393 size-full lazyloaded\" title=\"mẫu in name card đẹp\" src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-05.jpg\" alt=\"mẫu in name card đẹp\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">mẫu in name card đẹp</p>\r\n</div>\r\n<p>Tuy nhi&ecirc;n, t&ugrave;y v&agrave;o sở th&iacute;ch thẩm mỹ của từng người m&agrave; chọn c&aacute;c d&ograve;ng giấy kh&aacute;c nhau,bởi đặc t&iacute;nh của giấy in l&agrave; kh&ocirc;ng giống nhau, mỗi loại mang vẻ đẹp ri&ecirc;ng. Ch&iacute;nh v&igrave; thế, gi&aacute; th&agrave;nh cũng cao thấp kh&aacute;c nhau, để hợp l&yacute; bạn n&ecirc;n c&acirc;n nhắc đến yếu tố chi ph&iacute; trước khi đặt in name card tại c&aacute;c c&ocirc;ng ty&nbsp;<a href=\"http://inbaobigiay.vn/san-pham/in-bao-bi-giay\"><strong>in bao b&igrave; giấy gi&aacute; rẻ</strong></a>.</p>\r\n<p>In tr&ecirc;n name card giấy g&acirc;n được được nhiều doanh nghiệp sử dụng nhằm gia tăng t&iacute;nh sang trọng, tạo độ kh&aacute;c biệt. Ng&agrave;y c&agrave;ng nhiều c&aacute;c doanh nghiệp chọn lựa name card giấy g&acirc;n thay v&igrave; sử dụng c&aacute;c loại giấy th&ocirc;ng dụng như couche hoặc ivory.<br />Mẫu name card giấy ấn đặc biệt</p>\r\n<p>Th&ocirc;ng thường, để thiết kế card visit giấy g&acirc;n th&igrave; ch&uacute;ng ta sử dụng giấy g&acirc;n. Tuy nhi&ecirc;n, để tạo sự đa dạng hơn, mới lạ hơn th&igrave; ch&uacute;ng ta c&oacute; thể c&aacute;n g&acirc;n bề mặt giấy couche, ivory để tạo n&ecirc;n những đường g&acirc;n tr&ecirc;n bề mặt name card. H&igrave;nh thức n&agrave;y cũng rất được ưa chuộng trong&nbsp;<em><strong>in bao b&igrave; giấy</strong></em>.</p>\r\n<div id=\"attachment_4392\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-04.jpg\"><img class=\"mẫu in name card tiện &iacute;ch wp-image-4392 size-full lazyloaded\" title=\"mẫu in name card tiện &iacute;ch\" src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-04.jpg\" alt=\"mẫu in name card tiện &iacute;ch\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">mẫu in name card tiện &iacute;ch</p>\r\n</div>\r\n<h2>Gi&aacute; in name card giấy g&acirc;n l&agrave; bao nhi&ecirc;u?</h2>\r\n<p>Chi ph&iacute; giấy mỹ thuật từ trước đến nay rất đắt đỏ, ch&iacute;nh v&igrave; thế hầu hết c&aacute;c doanh nghiệp đều rất c&acirc;n nhắc đến việc chọn in name card ph&ugrave; hợp nhất cho m&igrave;nh. Ch&iacute;&nbsp;<em>ph&iacute; in name card</em>&nbsp;kh&aacute; đắt so với giấy th&ocirc;ng dụng, bạn c&oacute; thể li&ecirc;n hệ với c&aacute;c c&ocirc;ng ty in ấn để nhận về bảng gi&aacute; in name card ch&iacute;nh x&aacute;c nhất. Bạn n&ecirc;n c&oacute; sự chuẩn bị c&aacute;c th&ocirc;ng tin như chất liệu giấy, định lượng, số lượng v&agrave; c&aacute;c kỹ thuật gia c&ocirc;ng cần thiết trước khi gởi th&ocirc;ng tin hoặc li&ecirc;n hệ trước với c&aacute;c đơn vị in.</p>\r\n<p>Li&ecirc;n hệ&nbsp;<a href=\"https://inbaongoc.com/\"><strong>Bảo Ngoc</strong></a>&nbsp;để đặt in c&aacute;c sản phẩm danh thiếp cho c&ocirc;ng ty của bạn</p>\r\n<p>Một số mẫu in danh thiếp của ch&uacute;ng t&ocirc;i :</p>\r\n<div id=\"attachment_4390\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-02.jpg\"><img class=\"mẫu in card gi&aacute; rẻ wp-image-4390 size-full lazyloaded\" title=\"mẫu in card gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-02.jpg\" alt=\"mẫu in card gi&aacute; rẻ\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-02.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-02.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-02-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-02-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-02-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-02-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">mẫu in card gi&aacute; rẻ</p>\r\n</div>\r\n<div id=\"attachment_4391\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-03.jpg\"><img class=\"mẫu card s&aacute;ng tạo wp-image-4391 size-full lazyloaded\" title=\"mẫu card s&aacute;ng tạo\" src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-03.jpg\" alt=\"mẫu card s&aacute;ng tạo\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">mẫu card s&aacute;ng tạo</p>\r\n</div>\r\n<div id=\"attachment_3021\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-r%E1%BA%BB-tphcm.jpg\"><img class=\"wp-image-3021 lazyloaded\" title=\"in name card tphcm\" src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-r%E1%BA%BB-tphcm.jpg\" alt=\"in-name-card-re-tphcm\" width=\"680\" height=\"493\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-rẻ-tphcm.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-rẻ-tphcm.jpg 600w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-rẻ-tphcm-500x363.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/12/in-name-card-rẻ-tphcm-300x218.jpg 300w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in name card tphcm</p>\r\n</div>\r\n<div id=\"attachment_3022\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thi%E1%BA%BFp-tphcm-1.jpg\"><img class=\"wp-image-3022 lazyloaded\" title=\"lin name card hcm gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thi%E1%BA%BFp-tphcm-1.jpg\" alt=\"in-danh-thiep-tphcm\" width=\"680\" height=\"340\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thiếp-tphcm-1.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thiếp-tphcm-1.jpg 640w, https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thiếp-tphcm-1-500x250.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thiếp-tphcm-1-300x150.jpg 300w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">lin name card hcm gi&aacute; rẻ</p>\r\n</div>\r\n<div id=\"attachment_3023\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thi%E1%BA%BFp-gi%C3%A1-r%E1%BA%BB.jpg\"><img class=\"wp-image-3023 lazyloaded\" title=\"in danh thiếp tphcm\" src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thi%E1%BA%BFp-gi%C3%A1-r%E1%BA%BB.jpg\" alt=\"in-danh-thiep-gia-re\" width=\"680\" height=\"428\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thiếp-gi&aacute;-rẻ.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thiếp-gi&aacute;-rẻ.jpg 540w, https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thiếp-gi&aacute;-rẻ-500x315.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thiếp-gi&aacute;-rẻ-300x189.jpg 300w, https://inbaongoc.com/wp-content/uploads/2016/12/in-danh-thiếp-gi&aacute;-rẻ-80x50.jpg 80w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in danh thiếp tphcm</p>\r\n</div>\r\n<div id=\"attachment_3024\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-%E1%BA%A5n-card-visit.jpg\"><img class=\"wp-image-3024 lazyloaded\" title=\"in ấn card visit tphcm\" src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-%E1%BA%A5n-card-visit.jpg\" alt=\"in-an-card-visit\" width=\"680\" height=\"476\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-ấn-card-visit.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2016/12/in-ấn-card-visit.jpg 500w, https://inbaongoc.com/wp-content/uploads/2016/12/in-ấn-card-visit-300x210.jpg 300w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in ấn card visit tphcm</p>\r\n</div>', NULL, 0, 1, 1, NULL, NULL, '', '', ''),
+(8, 'IN BAO BÌ MỸ PHẨM', NULL, 'in-bao-bi-my-pham', 'in-an-hop-my-pham-giay-kraft3.jpg', 1079, '<p>Kinh doanh mỹ phẩm handmade&nbsp;<strong>hiện nay tại tphcm</strong>&nbsp;l&agrave; một trong những thị trường nhận được sự đầu tư của nhiều doanh nghiệp lớn nhỏ kh&aacute;c nhau. V&igrave; thế, nhu cầu&nbsp;<em><strong>in bao b&igrave; giấy mỹ phẩm handmade</strong></em>&nbsp;cũng ng&agrave;y c&agrave;ng cao v&agrave; phổ biến hơn.</p>\r\n<div id=\"attachment_4654\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-05.jpg\"><img class=\"size-full wp-image-4654 lazyloaded\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-05.jpg\" alt=\"in hộp mỹ phẩm cao cấp\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp mỹ phẩm cao cấp</p>\r\n</div>\r\n<ul>\r\n<li>Bạn đang băn khoăn kh&ocirc;ng biết n&ecirc;n lựa chọn chất liệu giấy thế n&agrave;o cho bao b&igrave; mỹ phẩm?</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>C&oacute; qu&aacute; nhiều đơn vị in bao b&igrave; giấy n&ecirc;n việc đưa ra quyết định của bạn gặp phải kh&oacute; khăn?</li>\r\n</ul>\r\n<p>L&agrave; một đơn vị chuy&ecirc;n in ấn c&aacute;c sản phẩm thuộc ng&agrave;nh bao b&igrave; giấy,&nbsp;<strong><a href=\"https://inbaongoc.com/\">In Bao Ngoc</a></strong>&nbsp;nhận in bao b&igrave; cho mỹ phẩm handmade đẹp với ti&ecirc;u ch&iacute; chất lượng được đặt l&ecirc;n h&agrave;ng đầu. V&agrave; trước hết, ch&uacute;ng t&ocirc;i sẽ giới thiệu cho bạn những loại giấy th&iacute;ch hợp cho loại bao b&igrave; n&agrave;y trước nh&eacute;.</p>\r\n<h2><strong>Chất liệu giấy in n&agrave;o cho bao b&igrave; mỹ phẩm handmade?</strong></h2>\r\n<p>Nếu bạn c&oacute; t&igrave;m hiểu th&igrave; chắc hẳn sẽ biết, hiện nay giấy in cung cấp cho ng&agrave;nh in ấn được sản xuất rất nhiều, b&ecirc;n cạnh những loại th&ocirc;ng dụng th&igrave; c&ograve;n c&oacute; c&aacute;c sản phẩm d&agrave;nh cho nhu cầu cao cấp. Mỗi d&ograve;ng giấy in sẽ c&oacute; nhiều đặc điểm ri&ecirc;ng biệt n&ecirc;n việc x&aacute;c định chất liệu cho bao b&igrave;&nbsp;<em><strong><a href=\"https://inbaongoc.com/san-pham/in-hop-giay-my-pham\">hộp mỹ phẩm</a></strong></em>&nbsp;hiển nhi&ecirc;n sẽ khiến bạn gặp kh&oacute; khăn.</p>\r\n<p>Nhận&nbsp;<strong>in bao b&igrave; mỹ phẩm</strong>&nbsp;cho nhiều đơn vị, ch&uacute;ng t&ocirc;i sẽ giới thiệu cho bạn một số chất liệu cơ bản nhất, c&ugrave;ng tham khảo nh&eacute;.</p>\r\n<ul>\r\n<li>\r\n<div id=\"attachment_4652\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-03.jpg\"><img class=\"size-full wp-image-4652 lazyloaded\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-03.jpg\" alt=\"in hộp mỹ phẩm gi&aacute; rẻ\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp mỹ phẩm gi&aacute; rẻ</p>\r\n</div>\r\n<p><em>Giấy couche</em>: l&agrave; loại giấy th&ocirc;ng dụng, được tr&aacute;ng phủ n&ecirc;n bề mặt b&aacute;m mực tốt, đồng đều, v&agrave; được nhận x&eacute;t l&agrave; chất liệu th&iacute;ch hợp với m&aacute;y in offset hiện đại phổ biến trong c&aacute;c c&ocirc;ng ty hiện nay. Với định lượng đa dạng, chất giấy d&agrave;y n&ecirc;n khi in ấn kh&ocirc;ng bị thấm mực v&agrave; dễ d&agrave;ng thực hiện c&aacute;c phương ph&aacute;p gia c&ocirc;ng l&agrave;m tăng t&iacute;nh thẩm mỹ cho sản phẩm v&agrave; c&oacute; mức gi&aacute; rẻ.</p>\r\n</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li><em>Giấy kraft</em>: một loại giấy in mới chỉ được ứng dụng trong những năm gần đ&acirc;y, v&agrave; l&agrave; chất liệu th&iacute;ch hợp nhất cho h&igrave;nh thức kinh doanh mỹ phẩm handmade của bạn. Chất giấy dẻo dai, bền, in ấn tốt v&agrave; c&oacute; m&agrave;u sắc n&acirc;u v&agrave;ng đặc biệt, khi sử dụng kh&ocirc;ng chỉ c&oacute; chất lượng m&agrave; c&ograve;n thể hiện t&iacute;nh chất thi&ecirc;n nhi&ecirc;n, thủ c&ocirc;ng vốn c&oacute; của sản phẩm. Nhờ vậy m&agrave; hiện nay,&nbsp;<em><strong><a href=\"https://inbaongoc.com/san-pham/in-hop-my-pham-kraft-gia-re-tpchm\">in hộp giấy kraft đựng mỹ phẩm</a></strong></em>&nbsp;được nhiều đơn vị tin tưởng lựa chọn.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li><em>Giấy mỹ thuật</em>: Nếu mỹ phẩm bạn sản xuất c&oacute; nguồn nguy&ecirc;n liệu đặc biệt, gi&aacute; trị cao th&igrave; giấy mỹ thuật l&agrave; lựa chọn th&iacute;ch hợp. Đ&acirc;y l&agrave; d&ograve;ng giấy đặc biệt, nhờ những đặc điểm của m&igrave;nh l&agrave; d&agrave;y, với hiệu ứng đường v&acirc;n độc đ&aacute;o m&agrave; trở th&agrave;nh chất liệu cho h&agrave;ng h&oacute;a cao cấp. Bạn c&oacute; thể lựa chọn loại giấy n&agrave;y, nhưng h&atilde;y nhớ gi&aacute; th&agrave;nh kh&aacute; cao đấy nh&eacute;.</li>\r\n</ul>\r\n<p>Tr&ecirc;n đ&acirc;y l&agrave; một v&agrave;i th&ocirc;ng tin cơ bản về giấy in cho&nbsp;<em><strong>bao b&igrave; mỹ phẩm</strong>&nbsp;</em>th&ocirc;ng dụng, để t&igrave;m hiểu cụ thể hơn th&igrave;, bạn cần nhận những tư vấn từ đội ngũ nh&acirc;n vi&ecirc;n kinh doanh của đơn vị in m&agrave; bạn hợp t&aacute;c đấy.</p>\r\n<div id=\"attachment_4556\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-gia-re-06.jpg\"><img class=\"size-full wp-image-4556 lazyloaded\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-gia-re-06.jpg\" alt=\"in-hop-giay-dep-tại-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-gia-re-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-gia-re-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-gia-re-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-gia-re-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-gia-re-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-gia-re-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp giấy đẹp gi&aacute; rẻ hcm</p>\r\n</div>\r\n<h2><strong>In bao b&igrave; giấy mỹ phẩm đẹp ở đ&acirc;u?</strong></h2>\r\n<p>Nếu bạn kh&ocirc;ng gặp phải kh&oacute; khăn khi chọn giấy in, m&agrave; l&agrave; ở việc lựa chọn đơn vị hợp t&aacute;c uy t&iacute;n th&igrave;, c&acirc;n nhắc lựa chọn c&ocirc;ng ty in Bảo Ngọc qua những th&ocirc;ng tin dưới đ&acirc;y sẽ gi&uacute;p bạn c&oacute; được bao b&igrave; ph&ugrave; hợp với nhu cầu của m&igrave;nh.</p>\r\n<p>Hiện nay, tr&ecirc;n địa b&agrave;n&nbsp;<em>th&agrave;nh phố Hồ Ch&iacute; Minh</em>, kinh doanh mỹ phẩm handmade đang l&agrave; một trong những ng&agrave;nh &ldquo;hot&rdquo; nhận được sự đầu tư từ nhiều bạn trẻ. V&igrave; thế, để đ&aacute;p ứng nhu cầu in vỏ bao b&igrave; giấy mỹ phẩm, ch&uacute;ng t&ocirc;i nhận in sản phẩm n&agrave;y với số lượng lớn, chất lượng tốt với c&aacute;c ti&ecirc;u chuẩn:</p>\r\n<ul>\r\n<li>Giấy in đa dạng, đ&aacute;p ứng được nhiều y&ecirc;u cầu kh&aacute;c nhau của bạn.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>In ấn bằng c&ocirc;ng nghệ offset hiện đại, số lượng lớn trong thời gian ngắn.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>In v&agrave; gia c&ocirc;ng trong quy tr&igrave;nh kh&eacute;p k&iacute;n, đảm bảo chất lượng v&agrave; gi&aacute; th&agrave;nh.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Hỗ trợ giao h&agrave;ng tận nơi cho bạn.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<div id=\"attachment_4653\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-04.jpg\"><img class=\"size-full wp-image-4653 lazyloaded\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-04.jpg\" alt=\"in hộp mỹ phẩm cao cấp tại hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-my-pham-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp mỹ phẩm cao cấp tại hcm</p>\r\n</div>\r\n<p>Để nhận được sản phẩm&nbsp;<em><strong><a href=\"http://inbaobigiay.vn/\">in bao b&igrave; giấy</a></strong></em>&nbsp;đựng mỹ phẩm từ c&ocirc;ng ty ch&uacute;ng t&ocirc;i, bạn chỉ cần cung cấp c&aacute;c th&ocirc;ng tin về số lượng, loại giấy in, c&ugrave;ng phương ph&aacute;p gia c&ocirc;ng bạn sẽ nhận được bảng b&aacute;o gi&aacute; trong thời gian sớm nhất. Ch&uacute;c bạn c&oacute; được mẫu bao b&igrave; mỹ phẩm ph&ugrave; hợp cho m&igrave;nh nh&eacute;.</p>', NULL, 0, 1, 1, NULL, NULL, '', '', '');
+INSERT INTO `cp_products` (`id`, `title`, `title_en`, `alias`, `image`, `categoryId`, `detail`, `detail_en`, `featured`, `published`, `views`, `price`, `price_old`, `seo_description`, `seo_keyword`, `seo_title`) VALUES
+(9, 'IN HỘP GIẤY CAO CẤP', NULL, 'in-hop-giay-cao-cap', 'in-an-hop-my-pham-giay-kraft4.jpg', 1076, '<p>Ng&agrave;y trước nếu hộp giấy l&agrave; d&ugrave;ng để chứa đựng &ndash; bảo vệ sản phẩm v&agrave; vận chuyển th&igrave; xu hướng ấy đang chuyển dần qua việc n&acirc;ng cao gi&aacute; trị sản phẩm m&agrave; n&oacute; chứa đựng, đồng thời cũng mang lại hiệu quả truyền th&ocirc;ng cao cho ch&iacute;nh sản phẩm ấy. V&igrave; vậy,&nbsp;<strong><a href=\"http://inbaobigiay.vn/product-category/in-hop-giay/\">in hộp giấy cao cấp</a></strong>&nbsp;đang trở th&agrave;nh một nhu cầu thiết yếu nếu bạn đang l&agrave; nh&agrave; sản xuất &ndash; kinh doanh c&aacute;c mặt h&agrave;ng cao cấp như yến s&agrave;o, socola, hộp mỹ phẩm cao cấp, hộp đựng qu&agrave; tặng,&hellip;</p>\r\n<div id=\"attachment_4667\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-06.jpg\"><img class=\"in hộp giấy đẹp gi&aacute; rẻ wp-image-4667 size-full lazyloaded\" title=\"in hộp giấy đẹp gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-06.jpg\" alt=\"in hộp giấy đẹp gi&aacute; rẻ\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp giấy đẹp gi&aacute; rẻ</p>\r\n</div>\r\n<p>Hộp giấy đựng qu&agrave; qu&agrave; được coi&nbsp;l&agrave; phần quan trọng thể hiện t&iacute;nh trang trọng, tạo n&ecirc;n sự bất ngờ cho chủ nh&acirc;n của m&oacute;n qu&agrave;. Với c&ocirc;ng nghệ in ấn v&agrave; bồi sản phẩm hiện đại, c&ugrave;ng sự đa dạng của chất liệu giấy dẫn đến phục vụ nhu cầu đa dạng của người ti&ecirc;u d&ugrave;ng.</p>\r\n<h2><strong>Y&ecirc;u cầu về thiết kế in hộp giấy cao cấp</strong></h2>\r\n<p>Hộp phải thảo m&atilde;n ti&ecirc;u ch&iacute; thiết kế in ấn đơn giản nhưng ch&iacute;nh t&iacute;nh đơn giản đ&oacute; phải n&ecirc;n sự sang trọng. Th&ocirc;ng thường hộp giấy kh&aacute;ch h&agrave;ng đang sử dụng c&aacute;c chất liệu giấy như Ivory, briston&nbsp;(chất liệu n&agrave;y phổ biến khi in hộp mỹ phẩm,&nbsp;<em>in hộp b&aacute;nh keo</em>, in t&uacute;i giấy,&hellip;), tuy nhi&ecirc;n trong một số trường hợp m&oacute;n qu&agrave; c&oacute; trọng lượng cao để đảm bảo t&iacute;nh an to&agrave;n th&igrave; phải sử dụng những loại chất liệu giấy cao cấp, cứng hơn như giấy carton, carton bồi duplex hay hộp giấy cứng, hộp &acirc;m dương.</p>\r\n<div id=\"attachment_4666\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-05.jpg\"><img class=\"in hộp giấy đẹp wp-image-4666 size-full lazyloaded\" title=\"in hộp giấy đẹp\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-05.jpg\" alt=\"in hộp giấy đẹp\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp giấy đẹp</p>\r\n</div>\r\n<h2>C&aacute;c loại giấy in hộp chất lượng</h2>\r\n<p>Giấy Bristol c&oacute; bề mặt hơi b&oacute;ng,&nbsp;b&aacute;m mực tốt vừa phải, mịn, &nbsp;v&igrave; thế in offset đẹp với định lượng giấy thường sử dụng&nbsp;ở mức 230 &ndash; 350gsm.</p>\r\n<div id=\"attachment_4663\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-02.jpg\"><img class=\"hộp giấy khẩu trang cao cấp wp-image-4663 size-full lazyloaded\" title=\"hộp giấy khẩu trang cao cấp\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-02.jpg\" alt=\"hộp giấy khẩu trang cao cấp\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-02.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-02.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-02-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-02-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-02-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-02-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">hộp giấy khẩu trang cao cấp</p>\r\n</div>\r\n<p>Giấy Ivory th&igrave; t&iacute;nh chất mặt ngo&agrave;i cũng tương tự như chất liệu Bristol, nhưng mặt c&ograve;n lại sần s&ugrave;i, thường nằm ở mặt trong sản phẩm. Giấy Ivory cũng c&oacute; thể &aacute;p dụng để in ấn c&aacute;c sản phẩm bao b&igrave; dược phẩm, tr&agrave;, cafe v&igrave; c&oacute; độ cứng v&agrave; đanh hơn c&aacute;c loại giấy kh&aacute;c, l&agrave;m cho khi c&aacute;c sản phẩm in tr&ecirc;n chất liệu giấy Ivory sẽ c&oacute; độ đanh v&agrave; chắc chắn.</p>\r\n<p>Ng&agrave;y nay để tăng th&ecirc;m vẻ đẹp cho hộp giấy mọi người thường đặt&nbsp;<strong><a href=\"https://inbaongoc.com/san-pham/in-decal-gia-re\">in decal&nbsp;gi&aacute; rẻ</a>&nbsp;</strong>để d&aacute;n l&ecirc;n tr&ecirc;n hộp giấy, điều n&agrave;y c&ograve;n c&oacute; thể gi&uacute;p cho bạn khẳng định thương hiệu cho sản phẩm của m&igrave;nh</p>\r\n<h2><strong>In hộp giấy cao cấp ở đ&acirc;u gi&aacute; rẻ &ndash; nhanh ch&oacute;ng?</strong></h2>\r\n<div id=\"attachment_4665\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-04.jpg\"><img class=\"in hộp giấy hcm wp-image-4665 size-full lazyloaded\" title=\"in hộp giấy hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-04.jpg\" alt=\"in hộp giấy hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp giấy hcm</p>\r\n</div>\r\n<p><a href=\"https://inbaongoc.com/\"><strong>C&ocirc;ng Ty In Bảo Ngọc</strong></a>&nbsp;tự tin l&agrave;&nbsp;đơn vị in ấn chất lượng &ndash; uy t&iacute;n tại Tp.HCM, khi l&agrave;m việc với ch&uacute;ng t&ocirc;i bạn sẽ được:</p>\r\n<p>&ndash; Tư vấn miễn ph&iacute; v&agrave; cụ thể nhất về chất liệu, quy c&aacute;ch v&agrave; thanh to&aacute;n</p>\r\n<p>&ndash; Thiết kế chuy&ecirc;n nghiệp &ndash; s&aacute;ng tạo v&agrave; ho&agrave;n to&agrave;n miễn ph&iacute;</p>\r\n<p>&ndash; In ấn bằng c&ocirc;ng nghệ offset n&ecirc;n tiết kiệm chi ph&iacute; v&agrave; thời gian in ấn.</p>\r\n<p>&ndash; Nh&acirc;n vi&ecirc;n l&agrave;m việc chuy&ecirc;n nghiệp v&agrave; nhiệt t&igrave;nh cho mọi kh&aacute;ch h&agrave;ng.</p>\r\n<div id=\"attachment_4664\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-03.jpg\"><img class=\"in hộp giấy cao cấp gi&aacute; rẻ tại hcm wp-image-4664 size-full lazyloaded\" title=\"in hộp giấy cao cấp gi&aacute; rẻ tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-03.jpg\" alt=\"in hộp giấy cao cấp gi&aacute; rẻ tại hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-hop-giay-cao-cap-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in hộp giấy cao cấp gi&aacute; rẻ tại hcm</p>\r\n</div>\r\n<p>Li&ecirc;n hệ ngay với ch&uacute;ng t&ocirc;i để biết th&ecirc;m th&ocirc;ng tin cụ thể v&agrave; chi tiết nhất về&nbsp;<a href=\"https://inbaongoc.com/danh-muc/in-hop-giay\"><strong>sản phẩm hộp giấy đẹp</strong></a>&nbsp;cho ch&iacute;nh c&ocirc;ng ty của bạn nh&eacute;</p>', NULL, 0, 1, 1, NULL, NULL, '', '', ''),
+(10, 'IN DECAL GIẤY', NULL, 'in-decal-giay', 'in-an-hop-my-pham-giay-kraft5.jpg', 1081, '<p>Với&nbsp;sự ph&aacute;t triển của nền kinh tế sản xuất &ndash; đ&oacute;ng g&oacute;i h&agrave;ng h&oacute;a th&igrave; việc&nbsp;in bao b&igrave; v&agrave;&nbsp;<a href=\"http://inbaobigiay.vn/san-pham/in-decal\"><strong>in decal giấy</strong></a>&nbsp;d&aacute;n&nbsp;bao b&igrave; c&oacute; nhu cầu ng&agrave;y c&agrave;ng cao.&nbsp;</p>\r\n<p>Decal được hiểu đơn giản l&agrave; một tấm giấy c&oacute; nhiều lớp (cụ thể l&agrave; 4 lớp) d&ugrave;ng để mang th&ocirc;ng tin &nbsp;v&agrave; h&igrave;nh ảnh về sản phẩm ở mặt tr&ecirc;n c&ugrave;ng, mặt dưới c&oacute; sẵn một lớp keo v&agrave; được bế trước để tiện lợi cho việc d&aacute;n l&ecirc;n tr&ecirc;n bao b&igrave; một c&aacute;ch nhanh ch&oacute;ng.</p>\r\n<div id=\"attachment_4601\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-02.jpg\"><img class=\"in decal giấy wp-image-4601 size-full lazyloaded\" title=\"in decal giấy\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-02.jpg\" alt=\"in-decal-giay\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-02.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-02.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-02-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-02-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-02-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-02-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal giấy</p>\r\n</div>\r\n<h2>Y&ecirc;u cầu khi in decal giấy</h2>\r\n<p>Khi bạn muốn&nbsp;<strong>in decal giấy</strong>, việc trước ti&ecirc;n bạn cần l&agrave;m l&agrave; cung cấp đầy đủ th&ocirc;ng tin cho nh&agrave; in về chất liệu, quy c&aacute;ch in ấn, k&iacute;ch thước, số lượng v&agrave; định lượng giấy.</p>\r\n<p>Qua đ&acirc;y ch&uacute;ng t&ocirc;i xin tư vấn cho bạn một v&agrave;i th&ocirc;ng tin để bạn nhận được một bản b&aacute;o gi&aacute; cụ thể v&agrave; nhanh ch&oacute;ng nhất:</p>\r\n<p>Về chất liệu giấy th&igrave; khi&nbsp;<em>in decal</em>&nbsp;cần ưu ti&ecirc;n nhất l&agrave; giấy Couche, loại giấy n&agrave;y c&oacute; 2 bề mặt l&aacute;ng b&oacute;ng v&agrave; trắng. Giấy kh&ocirc;ng thấm nhiều mực n&ecirc;n bản in đẹp, m&agrave;u sắc đẹp mắt sắc n&eacute;t. Trong nhiều trường hợp như&nbsp;<em>in tem bảo h&agrave;nh</em>&nbsp;hay tem ghi th&ocirc;ng tin thay đổi, hạn sử dụng th&igrave; ưu ti&ecirc;n sử dụng giấy ford (hay c&ograve;n gọi l&agrave; giấy in văn ph&ograve;ng) để ph&ugrave; hợp v&agrave; tiết kiệm chi ph&iacute; hơn so với giấy C.</p>\r\n<div id=\"attachment_4602\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-03.jpg\"><img class=\"in decal giấy gi&aacute; rẻ đẹp wp-image-4602 size-full lazyloaded\" title=\"in decal giấy gi&aacute; rẻ đẹp\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-03.jpg\" alt=\"in-decal-giay\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal giấy gi&aacute; rẻ đẹp</p>\r\n</div>\r\n<h2>Chất liệu giấy khi in decal</h2>\r\n<p>Định lượng giấy l&agrave; đại lượng biểu thị độ d&agrave;y của giấy, với mỗi k&iacute;ch thước kh&aacute;c nhau th&igrave; bạn c&oacute; thể lựa chọn một định lượng kh&aacute;c nhau. (li&ecirc;n hệ ch&uacute;ng t&ocirc;i về k&iacute;ch thước của bạn để được tư vấn cụ thể).</p>\r\n<div id=\"attachment_4603\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-04.jpg\"><img class=\"in decal giấy gi&aacute; rẻ tại hcm wp-image-4603 size-full lazyloaded\" title=\"in decal giấy gi&aacute; rẻ tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-04.jpg\" alt=\"in-decal-giay-dep\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal giấy gi&aacute; rẻ tại hcm</p>\r\n</div>\r\n<p>Về quy c&aacute;ch&nbsp;<strong><em>in ấn decal</em></strong>&nbsp; giấy rất kh&aacute;c với dạng&nbsp;<a href=\"https://inbaongoc.com/san-pham/in-decal-trong\"><strong>sản phẩm decal trong</strong></a>&nbsp;v&igrave; cần sử dụng c&ocirc;ng nghệ in offset 4 m&agrave;u, sau khi in c&oacute; thể sử dụng th&ecirc;m c&aacute;c c&ocirc;ng đoạn c&aacute;n m&agrave;ng (c&aacute;n m&agrave;ng mờ&nbsp;hoặc&nbsp;c&aacute;n m&agrave;ng b&oacute;ng).</p>\r\n<p>K&iacute;ch thước v&agrave; số lượng in ấn c&oacute; ảnh hưởng nhiều đến gi&aacute; cả, với đặc th&ugrave; của một c&ocirc;ng nghệ in c&ocirc;ng nghiệp sẽ tạo ra một mức định ph&iacute; nhất định n&ecirc;n khi bạn in với một số lượng c&agrave;ng nhiều th&igrave; c&agrave;ng giảm được nhiều chi ph&iacute; v&agrave; ngược lại. V&igrave; vậy bạn cần lưu &yacute; để lựa chọn k&iacute;ch thước v&agrave; số lượng ph&ugrave; hợp để c&oacute; mức gi&aacute; th&agrave;nh ph&ugrave; hợp nhất. Tuy nhi&ecirc;n khi l&agrave;m việc với ch&uacute;ng t&ocirc;i, nếu nhu cầu sử dụng của bạn với số lượng &iacute;t, ch&uacute;ng t&ocirc;i cũng sẽ cố gắng hỗ trợ bạn với gi&aacute; th&agrave;nh tốt nhất.</p>\r\n<div id=\"attachment_4604\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-05.jpg\"><img class=\"in decal giấy gi&aacute; rẻ tại hcm wp-image-4604 size-full lazyloaded\" title=\"in decal giấy gi&aacute; rẻ tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-05.jpg\" alt=\"in-decal-giay-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal giấy gi&aacute; rẻ tại hcm</p>\r\n</div>\r\n<h2><strong>==&gt;&gt; Bạn lo lắng về file thiết kế khi in decal?</strong></h2>\r\n<p><a href=\"https://inbaongoc.com/\"><strong>C&ocirc;ng ty In Bảo Ngọc</strong></a>&nbsp;c&oacute; nhiều năm kinh nghiệm trong ng&agrave;nh in ấn, b&ecirc;n cạnh đ&oacute;, ch&uacute;ng t&ocirc;i cũng sở hữu một đội ngũ thiết kế vi&ecirc;n chuy&ecirc;n nghiệp v&agrave; l&agrave;m việc tận t&igrave;nh nhất. Đảm bảo tạo ra những mẫu thiết kế đặc sắc v&agrave; s&aacute;ng tạo, l&agrave;m h&agrave;i l&ograve;ng qu&yacute; kh&aacute;ch h&agrave;ng.</p>\r\n<div id=\"attachment_4605\" class=\"wp-caption alignnone\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-06.jpg\"><img class=\"in decal giấy gi&aacute; rẻ wp-image-4605 size-full lazyloaded\" title=\"in decal giấy gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-06.jpg\" alt=\"in-decal-giay-gia-re\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-giay-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal giấy gi&aacute; rẻ</p>\r\n</div>\r\n<p>Mọi th&ocirc;ng tin thắc mắc v&agrave; gởi bao gi&aacute;&nbsp;<strong>in decal giấy</strong>, li&ecirc;n hệ ngay với ch&uacute;ng t&ocirc;i để được tư vấn cụ thể nhất.</p>', NULL, 0, 1, 1, NULL, NULL, '', '', ''),
+(11, 'IN DECAL NHỰA PVC', NULL, 'in-decal-nhua-pvc', 'in-an-hop-my-pham-giay-kraft6.jpg', 1081, '<p>Như bạn đ&atilde; biết, Decal&nbsp;l&agrave; một tấm m&agrave;ng giấy hoặc nhựa, c&oacute; in th&ocirc;ng tin h&igrave;nh ảnh l&ecirc;n bề mặt v&agrave; đ&aacute;y trắng&nbsp;sẵn một lớp keo để thuận tiện cho việc d&aacute;n v&agrave;o sản phẩm. Nay in Bảo Ngọc xin giới thiệu v&agrave; chia sẽ cho c&aacute;c bạn về in decal nhựa l&agrave; như thế n&agrave;o.</p>\r\n<div id=\"attachment_4596\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-06.jpg\"><img class=\"in decal nhựa tại hcm wp-image-4596 size-full lazyloaded\" title=\"in decal nhựa tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-06.jpg\" alt=\"in-decal-nhua-tai-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal nhựa tại hcm</p>\r\n</div>\r\n<h2>Định nghĩa về in decal nhựa</h2>\r\n<p>Decal c&oacute; 2 loại ch&iacute;nh l&agrave; decal nhựa v&agrave; decal giấy. Decal giấy th&ocirc;ng dụng hơn trong việc sử dụng l&agrave;m tem nh&atilde;n, nh&atilde;n bao b&igrave;,&hellip;.Tuy nhiện&nbsp;<a href=\"http://inbaobigiay.vn/san-pham/in-decal-nhua\"><strong>in decal nhựa</strong></a>&nbsp;lại đem lại nhiều t&iacute;nh năng vượt trội hơn v&agrave; th&iacute;ch hợp với nhiều trường hợp đặc biệt. Về cơ bản th&igrave; in decal nhựa c&oacute; 3 loại&nbsp;ch&iacute;nh:</p>\r\n<p><strong>Decal trong</strong>&nbsp;&ndash;&nbsp;Decal trong c&oacute; khả năng chịu nhiệt, thường decal trong được d&aacute;n tr&ecirc;n k&iacute;nh. Người d&ugrave;ng vừa c&oacute; thể trang tr&iacute;, vừa c&oacute; thể nh&igrave;n xuy&ecirc;n qua k&iacute;nh.&nbsp;</p>\r\n<div id=\"attachment_4592\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-02.jpg\"><img class=\"in decal nhựa wp-image-4592 size-full lazyloaded\" title=\"in decal nhựa\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-02.jpg\" alt=\"in-decal-nhua\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-02.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-02.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-02-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-02-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-02-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-02-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal nhựa</p>\r\n</div>\r\n<h2>in decal nhựa sữa</h2>\r\n<p>&nbsp;C&oacute; t&iacute;nh chất tương tự như decal trong tuy nhi&ecirc;n chất liệu sử dụng kh&ocirc;ng cho ph&eacute;p người nh&igrave;n c&oacute; thể nh&igrave;n xuy&ecirc;n qua.</p>\r\n<h2>In decal lưới</h2>\r\n<p>&nbsp;Tr&ecirc;n decal lưới c&oacute; nhiễu lỗ. Người d&ugrave;ng c&oacute; thể nh&igrave;n qua lớp decal lưới. Sản phẩm decal lưới d&ugrave;ng để d&aacute;n l&ecirc;n k&iacute;nh tại c&aacute;c showroom, ph&ograve;ng trưng b&agrave;y&hellip;</p>\r\n<p>T&ugrave;y v&agrave;o chất liệu m&agrave; gi&aacute; in decal cũng kh&aacute;c nhau, v&agrave; mỗi c&ocirc;ng ty in lại c&oacute; bảng b&aacute;o gi&aacute; in decal kh&aacute;c nhau nhưng l&agrave;m sao để c&oacute; thể&nbsp;<strong>in decal gi&aacute; rẻ</strong>&nbsp;m&agrave; chất lượng được đảm bảo để phục vụ cho nhu cầu của kh&aacute;ch h&agrave;ng v&agrave; một vấn đề nan giải đối với doanh nghiệp in.</p>\r\n<h2>C&ocirc;ng dụng của in decal</h2>\r\n<p>Ngo&agrave;i việc in decal để l&agrave;m tem bảo h&agrave;nh th&igrave; c&ograve;n c&oacute; thể d&ugrave;ng decal giống như&nbsp;<a href=\"https://inbaongoc.com/san-pham/in-to-roi-gia-re\"><strong>in tờ rơi quảng c&aacute;o gi&aacute; rẻ</strong></a>&nbsp;vậy. Việc in c&aacute;c logo của m&igrave;nh l&ecirc;n tr&ecirc;n c&aacute;c mảng decal để quảng c&aacute;o hiện đang l&agrave; xu hướng thịnh h&agrave;nh.</p>\r\n<div id=\"attachment_4593\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-03.jpg\"><img class=\"mẫu in decal tại hcm wp-image-4593 size-full lazyloaded\" title=\"mẫu in decal tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-03.jpg\" alt=\"in-decal-gia-re\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">mẫu in decal tại hcm</p>\r\n</div>\r\n<p>Để tiết kiệm được nhiều chi ph&iacute; v&agrave; hợp l&yacute; nhất, bạn cần ch&uacute; &yacute; đến số lượng in ấn v&agrave; k&iacute;ch thước in. Với đặc trưng l&agrave; c&ocirc;ng nghệ in c&ocirc;ng nghiệp th&igrave; khi bạn in với số lượng c&agrave;ng nhiều, mức định ph&iacute; bạn phải chi trả cho mỗi sản phẩm c&agrave;ng giảm.</p>\r\n<div id=\"attachment_4594\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-04.jpg\"><img class=\"in decal đẹp wp-image-4594 size-full lazyloaded\" title=\"in decal đẹp\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-04.jpg\" alt=\"in-decal-dep-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal đẹp</p>\r\n</div>\r\n<h2><strong>Khi in decal nhựa tại c&ocirc;ng ty ch&uacute;ng t&ocirc;i, bạn sẽ được:</strong></h2>\r\n<p>&ndash; Thiết kế độc đ&aacute;o, s&aacute;ng tạo, đảm bảo sự h&agrave;i l&ograve;ng của qu&yacute; kh&aacute;ch h&agrave;ng. (đối với những mẫu thiết kế kh&ocirc;ng qu&aacute; phức tạp th&igrave; ho&agrave;n to&agrave;n MIỄN PH&Iacute; thiết kế).</p>\r\n<p>&ndash; In ấn nhanh ch&oacute;ng bằng c&ocirc;ng nghệ hiện đại, giao h&agrave;ng từ 3-7 ng&agrave;y t&ugrave;y thuộc số lượng v&agrave; quy c&aacute;ch in ấn.</p>\r\n<p>&ndash; Giao h&agrave;ng tận nơi v&agrave; nhanh ch&oacute;ng tại tp.HCM, giao h&agrave;ng&nbsp;<strong>miễn ph&iacute;</strong>&nbsp;với đơn h&agrave;ng tr&ecirc;n 3 triệu.</p>\r\n<p>&ndash; L&agrave;m việc trực tuyến, tạo điều kiện thuận lợi cho mọi kh&aacute;ch h&agrave;ng ở xa.</p>\r\n<p>Li&ecirc;n hệ ngay với ch&uacute;ng t&ocirc;i để biết th&ecirc;m th&ocirc;ng tin cụ thể về&nbsp;<a href=\"https://inbaongoc.com/san-pham/in-decal-gia-re\"><em><strong>in decal gi&aacute; rẻ</strong></em></a>&nbsp;v&agrave; giải quyết c&aacute;c thắc mắc cho kh&aacute;ch h&agrave;ng.</p>\r\n<div id=\"attachment_4595\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-05.jpg\"><img class=\"in decal gi&aacute; rẻ tại hcm wp-image-4595 size-full lazyloaded\" title=\"in decal gi&aacute; rẻ tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-05.jpg\" alt=\"in-decal-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-nhua-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal gi&aacute; rẻ tại hcm</p>\r\n</div>', NULL, 0, 1, 1, NULL, NULL, '', '', ''),
+(12, 'IN DECAL GIÁ RẺ', NULL, 'in-decal-gia-re', 'in-an-hop-my-pham-giay-kraft7.jpg', 1081, '<h2>Bạn muốn&nbsp;<strong>in decal</strong>&nbsp;nhựa hay decal giấy? dạng tờ hay dạng cuộn?</h2>\r\n<p>Nếu đ&acirc;y l&agrave; lần đầu bạn t&igrave;m kiếm&nbsp;<a href=\"http://inbaobigiay.vn/san-pham/in-decal\"><strong>c&ocirc;ng ty in decal gi&aacute; rẻ</strong></a>&nbsp;nhất m&agrave; chất lượng tốt nhất th&igrave; b&agrave;i viết n&agrave;y sẽ gi&uacute;p bạn c&oacute; được sản phẩm tem nh&atilde;n ưng &yacute; nhất.</p>\r\n<p>Trước ti&ecirc;n t&ocirc;i xin được chia sẻ một số kiến thức về chất liệu decal m&agrave; một số người chưa r&agrave;nh.</p>\r\n<p>Ph&acirc;n t&iacute;ch một c&aacute;ch đơn giản th&igrave; decal chẳng qua l&agrave; loại giấy (hoặc nhựa) được phủ một lớp keo l&ecirc;n bề mặt lưng của giấy, để khi b&oacute;c lớp đế ra l&agrave; bạn c&oacute; thể d&aacute;n chặt miếng giấy đ&oacute; l&ecirc;n sản phẩm của bạn, từ chuy&ecirc;n m&ocirc;n người ta gọi l&agrave; gh&eacute;p keo.</p>\r\n<div id=\"attachment_4607\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-02.jpg\"><img class=\"in decal gi&aacute; rẻ tại tphcm wp-image-4607 size-full lazyloaded\" title=\"in decal gi&aacute; rẻ tại tphcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-02.jpg\" alt=\"in-decal-gia-re-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-02.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-02.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-02-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-02-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-02-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-02-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal gi&aacute; rẻ tại tphcm</p>\r\n</div>\r\n<h2>Lựa chọn loại decal để in ấn</h2>\r\n<p>T&ugrave;y mục đ&iacute;ch sử dụng m&agrave; bạn n&ecirc;n chọn chất liệu giấy hoặc nhựa, phổ biến kh&aacute;ch h&agrave;ng lựa chọn chất liệu giấy thay thế cho chất liệu nhựa, bởi gi&aacute; th&agrave;nh tốt, dễ ph&acirc;n hủy (tốt cho m&ocirc;i trường).</p>\r\n<p>Để c&oacute; được gi&aacute; th&agrave;nh tốt nhất khi&nbsp;<strong>in nh&atilde;n decal</strong>&nbsp;th&ocirc;ng thường l&agrave; số lượng 3.000 pcs, tuy nhi&ecirc;n một số trường hợp cần tới số lượng kh&ocirc;ng nhiều &ndash; bạn y&ecirc;n t&acirc;m, ch&uacute;ng t&ocirc;i sẽ b&aacute;n cho bạn số lượng &iacute;t như nhu cầu của bạn với gi&aacute; tốt nhất.</p>\r\n<div id=\"attachment_4611\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-06.jpg\"><img class=\"in decal đẹp gi&aacute; rẻ wp-image-4611 size-full lazyloaded\" title=\"in decal đẹp gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-06.jpg\" alt=\"in-decal\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-06.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-06.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-06-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-06-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-06-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-06-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal đẹp gi&aacute; rẻ</p>\r\n</div>\r\n<p>Xin lưu &yacute; với bạn rằng khi đặt<strong>&nbsp;</strong>decal giấy&nbsp;cho chai thủy (loại c&oacute; tr&aacute;ng phủ mờ) n&ecirc;n mua loại tốt để tr&aacute;nh t&igrave;nh trạng bị bong ra khi d&aacute;n l&ecirc;n sản phẩm (Thường sẽ bị bong khi bạn d&aacute;n được khoảng từ 7-10 ng&agrave;y). T&ocirc;i khuyến nghị bạn n&ecirc;n d&ugrave;ng loại decal Khami để c&oacute; chất lượng tốt nhất</p>\r\n<div id=\"attachment_4608\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-03.jpg\"><img class=\"in decal gi&aacute; rẻ wp-image-4608 size-full lazyloaded\" title=\"in decal gi&aacute; rẻ\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-03.jpg\" alt=\"in-decal-dep-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-03.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-03.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-03-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-03-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-03-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-03-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal gi&aacute; rẻ</p>\r\n</div>\r\n<h2>So s&aacute;nh in decal</h2>\r\n<p>Đối với nh&atilde;n b&igrave;nh nước 21 l&iacute;t bạn n&ecirc;n<strong>&nbsp;in decal</strong>&nbsp;nhựa sữa hoặc decal nhựa trong. Bởi so s&aacute;nh về gi&aacute; th&igrave; khi in decal giấy sẽ rẻ được 50% so với in decal nhựa sữa, tuy nhi&ecirc;n về độ bền c&oacute; thể gấp 5 lần decal giấy. Nh&atilde;n hiệu ưa chuộng của c&aacute;c nh&agrave; in khi sử dụng loại decan sữa n&agrave;y cũng l&agrave; nh&atilde;n hiệu Khami.</p>\r\n<p>Một lưu &yacute; nữa l&agrave; nếu bạn in poster để d&aacute;n l&ecirc;n tường quảng c&aacute;o sản phẩm mới trong điều kiện ngo&agrave;i trời nhiều nắng hoặc mưa, bạn n&ecirc;n&nbsp;<strong><em>in decal nhựa</em></strong>&nbsp;v&agrave; sử dụng mực chống nắng v&agrave; c&oacute; phủ lớp m&agrave;ng bảo vệ (Nếu in mực UV th&igrave; kh&ocirc;ng cần c&aacute;n m&agrave;ng).</p>\r\n<h2>Cộng nghệ in decal</h2>\r\n<p>Về c&ocirc;ng nghệ in th&ocirc;ng thường c&aacute;c nh&atilde;n giấy dạng tờ c&aacute;c nh&agrave; in ưu ti&ecirc;n sử dụng c&ocirc;ng nghệ in offset bởi n&oacute; cho m&agrave;u sắc đẹp nhất trong c&aacute;c dạng in, nếu in dạng cuộn th&igrave; giải ph&aacute;p tối ưu l&agrave; in Flexo hay c&ograve;n gọi l&agrave; le lụa.</p>\r\n<p>Vậy l&agrave; bạn đ&atilde; c&oacute; kiến thức cơ bản về sản phẩm decal &ndash; nh&atilde;n giấy cho nh&atilde;n h&agrave;ng của m&igrave;nh, giờ bạn c&oacute; thể tự tin y&ecirc;u cầu nh&agrave; in cung cấp sản phẩm tốt nhất cho m&igrave;nh với gi&aacute; phải chăng.</p>\r\n<div id=\"attachment_4609\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-04.jpg\"><img class=\"in decal tại hcm wp-image-4609 size-full lazyloaded\" title=\"in decal tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-04.jpg\" alt=\"in-decal-hcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-04.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-04.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-04-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-04-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-04-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-04-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal tại hcm</p>\r\n</div>\r\n<p>Nếu bạn chưa t&igrave;m được nh&agrave; cung cấp ưng &yacute; nhất h&atilde;y gọi cho ch&uacute;ng t&ocirc;i&nbsp;<a href=\"https://inbaongoc.com/\"><strong>C&ocirc;ng ty in ấn Bảo Ngọc</strong></a>, bởi đơn giản ch&uacute;ng t&ocirc;i muốn<strong>&nbsp;&ldquo;ĐEM LẠI LỢI &Iacute;CH TỐI ĐA CHO BẠN&rdquo;</strong>.</p>\r\n<div id=\"attachment_4610\" class=\"wp-caption aligncenter\"><a class=\"lightbox-added\" href=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-05.jpg\"><img class=\"in decal tại hcm wp-image-4610 size-full lazyloaded\" title=\"in decal tại hcm\" src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-05.jpg\" alt=\"in-decal-tai-tphcm\" width=\"1080\" height=\"600\" data-lazy-src=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-05.jpg\" data-lazy-srcset=\"https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-05.jpg 1080w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-05-500x278.jpg 500w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-05-300x167.jpg 300w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-05-768x427.jpg 768w, https://inbaongoc.com/wp-content/uploads/2015/03/in-decal-gia-re-05-1024x569.jpg 1024w\" data-was-processed=\"true\" /></a>\r\n<div class=\"curtain-overlay overlay-type-image\">&nbsp;</div>\r\n<p class=\"wp-caption-text\">in decal tại hcm</p>\r\n</div>\r\n<p>Sẽ chẳng mất bao l&acirc;u để bạn gởi th&ocirc;ng tin sản phẩm y&ecirc;u cầu ch&uacute;ng t&ocirc;i b&aacute;o gi&aacute;, việc n&agrave;y được thực hiện ho&agrave;n to&agrave;n miễn ph&iacute; bằng c&aacute;ch điền th&ocirc;ng tin sản phẩm v&agrave;o c&aacute;c &ocirc; b&ecirc;n dưới v&agrave; gửi đi. Ch&uacute;ng t&ocirc;i sẽ li&ecirc;n lạc lại với bạn trong thời gian sớm nhất.</p>', NULL, 0, 1, 1, NULL, NULL, '', '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cp_products_categories`
+--
+
+CREATE TABLE `cp_products_categories` (
+  `id` int(11) NOT NULL,
+  `name` varchar(250) NOT NULL,
+  `alias` varchar(250) DEFAULT NULL,
+  `parents` int(11) NOT NULL DEFAULT '0',
+  `level` tinyint(4) NOT NULL DEFAULT '1',
+  `lft` int(11) DEFAULT '0',
+  `rgt` int(11) DEFAULT '0',
+  `path` varchar(200) NOT NULL,
+  `state` tinyint(4) NOT NULL DEFAULT '1',
+  `seo_description` varchar(250) DEFAULT NULL,
+  `seo_keyword` varchar(250) DEFAULT NULL,
+  `seo_title` varchar(250) DEFAULT NULL,
+  `detail` text NOT NULL,
+  `link` text,
+  `name_en` varchar(255) DEFAULT NULL,
+  `ordering` int(1) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `cp_products_categories`
+--
+
+INSERT INTO `cp_products_categories` (`id`, `name`, `alias`, `parents`, `level`, `lft`, `rgt`, `path`, `state`, `seo_description`, `seo_keyword`, `seo_title`, `detail`, `link`, `name_en`, `ordering`) VALUES
+(1000, 'Root', 'root', 0, 0, 0, 48, '', 0, '', '', '', '', '', NULL, NULL),
+(1076, 'IN HỘP GIẤY', 'in-hop-giay', 1000, 1, 30, 31, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1077, 'IN LỊCH TẾT', 'in-lich-tet', 1000, 1, 32, 33, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1078, 'IN BAO BÌ', 'in-bao-bi', 1000, 1, 34, 37, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1079, 'IN TÚI GIẤY', 'in-tui-giay', 1000, 1, 38, 41, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1080, 'IN BAO BÌ GIẤY', 'in-bao-bi-giay', 1000, 1, 42, 43, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1081, 'IN DECAL', 'in-decal', 1000, 1, 44, 45, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1082, 'IN TỜ RƠI', 'in-to-roi', 1000, 1, 46, 47, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1083, 'IN CATALOGUE', 'in-catalogue', 1000, 1, 3, 16, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1084, 'IN BIỂU MẪU', 'in-bieu-mau', 1000, 1, 17, 20, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1085, 'IN BAO THƯ', 'in-bao-thu', 1000, 1, 21, 26, '', 1, '', '', '', '', NULL, NULL, NULL),
+(1086, 'IN DANH THIẾP', 'in-danh-thiep', 1000, 1, 27, 28, '', 1, '', '', '', '', NULL, NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cp_slide`
+--
+
+CREATE TABLE `cp_slide` (
+  `id` int(11) NOT NULL,
+  `image` varchar(250) NOT NULL,
+  `title` varchar(250) DEFAULT NULL,
+  `link` varchar(250) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `cp_slide`
+--
+
+INSERT INTO `cp_slide` (`id`, `image`, `title`, `link`) VALUES
+(1070, 'furniture-slide-3.jpg', 'Slide 3', 'http://inanlenguyen.com'),
+(1072, 'furniture-slide-2.jpg', 'Slide 2', 'http://inanlenguyen.com'),
+(1073, 'furniture-slide-1.jpg', 'Slide 1', 'http://inanlenguyen.com');
 
 -- --------------------------------------------------------
 
@@ -30607,560 +30820,103 @@ INSERT INTO `cp_unique` (`day`, `ip`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `custom`
+-- Table structure for table `cp_users`
 --
 
-CREATE TABLE `custom` (
-  `id` int(11) NOT NULL,
-  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `slug` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `content` text COLLATE utf8_unicode_ci NOT NULL,
-  `state` tinyint(4) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `custom`
---
-
-INSERT INTO `custom` (`id`, `title`, `slug`, `content`, `state`) VALUES
-(23, 'Logo', 'logo', '<header class=\"container\">\n<div class=\"col-md-3\">&nbsp;</div>\n<div class=\"col-md-9\">\n<div class=\"list_hotline\">&nbsp;</div>\n<div class=\"clearfix\">&nbsp;</div>\n<div class=\"list_hotline\">\n<div class=\"item_hotline focus\">\n<p>Địa chỉ: Nhơn L&yacute;</p>\n<p>SĐT: 01699873335 - 0918389417 (Mr. Khải)</p>\n<p>Email: <a href=\"mailto:buiphankhai1979@gmail.com\">buiphankhai1979@gmail.com</a></p>\n<p>Facebook:&nbsp;https://www.facebook.com/thienduongcuabien</p>\n</div>\n</div>\n</div>\n</header>', 0),
-(24, 'Footer', 'footer', '<div class=\"footer\">\n<div class=\"box_support_footer\" style=\"font-size: 40px; color: #fff;\">(+84)909 702470</div>\n<div class=\"container info_footer\">\n<div class=\"container-fluid\">\n<div class=\"row\">\n<div class=\"col-sm-4\" style=\"padding-left: 5px !important; padding-right: 5px !important;\">\n<ul class=\"list-inline\">\n<li><a href=\"https://www.facebook.com/profile.php?id=100007356495339\" target=\"_blank\"> <img src=\"/templates/default/img/ic_facebook.jpg\" alt=\"Facebook\" /> </a></li>\n<li><a href=\"https://plus.google.com/u/0/108613084553091335459/posts\" target=\"_blank\"> <img src=\"/templates/default/img/ic_google.jpg\" alt=\"Google\" /> </a></li>\n<li><a href=\"https://www.youtube.com/channel/UCFX5CPfXnvHpeis__eSyrnQ\" target=\"_blank\"> <img src=\"/templates/default/img/ic_youtube.jpg\" alt=\"YouTube\" /> </a></li>\n</ul>\n</div>\n</div>\n</div>\n<!-- end .info_footer --></div>\n<div class=\"footer_2\">\n<div class=\"footer_21\">\n<div class=\"info_footer2 container\">\n<div class=\"container-fluid\">\n<p style=\"text-align: center;\"><strong>C&Ocirc;NG TY TNHH QUẢNG C&Aacute;O THƯƠNG MẠI &amp; DU LỊCH&nbsp;SALA&nbsp;</strong><br /> Trụ sở ch&iacute;nh: Lầu 7, T&ograve;a nh&agrave; HPL Số 60 Nguyễn Văn Thủ, P. Đakao, Q.1, TPHCM<br />&nbsp; VPĐD tại B&igrave;nh Định: 182 Hai B&agrave; Trưng, Phường Trần Ph&uacute;, TP.Quy Nhơn, B&igrave;nh Định</p>\n<p style=\"text-align: center;\">VPĐD Tại Huế:&nbsp;94/5 Dương Văn An, Phường Xu&acirc;n Ph&uacute;, Tp. Huế &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n<p style=\"text-align: center;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phone: (08) 9840 6204 - VP B&igrave;nh Định: (056) 3629 642 - Hotline: 0909.70.24.70 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n<p style=\"text-align: center;\">Email: info@salatour.com</p>\n<p style=\"text-align: center;\">Website: salatour.com</p>\n<img class=\"img-responsive\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"/templates/default/img/info_fot.png\" alt=\"\" />\n<p style=\"text-align: center;\">Copyright &copy; 2016 <strong> SaLa Tour </strong></p>\n</div>\n</div>\n</div>\n</div>\n</div>', 0);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `download`
---
-
-CREATE TABLE `download` (
-  `id` int(11) NOT NULL,
-  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `alias` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `id_category` int(11) NOT NULL,
-  `detail` text COLLATE utf8_unicode_ci,
-  `images` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `created` datetime NOT NULL,
-  `created_by` int(11) NOT NULL,
-  `modified` tinyint(11) NOT NULL,
-  `modified_by` int(11) NOT NULL,
-  `ordering` int(11) NOT NULL,
-  `published` tinyint(11) NOT NULL DEFAULT '1',
-  `seo_title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `seo_keyword` text COLLATE utf8_unicode_ci,
-  `seo_description` text COLLATE utf8_unicode_ci,
-  `type` int(11) DEFAULT NULL,
-  `files` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `event`
---
-
-CREATE TABLE `event` (
-  `id` int(11) NOT NULL,
-  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `alias` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `id_category` int(11) NOT NULL,
-  `detail` text COLLATE utf8_unicode_ci,
-  `images` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `created` datetime NOT NULL,
-  `created_by` int(11) NOT NULL,
-  `modified` tinyint(11) NOT NULL,
-  `modified_by` int(11) NOT NULL,
-  `ordering` int(11) NOT NULL,
-  `published` tinyint(11) NOT NULL DEFAULT '1',
-  `seo_title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `seo_keyword` text COLLATE utf8_unicode_ci,
-  `seo_description` text COLLATE utf8_unicode_ci,
-  `type` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `footer`
---
-
-CREATE TABLE `footer` (
-  `id` int(11) NOT NULL,
-  `content` text COLLATE utf8_unicode_ci NOT NULL,
-  `state` tinyint(4) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `footer`
---
-
-INSERT INTO `footer` (`id`, `content`, `state`) VALUES
-(1, '', 1);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `gallery`
---
-
-CREATE TABLE `gallery` (
-  `id` int(11) NOT NULL,
-  `title` varchar(250) DEFAULT NULL,
-  `alias` varchar(250) DEFAULT NULL,
-  `id_category` int(11) NOT NULL,
-  `images` varchar(250) NOT NULL,
-  `link` varchar(250) DEFAULT NULL,
-  `detail` text,
-  `published` tinyint(4) DEFAULT '1',
-  `created` datetime DEFAULT NULL,
-  `created_by` int(11) DEFAULT NULL,
-  `modified` datetime DEFAULT NULL,
-  `modified_by` int(11) DEFAULT NULL,
-  `seo_title` varchar(250) DEFAULT NULL,
-  `seo_keyword` text,
-  `seo_description` text,
-  `ordering` int(11) DEFAULT NULL,
-  `fontpage` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `gallery`
---
-
-INSERT INTO `gallery` (`id`, `title`, `alias`, `id_category`, `images`, `link`, `detail`, `published`, `created`, `created_by`, `modified`, `modified_by`, `seo_title`, `seo_keyword`, `seo_description`, `ordering`, `fontpage`) VALUES
-(1004, 'Slide 1', 'slide-1', 0, '', '8yD3jIyrjNQ', '', 1, NULL, NULL, '2015-10-12 07:51:40', 1000, '', '', '', 0, 1);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `gallery_category`
---
-
-CREATE TABLE `gallery_category` (
-  `id` tinyint(11) NOT NULL,
-  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `alias` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `images` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `detail` text COLLATE utf8_unicode_ci NOT NULL,
-  `created` datetime NOT NULL,
-  `created_by` int(11) NOT NULL,
-  `modified` datetime NOT NULL,
-  `modified_by` int(11) NOT NULL,
-  `ordering` int(11) NOT NULL,
-  `published` tinyint(11) NOT NULL,
-  `seo_title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `seo_keyword` text COLLATE utf8_unicode_ci,
-  `seo_description` text COLLATE utf8_unicode_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `gallery_category`
---
-
-INSERT INTO `gallery_category` (`id`, `title`, `alias`, `images`, `detail`, `created`, `created_by`, `modified`, `modified_by`, `ordering`, `published`, `seo_title`, `seo_keyword`, `seo_description`) VALUES
-(3, 'Partner', 'partner', '', '', '2015-01-07 08:10:06', 1000, '2015-01-07 17:52:13', 1000, 0, 1, '', '', ''),
-(4, 'ThaiLand', 'thailand', '', '', '2015-01-07 08:10:25', 1000, '0000-00-00 00:00:00', 0, 0, 1, '', '', ''),
-(5, 'Home Slide', 'home-slide', '', '', '2015-01-07 08:10:51', 1000, '2015-01-07 17:52:35', 1000, 0, 1, '', '', '');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `khach_hang`
---
-
-CREATE TABLE `khach_hang` (
-  `id` int(11) NOT NULL,
-  `image` varchar(250) NOT NULL,
-  `title` varchar(250) DEFAULT NULL,
-  `link` varchar(250) DEFAULT NULL,
-  `description` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `khach_hang`
---
-
-INSERT INTO `khach_hang` (`id`, `image`, `title`, `link`, `description`) VALUES
-(1004, '0', 'Tổng Giám Đốc Nguyễn Tấn Tài', 'GROUP VOA', '<p>\"Ch&uacute;ng t&ocirc;i l&agrave; doanh nghiệp c&oacute; mạng lưới rộng tr&ecirc;n cả nước. Kh&aacute;ch h&agrave;ng biết đến sản phẩm của ch&uacute;ng t&ocirc;i chủ yếu qua website. C&aacute;m ơn TORNADO&nbsp;đ&atilde; cho ch&uacute;ng t&ocirc;i sự y&ecirc;n t&acirc;m khi hợp t&aacute;c c&ugrave;ng c&aacute;c bạn. Ch&uacute;c c&ocirc;ng ty ng&agrave;y c&agrave;ng ph&aacute;t triển\"</p>'),
-(1006, '0', 'Hà Văn Tuấn', 'Công ty Thế Vinh', '<p>\"Dịch vụ SEO của TORNADO&nbsp;gi&uacute;p website của ch&uacute;ng t&ocirc;i l&ecirc;n top Google rất nhanh v&agrave; ổn định, T&ocirc;i đ&atilde; c&oacute; th&ecirc;m nhiều kh&aacute;ch h&agrave;ng mới từ khi Website ch&uacute;ng t&ocirc;i đạt kết quả tốt\"</p>'),
-(1012, '0', 'GĐ Nguyễn Thi Kim Tuyến', 'Công Ty An Vinh', '<p>Đội ngũ tuy c&ograve;n rất trẻ nhưng l&agrave;m việc rất chuy&ecirc;n nghiệp v&agrave; tận t&acirc;m, nhất l&agrave; kh&acirc;u bảo tr&igrave; website sau khi nghiệm thu. T&ocirc;i ho&agrave;n to&agrave;n h&agrave;i l&ograve;ng với trang web hiện tại của c&ocirc;ng ty.</p>');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `menus`
---
-
-CREATE TABLE `menus` (
-  `id` int(11) NOT NULL,
-  `parent` int(11) DEFAULT NULL,
-  `name` varchar(50) NOT NULL,
-  `icon` varchar(30) NOT NULL,
-  `slug` varchar(50) NOT NULL,
-  `number` int(11) NOT NULL,
-  `name_en` varchar(50) NOT NULL,
-  `seo_description` text NOT NULL,
-  `seo_keyword` text NOT NULL,
-  `state` tinyint(4) NOT NULL,
-  `id_menutype` int(11) NOT NULL,
-  `name_de` text CHARACTER SET utf8mb4
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `menus`
---
-
-INSERT INTO `menus` (`id`, `parent`, `name`, `icon`, `slug`, `number`, `name_en`, `seo_description`, `seo_keyword`, `state`, `id_menutype`, `name_de`) VALUES
-(83, NULL, 'Trang chủ', '', '', 0, '', '																										', '																										', 1, 1, ''),
-(86, NULL, 'Giới thiệu', '', 'pages/gioi-thieu', 1, '', '																										', '																										', 1, 1, ''),
-(87, NULL, 'Tin tức và sự kiện', '', 'danh-muc-tin/tin-tuc-su-kien', 2, '', '													', '													', 1, 1, ''),
-(90, NULL, 'Thời khoá biểu', '', 'thoikhoabieu', 3, '', '													', '													', 1, 1, ''),
-(95, NULL, 'Nhà trường & phụ huynh', '', 'pages/nha-truong-phu-huynh', 4, '', '																																							', '																																							', 1, 1, ''),
-(96, NULL, 'Quỹ tấm lòng vàng', '', 'pages/quy-tam-long-vang', 5, '', '																										', '																										', 1, 1, ''),
-(97, NULL, 'Liên hệ', '', '0', 6, '', '													', '													', 1, 1, '');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `menus_type`
---
-
-CREATE TABLE `menus_type` (
-  `id` int(11) NOT NULL,
-  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `state` tinyint(4) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Dumping data for table `menus_type`
---
-
-INSERT INTO `menus_type` (`id`, `name`, `state`) VALUES
-(1, 'Top menu', 1),
-(2, 'Right menu', 1),
-(3, 'Bottom menu', 1);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `pages`
---
-
-CREATE TABLE `pages` (
-  `id` int(11) NOT NULL,
-  `title` varchar(250) NOT NULL,
-  `title_en` varchar(255) NOT NULL,
-  `detail` text NOT NULL,
-  `detail_en` text NOT NULL,
-  `alias` varchar(250) NOT NULL,
-  `alias_en` varchar(255) NOT NULL,
-  `created` date NOT NULL,
-  `created_by` int(11) NOT NULL,
-  `modified` date NOT NULL,
-  `modified_by` int(11) DEFAULT NULL,
-  `id_category` int(11) NOT NULL,
-  `featured` tinyint(4) NOT NULL DEFAULT '0',
-  `images` varchar(250) DEFAULT NULL,
-  `hits` int(11) NOT NULL DEFAULT '1',
-  `published` tinyint(4) NOT NULL DEFAULT '1',
-  `path` varchar(250) DEFAULT NULL,
-  `seo_title` varchar(250) DEFAULT NULL,
-  `seo_keyword` varchar(250) DEFAULT NULL,
-  `seo_description` varchar(250) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `pages`
---
-
-INSERT INTO `pages` (`id`, `title`, `title_en`, `detail`, `detail_en`, `alias`, `alias_en`, `created`, `created_by`, `modified`, `modified_by`, `id_category`, `featured`, `images`, `hits`, `published`, `path`, `seo_title`, `seo_keyword`, `seo_description`) VALUES
-(210, 'Liên hệ', '0', '<p>Địa chỉ:&nbsp;23 H&agrave;ng M&atilde;, H&agrave; Nội</p>\r\n<p>SĐT: 0945 301890 (Mr. Lương)</p>\r\n<p>Email:&nbsp;<a href=\"mailto:kinhdoanh@lenguyen.com\" target=\"_blank\">kinhdoanh@lenguyen.com</a></p>\r\n<p>Facebook:&nbsp;https://www.facebook.com</p>', '0', 'lien-he', '', '2018-07-04', 1000, '0000-00-00', NULL, 0, 0, '', 1, 1, NULL, '', '', ''),
-(211, 'Giới thiệu', '0', '<p>Giới thiệu</p>', '0', 'gioi-thieu', '', '2018-07-04', 1000, '0000-00-00', NULL, 0, 0, '', 1, 1, NULL, 'Giới thiệu', 'Giới thiệu', 'Giới thiệu'),
-(212, 'Bảng giá', '', '<p>Bảng gi&aacute; in ...</p>', '', 'bang-gia', '', '2018-07-04', 1000, '0000-00-00', NULL, 0, 0, '', 1, 1, NULL, '', '', '');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `products`
---
-
-CREATE TABLE `products` (
-  `id` int(11) NOT NULL,
-  `title` varchar(250) NOT NULL,
-  `alias` varchar(250) NOT NULL,
-  `introImage` varchar(250) DEFAULT NULL,
-  `image` varchar(250) DEFAULT NULL,
-  `categoryId` int(11) NOT NULL,
-  `detail` text,
-  `featured` tinyint(4) NOT NULL DEFAULT '0',
-  `published` tinyint(4) NOT NULL DEFAULT '1',
-  `price` varchar(250) DEFAULT NULL,
-  `price_old` int(11) DEFAULT NULL,
-  `new` tinyint(4) DEFAULT NULL,
-  `seo_description` varchar(250) DEFAULT NULL,
-  `seo_keyword` varchar(250) DEFAULT NULL,
-  `seo_title` varchar(250) DEFAULT NULL,
-  `noibat` tinyint(4) NOT NULL,
-  `mota` text NOT NULL,
-  `gia` text NOT NULL,
-  `thoigian` text,
-  `dieukhoan` text NOT NULL,
-  `lienhe` text NOT NULL,
-  `phuongtien` text CHARACTER SET utf8mb4,
-  `khoihanh` text,
-  `dienthoai` varchar(250) DEFAULT NULL,
-  `title_en` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
-  `phuongtien_en` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
-  `khoihanh_en` varchar(255) DEFAULT NULL,
-  `mota_en` varchar(255) DEFAULT NULL,
-  `detail_en` text,
-  `gia_en` text CHARACTER SET utf8mb4,
-  `dieukhoan_en` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
-  `lienhe_en` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `products_categories`
---
-
-CREATE TABLE `products_categories` (
-  `id` int(11) NOT NULL,
-  `name` varchar(250) NOT NULL,
-  `alias` varchar(250) DEFAULT NULL,
-  `parents` int(11) NOT NULL DEFAULT '0',
-  `level` tinyint(4) NOT NULL DEFAULT '1',
-  `lft` int(11) DEFAULT '0',
-  `rgt` int(11) DEFAULT '0',
-  `path` varchar(200) NOT NULL,
-  `state` tinyint(4) NOT NULL DEFAULT '1',
-  `seo_description` varchar(250) DEFAULT NULL,
-  `seo_keyword` varchar(250) DEFAULT NULL,
-  `seo_title` varchar(250) DEFAULT NULL,
-  `detail` text NOT NULL,
-  `link` text,
-  `name_en` varchar(255) DEFAULT NULL,
-  `ordering` int(1) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `products_categories`
---
-
-INSERT INTO `products_categories` (`id`, `name`, `alias`, `parents`, `level`, `lft`, `rgt`, `path`, `state`, `seo_description`, `seo_keyword`, `seo_title`, `detail`, `link`, `name_en`, `ordering`) VALUES
-(1000, 'Root', 'root', 0, 0, 0, 38, '', 0, '', '', '', '', '', NULL, NULL),
-(1076, 'IN HỘP GIẤY', 'in-hop-giay', 1000, 1, 20, 21, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1077, 'IN LỊCH TẾT', 'in-lich-tet', 1000, 1, 22, 23, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1078, 'IN BAO BÌ', 'in-bao-bi', 1000, 1, 24, 27, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1079, 'IN TÚI GIẤY', 'in-tui-giay', 1000, 1, 28, 31, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1080, 'IN BAO BÌ GIẤY', 'in-bao-bi-giay', 1000, 1, 32, 33, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1081, 'IN DECAL', 'in-decal', 1000, 1, 34, 35, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1082, 'IN TỜ RƠI', 'in-to-roi', 1000, 1, 36, 37, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1083, 'IN CATALOGUE', 'in-catalogue', 1000, 1, 3, 6, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1084, 'IN BIỂU MẪU', 'in-bieu-mau', 1000, 1, 7, 10, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1085, 'IN BAO THƯ', 'in-bao-thu', 1000, 1, 11, 16, '', 1, '', '', '', '', NULL, NULL, NULL),
-(1086, 'IN DANH THIẾP', 'in-danh-thiep', 1000, 1, 17, 18, '', 1, '', '', '', '', NULL, NULL, NULL);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `slide`
---
-
-CREATE TABLE `slide` (
-  `id` int(11) NOT NULL,
-  `image` varchar(250) NOT NULL,
-  `title` varchar(250) DEFAULT NULL,
-  `link` varchar(250) DEFAULT NULL,
-  `description` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `slide`
---
-
-INSERT INTO `slide` (`id`, `image`, `title`, `link`, `description`) VALUES
-(1070, 'furniture-slide-3.jpg', 'Slide 3', 'http://inanlenguyen.com', '0'),
-(1072, 'furniture-slide-2.jpg', 'Slide 2', 'http://inanlenguyen.com', '0'),
-(1073, 'furniture-slide-1.jpg', 'Slide 1', 'http://inanlenguyen.com', '0'),
-(1075, 'background_splashscreen.png', '', '', '0');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `support`
---
-
-CREATE TABLE `support` (
-  `id` int(11) NOT NULL,
-  `yahoo` varchar(300) DEFAULT NULL,
-  `skype` varchar(300) DEFAULT NULL,
-  `telephone` varchar(20) DEFAULT NULL,
-  `description` text
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `support`
---
-
-INSERT INTO `support` (`id`, `yahoo`, `skype`, `telephone`, `description`) VALUES
-(1, 'dinhhieu67', 'dinhhieu67', '0902733136', NULL);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `users`
---
-
-CREATE TABLE `users` (
+CREATE TABLE `cp_users` (
   `id` int(11) NOT NULL,
   `username` varchar(250) NOT NULL,
   `password` varchar(250) NOT NULL,
   `firstname` varchar(100) NOT NULL,
   `lastname` varchar(100) NOT NULL,
-  `birthday` date NOT NULL,
   `email` varchar(150) NOT NULL,
   `phone` varchar(20) NOT NULL,
   `address` varchar(250) NOT NULL,
   `userGroup` int(11) NOT NULL,
   `avatar` varchar(150) NOT NULL,
   `createdDate` date NOT NULL,
-  `discount` int(11) NOT NULL,
   `state` tinyint(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `users`
+-- Dumping data for table `cp_users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`, `firstname`, `lastname`, `birthday`, `email`, `phone`, `address`, `userGroup`, `avatar`, `createdDate`, `discount`, `state`) VALUES
-(1000, 'admin', 'd68699f0ba7cd687afcb5b678bb1b60c', 'Nguyễn Quốc', 'Trung', '1994-04-06', 'quoctrungdhqn@gmail.com', '', 'TPHCM', 1, 'uploads/users/admin.jpg', '2014-09-08', 5, 1);
+INSERT INTO `cp_users` (`id`, `username`, `password`, `firstname`, `lastname`, `email`, `phone`, `address`, `userGroup`, `avatar`, `createdDate`, `state`) VALUES
+(1000, 'admin', 'd68699f0ba7cd687afcb5b678bb1b60c', 'Nguyễn Quốc', 'Trung', 'quoctrungdhqn@gmail.com', '0962658098', 'TPHCM', 1, 'uploads/users/trungnq.png', '2018-09-08', 1),
+(1003, 'thanhluong', 'ccbc31e1745027e03a6b43053cab68bd', 'Nguyễn Thành', 'Lương', 'admin', '', '', 2, 'uploads/users/logo_admin.png', '0000-00-00', 1);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users_groups`
+-- Table structure for table `cp_users_groups`
 --
 
-CREATE TABLE `users_groups` (
+CREATE TABLE `cp_users_groups` (
   `id` int(11) NOT NULL,
   `groupName` varchar(100) NOT NULL,
   `role` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `users_groups`
+-- Dumping data for table `cp_users_groups`
 --
 
-INSERT INTO `users_groups` (`id`, `groupName`, `role`) VALUES
+INSERT INTO `cp_users_groups` (`id`, `groupName`, `role`) VALUES
 (1, 'SuperAdmin', 777),
 (2, 'Admin', 755),
 (3, 'Poster', 644),
 (4, 'Customer', 444);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `video`
---
-
-CREATE TABLE `video` (
-  `id` int(11) NOT NULL,
-  `description` varchar(500) CHARACTER SET utf8 NOT NULL,
-  `image` varchar(250) CHARACTER SET utf8 NOT NULL,
-  `title` varchar(250) CHARACTER SET utf8 NOT NULL,
-  `link` varchar(250) CHARACTER SET utf8 NOT NULL,
-  `title_en` varchar(255) CHARACTER SET utf8 DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `video`
---
-
-INSERT INTO `video` (`id`, `description`, `image`, `title`, `link`, `title_en`) VALUES
-(18, '0', '0', 'HÀNH TRÌNH VỀ XỨ HOA VÀNG CỎ XANH | 7.2016 ', 'https://www.youtube.com/embed/E11uXRD1hcw', NULL),
-(10, '0', '0', 'TOUR KHÁM PHÁ HÒN KHÔ 16.04.2016 ', 'https://www.youtube.com/embed/rqTsAzo6k7I', NULL),
-(9, '0', '0', 'TOUR CÙ LAO XANH NGÀY 23.04.2016 ', 'https://www.youtube.com/embed/FaIdJTvdXE8?rel=0&amp;', NULL),
-(8, '0', '0', 'SALATOUR - CÙ LAO XANH 01-02.05.2016 ', 'https://www.youtube.com/embed/_309ptl3OfU?rel=0&amp;', NULL),
-(7, '0', '0', 'KỲ CO - THIÊN ĐƯỜNG BIỂN NHIỆT ĐỚI ', 'https://www.youtube.com/embed/Wdjaq0-PH8c?rel=0&amp;', NULL),
-(11, '0', '0', 'TOUR TRẢI NGHIỆM CÙ LAO XANH QUYẾN RŨ ', 'https://www.youtube.com/embed/9RdZcT6Mfks?rel=0&amp;', NULL),
-(12, '0', '0', 'CỒN CHIM - NHÀ THỜ LÒNG SÔNG ', 'https://www.youtube.com/embed/CE8PSHGIxoo?rel=0&amp;', NULL),
-(13, '0', '0', 'GÀNH ĐÁ LỘ DIÊU - CHÙA MƯỜI LIỄU - HỒ NÔNG TRƯỜNG ', 'https://www.youtube.com/embed/6kInYs2vB0I?rel=0&amp;', NULL),
-(17, '0', '0', 'KỲ CO VỚI CÁC BẠN TRẺ THÁNG 7.2016 ', 'https://www.youtube.com/embed/aHp5YrhP9bs', NULL),
-(15, '0', '0', 'TP BANK KỶ NIỆM DU LỊCH BÌNH ĐỊNH 2016 ', 'https://www.youtube.com/embed/AKikmxU9upI', NULL),
-(19, '0', '0', 'KQL GIAO THÔNG ĐÔ THỊ SỐ 3 - KỶ NIỆM BÌNH ĐỊNH 2016 ', 'https://www.youtube.com/embed/J87k-5IhaNg', NULL),
-(20, '0', '0', 'KHÁM PHÁ KỲ CO - EO GIÓ VỚI GIA ĐÌNH ANH CHÁNH VÀ CHỊ NGA 25.7.2016 ', 'https://www.youtube.com/embed/hYLkidWGf9g', NULL),
-(21, '0', '0', 'DU HÍ TÂY SƠN - HẦM HÔ - ĐÀN TẾ TRỜI - BẢO TÀNG QUANG TRUNG ', 'https://www.youtube.com/embed/as9ZEWXBbQ4', NULL),
-(22, '0', '0', 'CÔNG TY CPKD THIẾT BỊ VÀ DỊCH VỤ KỸ THUẬT THAM QUAN BÌNH ĐỊNH 2016 ', 'https://www.youtube.com/embed/l19PeT2Dyks', NULL),
-(23, '0', '0', 'KHÁM PHÁ BÌNH ĐỊNH 2016 CÙNG NGÂN HÀNG TMCP TIÊN PHONG - TÂN BÌNH ', 'https://www.youtube.com/embed/pgumVppuQvY', NULL),
-(24, '0', '0', 'HÀNH TRÌNH KỲ CO - EO GIÓ VỚI GIA ĐÌNH ANH THANH, ANH HẢI VÀ VỢ CHỒNG ANH ĐỨC 7.2016 ', 'https://www.youtube.com/embed/G6CzQPmmNJs', NULL),
-(25, '0', '0', 'GIA ĐÌNH ANH HÙNG KHÁM PHÁ PHÚ YÊN 8.2016 ', 'https://www.youtube.com/embed/9BgkM4gScDo', NULL),
-(26, '0', '0', 'KHÁM PHÁ PHÚ YÊN 8.8.2016 VỚI GIA ĐÌNH CHỊ KHÁNH ', 'https://www.youtube.com/embed/PlhR1dEX1GE', NULL),
-(27, '0', '0', 'KHÁM PHÁ NÉT ĐẸP KỲ CO - EO GIÓ CÙNG GIA ĐÌNH ANH ĐẠT 09.08.2016 ', 'https://www.youtube.com/embed/WL3DbVyTT_w', NULL),
-(28, '0', '0', 'HÀNH TRÌNH KHÁM PHÁ KỲ CO - EO GIÓ VỚI GIA ĐÌNH ANH ĐĂNG 11.08.2016 ', 'https://www.youtube.com/embed/7uoB3RvdjUs', NULL),
-(29, '0', '0', 'KHÁM PHÁ KỲ CO - EO GIÓ CÙNG CHỊ LAN VÀ NHỮNG NGƯỜI BẠN 07.08.2016 ', 'https://www.youtube.com/embed/FI_kdmUD30U', NULL),
-(30, '0', '0', 'HÀNH TRÌNH KHÁM PHÁ KỲ CO - EO GIÓ VỚI GIA ĐÌNH ANH DUY 21.08.2016 ', 'https://www.youtube.com/embed/1gRjWOasrCo', NULL),
-(32, '0', '0', 'CÔNG TY TNHH KHÁNH HIỀN - KHÁM PHÁ BÌNH ĐỊNH 9.2016', 'https://www.youtube.com/embed/Dew2qog9jYQ', 'CÔNG TY TNHH KHÁNH HIỀN - KHÁM PHÁ BÌNH ĐỊNH 9.2016'),
-(33, '0', '0', 'KHÁM PHÁ BÌNH ĐỊNH - PHÚ YÊN CÙNG CÔ HOA VÀ NHỮNG NGƯỜI BẠN ', 'https://www.youtube.com/embed/ZtEo_TCosgk', 'KHÁM PHÁ BÌNH ĐỊNH - PHÚ YÊN CÙNG CÔ HOA VÀ NHỮNG NGƯỜI BẠN '),
-(34, '0', '0', 'KHÁM PHÁ XỨ NẪU CÙNG ANH HƯNG VÀ NHỮNG NGƯỜI BẠN 11/2016 ', 'https://www.youtube.com/embed/xbjY7lxAf_g', 'KHÁM PHÁ XỨ NẪU CÙNG ANH HƯNG VÀ NHỮNG NGƯỜI BẠN 11/2016 '),
-(35, '0', '0', 'KHÁM PHÁ BÌNH ĐỊNH CÙNG ANH HƯNG VÀ NHỮNG NGƯỜI BẠN 2016 ', 'https://www.youtube.com/embed/lgGpFoiavSw', 'KHÁM PHÁ BÌNH ĐỊNH CÙNG ANH HƯNG VÀ NHỮNG NGƯỜI BẠN 2016 ');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `web_link`
---
-
-CREATE TABLE `web_link` (
-  `id` int(11) NOT NULL,
-  `image` varchar(250) NOT NULL,
-  `title` varchar(250) DEFAULT NULL,
-  `link` varchar(250) DEFAULT NULL,
-  `description` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `web_link`
---
-
-INSERT INTO `web_link` (`id`, `image`, `title`, `link`, `description`) VALUES
-(1006, 'logo3.png', 'Lửa Việt', 'http://tornado.com.vn/', '0'),
-(1008, 'logo6.jpg', 'Công ty Tây Bắc', 'http://tornado.com.vn/', '0'),
-(1009, 'logo1.jpg', 'Sen Flower', 'http://tornado.com.vn/', '0'),
-(1010, 'logo5.png', 'Long Hải', 'http://tornado.com.vn/', '0'),
-(1014, 'logo4.jpg', 'Phương Đông', 'http://tornado.com.vn/', '0'),
-(1015, 'logo2.png', 'Thế Linh', 'http://tornado.com.vn/', '0');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `articles`
+-- Indexes for table `cp_articles`
 --
-ALTER TABLE `articles`
+ALTER TABLE `cp_articles`
   ADD PRIMARY KEY (`id`),
   ADD KEY `categoryId` (`id_category`),
   ADD KEY `createdBy` (`created_by`,`modified_by`),
   ADD KEY `modifiedBy` (`modified_by`);
 
 --
--- Indexes for table `categories`
+-- Indexes for table `cp_categories`
 --
-ALTER TABLE `categories`
+ALTER TABLE `cp_categories`
   ADD PRIMARY KEY (`id`),
   ADD KEY `parents` (`parents`);
-
---
--- Indexes for table `comment`
---
-ALTER TABLE `comment`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `cp_configuration`
 --
 ALTER TABLE `cp_configuration`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `cp_custom`
+--
+ALTER TABLE `cp_custom`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `cp_footer`
+--
+ALTER TABLE `cp_footer`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `cp_menus`
+--
+ALTER TABLE `cp_menus`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `parent` (`parent`);
+
+--
+-- Indexes for table `cp_menus_type`
+--
+ALTER TABLE `cp_menus_type`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -31170,123 +30926,50 @@ ALTER TABLE `cp_online`
   ADD PRIMARY KEY (`ip`);
 
 --
--- Indexes for table `cp_unique`
+-- Indexes for table `cp_pages`
 --
-ALTER TABLE `cp_unique`
-  ADD PRIMARY KEY (`day`,`ip`);
-
---
--- Indexes for table `custom`
---
-ALTER TABLE `custom`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `download`
---
-ALTER TABLE `download`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `event`
---
-ALTER TABLE `event`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `footer`
---
-ALTER TABLE `footer`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `gallery`
---
-ALTER TABLE `gallery`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `gallery_category`
---
-ALTER TABLE `gallery_category`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `khach_hang`
---
-ALTER TABLE `khach_hang`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `menus`
---
-ALTER TABLE `menus`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `parent` (`parent`);
-
---
--- Indexes for table `menus_type`
---
-ALTER TABLE `menus_type`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `pages`
---
-ALTER TABLE `pages`
+ALTER TABLE `cp_pages`
   ADD PRIMARY KEY (`id`),
   ADD KEY `categoryId` (`id_category`),
   ADD KEY `createdBy` (`created_by`,`modified_by`),
   ADD KEY `modifiedBy` (`modified_by`);
 
 --
--- Indexes for table `products`
+-- Indexes for table `cp_products`
 --
-ALTER TABLE `products`
+ALTER TABLE `cp_products`
   ADD PRIMARY KEY (`id`),
   ADD KEY `categoryId` (`categoryId`);
 
 --
--- Indexes for table `products_categories`
+-- Indexes for table `cp_products_categories`
 --
-ALTER TABLE `products_categories`
+ALTER TABLE `cp_products_categories`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `slide`
+-- Indexes for table `cp_slide`
 --
-ALTER TABLE `slide`
+ALTER TABLE `cp_slide`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `support`
+-- Indexes for table `cp_unique`
 --
-ALTER TABLE `support`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `cp_unique`
+  ADD PRIMARY KEY (`day`,`ip`);
 
 --
--- Indexes for table `users`
+-- Indexes for table `cp_users`
 --
-ALTER TABLE `users`
+ALTER TABLE `cp_users`
   ADD PRIMARY KEY (`id`),
   ADD KEY `userGroup` (`userGroup`);
 
 --
--- Indexes for table `users_groups`
+-- Indexes for table `cp_users_groups`
 --
-ALTER TABLE `users_groups`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `video`
---
-ALTER TABLE `video`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `web_link`
---
-ALTER TABLE `web_link`
+ALTER TABLE `cp_users_groups`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -31294,144 +30977,99 @@ ALTER TABLE `web_link`
 --
 
 --
--- AUTO_INCREMENT for table `articles`
+-- AUTO_INCREMENT for table `cp_articles`
 --
-ALTER TABLE `articles`
+ALTER TABLE `cp_articles`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=390;
 --
--- AUTO_INCREMENT for table `categories`
+-- AUTO_INCREMENT for table `cp_categories`
 --
-ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1042;
---
--- AUTO_INCREMENT for table `comment`
---
-ALTER TABLE `comment`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+ALTER TABLE `cp_categories`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1037;
 --
 -- AUTO_INCREMENT for table `cp_configuration`
 --
 ALTER TABLE `cp_configuration`
   MODIFY `id` smallint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1003;
 --
--- AUTO_INCREMENT for table `custom`
+-- AUTO_INCREMENT for table `cp_custom`
 --
-ALTER TABLE `custom`
+ALTER TABLE `cp_custom`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 --
--- AUTO_INCREMENT for table `download`
+-- AUTO_INCREMENT for table `cp_footer`
 --
-ALTER TABLE `download`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT for table `event`
---
-ALTER TABLE `event`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT for table `footer`
---
-ALTER TABLE `footer`
+ALTER TABLE `cp_footer`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT for table `gallery`
+-- AUTO_INCREMENT for table `cp_menus`
 --
-ALTER TABLE `gallery`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1005;
+ALTER TABLE `cp_menus`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=113;
 --
--- AUTO_INCREMENT for table `gallery_category`
+-- AUTO_INCREMENT for table `cp_menus_type`
 --
-ALTER TABLE `gallery_category`
-  MODIFY `id` tinyint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
---
--- AUTO_INCREMENT for table `khach_hang`
---
-ALTER TABLE `khach_hang`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1013;
---
--- AUTO_INCREMENT for table `menus`
---
-ALTER TABLE `menus`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=98;
---
--- AUTO_INCREMENT for table `menus_type`
---
-ALTER TABLE `menus_type`
+ALTER TABLE `cp_menus_type`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
--- AUTO_INCREMENT for table `pages`
+-- AUTO_INCREMENT for table `cp_pages`
 --
-ALTER TABLE `pages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=214;
+ALTER TABLE `cp_pages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=213;
 --
--- AUTO_INCREMENT for table `products`
+-- AUTO_INCREMENT for table `cp_products`
 --
-ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `cp_products`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
--- AUTO_INCREMENT for table `products_categories`
+-- AUTO_INCREMENT for table `cp_products_categories`
 --
-ALTER TABLE `products_categories`
+ALTER TABLE `cp_products_categories`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1087;
 --
--- AUTO_INCREMENT for table `slide`
+-- AUTO_INCREMENT for table `cp_slide`
 --
-ALTER TABLE `slide`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1076;
+ALTER TABLE `cp_slide`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1075;
 --
--- AUTO_INCREMENT for table `support`
+-- AUTO_INCREMENT for table `cp_users`
 --
-ALTER TABLE `support`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `cp_users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1006;
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT for table `cp_users_groups`
 --
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1001;
---
--- AUTO_INCREMENT for table `users_groups`
---
-ALTER TABLE `users_groups`
+ALTER TABLE `cp_users_groups`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
---
--- AUTO_INCREMENT for table `video`
---
-ALTER TABLE `video`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
---
--- AUTO_INCREMENT for table `web_link`
---
-ALTER TABLE `web_link`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1016;
 --
 -- Constraints for dumped tables
 --
 
 --
--- Constraints for table `articles`
+-- Constraints for table `cp_articles`
 --
-ALTER TABLE `articles`
-  ADD CONSTRAINT `articles_ibfk_1` FOREIGN KEY (`id_category`) REFERENCES `categories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `articles_ibfk_2` FOREIGN KEY (`created_by`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `articles_ibfk_3` FOREIGN KEY (`modified_by`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `cp_articles`
+  ADD CONSTRAINT `cp_articles_ibfk_1` FOREIGN KEY (`id_category`) REFERENCES `cp_categories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `cp_articles_ibfk_2` FOREIGN KEY (`created_by`) REFERENCES `cp_users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `cp_articles_ibfk_3` FOREIGN KEY (`modified_by`) REFERENCES `cp_users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Constraints for table `menus`
+-- Constraints for table `cp_menus`
 --
-ALTER TABLE `menus`
-  ADD CONSTRAINT `menus_ibfk_1` FOREIGN KEY (`parent`) REFERENCES `menus` (`id`);
+ALTER TABLE `cp_menus`
+  ADD CONSTRAINT `cp_menus_ibfk_1` FOREIGN KEY (`parent`) REFERENCES `cp_menus` (`id`);
 
 --
--- Constraints for table `products`
+-- Constraints for table `cp_products`
 --
-ALTER TABLE `products`
-  ADD CONSTRAINT `products_ibfk_1` FOREIGN KEY (`categoryId`) REFERENCES `products_categories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `cp_products`
+  ADD CONSTRAINT `cp_products_ibfk_1` FOREIGN KEY (`categoryId`) REFERENCES `cp_products_categories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Constraints for table `users`
+-- Constraints for table `cp_users`
 --
-ALTER TABLE `users`
-  ADD CONSTRAINT `users_ibfk_1` FOREIGN KEY (`userGroup`) REFERENCES `users_groups` (`id`);
+ALTER TABLE `cp_users`
+  ADD CONSTRAINT `cp_users_ibfk_1` FOREIGN KEY (`userGroup`) REFERENCES `cp_users_groups` (`id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
