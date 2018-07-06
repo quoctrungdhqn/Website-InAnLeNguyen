@@ -17,6 +17,7 @@ $userlog = $CI->session->userdata('userLogged');
                 <?php endif; ?>
             </div>
         </div>
+        <?php echo $this->session->flashdata('message'); ?>
         <div class="bootstrap-admin-panel-content">
             <table class="table table-striped table-bordered" id="example">
                 <thead>
@@ -61,7 +62,7 @@ $userlog = $CI->session->userdata('userLogged');
                                 Sửa
                             </a>
 
-                            <a class="btn btn-sm btn-danger" href="#">
+                            <a class="btn btn-sm btn-danger" onclick="remove_user(<?php echo $user->id; ?>)">
                                 <i class="glyphicon glyphicon-trash"></i>
                                 Xóa
                             </a>
@@ -85,4 +86,61 @@ $userlog = $CI->session->userdata('userLogged');
         src="<?php echo base_url(); ?>templates/admin/vendors/datatables/js/jquery.dataTables.min.js">
 </script>
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/DT_bootstrap.js">
+</script>
+<script type="text/javascript">
+    $(function () {
+        $(".alert-success").fadeTo(1000, 500).slideUp(500, function () {
+            $(".alert-success").alert('close');
+        });
+    });
+
+    $(function () {
+        $(".alert-danger").slideUp(0, function () {
+            $(".alert-danger").alert('close');
+            swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+        });
+    });
+
+</script>
+
+<script>
+    function remove_user(id) {
+        if (id === null || id === 0 || id === 1000) {
+            swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+            return;
+        }
+
+        swal({
+            title: 'Xác nhận xóa',
+            text: "Bạn có muốn xóa user này khỏi danh sách?",
+            type: 'question',
+            showCancelButton: true,
+            confirmButtonColor: '#1467D2',
+            cancelButtonColor: '#E5231E',
+            confirmButtonText: 'Có, xóa!',
+            cancelButtonText: 'Hủy',
+            showLoaderOnConfirm: true,
+            preConfirm: () => {
+                $.ajax({
+                    type: 'DELETE',
+                    url: '<?php echo base_url() ?>admin/user/delete/' + id,
+                    error: function () {
+                        swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+                    },
+                    success: function () {
+                        swal({
+                            type: 'success',
+                            title: 'Đã xóa!',
+                            text: '',
+                            timer: 2000
+                        });
+                        window.setTimeout(function () {
+                            location.reload();
+                        }, 1000);
+                    }
+                });
+            }
+        });
+    }
+
 </script>

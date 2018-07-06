@@ -2,68 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfa68ac-eeae-409a-8ddc-c03e7924c7ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/binhluan.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/download.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/event.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/gallery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/gallery_category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/khach_hang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/news_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/news_category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/product_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/product_category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/video.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/web_link.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/binhluan.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/download.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/event.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/gallery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/video.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/binhluan_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/custom_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/custom_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/download_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/event_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/gallery_category_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/gallery_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/khach_hang_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/menu_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/menu_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/menu_type_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/menu_type_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/news_category_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/news_category_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/news_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/news_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/pages_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/pages_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/product_category_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/product_category_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/product_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/product_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/slide_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/slide_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/user_group_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/user_group_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/admin/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/models/user_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/user_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/video_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/web_link_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/download/download_edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/download/download_list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/event/event_edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/event/event_list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/gallery/gallery_category_edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/gallery/gallery_category_list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/gallery/gallery_edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/gallery/gallery_list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/khach_hang/khach_hang_edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/khach_hang/khach_hang_list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/mau/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/mau/fttedu_data(2).sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/mau/longphung.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/mau/w.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/mau/web_link.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/mau/web_link.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/mau/web_link/web_link_edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/mau/web_link/web_link_list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/mau/web_link_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/media/media_edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/media/media_list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/web_link/web_link_edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/web_link/web_link_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/user/user_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/user/user_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/user/user_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/user/user_list.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,38 +17,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/product_model.php">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="49" />
+            <state relative-caret-position="644">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+              <folding>
+                <element signature="n#save_update#0;n#User#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slide_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/slide_model.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/include/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="442">
+              <caret line="26" column="125" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_group_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/user_group_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_model.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user_model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/user_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="838">
-              <caret line="103" column="49" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
+            <state relative-caret-position="459">
+              <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2380">
+              <caret line="140" column="121" selection-start-line="140" selection-start-column="121" selection-end-line="140" selection-end-column="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slide_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slide.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/slide.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="133" column="45" lean-forward="true" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="45" />
+              <folding>
+                <element signature="n#view#0;n#Slide#0;n#!!top" />
+                <element signature="n#edit#0;n#Slide#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,7 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getProductsCategoryInfo</find>
       <find>News_Category_Model</find>
       <find>swal2-container</find>
       <find>.swal2-container.swal2-center</find>
@@ -144,6 +120,7 @@
       <find>products</find>
       <find>cp_categories</find>
       <find>'cp_slide'</find>
+      <find>cp_users</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php echo base_url(); ?&gt;</replace>
@@ -187,13 +164,9 @@
         <option value="$PROJECT_DIR$/application/views/admin/include/left.php" />
         <option value="$PROJECT_DIR$/templates/admin/css/style.css" />
         <option value="$PROJECT_DIR$/application/views/admin/news/news_edit.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/user/user_list.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/include/header.php" />
         <option value="$PROJECT_DIR$/application/views/admin/dashboard.php" />
         <option value="$PROJECT_DIR$/application/views/admin/template.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin/user.php" />
         <option value="$PROJECT_DIR$/application/controllers/users.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/user/user_edit.php" />
         <option value="$PROJECT_DIR$/application/models/product_model.php" />
         <option value="$PROJECT_DIR$/application/models/pages_model.php" />
         <option value="$PROJECT_DIR$/application/models/news_category_model.php" />
@@ -205,7 +178,11 @@
         <option value="$PROJECT_DIR$/application/models/product_category_model.php" />
         <option value="$PROJECT_DIR$/application/models/slide_model.php" />
         <option value="$PROJECT_DIR$/application/models/user_group_model.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/user/user_edit.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/user/user_list.php" />
         <option value="$PROJECT_DIR$/application/models/user_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/user.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/include/header.php" />
       </list>
     </option>
   </component>
@@ -280,15 +257,7 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InAnLeNguyen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="products" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="slide" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="InAnLeNguyen" type="b2602c69:ProjectViewProjectNode" />
@@ -305,7 +274,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="sty&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/templates/admin/css/style.css&#10;hea&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/header.php&#10;rout&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/config/routes.php&#10;le&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php&#10;page&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/controllers/admin/page.php&#10;News_Category_Model&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/models/news_category_model.php&#10;left&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php" />
+    <property name="SearchEverywhereHistoryKey" value="hea&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/header.php&#10;sty&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/templates/admin/css/style.css&#10;rout&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/config/routes.php&#10;le&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php&#10;page&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/controllers/admin/page.php&#10;News_Category_Model&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/models/news_category_model.php&#10;left&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -350,12 +319,12 @@
       <workItem from="1530625545691" duration="7369000" />
       <workItem from="1530669745822" duration="25785000" />
       <workItem from="1530756294732" duration="26543000" />
-      <workItem from="1530848168178" duration="2659000" />
+      <workItem from="1530848168178" duration="5176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90885000" />
+    <option name="totallyTimeSpent" value="93402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -427,13 +396,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="58" column="112" selection-start-line="58" selection-start-column="112" selection-end-line="58" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/configuration/configuration_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -523,31 +485,10 @@
         <state relative-caret-position="-255" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/news/news_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="56" column="29" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="56" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/include/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="75" column="82" selection-start-line="75" selection-start-column="82" selection-end-line="75" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -565,31 +506,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/slide.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="125" column="9" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="125" selection-end-column="9" />
-          <folding>
-            <element signature="n#view#0;n#Slide#0;n#!!top" />
-            <element signature="n#edit#0;n#Slide#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="116" column="24" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#6;n#fieldset#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,13 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2006">
           <caret line="118" column="33" lean-forward="true" selection-start-line="118" selection-start-column="33" selection-end-line="118" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="108" column="45" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -736,10 +649,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="140" column="121" selection-start-line="140" selection-start-column="121" selection-end-line="140" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_edit.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/slide/slide_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/user/user_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="103" column="49" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
+        <state relative-caret-position="459">
+          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/slide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="133" column="45" lean-forward="true" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="45" />
+          <folding>
+            <element signature="n#view#0;n#Slide#0;n#!!top" />
+            <element signature="n#edit#0;n#Slide#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="n#save_update#0;n#User#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/include/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="125" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
         </state>
       </provider>
     </entry>

@@ -23,13 +23,12 @@ class User extends CI_Controller
     {
         $data['pageTitle'] = 'Quản lý thành viên';
 
-        $this->load->model('User_model');
         $user = $this->session->userdata('userLogged');
 
         if ($user->role == '777') {
             $listUsers = $this->User_model->getAllUsers();
         } else {
-            $listUsers = $this->User_model->getUserInfo($user->id);
+            $listUsers = $this->User_model->getUser($user->id);
         }
 
         $data['list'] = $listUsers;
@@ -107,21 +106,19 @@ class User extends CI_Controller
         if (!$id) //Thêm 1 người dùng mới
         {
             if ($this->User_model->insertUser($image)) {
-
-                $this->session->set_userdata(array('message' => 'Thêm thành công!'));
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/user/view');
             } else {
-                $this->session->set_userdata(array('message' => 'Thêm thất bại!'));
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/user/view');
             }
         } else //Cập nhật người dùng
         {
             if ($this->User_model->updateUser($image)) {
-
-                $this->session->set_userdata(array('message' => 'Cập nhật thành công!'));
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-success"><button data-dismiss="alert" class="close" type="button">×</button>Lưu dữ liệu thành công!</div>');
                 redirect('admin/user/view');
             } else {
-                $this->session->set_userdata(array('message' => 'Cập nhật thất bại!'));
+                $this->session->set_flashdata('message', '<div role="alert" class="alert alert-danger"></div>');
                 redirect('admin/user/view');
             }
         }
@@ -133,8 +130,6 @@ class User extends CI_Controller
         {
             $this->User_model->removeUser($userid);
         }
-
-        redirect('admin/user/view');
     }
 }
 

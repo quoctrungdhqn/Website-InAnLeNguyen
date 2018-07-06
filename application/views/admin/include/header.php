@@ -24,7 +24,7 @@ if ($this->session->userdata('loggedAdmin') == false) {
                         </li>
                         <li class="dropdown">
                             <a role="button" class="dropdown-toggle" data-hover="dropdown"> <i
-                                        class="glyphicon glyphicon-user"></i> <?php echo $user->lastname . ' ' . $user->firstname ?>
+                                        class="glyphicon glyphicon-user"></i> <?php echo $user->firstname . ' ' . $user->lastname ?>
                                 <i class="caret"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="<?php echo base_url(); ?>admin/user/edit/<?php echo $user->id; ?>">Thông

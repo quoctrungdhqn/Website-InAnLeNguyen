@@ -29,6 +29,15 @@ class User_model extends CI_Model
         return $query->result();
     }
 
+    function getUser($id)
+    {
+        $this->db->select('u.*, g.groupName, g.role');
+        $this->db->where('u.userGroup = g.id AND u.id = ', $id);
+        $query = $this->db->get('cp_users u, cp_users_groups AS g');
+
+        return $query->result();
+    }
+
     function getUserInfo($id)
     {
         $this->db->select('u.*, g.groupName, g.role');
@@ -54,7 +63,7 @@ class User_model extends CI_Model
             'createdDate' => date('d-m-Y H:i:s')
         );
 
-        if ($this->db->insert('users', $data)) {
+        if ($this->db->insert($this->table_name, $data)) {
             return true;
         }
 
