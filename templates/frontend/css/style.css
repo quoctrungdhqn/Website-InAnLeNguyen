@@ -6413,7 +6413,7 @@ only screen and (min-resolution: 144 dpi){
 }
 
 #footer {
-	background: #f8f8f8;
+	background: #f2f2f2;
 }
 
 .btn-readmore {
@@ -6426,4 +6426,17 @@ only screen and (min-resolution: 144 dpi){
 	color: #ffffff;
 	background: #749910;
 	margin-top: 10px;
+}
+
+.footer-title {
+	padding: 5px 0 5px 0;
+	border-bottom: 2px solid #749910;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.ft-sv ul li {
+	border-bottom: 2px solid #eaeaea;
+	padding: 10px 0;
 }
