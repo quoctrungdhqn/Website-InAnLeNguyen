@@ -3,7 +3,7 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <div class="text-muted bootstrap-admin-box-title">
-                Danh sách menu
+                <?php echo $pageTitle; ?>
                 <a href="<?php echo base_url() ?>admin/menu/edit" title="Thêm mới menu"
                    class="btn btn-default btn-small"><i class="glyphicon glyphicon-plus"></i> Thêm mới</a>
             </div>
@@ -20,7 +20,7 @@
                         $result = $query->result_array();
                         foreach ($result as $row) {
                             echo '<ul>';
-                            echo '<a href="' . base_url() . 'admin/menu/edit/' . $row['id'] . '" >' . "|--|-- " . $row['name'] .
+                            echo '<a href="' . base_url() . 'admin/menu/edit/' . $row['id'] . '" >' . "|---|--- " . $row['name'] .
                                 '</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="cursor: pointer" onclick="remove_menu(' . $row['id'] . ')"><i class="glyphicon glyphicon-remove"></i><a><br><br>';
                             getSubcategory($row['id']);
                             echo '</ul>';
@@ -29,7 +29,7 @@
 
                     foreach ($list_menu as $row) {
                         // Tra lai tat ca cac Menu cha
-                        echo '<b><a href="' . base_url() . 'admin/menu/edit/' . $row['id'] . '" >' . "|-- " . $row['name'] .
+                        echo '<b><a href="' . base_url() . 'admin/menu/edit/' . $row['id'] . '" >' . "|--- " . $row['name'] .
                             '</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="cursor: pointer" onclick="remove_menu(' . $row['id'] . ')"><i class="glyphicon glyphicon-remove"></i><a></b><br><br>';
                         // Neu ton tai cac Menu con thi se duoc hien thi
                         getSubcategory($row['id']);
@@ -41,6 +41,7 @@
     </div>
 
 </div>
+
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap.min.js">
 </script>

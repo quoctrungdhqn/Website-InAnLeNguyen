@@ -20,10 +20,10 @@
                                 <a href="<?php echo base_url() ?>admin/menu/view" class="btn btn-default">Hủy</a>
                             </legend>
                             <div class="form-group">
-                                <label class="col-lg-2 control-label" for="typeahead">Tiêu đề </label>
+                                <label class="col-lg-2 control-label" for="typeahead">Tên menu </label>
                                 <div class="col-lg-10">
                                     <input type="text" required="" class="form-control col-md-6" name="name"
-                                           placeholder="Nhập tiêu đề ..." value="<?php echo @$list->name ?>">
+                                           placeholder="Nhập tên menu ..." value="<?php echo @$list->name ?>">
                                 </div>
                             </div>
 
@@ -32,7 +32,7 @@
                                 <div class="col-lg-10">
                                     <select class="form-control" name="parent">
                                         <option value="">
-                                            Không menu cha
+                                            Là menu cha
                                         </option>
 
                                         <?php
@@ -53,13 +53,12 @@
                                                 $trees[] = array('id' => $rs['id'],
                                                     'name' => $space . $rs['name'],
                                                 );
-                                                $trees = Menu($rs['id'], $space . '--&nbsp;', $trees);
+                                                $trees = Menu($rs['id'], $space . '|---&nbsp;', $trees);
                                             }
                                             return $trees;
                                         }
 
                                         $menu = Menu(0);
-                                        //print_r($menu);
 
                                         foreach ($menu as $k => $row) {
                                             ?>
@@ -75,22 +74,22 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
+                            <!--<div class="form-group">
                                 <label class="col-lg-2 control-label" for="typeahead">Loại menu </label>
                                 <div class="col-lg-10">
                                     <select class="form-control" name="id_menutype">
-                                        <?php foreach ($menu_type as $items) { ?>
-                                            <option <?php if (@$list->id_menutype == $items->id) echo "selected='selected'" ?>
-                                                    value="<?php echo $items->id ?>"><?php echo $items->name ?></option>
-                                        <?php } ?>
+                                        <?php /*foreach ($menu_type as $items) { */ ?>
+                                            <option <?php /*if (@$list->id_menutype == $items->id) echo "selected='selected'" */ ?>
+                                                    value="<?php /*echo $items->id */ ?>"><?php /*echo $items->name */ ?></option>
+                                        <?php /*} */ ?>
                                     </select>
                                 </div>
-                            </div>
+                            </div>-->
 
                             <div class="form-group">
-                                <label class="col-lg-2 control-label" for="typeahead">Link </label>
+                                <label class="col-lg-2 control-label" for="typeahead">Loại menu </label>
                                 <div class="col-lg-10">
-                                    <select class="form-control" name="menu-type">
+                                    <select class="form-control" name="menu_type">
                                         <option value="0">Chọn kiểu menu</option>
                                         <option value="1">Danh mục sản phẩm</option>
                                         <option value="2">Danh mục bài viết</option>
@@ -105,13 +104,21 @@
                                 <label class="col-lg-2 control-label" for="typeahead"></label>
                                 <div class="col-lg-10">
                                     <div class="san-pham">
-                                        <?php echo form_dropdown('alias', $select, @$list->alias, 'class="form-control" id="san-pham"'); ?>
+                                        <?php echo form_dropdown('slug', $select, @$list->alias, 'class="form-control" id="san-pham"'); ?>
                                     </div>
                                     <div class="bai-viet">
-                                        <select name="alias" id="bai-viet" class="form-control">
-                                            <?php foreach ($news_category as $items) { ?>
-                                                <option value="danh-muc-tin/<?php echo $items->alias ?>"><?php echo $items->title; ?></option>
-                                            <?php } ?>
+                                        <select name="slug" id="bai-viet" class="form-control">
+                                            <?php
+                                            foreach ($news_category as $items) {
+                                                if ($items->alias !== 'root') { ?>
+                                                    <option value="tin-tuc/<?php echo $items->alias ?>"><?php echo $items->title; ?></option>
+                                                    <?php
+                                                }
+                                            } ?>
+
+                                            <?php /*foreach ($news_category as $items) { */ ?><!--
+                                                <option value="tin-tuc/<?php /*echo $items->alias */ ?>"><?php /*echo $items->title; */ ?></option>
+                                            --><?php /*} */ ?>
                                         </select>
                                     </div>
                                     <div class="trang-tinh">
@@ -123,14 +130,14 @@
                                     </div>
                                     <div class="link-ngoai">
                                         <input id="link-ngoai" type="text" value="<?php echo @$list->alias ?>"
-                                               class="form-control" placeholder="Nhập link"
+                                               class="form-control" placeholder="Nhập link ..."
                                                name="slug">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label class="col-lg-2 control-label" for="typeahead">Thứ tự </label>
+                                <label class="col-lg-2 control-label" for="typeahead">Thứ tự menu </label>
                                 <div class="col-lg-10">
                                     <input type="text" value="<?php echo @$list->number ?>" class="form-control"
                                            placeholder="Nhập thứ tự menu ..." name="number">
@@ -240,10 +247,19 @@
     $('.bai-viet').hide();
     $('.trang-tinh').hide();
 
-    $("[name='menu-type']").change(function () {
-        //alert($(this).val());
+    $("[name='menu_type']").change(function () {
 
-        if ($(this).val() == "1") {
+        if ($(this).val() === "0") {
+            $('.san-pham').slideUp();
+            $('.link-ngoai').slideUp();
+            $('.bai-viet').slideUp();
+            $('.trang-tinh').slideUp();
+            $('#san-pham').removeAttr('name');
+            $('#link-ngoai').removeAttr('name');
+            $('#bai-viet').removeAttr('name');
+            $('#trang-tinh').removeAttr('name');
+        }
+        if ($(this).val() === "1") {
             $('.san-pham').slideDown();
             $('.link-ngoai').slideUp();
             $('.bai-viet').slideUp();
@@ -252,7 +268,7 @@
             $('#bai-viet').removeAttr('name');
             $('#trang-tinh').removeAttr('name');
         }
-        if ($(this).val() == "2") {
+        if ($(this).val() === "2") {
             $('.bai-viet').slideDown();
             $('.link-ngoai').slideUp();
             $('.san-pham').slideUp();
@@ -261,7 +277,7 @@
             $('#san-pham').removeAttr('name');
             $('#trang-tinh').removeAttr('name');
         }
-        if ($(this).val() == "3") {
+        if ($(this).val() === "3") {
             $('.trang-tinh').slideDown();
             $('.link-ngoai').slideUp();
             $('.san-pham').slideUp();
@@ -270,7 +286,7 @@
             $('#san-pham').removeAttr('name');
             $('#bai-viet').removeAttr('name');
         }
-        if ($(this).val() == "4") {
+        if ($(this).val() === "4") {
             $('.link-ngoai').slideDown();
             $('.san-pham').slideUp();
             $('.bai-viet').slideUp();

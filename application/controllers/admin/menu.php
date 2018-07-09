@@ -50,7 +50,7 @@ class Menu extends CI_Controller
         $parent = $this->mynestedsetmodel->getTree(0, 0, @$catid);
 
         foreach ($parent as $item) {
-            $select['danh-muc/' . $item->alias] = str_repeat('|--', $item->level) . $item->name;
+            $select['danh-muc/' . $item->alias] = str_repeat('|---', $item->level) . $item->name;
         }
 
         $data['select'] = $select;
