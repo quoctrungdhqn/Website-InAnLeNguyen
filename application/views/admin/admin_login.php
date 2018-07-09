@@ -11,27 +11,21 @@
 
     <!-- Bootstrap Admin Theme -->
     <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>templates/admin/css/bootstrap-admin-theme.css">
-
-    <!-- Custom styles -->
-    <style type="text/css">
-        .alert {
-            margin: 0 auto 20px;
-        }
-    </style>
-
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="<?php echo base_url(); ?>templates/admin/css/style.css">
 </head>
 <body class="bootstrap-admin-without-padding">
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
             <?php if ($this->session->flashdata('message') == "1") { ?>
-                <div class="alert alert-danger">
+            <center><div class="alert alert-danger">
                     <a class="close" data-dismiss="alert" href="#">&times;</a>
                     <strong>Whoops!</strong> Tên đăng nhập hoặc Mật khẩu không đúng.
-                </div>
+                </div></center>
             <?php } ?>
             <form action="<?php echo base_url(); ?>users/loginAdmin" method="post" class="bootstrap-admin-login-form">
-                <h1>Quản trị website</h1>
+                <h1 class="text-center">Quản trị website</h1>
                 <div class="form-group">
                     <input class="form-control" required="" type="text" name="username"
                            placeholder="Nhập tên đăng nhập">
@@ -39,14 +33,28 @@
                 <div class="form-group">
                     <input class="form-control" required="" type="password" name="password" placeholder="Nhập mật khẩu">
                 </div>
-                <button class="btn btn-lg btn-primary" type="submit">Đăng nhập</button>
+                <div style="text-align: center;">
+                    <button class="btn btn-primary btn-lg raised" type="submit">Đăng nhập</button>
+                </div>
             </form>
         </div>
     </div>
 </div>
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap.min.js">
+</script>
+<script type="text/javascript"
+        src="<?php echo base_url(); ?>templates/admin/js/twitter-bootstrap-hover-dropdown.min.js">
+</script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/bootstrap-admin-theme-change-size.js">
+</script>
+<script type="text/javascript"
+        src="<?php echo base_url(); ?>templates/admin/vendors/datatables/js/jquery.dataTables.min.js">
+</script>
+<script type="text/javascript" src="<?php echo base_url(); ?>templates/admin/js/DT_bootstrap.js">
+</script>
+
 <script type="text/javascript">
     $(function () {
         // Setting focus

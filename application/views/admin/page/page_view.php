@@ -7,7 +7,7 @@ date_default_timezone_set("Asia/Bangkok");
         <div class="panel-heading">
             <div class="text-muted bootstrap-admin-box-title">
                 Quản lý trang
-                <a href="<?php echo base_url() ?>admin/page/edit" title="Thêm mới" class="btn btn-default"><i
+                <a href="<?php echo base_url() ?>admin/page/edit" title="Thêm mới" class="btn btn-primary"><i
                             class="glyphicon glyphicon-plus"></i> Thêm mới</a>
             </div>
         </div>

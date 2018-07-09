@@ -44,7 +44,7 @@
 
                 </div>
                 <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
-                <a href="<?php echo base_url() ?>admin/slide/view" class="btn btn-default">Hủy</a>
+                <a href="<?php echo base_url() ?>admin/slide/view" class="btn btn-danger">Hủy</a>
             </div>
             <input type="hidden" name="id" value="<?php echo (@$info->id == null) ? 0 : @$info->id ?>"/>
             <input type="hidden" name="oldImage" value="<?php echo @$img[0]; ?>"/>

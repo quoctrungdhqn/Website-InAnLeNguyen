@@ -17,7 +17,7 @@
                         <fieldset>
                             <legend>
                                 <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
-                                <a href="<?php echo base_url() ?>admin/menu/view" class="btn btn-default">Hủy</a>
+                                <a href="<?php echo base_url() ?>admin/menu/view" class="btn btn-danger">Hủy</a>
                             </legend>
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="typeahead">Tên menu </label>
@@ -182,7 +182,7 @@
 
                 </div>
                 <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
-                <a href="<?php echo base_url() ?>admin/menu/view" class="btn btn-default">Hủy</a>
+                <a href="<?php echo base_url() ?>admin/menu/view" class="btn btn-danger">Hủy</a>
             </div>
             <input type="hidden" name="id" value="<?php echo (@$list->id == null) ? 0 : @$list->id ?>"
                    id="avatar_images"/>

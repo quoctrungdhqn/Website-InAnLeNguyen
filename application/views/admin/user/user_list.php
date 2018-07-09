@@ -12,7 +12,7 @@ $userlog = $CI->session->userdata('userLogged');
 
                 <?php if ($userlog->role == '777'): ?>
                     <a href="<?php echo base_url() ?>admin/user/edit" title="Thêm mới thành viên"
-                       class="btn btn-default"><i class="glyphicon glyphicon-plus"></i> Thêm
+                       class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> Thêm
                         mới</a>
                 <?php endif; ?>
             </div>

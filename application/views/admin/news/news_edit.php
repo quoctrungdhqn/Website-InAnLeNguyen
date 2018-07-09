@@ -20,7 +20,7 @@ date_default_timezone_set("Asia/Bangkok");
                         <fieldset>
                             <legend>
                                 <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
-                                <a href="<?php echo base_url() ?>admin/news/view" class="btn btn-default">Hủy</a>
+                                <a href="<?php echo base_url() ?>admin/news/view" class="btn btn-danger">Hủy</a>
                             </legend>
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="typeahead">Tiêu đề </label>
@@ -109,7 +109,7 @@ date_default_timezone_set("Asia/Bangkok");
 
                 </div>
                 <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
-                <a href="<?php echo base_url() ?>admin/news/view" class="btn btn-default">Hủy</a>
+                <a href="<?php echo base_url() ?>admin/news/view" class="btn btn-danger">Hủy</a>
             </div>
             <input type="hidden" name="id" value="<?php echo (@$info->id == null) ? 0 : @$info->id ?>"/>
             <input type="hidden" name="old_image" value="<?php echo @$img[0]; ?>"/>

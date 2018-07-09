@@ -17,7 +17,7 @@
                         <fieldset>
                             <legend>
                                 <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
-                                <a href="<?php echo base_url() ?>admin/product_category/view/" class="btn btn-default">Hủy</a>
+                                <a href="<?php echo base_url() ?>admin/product_category/view" class="btn btn-danger">Hủy</a>
                             </legend>
                             <div class="form-group">
                                 <label class="col-lg-2 control-label" for="typeahead">Tiêu đề </label>
@@ -113,7 +113,7 @@
 
                 </div>
                 <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
-                <a href="<?php echo base_url() ?>admin/product_category/view/" class="btn btn-default">Hủy</a>
+                <a href="<?php echo base_url() ?>admin/product_category/view" class="btn btn-danger">Hủy</a>
             </div>
             <input type="hidden" name="id" value="<?php echo (@$catInfo->id == null) ? 0 : @$catInfo->id ?>"/>
             <input type="hidden" name="old_image" value="<?php echo @$img[0]; ?>"/>

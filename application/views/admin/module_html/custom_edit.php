@@ -51,7 +51,7 @@
 
                 <div class="box-footer">
                     <button type="submit" class="btn btn-primary">Lưu thay đổi</button>&nbsp;&nbsp;
-                    <button type="button" class="btn btn-default"
+                    <button type="button" class="btn btn-danger"
                             onclick="location.href='<?php echo base_url() ?>admin/custom/view'">Hủy
                     </button>
                 </div>

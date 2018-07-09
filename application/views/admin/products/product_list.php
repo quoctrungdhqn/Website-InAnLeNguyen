@@ -8,7 +8,7 @@ date_default_timezone_set("Asia/Bangkok");
             <div class="text-muted bootstrap-admin-box-title">
                 <?php echo $page_title; ?>
                 <a href="<?php echo base_url() ?>admin/product/edit" title="Thêm mới sản phẩm"
-                   class="btn btn-default"><i class="glyphicon glyphicon-plus"></i> Thêm mới</a>
+                   class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> Thêm mới</a>
             </div>
         </div>
         <?php echo $this->session->flashdata('message'); ?>

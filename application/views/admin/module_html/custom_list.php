@@ -4,7 +4,7 @@
         <div class="panel-heading">
             <div class="text-muted bootstrap-admin-box-title">
                 <?php echo $pageTitle; ?>
-                <a href="<?php echo base_url() ?>admin/custom/edit" title="Thêm mới" class="btn btn-default"><i
+                <a href="<?php echo base_url() ?>admin/custom/edit" title="Thêm mới" class="btn btn-primary"><i
                             class="glyphicon glyphicon-plus"></i> Thêm mới</a>
             </div>
         </div>

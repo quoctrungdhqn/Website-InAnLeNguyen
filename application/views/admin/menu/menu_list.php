@@ -5,7 +5,7 @@
             <div class="text-muted bootstrap-admin-box-title">
                 <?php echo $pageTitle; ?>
                 <a href="<?php echo base_url() ?>admin/menu/edit" title="Thêm mới menu"
-                   class="btn btn-default btn-small"><i class="glyphicon glyphicon-plus"></i> Thêm mới</a>
+                   class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i> Thêm mới</a>
             </div>
         </div>
         <?php echo $this->session->flashdata('message'); ?>
