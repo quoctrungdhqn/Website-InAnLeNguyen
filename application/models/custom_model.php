@@ -45,7 +45,8 @@ class Custom_model extends CI_Model {
 		$data = array(			
 			'title' => $this->input->post('title'),
 			'slug' => mb_strtolower(url_title(removesign($this->input->post('title')))),			
-			'content' => $this->input->post('content')
+			'content' => $this->input->post('content'),
+			'state' => $this->input->post('state')
 		);
 		
 		if($this->db->insert($this->table_name, $data))
@@ -63,7 +64,8 @@ class Custom_model extends CI_Model {
 		$data = array(			
 			'title' => $this->input->post('title'),
 			'slug' => mb_strtolower(url_title(removesign($this->input->post('title')))),						
-			'content' => $this->input->post('content')
+			'content' => $this->input->post('content'),
+            'state' => $this->input->post('state')
 		);
 		
 		$this->db->where('id', $id);
