@@ -587,6 +587,7 @@
 		.icon_btn,
 		.theme_button,
 		.button_grey,
+		.btn-readmore,
 		.button_blue,
 		.def_icon_btn,
 		.button_black,
@@ -604,6 +605,7 @@
 
 		.theme_button,
 		.button_grey,
+		.btn-readmore,
 		.button_blue,
 		.button_black,
 		.button_dark_grey{
@@ -6412,4 +6414,16 @@ only screen and (min-resolution: 144 dpi){
 
 #footer {
 	background: #f8f8f8;
+}
+
+.btn-readmore {
+	color: #ffffff;
+	background: #a6ce39;
+	margin-top: 10px;
+}
+
+.btn-readmore:hover {
+	color: #ffffff;
+	background: #749910;
+	margin-top: 10px;
 }

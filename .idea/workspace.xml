@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfa68ac-eeae-409a-8ddc-c03e7924c7ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/frontend/blog_post_v1.html" afterPath="$PROJECT_DIR$/templates/frontend/blog_post_v1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/frontend/blog_v2.html" afterPath="$PROJECT_DIR$/templates/frontend/blog_v2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/frontend/css/style.css" afterPath="$PROJECT_DIR$/templates/frontend/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/frontend/home_v5.html" afterPath="$PROJECT_DIR$/templates/frontend/home_v5.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,17 +13,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="blog_v2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/frontend/blog_v2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="1521" column="46" lean-forward="false" selection-start-line="1521" selection-start-column="46" selection-end-line="1521" selection-end-column="46" />
+              <folding>
+                <element signature="n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#aside#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_post_v1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/frontend/blog_post_v1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="1810" column="38" lean-forward="true" selection-start-line="1410" selection-start-column="16" selection-end-line="1810" selection-end-column="38" />
+              <folding>
+                <element signature="n#aside#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/frontend/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="6427" column="21" lean-forward="false" selection-start-line="6427" selection-start-column="21" selection-end-line="6427" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_items_num</find>
-      <find>khach_hang_model</find>
-      <find>gallery_model</find>
-      <find>All Categories</find>
-      <find>my cart</find>
-      <find>Today's Deals</find>
-      <find>section_offset</find>
       <find>XEM THÊM</find>
       <find>aside h3</find>
       <find>Ut pharetra augue</find>
@@ -50,6 +76,13 @@
       <find>Contact Information</find>
       <find>Call us toll free</find>
       <find>main_header_row</find>
+      <find>Showing 1 to 3 of 45 (15 Pages)</find>
+      <find>Ut pharetra</find>
+      <find>button_grey</find>
+      <find>middle_btn icon_btn social_rss tooltip_container</find>
+      <find>col-sm-3</find>
+      <find>DỊCH VỤ NỔI BẬT</find>
+      <find>col-md-3</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php echo base_url(); ?&gt;</replace>
@@ -100,9 +133,10 @@
         <option value="$PROJECT_DIR$/application/controllers/admin/news.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/slide.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/templates/frontend/css/style.css" />
         <option value="$PROJECT_DIR$/templates/frontend/blog_post_v1.html" />
         <option value="$PROJECT_DIR$/templates/frontend/home_v5.html" />
+        <option value="$PROJECT_DIR$/templates/frontend/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/frontend/blog_v2.html" />
       </list>
     </option>
   </component>
@@ -113,7 +147,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="80" />
     <option name="width" value="1400" />
@@ -169,7 +203,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="sty&#9;FILE&#9;file://G:/WEB_DEVELOPER/AppServ/www/InAnLeNguyen/templates/frontend/css/style.css&#10;dat&#9;FILE&#9;file://G:/WEB_DEVELOPER/AppServ/www/InAnLeNguyen/application/config/database.php&#10;News_Category_Model&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/models/news_category_model.php&#10;left&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/WEB_DEVELOPER/AppServ/www/InAnLeNguyen/templates/frontend/css/style.css&#10;sty&#9;FILE&#9;file://G:/WEB_DEVELOPER/AppServ/www/InAnLeNguyen/templates/frontend/css/style.css&#10;dat&#9;FILE&#9;file://G:/WEB_DEVELOPER/AppServ/www/InAnLeNguyen/application/config/database.php&#10;News_Category_Model&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/models/news_category_model.php&#10;left&#9;FILE&#9;file://C:/AppServ/www/InAnLeNguyen/application/views/admin/include/left.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -217,17 +251,18 @@
       <workItem from="1530585840822" duration="14944000" />
       <workItem from="1530603933597" duration="13585000" />
       <workItem from="1530625545691" duration="7369000" />
-      <workItem from="1531142309516" duration="3255000" />
+      <workItem from="1531142309516" duration="4767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141545000" />
+    <option name="totallyTimeSpent" value="143057000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22239032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22239032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -269,20 +304,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/admin/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/configuration_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -645,29 +666,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/frontend/blog_post_v1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="1207" column="47" lean-forward="true" selection-start-line="1207" selection-start-column="46" selection-end-line="1207" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#section#1;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/frontend/additional_page_contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="1251" column="49" lean-forward="true" selection-start-line="1234" selection-start-column="44" selection-end-line="1251" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/frontend/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="2603" column="48" lean-forward="false" selection-start-line="2603" selection-start-column="33" selection-end-line="2603" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -677,6 +679,43 @@
         <state relative-caret-position="164">
           <caret line="66" column="56" lean-forward="true" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="6427" column="21" lean-forward="false" selection-start-line="6427" selection-start-column="21" selection-end-line="6427" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/blog_post_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23700">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/blog_post_v1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="1810" column="38" lean-forward="true" selection-start-line="1410" selection-start-column="16" selection-end-line="1810" selection-end-column="38" />
+          <folding>
+            <element signature="n#aside#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/blog_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="1521" column="46" lean-forward="false" selection-start-line="1521" selection-start-column="46" selection-end-line="1521" selection-end-column="46" />
+          <folding>
+            <element signature="n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#aside#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
