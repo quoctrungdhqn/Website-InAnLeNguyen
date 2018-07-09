@@ -2,8 +2,6 @@
 $CI        =& get_instance();
 $CI->load->model('Custom_model');
 $lienket   = $CI->Custom_model->getCustomInfoBySlug('link-lien-ket');
-$CI->load->model('Gallery_Model');
-$videohome = $CI->Gallery_Model->get_items_home();
 ?>
 <div class="col-md-3 col-right">
 	<div>

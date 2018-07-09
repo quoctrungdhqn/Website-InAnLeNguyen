@@ -1,7 +1,6 @@
 <?php
 $CI         =& get_instance();
 $CI->load->model('Product_model');
-$CI->load->model('Video_model');
 $CI->load->model('Product_category_model');
 $CI->load->model('News_model');
 ?>

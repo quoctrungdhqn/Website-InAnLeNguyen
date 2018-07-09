@@ -12,8 +12,6 @@ class Home extends CI_Controller
 		$this->load->model('Product_model');
 		$this->load->model('Product_category_model');
 		$this->load->model('Configuration_model');
-		$this->load->model('Khach_hang_Model');
-		$this->load->model('Web_Link_Model');
 		$this->load->model('Slide_model');
 		//chuẩn bị template, load các vị trí
 		$this->template->set_template('default');//Set Template group default
@@ -27,8 +25,6 @@ class Home extends CI_Controller
 		$data['category'] = $this->Product_category_model->getParents();
 		$data['slide'] = $this->Slide_model->getSliders();
 		$data['mautrangchu'] = $this->Product_model->getProductHome();
-		$data['web_link'] = $this->Web_Link_Model->getSliders();
-		$data['khach_hang'] = $this->Khach_hang_Model->getSliders();
 		$data['list_news_featured'] = $this->News_model->get_all_items_limit(7);
 		$data['list_news_slide'] = $this->News_model->get_all_items_limit(1);
 		$data['list_news_slide_bottom'] = $this->News_model->get_all_items_limit(3);

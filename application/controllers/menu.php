@@ -12,7 +12,6 @@ class Menu extends CI_Controller
 		$this->load->model('Product_model');
 		$this->load->model('Product_category_model');
 		$this->load->model('Configuration_model');
-		$this->load->model('Khach_hang_Model');
 		$this->load->model('Web_Link_Model');
 		$this->load->model('Slide_model');
 		//chuẩn bị template, load các vị trí
