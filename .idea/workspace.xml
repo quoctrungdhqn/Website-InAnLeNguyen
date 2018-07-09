@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfa68ac-eeae-409a-8ddc-c03e7924c7ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/product_category_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/product_category_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/admin/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/include/bottom.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/include/bottom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/include/left.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/include/left.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,38 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="left.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/include/left.php">
+      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="82" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_category_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/product_category_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="145" column="35" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/product_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="259" column="5" lean-forward="true" selection-start-line="251" selection-start-column="4" selection-end-line="259" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="27" column="85" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -145,10 +114,10 @@
         <option value="$PROJECT_DIR$/application/views/admin/user/user_edit.php" />
         <option value="$PROJECT_DIR$/application/views/admin/configuration/configuration_edit.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/dashboard.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/dashboard.php" />
         <option value="$PROJECT_DIR$/application/views/admin/include/bottom.php" />
         <option value="$PROJECT_DIR$/application/models/product_category_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/include/left.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/dashboard.php" />
       </list>
     </option>
   </component>
@@ -343,12 +312,12 @@
       <workItem from="1530669745822" duration="25785000" />
       <workItem from="1530756294732" duration="26543000" />
       <workItem from="1530848168178" duration="21454000" />
-      <workItem from="1531100788886" duration="21381000" />
+      <workItem from="1531100788886" duration="21728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131061000" />
+    <option name="totallyTimeSpent" value="131408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -761,16 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#5517#6751#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/product_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="761">
@@ -785,6 +744,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/include/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -792,10 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/include/left.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="204">
+          <caret line="27" column="85" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
         </state>
       </provider>
     </entry>

@@ -25,7 +25,7 @@ date_default_timezone_set("Asia/Bangkok");
                         <tr>
                             <td><?php echo $i; ?></td>
                             <td>
-                                <a href="<?php echo base_url() . 'admin/product/edit' ?>"><?php echo $item->title; ?></a>
+                                <a href="<?php echo base_url() . 'admin/product/edit/' . $item->id; ?>"><?php echo $item->title; ?></a>
                             </td>
                             <td>
                                 <?php
