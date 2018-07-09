@@ -13,7 +13,7 @@ date_default_timezone_set("Asia/Bangkok");
                 <tr>
                     <th>STT</th>
                     <th>Tên sản phẩm</th>
-                    <th>Ngày đăng</th>
+                    <th>Hình ảnh</th>
                     <th>Tác vụ</th>
                 </tr>
                 </thead>
@@ -27,16 +27,33 @@ date_default_timezone_set("Asia/Bangkok");
                             <td>
                                 <a href="<?php echo base_url() . 'admin/product/edit' ?>"><?php echo $item->title; ?></a>
                             </td>
-                            <td><?php echo date("d/m/Y", strtotime($item->created)); ?></td>
+                            <td>
+                                <?php
+
+                                if ($item->image != '') {
+
+                                    $img = explode(',', $item->image);
+
+                                    ?>
+
+                                    <img width="100" height="80"
+                                         src="<?php echo base_url(); ?>uploads/products/<?php echo $img[0]; ?>"/>
+
+                                <?php } else {
+                                    ?>
+                                    <img width="150" height="120" src="<?php echo base_url(); ?>uploads/no_image.png"/></a>
+
+                                <?php } ?>
+
+                            </td>
                             <td>
                                 <a class="btn btn-sm btn-primary"
-                                   href="<?php echo base_url() ?>admin/news/edit/<?php echo $item->id; ?>">
+                                   href="<?php echo base_url() ?>admin/product/edit/<?php echo $item->id; ?>">
                                     <i class="glyphicon glyphicon-pencil"></i>
                                     Sửa
                                 </a>
 
-                                <a class="btn btn-sm btn-danger"
-                                   href="<?php echo base_url() ?>admin/news/delete/<?php echo $item->id; ?>">
+                                <a class="btn btn-sm btn-danger" onclick="remove_product(<?php echo $item->id; ?>)">
                                     <i class="glyphicon glyphicon-trash"></i>
                                     Xóa
                                 </a>
@@ -83,8 +100,7 @@ date_default_timezone_set("Asia/Bangkok");
                                     Sửa
                                 </a>
 
-                                <a class="btn btn-sm btn-danger"
-                                   href="<?php echo base_url() ?>admin/news/delete/<?php echo $item->id; ?>">
+                                <a class="btn btn-sm btn-danger" onclick="remove_news(<?php echo $item->id; ?>)">
                                     <i class="glyphicon glyphicon-trash"></i>
                                     Xóa
                                 </a>
@@ -112,8 +128,89 @@ date_default_timezone_set("Asia/Bangkok");
 </script>
 <script type="text/javascript">
     $(function () {
-        $(".alert-success").fadeTo(2000, 500).slideUp(500, function () {
+        $(".alert-success").fadeTo(1000, 500).slideUp(500, function () {
             $(".alert-success").alert('close');
         });
     });
-</script>                        
+
+    $(function () {
+        $(".alert-danger").slideUp(0, function () {
+            $(".alert-danger").alert('close');
+            swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+        });
+    });
+</script>
+<script>
+    function remove_news(id) {
+        if (id === null || id === 0) return;
+
+        swal({
+            title: 'Xác nhận xóa',
+            text: "Bạn có muốn xóa bài viết này khỏi danh sách?",
+            type: 'question',
+            showCancelButton: true,
+            confirmButtonColor: '#1467D2',
+            cancelButtonColor: '#E5231E',
+            confirmButtonText: 'Có, xóa!',
+            cancelButtonText: 'Hủy',
+            showLoaderOnConfirm: true,
+            preConfirm: () => {
+                $.ajax({
+                    type: 'DELETE',
+                    url: '<?php echo base_url() ?>admin/news/delete/' + id,
+                    error: function () {
+                        swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+                    },
+                    success: function () {
+                        swal({
+                            type: 'success',
+                            title: 'Đã xóa!',
+                            text: '',
+                            timer: 2000
+                        });
+                        window.setTimeout(function () {
+                            location.reload();
+                        }, 1000);
+                    }
+                });
+            }
+        });
+    }
+
+    function remove_product(id) {
+        if (id === null || id === 0) return;
+
+        swal({
+            title: 'Xác nhận xóa',
+            text: "Bạn có muốn xóa sản phẩm này khỏi danh sách?",
+            type: 'question',
+            showCancelButton: true,
+            confirmButtonColor: '#1467D2',
+            cancelButtonColor: '#E5231E',
+            confirmButtonText: 'Có, xóa!',
+            cancelButtonText: 'Hủy',
+            showLoaderOnConfirm: true,
+            preConfirm: () => {
+                $.ajax({
+                    type: 'DELETE',
+                    url: '<?php echo base_url() ?>admin/product/delete/' + id,
+                    error: function () {
+                        swal("Whoops!", "Đã xảy ra lỗi, vui lòng thử lại.", "error");
+                    },
+                    success: function () {
+                        swal({
+                            type: 'success',
+                            title: 'Đã xóa!',
+                            text: '',
+                            timer: 2000
+                        });
+                        window.setTimeout(function () {
+                            location.reload();
+                        }, 1000);
+                    }
+                });
+            }
+        });
+    }
+
+</script>

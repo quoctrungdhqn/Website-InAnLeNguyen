@@ -143,6 +143,15 @@ class Product_Category_Model extends CI_Model
 
     }
 
+    function getProductsCategoryNum()
+    {
+
+        $result = $this->db->get($this->table_name);
+
+
+        return $result->num_rows();
+
+    }
 
 }
 

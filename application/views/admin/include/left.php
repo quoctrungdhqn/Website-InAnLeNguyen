@@ -2,8 +2,12 @@
 $CI =& get_instance();
 $CI->load->model('News_model');
 $CI->load->model('News_category_model');
+$CI->load->model('Product_model');
+$CI->load->model('Product_category_model');
 $total_news = $CI->News_model->get_items_num();
 $total_news_cat = $CI->News_category_model->get_items_num();
+$total_products = $CI->Product_model->getProductsNum();
+$total_products_cat = $CI->Product_category_model->getProductsCategoryNum();
 ?>
 
 <div class="col-md-2 bootstrap-admin-col-left">
@@ -29,12 +33,12 @@ $total_news_cat = $CI->News_category_model->get_items_num();
         </li>
 
         <li>
-            <a href="<?php echo base_url() ?>admin/product/view"><span class="badge pull-right"></span>Quản lý sản
+            <a href="<?php echo base_url() ?>admin/product/view"><span class="badge pull-right"><?php echo $total_products; ?></span>Quản lý sản
                 phẩm</a>
         </li>
 
         <li>
-            <a href="<?php echo base_url() ?>admin/product_category/view"><span class="badge pull-right"></span>
+            <a href="<?php echo base_url() ?>admin/product_category/view"><span class="badge pull-right"><?php echo $total_products_cat; ?></span>
                 Danh
                 mục sản phẩm</a>
         </li>

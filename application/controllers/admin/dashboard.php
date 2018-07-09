@@ -7,7 +7,8 @@ class Dashboard extends CI_Controller {
         parent::__construct(); 
         
         $this->load->helper(array("url"));         
-        $this->load->model('News_Model');      
+        $this->load->model('News_Model');
+        $this->load->model('Product_Model');
         //chuẩn bị template, load các vị trí
         $this->template->set_template('admin');//Template group admin
         $this->template->write_view("header","admin/include/header");
@@ -18,8 +19,8 @@ class Dashboard extends CI_Controller {
     } 
    function index()
    {
-   		$data['product'] = $this->News_Model->get_all_items_limit('5','0');
-   		$data['product_no_limit'] = $this->News_Model->get_all_items();
+   		$data['product'] = $this->Product_Model->getAllProducts('5','0');
+   		$data['product_no_limit'] = $this->Product_Model->getAllProductsNoLimit();
    		$data['news'] = $this->News_Model->get_all_items_limit('5','0');
    		$data['news_no_limit'] = $this->News_Model->get_all_items();
    		$this->template->write("title","Trang chủ");
