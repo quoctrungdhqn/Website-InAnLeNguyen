@@ -2147,7 +2147,7 @@
 		.sticky_inner > .nav_item,
 		.full_width_nav > ul > li{
 			display: table-cell;
-			border: 1px solid #eaeaea;
+			/*border: 1px solid #eaeaea;*/
 			position: relative;
 			background-clip: padding-box;
 
@@ -6376,8 +6376,16 @@ only screen and (min-resolution: 144 dpi){
 
 .section_offset .offset_title {
 	padding: 5px 20px;
-	border-left: 14px solid #a6ce39;
+	border-left: 10px solid #a6ce39;
 	text-transform: uppercase;
+}
+
+.single_product_detail .offset_title {
+	padding: 5px 20px;
+	border-left: 10px solid #a6ce39;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
 }
 
 .btn-green {
