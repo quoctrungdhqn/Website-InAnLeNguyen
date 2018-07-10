@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 09, 2018 at 11:23 AM
+-- Generation Time: Jul 10, 2018 at 07:21 AM
 -- Server version: 5.7.17-log
 -- PHP Version: 5.6.30
 
@@ -391,9 +391,8 @@ CREATE TABLE `cp_slide` (
 --
 
 INSERT INTO `cp_slide` (`id`, `image`, `title`, `link`) VALUES
-(1070, 'furniture-slide-3.jpg', 'Slide 3', 'http://inanlenguyen.com'),
-(1072, 'furniture-slide-2.jpg', 'Slide 2', 'http://inanlenguyen.com'),
-(1073, 'furniture-slide-1.jpg', 'Slide 1', 'http://inanlenguyen.com');
+(1072, 'in-banner-quang-cao-hcm-2.jpg', 'Slide 2', 'http://inanlenguyen.com'),
+(1073, 'in-banner-quang-cao-hcm.jpg', 'Slide 1', 'http://inanlenguyen.com');
 
 -- --------------------------------------------------------
 
@@ -30859,8 +30858,7 @@ CREATE TABLE `cp_users` (
 --
 
 INSERT INTO `cp_users` (`id`, `username`, `password`, `firstname`, `lastname`, `email`, `phone`, `address`, `userGroup`, `avatar`, `createdDate`, `state`) VALUES
-(1000, 'admin', 'd68699f0ba7cd687afcb5b678bb1b60c', 'Nguyễn Quốc', 'Trung', 'quoctrungdhqn@gmail.com', '0962658098', 'TPHCM', 1, 'uploads/users/trungnq.png', '2018-09-08', 1),
-(1003, 'thanhluong', 'ccbc31e1745027e03a6b43053cab68bd', 'Nguyễn Thành', 'Lương', '', '', '', 2, 'uploads/users/logo_admin.png', '0000-00-00', 1);
+(1000, 'admin', 'd68699f0ba7cd687afcb5b678bb1b60c', 'Nguyễn Quốc', 'Trung', 'quoctrungdhqn@gmail.com', '0962658098', 'TPHCM', 1, 'uploads/users/trungnq.png', '2018-09-08', 1);
 
 -- --------------------------------------------------------
 
@@ -30996,7 +30994,7 @@ ALTER TABLE `cp_users_groups`
 -- AUTO_INCREMENT for table `cp_articles`
 --
 ALTER TABLE `cp_articles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=391;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=390;
 --
 -- AUTO_INCREMENT for table `cp_categories`
 --
@@ -31011,7 +31009,7 @@ ALTER TABLE `cp_configuration`
 -- AUTO_INCREMENT for table `cp_custom`
 --
 ALTER TABLE `cp_custom`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 --
 -- AUTO_INCREMENT for table `cp_footer`
 --
@@ -31036,7 +31034,7 @@ ALTER TABLE `cp_pages`
 -- AUTO_INCREMENT for table `cp_products`
 --
 ALTER TABLE `cp_products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `cp_products_categories`
 --
