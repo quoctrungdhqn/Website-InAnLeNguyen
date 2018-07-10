@@ -2,9 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfa68ac-eeae-409a-8ddc-c03e7924c7ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/frontend/additional_page_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/additional_page_404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/frontend/blog_v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/blog_v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/audio/audio.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/home_v5.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/home_v5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/banner_img_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/brands_img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/brands_img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/brands_img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/brands_img_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/brands_img_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/brands_img_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/brands_img_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/brands_img_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/comment_author_photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/flag_en.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/flag_g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/flag_s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/payment_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/quotes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/quotes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/quotes@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/quotes@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/seller_photo_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/seller_photo_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/seller_photo_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/sellers_img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/sellers_img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/sellers_img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/shopping_cart_img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/shopping_cart_img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/shopping_cart_img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/tabs_img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/tabs_img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/tabs_img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/images/tabs_img_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/footer_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/footer_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/footer_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/footer_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/footer_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/footer_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/header_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/header_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/header_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/header_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/header_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/inc/header_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/modals/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/modals/promo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/modals/quick_view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/twitter/162f88009c69dfe439b73801a4f1ae8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/twitter/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/twitter/jquery.tweet.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/twitter/lib/tmhOAuth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/twitter/lib/tmhUtilities.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,43 +99,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/frontend/css/style.css">
+      <file leaf-file-name="home_v5.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/frontend/home_v5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="3831" column="18" selection-start-line="3831" selection-start-column="18" selection-end-line="3831" selection-end-column="18" />
+            <state relative-caret-position="439">
+              <caret line="828" lean-forward="true" selection-start-line="828" selection-end-line="828" />
               <folding>
-                <element signature="e#110653#110824#2" expanded="true" />
-                <element signature="e#110847#111018#2" expanded="true" />
-                <element signature="e#111040#111211#2" expanded="true" />
-                <element signature="e#111229#111400#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog_post_v1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/frontend/blog_post_v1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="956">
-              <caret line="1810" column="38" selection-start-line="1410" selection-start-column="16" selection-end-line="1810" selection-end-column="38" />
-              <folding>
-                <element signature="n#aside#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog_v2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/frontend/blog_v2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="1000" column="24" selection-start-line="1000" selection-start-column="24" selection-end-line="1000" selection-end-column="24" />
-              <folding>
-                <element signature="n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#aside#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#div#4;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>quick_view</find>
       <find>button_dark_grey</find>
       <find>image_wrap</find>
       <find>lượt</find>
@@ -91,6 +159,7 @@
       <find>.table_layout.list_view_products .product_item .product_title</find>
       <find>PAGE NOT FOUND!</find>
       <find>Xem</find>
+      <find>Grid</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php echo base_url(); ?&gt;</replace>
@@ -142,12 +211,12 @@
         <option value="$PROJECT_DIR$/application/controllers/admin/slide.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/templates/frontend/blog_post_v1.html" />
-        <option value="$PROJECT_DIR$/templates/frontend/home_v5.html" />
         <option value="$PROJECT_DIR$/templates/frontend/blog_v1.html" />
         <option value="$PROJECT_DIR$/templates/frontend/css/style.css" />
         <option value="$PROJECT_DIR$/templates/frontend/category_page_v1.html" />
         <option value="$PROJECT_DIR$/templates/frontend/additional_page_404.html" />
         <option value="$PROJECT_DIR$/templates/frontend/blog_v2.html" />
+        <option value="$PROJECT_DIR$/templates/frontend/home_v5.html" />
       </list>
     </option>
   </component>
@@ -248,12 +317,12 @@
       <workItem from="1530603933597" duration="13585000" />
       <workItem from="1530625545691" duration="7369000" />
       <workItem from="1531142309516" duration="8170000" />
-      <workItem from="1531188964402" duration="4383000" />
+      <workItem from="1531188964402" duration="4879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150843000" />
+    <option name="totallyTimeSpent" value="151339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -579,32 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/frontend/home_v5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="1385" column="41" selection-start-line="1385" selection-start-column="41" selection-end-line="1385" selection-end-column="41" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/frontend/blog_v1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -704,6 +747,31 @@
             <element signature="n#aside#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#4;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/frontend/home_v5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="828" lean-forward="true" selection-start-line="828" selection-end-line="828" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
