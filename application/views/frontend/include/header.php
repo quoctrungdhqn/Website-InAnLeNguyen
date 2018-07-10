@@ -9,7 +9,7 @@
             echo @$config->name;
         } else {
             echo @$config->title;
-            echo @$title1->value;
+            echo @$title->value;
         }
         ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -23,7 +23,7 @@
         echo @$config->name;
     } else {
         echo @$config->title;
-        echo @$title1->value;
+        echo @$title->value;
     }
     ?>"/>
     <meta property="og:description"
@@ -117,8 +117,13 @@
 
                         </div><!--/ [col]-->
 
-                        <div class="col-lg-6 col-md-5 col-sm-5">
+                        <div class="col-sm-5">
 
+                            <div class="call_us">
+
+                                <span></span> <b></b>
+
+                            </div>
                             <!-- - - - - - - - - - - - - - Search form - - - - - - - - - - - - - - - - -->
 
                             <form class="clearfix search">
@@ -134,7 +139,7 @@
 
                         </div><!--/ [col]-->
 
-                        <div class="col-lg-3 col-sm-4">
+                        <div class="col-sm-4">
                             <ul class="c_info_list">
                                 <li class="c_info_location">8901 Marmora Road, Glasgow</li>
                                 <li class="c_info_phone">800-599-65-80</li>

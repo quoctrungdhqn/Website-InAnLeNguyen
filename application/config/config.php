@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = "http://localhost:8080/InAnLeNguyen/";
+$config['base_url'] = "http://10.84.0.183:8080/InAnLeNguyen/";
 
 /*
 |--------------------------------------------------------------------------

@@ -1,3 +1,9 @@
+<?php
+$CI =& get_instance();
+$this->load->model('Slide_model');
+$slides = $this->Slide_model->getSliders();
+?>
+
 <div class="section_offset">
 
     <div class="row">
@@ -14,25 +20,17 @@
 
                     <ul>
 
-                        <!-- - - - - - - - - - - - - - Slide 1 - - - - - - - - - - - - - - - - -->
+                        <?php
+                        foreach ($slides as $item) {
+                            ?>
+                            <li data-transition="papercut" data-slotamount="7">
 
-                        <li data-transition="papercut" data-slotamount="7">
+                                <img src="<?php echo base_url() ?>uploads/slide/<?php echo $item->image; ?>" alt="">
 
-                            <img src="http://intienphat.vn/upload/img/TN_banner860x313px-02.jpg" alt="">
-
-                        </li>
-
-                        <!-- - - - - - - - - - - - - - End of Slide 1 - - - - - - - - - - - - - - - - -->
-
-                        <!-- - - - - - - - - - - - - - Slide 2 - - - - - - - - - - - - - - - - -->
-
-                        <li data-transition="papercut" data-slotamount="7" class="align_center">
-
-                            <img src="https://saovangviet.vn/wp-content/uploads/2018/05/in-banner-quang-cao-hcm.jpg" alt="">
-
-                        </li>
-
-                        <!-- - - - - - - - - - - - - - End of Slide 2 - - - - - - - - - - - - - - - - -->
+                            </li>
+                            <?php
+                        }
+                        ?>
 
                     </ul>
 
