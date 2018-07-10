@@ -56,8 +56,8 @@ $template['active_template'] = 'default';
 |--------------------------------------------------------------------------
 */
 //Set template for frontend
-$template['default']['template'] = 'default/template';
-$template['default']['regions'] = array('header', 'menu', 'title', 'content', 'left', 'right', 'slide_bottom', 'bottom');
+$template['default']['template'] = 'frontend/template';
+$template['default']['regions'] = array('header', 'menu', 'title', 'content', 'left', 'right', 'slide', 'bottom', 'advertising');
 //Set template for admin
 $template['admin']['template'] = 'admin/template'; 
 $template['admin']['regions'] = array('header', 'menu', 'title', 'content', 'left', 'right', 'bottom'); 
